@@ -1,0 +1,10 @@
+{
+  "name": "admkrs-creative-briefing-builder",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Renders ADMKRS creative briefing JSON specs into house-style .docx files.",
+  "main": "build_briefing.js",
+  "dependencies": {
+    "docx": "^9.7.1"
+  }
+}

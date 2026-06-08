@@ -1,0 +1,218 @@
+{
+  "filename": "260518_Motion_Concepts_V4_B_SK",
+  "header": {
+    "eyebrow": "Motion Concepts V5",
+    "title": "B+SK Block – Motion Ads – ENGLISH",
+    "dek": "Four motion concepts  ·  Two B-Block, two SK-Block  ·  Female speaker  ·  Offer-led, audience-fit"
+  },
+  "blocks": [
+    { "type": "lede", "text": "Four concepts. Three high-performance hook options per concept for scroll-stop testing." },
+    { "type": "p", "text": "Voice-over carries the message. Visuals confirm.\nFemale speaker — warm, confident, conversational. Never declamatory, never preachy." },
+
+    { "type": "h1", "text": "Overview" },
+    {
+      "type": "table",
+      "layout": "headerrow",
+      "style": "zebra",
+      "widths": [1.0, 2.7, 1.8, 2.7, 1.1],
+      "colAligns": ["center", "left", "left", "left", "center"],
+      "header": ["#", "Title", "Family", "Offer", "Length"],
+      "rows": [
+        ["<b>BM-01</b>", "Sweet Without the Sugar  —  Crunch", "Crunch", "10% off first Crunch order. Code TRYNOVA.", "15-second"],
+        ["<b>BM-02</b>", "Eight Litres. Zero Sugar.  —  Hydra", "Hydra", "10% off first Hydra order. Code TRYNOVA.", "15-second"],
+        ["<b>SKM-01</b>", "Welcome to NOVA  —  Starter Box", "Starter Box · Permission", "30% off first Starter Box. Code TRYNOVA.", "20-second"],
+        ["<b>SKM-02</b>", "The Protein Gap  —  Starter Box", "Starter Box · Protein Gap", "30% off first Starter Box. Code TRYNOVA.", "20-second"]
+      ]
+    },
+
+    { "type": "h1", "text": "B-Block — Motion Concepts" },
+    { "type": "p", "text": "<i>Single-SKU offer push. 10% off with code TRYNOVA. Each family built around one product and one specific everyday moment.</i>" },
+
+    { "type": "h2", "text": "BM-01  ·  Sweet Without the Sugar  —  Crunch" },
+    { "type": "label", "text": "Crunch" },
+    {
+      "type": "table",
+      "layout": "keyvalue",
+      "widths": [1, 3.4],
+      "rows": [
+        ["Format", "15-second motion graphic · 9:16 portrait · static-frame cuts, kinetic typography, no live-action faces."],
+        ["Specific Offer", "10% off first Crunch order. Code TRYNOVA."],
+        ["Target Audience", "Women 28–45 NL. Daily yogurt, oats, or coffee drinkers. Sugar-conscious, never on a 'diet'. Refuse to compromise on taste."],
+        ["Voice-Over Direction", "Warm, confident female voice. Late 30s tonality. Slightly playful, never preachy. Like recommending something to a friend."],
+        ["Music / Sound", "Bright, modern, sparse — single repeating piano motif with a soft bass kick. No drops, no swells."]
+      ]
+    },
+    { "type": "callout", "variant": "anchor", "lead": "Strategic anchor.", "text": "Sweet · without sugar. The everyday-moment angle: yogurt, coffee, smoothie — Crunch upgrades all of them with one scoop." },
+    { "type": "h3", "text": "3 Hooks  ·  for scroll-stop testing" },
+    {
+      "type": "table",
+      "layout": "hooks",
+      "widths": [0.7, 9],
+      "rows": [
+        ["A", "“One scoop. Six calories.”"],
+        ["B", "<b>“This yoghurt has no taste of guilt!”</b>"],
+        ["C", "<b>“I stopped buying sweeteners the day I tried this.”</b>"]
+      ]
+    },
+    { "type": "h3", "text": "Storyboard  ·  Time-coded" },
+    {
+      "type": "table",
+      "layout": "headerrow",
+      "style": "zebra",
+      "widths": [0.8, 3.3, 2.0, 2.9],
+      "colAligns": ["center", "left", "left", "left"],
+      "colItalics": [false, false, false, true],
+      "header": ["Time", "Visual", "On-Screen Text", "Voice-Over"],
+      "rows": [
+        ["<b>0–2s</b>", "Hand spooning Crunch over plain yogurt. Slow motion, golden light. Hook text burns on screen.", "<b>HOOK</b>", "“[ Hook · pick A, B, or C ]”"],
+        ["<b>2–5s</b>", "Cut to iced coffee with Crunch stirring in. Brown swirl in cream.", "—", "“My coffee. My smoothie.”"],
+        ["<b>5–8s</b>", "Smoothie pour, vibrant colour. Quick whip-pan to product hero.", "<b>ONE SCOOP</b>", "“One scoop of Crunch — and they all taste better.”"],
+        ["<b>8–11s</b>", "Product on light surface. Numbers animate in clean type.", "<b>6 KCAL  ·  SWEETNESS OF 50G SUGAR</b>", "“Six calories per scoop. As sweet as fifty grams of sugar.”"],
+        ["<b>11–13s</b>", "Wide shot — yogurt bowl, smoothie, coffee all in frame.", "<b>NOTHING TO APOLOGISE FOR</b>", "“No aftertaste. Nothing to feel bad about.”"],
+        ["<b>13–15s</b>", "Product hero. Code animates in. CTA button visible.", "<b>10% OFF  ·  CODE TRYNOVA  ·  SHOP NOW</b>", "“Try it now for ten percent off with code TRYNOVA.”"]
+      ]
+    },
+    { "type": "outro", "lead": "Outro.", "text": "Logo + product + CODE TRYNOVA — SHOP NOW. Hold 1 second." },
+
+    { "type": "h2", "text": "BM-02  ·  Eight Litres. Zero Sugar.  —  Hydra" },
+    { "type": "label", "text": "Hydra" },
+    {
+      "type": "table",
+      "layout": "keyvalue",
+      "widths": [1, 3.4],
+      "rows": [
+        ["Format", "15-second motion graphic · 9:16 portrait · liquid motion graphics, splash transitions, kinetic typography."],
+        ["Specific Offer", "10% off first Hydra order. Code TRYNOVA."],
+        ["Target Audience", "Women 25–40 NL. Multi-drink-per-day — ice tea, juice, soft drinks. Sugar-aware but loyal to flavour. The 'why am I still drinking this' moment."],
+        ["Voice-Over Direction", "Bright, direct female voice. Early 30s. Crisper than Crunch scripts — slightly more energetic, never shouty. Like a smart friend ordering for you."],
+        ["Music / Sound", "Light percussion, hi-hats, water-drop FX. Single sustained synth pad. 110 BPM, never aggressive."]
+      ]
+    },
+    { "type": "callout", "variant": "anchor", "lead": "Strategic anchor.", "text": "Volume math is the dopamine spike. One bottle = eight litres. Zero of everything else. Direct trade against the daily ice-tea habit." },
+    { "type": "h3", "text": "3 Hooks  ·  for scroll-stop testing" },
+    {
+      "type": "table",
+      "layout": "hooks",
+      "widths": [0.7, 9],
+      "rows": [
+        ["A", "“One little bottle. Eight litres of flavour. Zero sugar.”"],
+        ["B", "<b>“This little bottle replaced an entire fridge full of ice tea.”</b>"],
+        ["C", "<b>“The bottle that quietly ended my soft-drink habit.”</b>"]
+      ]
+    },
+    { "type": "h3", "text": "Storyboard  ·  Time-coded" },
+    {
+      "type": "table",
+      "layout": "headerrow",
+      "style": "zebra",
+      "widths": [0.8, 3.3, 2.0, 2.9],
+      "colAligns": ["center", "left", "left", "left"],
+      "colItalics": [false, false, false, true],
+      "header": ["Time", "Visual", "On-Screen Text", "Voice-Over"],
+      "rows": [
+        ["<b>0–2s</b>", "Glass of plain water on a counter. Hook text appears.", "<b>HOOK</b>", "“[ Hook · pick A, B, or C ]”"],
+        ["<b>2–4s</b>", "Pour-in of Hydra concentrate — colour blooms instantly through the water.", "<b>NO SUGAR  ·  NO CALORIES</b>", "“Without the sugar. Without the calories.”"],
+        ["<b>4–7s</b>", "Three flavour glasses splash into frame, one per second.", "<b>3 FLAVOURS  ·  ONE BOTTLE</b>", "“And without that quiet 'why am I still drinking this' feeling.”"],
+        ["<b>7–11s</b>", "Bottle hero. Animated math: 1 bottle → 8 LITRES with liquid morph.", "<b>ONE BOTTLE  ·  8 LITRES  ·  ZERO SUGAR</b>", "“One bottle of Hydra makes eight litres — two weeks of flavour for the price of one fizzy drink.”"],
+        ["<b>11–13s</b>", "Friends clinking glasses, fast cut. Warm casual moment.", "—", "“Same habit. Completely different math.”"],
+        ["<b>13–15s</b>", "Bottle hero. Code animates in. CTA button.", "<b>10% OFF  ·  CODE TRYNOVA  ·  SHOP NOW</b>", "“Try it for ten percent off with code TRYNOVA.”"]
+      ]
+    },
+    { "type": "outro", "lead": "Outro.", "text": "Bottle + CODE TRYNOVA — SHOP NOW. Hold 1 second." },
+
+    { "type": "h1", "text": "SK-Block — Motion Concepts" },
+    { "type": "p", "text": "<i>Cold-audience Starter Box acquisition. 30% off with code TRYNOVA. Two entry hypotheses: permission and protein gap.</i>" },
+
+    { "type": "h2", "text": "SKM-01  ·  Welcome to NOVA  —  Starter Box" },
+    { "type": "label", "text": "Starter Box · Permission" },
+    {
+      "type": "table",
+      "layout": "keyvalue",
+      "widths": [1, 3.4],
+      "rows": [
+        ["Format", "20-second motion graphic · 9:16 portrait · product-led cuts, kinetic typography, warm lighting throughout."],
+        ["Specific Offer", "30% off first Starter Box. Code TRYNOVA."],
+        ["Target Audience", "Women 30–45 NL. Cold to brand. Tried clean eating, tired of being told what not to eat. Want indulgence that quietly works for them."],
+        ["Voice-Over Direction", "Warm, intimate, slightly conspiratorial female voice. Late 30s. Reads like a friend leaning in. No salesman lift on the offer line."],
+        ["Music / Sound", "Soft piano melody, builds gently over 15 seconds, releases on the kit reveal. 80 BPM. Quiet whoosh on each product cut."]
+      ]
+    },
+    { "type": "callout", "variant": "anchor", "lead": "Strategic anchor.", "text": "Three felt moments of permission. Each one a complete sentence. No question marks. Reveal the kit only after the audience has nodded three times." },
+    { "type": "h3", "text": "3 Hooks  ·  for scroll-stop testing" },
+    {
+      "type": "table",
+      "layout": "hooks",
+      "widths": [0.7, 9],
+      "rows": [
+        ["A", "“Imagine your morning yogurt tasting like dessert.”"],
+        ["B", "<b>“Everything you'd normally feel guilty about — only made to actually work for you.”</b>"],
+        ["C", "<b>“This is the box that quietly changed how I eat.”</b>"]
+      ]
+    },
+    { "type": "h3", "text": "Storyboard  ·  Time-coded" },
+    {
+      "type": "table",
+      "layout": "headerrow",
+      "style": "zebra",
+      "widths": [0.8, 3.3, 2.0, 2.9],
+      "colAligns": ["center", "left", "left", "left"],
+      "colItalics": [false, false, false, true],
+      "header": ["Time", "Visual", "On-Screen Text", "Voice-Over"],
+      "rows": [
+        ["<b>0–4s</b>", "Close-up: hand stirring Crunch into yogurt. Chocolate swirl. Hook text on screen.", "<b>HOOK</b>", "“[ Hook · pick A, B, or C ]”"],
+        ["<b>4–7s</b>", "Cut to iced coffee being shaken. Stat overlay: 19G PROTEIN.", "<b>19G PROTEIN  ·  95% LESS SUGAR</b>", "“Your daily iced coffee — with nineteen grams of protein.”"],
+        ["<b>7–10s</b>", "Hand opening a Protein Bites pack. Bite-shot. Light catches the chocolate finish.", "<b>14G PROTEIN  ·  GUILT-FREE</b>", "“Your favourite snack — without guilt attached.”"],
+        ["<b>10–14s</b>", "Pull back to full Starter Box reveal on warm-lit table.", "<b>ALL OF IT  ·  IN ONE BOX</b>", "“That's everything in this one box.”"],
+        ["<b>14–17s</b>", "Top-down kit. Products animate in subtly with one stat tag each.", "<b>YOUR FIRST NOVA STARTER BOX</b>", "“The NOVA Starter Box. All the food you already love, finally made to work for you.”"],
+        ["<b>17–20s</b>", "Kit hero. 30% OFF badge animates in. CTA. Code prominent.", "<b>30% OFF  ·  CODE TRYNOVA  ·  SHOP NOW</b>", "“Get thirty percent off your first kit, with code TRYNOVA.”"]
+      ]
+    },
+    { "type": "outro", "lead": "Outro.", "text": "Kit hero + 30% OFF + CODE TRYNOVA — SHOP NOW. Hold 2 seconds." },
+
+    { "type": "h2", "text": "SKM-02  ·  The Protein Gap  —  Starter Box" },
+    { "type": "label", "text": "Starter Box · Protein Gap" },
+    {
+      "type": "table",
+      "layout": "keyvalue",
+      "widths": [1, 3.4],
+      "rows": [
+        ["Format", "20-second motion graphic · 9:16 portrait · counter-led animation, kinetic typography, mid-energy edit."],
+        ["Specific Offer", "30% off first Starter Box. Code TRYNOVA."],
+        ["Target Audience", "Women 25–44 NL. Cold to brand. Curious about protein but allergic to 'gym-bro' branding. Want substance without the protein-bar aesthetic."],
+        ["Voice-Over Direction", "Steady, intelligent, lightly playful female voice. Mid 30s. Reads facts with confidence — never lectures, never pitches."],
+        ["Music / Sound", "Mid-tempo electronic, light rhythmic pulse. Bass-led but soft. Builds slightly into the kit reveal. Subtle 'tick' on each protein number."]
+      ]
+    },
+    { "type": "callout", "variant": "anchor", "lead": "Strategic anchor.", "text": "Open with the gap. Not the problem — the gap. Neutral, specific, quantified. Kit fills it. Numbers do the convincing." },
+    { "type": "h3", "text": "3 Hooks  ·  for scroll-stop testing" },
+    {
+      "type": "table",
+      "layout": "hooks",
+      "widths": [0.7, 9],
+      "rows": [
+        ["A", "“Most women miss their daily protein target by 50 grams!”"],
+        ["B", "<b>“The difference between 'eating clean' and 'eating enough protein' is bigger than you think.”</b>"],
+        ["C", "<b>“How much protein do you actually eat? Most women overestimate by forty percent.”</b>"]
+      ]
+    },
+    { "type": "h3", "text": "Storyboard  ·  Time-coded" },
+    {
+      "type": "table",
+      "layout": "headerrow",
+      "style": "zebra",
+      "widths": [0.8, 3.3, 2.0, 2.9],
+      "colAligns": ["center", "left", "left", "left"],
+      "colItalics": [false, false, false, true],
+      "header": ["Time", "Visual", "On-Screen Text", "Voice-Over"],
+      "rows": [
+        ["<b>0–3s</b>", "Plate of regular food. Counter overlay rolls: protein consumed vs daily need. 50g gap visualised.", "<b>DAILY PROTEIN GAP  ·  ~50G</b>", "“[ Hook · pick A, B, or C ]”"],
+        ["<b>3–6s</b>", "Counter resets. Cut to woman in soft daylight, light shrug.", "<b>NOT BECAUSE WE DON'T TRY</b>", "“Not because we aren't trying.”"],
+        ["<b>6–10s</b>", "Three product reveals: coffee, snack, sahne. Each protein number floats up with a tick sound.", "<b>19G  ·  14G  ·  43G PROTEIN</b>", "“Real food, real protein and real flavour rarely come in the same package.”"],
+        ["<b>10–13s</b>", "Beat of silence on dark frame. Then: kit appears with a single line of light.", "<b>UNTIL NOW.</b>", "“Until now.”"],
+        ["<b>13–17s</b>", "Top-down kit in warm lighting. Quick product cuts with their numbers.", "<b>ALL LOADED  ·  ALL DELICIOUS</b>", "“Nineteen grams in your coffee. Fourteen in your snack. Forty-three in your topping.”"],
+        ["<b>17–20s</b>", "Kit hero. 30% OFF badge animates in. CTA.", "<b>30% OFF  ·  CODE TRYNOVA  ·  SHOP NOW</b>", "“Get thirty percent off your first kit, with code TRYNOVA.”"]
+      ]
+    },
+    { "type": "outro", "lead": "Outro.", "text": "Kit + 30% OFF + CODE TRYNOVA — SHOP NOW. Hold 2 seconds." }
+  ]
+}

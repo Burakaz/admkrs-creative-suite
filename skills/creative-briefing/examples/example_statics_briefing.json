@@ -1,0 +1,47 @@
+{
+  "filename": "260603_NOVA_Coffee_Whey_Statics_Creative_Upgrade",
+  "header": {
+    "title": "NOVA · Protein Coffee — Statics",
+    "dek": "Creative Upgrade  ·  5 Statics  ·  Stand 03.06.2026"
+  },
+  "blocks": [
+    { "type": "h1", "text": "Strategie-Layer" },
+    {
+      "type": "table",
+      "layout": "headerrow",
+      "style": "plain",
+      "widths": [1, 3.4],
+      "header": ["Hebel", "Beschreibung"],
+      "rows": [
+        ["<b>Hooks-first</b>", "3 von 5 Hooks sind Produkt-Labels, keine Hooks. „Protein Iced Coffee“ / „Protein Caramel Crunch“ benennen das Produkt, erzeugen aber kein Verlangen. Die ersten 2 Sekunden brauchen Spannung, eine Zahl oder ein sensorisches Versprechen."],
+        ["<b>Konkret > generisch</b>", "Echte Sortennamen (Iced Coffee, Mocha, Affogato, Caramel Crunch) und echte Zahlen in die Hook-Ebene — nicht „5 leckere Sorten“."],
+        ["<b>Koffein-Wedge  <i>[Ergänzung]</i></b>", "60 mg Koffein pro Portion (nova-nutrition.example) hat kein generisches Whey: „Protein + Wachmacher in einem“ ist der Iced-Coffee-Moment morgens / pre-workout. In keinem Briefing genutzt. Wert & Claim-Freigabe vor Verwendung prüfen."],
+        ["<b>Indulgence vs. Macros</b>", "Der ownable Twist gegen 0815-Whey: „schmeckt wie [Eiskaffee/Dessert], liefert [X g] Protein, ohne Zuckerzusatz.“ Diese Spannung gehört in jeden Sorten-Hook."],
+        ["<b>Trust-Static-Risiko</b>", "KI-Frau + Blur als „Verified Customer“ kann fake wirken — und kippt genau die Glaubwürdigkeit, die der Static kaufen soll (+ Meta-Graubereich bei erfundenen Testimonial-Darstellungen). Besser: Avatar-Stil der echten Review (Initiale im Kreis) oder echtes UGC."],
+        ["<b>Offer-Hebel</b>", "Das Briefing-Beispiel trägt -20 %. Ein konkretes Angebot auf DR-Statics hebt CTR/CVR verlässlich — einsetzen wo freigegeben, nicht erfinden."]
+      ]
+    },
+    {
+      "type": "callout",
+      "variant": "locked",
+      "lead": "Gesperrt 1:1:",
+      "text": "alle Zahlen, Health Claims, *pro 30g Pulver, Sternchentexte, Review-Wortlaut und Dateinamen unverändert. Neue Fakten (Koffein) sind als <b>[Ergänzung]</b> markiert."
+    },
+    { "type": "h1", "text": "Briefing" },
+    {
+      "type": "table",
+      "layout": "headerrow",
+      "style": "plain",
+      "widths": [1.0, 1.5, 1.6, 1.2, 1.6, 1.25, 1.7],
+      "colAligns": ["center", "left", "left", "left", "left", "left", "left"],
+      "header": ["Static", "Dateiname", "Hook", "Sub / Claim", "USPs / Inhalt", "CTA + Disclaimer", "Visual-Direction"],
+      "rows": [
+        ["<b>1</b>\n<b>Kalter Kaffee</b>", "PC_Single_Image_Protein_Coffee_Kalter_Kaffee", "<b>Kalter Kaffee? Jetzt mit bis zu 24g Protein.</b>", "Entdecke unsere Protein Coffee's", "5 leckere Sorten\nbis zu 24g Protein*\nOhne Zuckerzusatz", "Disclaimer: *pro 30g Pulver", "Hook oben. Bild gedanklich splitten: eine Seite 3–4 Dosen Protein Coffee, andere Seite die USPs mit Icons."],
+        ["<b>2</b>\n<b>Trust / Review</b>", "PC_Single_Image_Protein_Coffee_trust", "<b>Noch nie woanders gefunden…</b>", "—", "<b>Lena</b>  ·  Verified Customer  ·  München, Deutschland\n★★★★★\n„Noch nie solch ein leckeres Whey Protein in dieser Geschmacksrichtung woanders gefunden! Ein perfekt ausbalancierter Genuss für Kaffeeliebhaber!“\nvor einem Jahr", "—", "Review nativ & gut lesbar einbauen (nur Name + Bewertung). KI-Bild einer Frau, geblurrt, als runder Profilbild-Kreis neben die Review. Zusätzlich 2–3 Dosen (Iced Coffee, Mocha & Affogato). Referenz: Beispiel-Creative „-20% RABATT / 20% sparen“ (Mara)."],
+        ["<b>3</b>\n<b>Bohne</b>", "PC_Single_Image_Protein_Coffee_Bohne", "<b>Dein Kaffee kann mehr!</b>", "Ohne Zuckerzusatz & bis zu 24g Protein*", "Mehrere Sorten im Bild darstellen", "Button: „Jetzt entdecken“\nDisclaimer: *pro 30g Pulver", "Hook + Subheading oben. Ein paar der Sorten darstellen. Unten Button „Jetzt entdecken“, ganz unten der Disclaimer."],
+        ["<b>4</b>\n<b>Iced Coffee</b>", "PC_Single_Image_Protein_Coffee_Iced_Coffee", "<b>Eiskaffee ohne schlechtes Gewissen</b>", "—", "Kein Zuckerzusatz\n22g Protein pro Portion*\nWie cremiger Eiskaffee", "Disclaimer: *pro 30g Pulver", "Layout wie das Beispiel („Protein Coconut Dream“), nur ohne den Störer „Jetzt Neu“. Disclaimer unten im Bild."],
+        ["<b>5</b>\n<b>Caramel Crunch</b>", "PC_Single_Image_Protein_Coffee_Caramel_Crunch", "<b>Karamell mit echtem Crunch – und 21g Protein.</b>", "—", "Kein Zuckerzusatz\n21g Protein pro Portion*\nMit echtem Crunch", "Disclaimer: *pro 30g Pulver", "Darstellung wie bei Static 4."]
+      ]
+    }
+  ]
+}

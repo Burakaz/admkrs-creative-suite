@@ -1,0 +1,13 @@
+{
+  "name": "admkrs-marketplace",
+  "owner": { "name": "ADMKRS GmbH" },
+  "plugins": [
+    {
+      "name": "admkrs-creative-suite",
+      "source": ".",
+      "version": "1.1.0",
+      "description": "11 verzahnte Skills für Creative Strategy, Briefings, UGC-Briefing, Teardown, Reporting, CRO, UGC-Ops, Pitch, Google Cross-Channel, Offer/Promo & Compliance.",
+      "author": { "name": "ADMKRS GmbH" }
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+node_modules/
+**/node_modules/
+.DS_Store
+*.log
+package-lock.json
+.npm/
+
+# Dev-/Build-Artefakte (nicht ins Repo)
+.firecrawl/
+.claude/launch.json

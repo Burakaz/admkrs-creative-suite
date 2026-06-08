@@ -1,0 +1,110 @@
+# Dokument-Format — UGC-Briefing JSON, Builder & Skelett
+
+Das UGC-Briefing wird aus einer **JSON-Spec** gerendert. Builder: `assets/build_briefing.js` (Node + `docx`) — **identische Engine wie `creative-briefing`**, gleicher ADMKRS-Stil, gleiches **B4 Querformat / 1 cm Ränder**. Inhalt füllen, Builder laufen lassen, fertig.
+
+**Vorgehen:** Nimm `examples/example_ugc_briefing.json` als Muster — Struktur kopieren, Inhalt ersetzen. Nicht von Null bauen.
+
+---
+
+## Builder ausführen
+
+```bash
+cd <skill>/assets && npm install docx        # einmalig pro Umgebung
+node <skill>/assets/build_briefing.js <input.json> <YYMMDD_BRAND_Product_UGC.docx>
+```
+
+Wird der Output-Name weggelassen, nimmt der Builder das Feld `filename` aus der JSON. Danach das .docx mit `present_files` zeigen — **nicht** ungefragt in Drive/Slack/ClickUp posten. Optionaler Render-Check: docx → PDF → JPEG via LibreOffice (`skills/docx/scripts/office/soffice.py --convert-to pdf`, dann `pdftoppm -jpeg`).
+
+**Seite:** B4 Querformat (ISO B4, 250×353 mm, Landscape), 1 cm Ränder — ADMKRS-Standard für *alle* erzeugten Dokumente (fest im Builder).
+
+---
+
+## Inline-Markup (in jedem Textfeld)
+`<b>fett</b>` · `<i>kursiv</i>` · `\n` neue Zeile in Zelle/Absatz. Literale `*`, `—`, `·`, „Anführungszeichen" bleiben unverändert (Sternchen-Disclaimer wie `*pro Portion` einfach so schreiben).
+
+---
+
+## Top-Level
+
+```json
+{
+  "filename": "260607_NOVA_ProteinCoffee_UGC",
+  "header": {
+    "eyebrow": "UGC Creator Briefing",
+    "title": "NOVA · Protein Coffee — UGC",
+    "dek": "3 Konzepte · 9 Hooks · drehfertige Scripts · Stand 07.06.2026"
+  },
+  "blocks": [ /* Reihenfolge = Dokument-Reihenfolge */ ]
+}
+```
+
+## Block-Typen (wie creative-briefing)
+
+`h1`/`h2`/`h3` (Überschriften) · `label` (graue Kursiv-Zeile unter h2) · `lede` (fetter Intro-Satz) · `p` (Absatz, `\n` für Zeilen) · `callout` (`variant`: `"locked"`=lavendel | `"anchor"`=creme+Gold; Felder `lead`, `text`) · `table` (`layout`: `headerrow` \| `keyvalue` \| `hooks`) · `outro` (fette Lead-In + Text) · `spacer` · `divider`.
+
+**Tabellen-Layouts:**
+- `headerrow` — schwarze Kopfzeile + Zeilen. `header`, `rows`, `widths` (relative Gewichte), `style` `"plain"`/`"zebra"`, optional `colAligns`, `colItalics` (z. B. VO-Spalte kursiv).
+- `keyvalue` — schwarze Label-Spalte links, Wert rechts. `rows`: `[["Format","…"], …]`, `widths` default `[1, 3.2]`.
+- `hooks` — schmale graue Buchstaben-Spalte (A/B/C) + Hook-Text. `rows`: `[["A","…"], …]`, `widths` default `[0.7, 9]`.
+
+**Spaltenbreiten-Tipp:** erste Spalte (Index/Zeit/Label) breit genug, dass das längste Label nicht mitten im Wort umbricht.
+
+---
+
+## UGC-Briefing-Skelett (Dual-Purpose)
+
+Die Reihenfolge setzt **Brand-Foundation (Creator+Kunde) → Strategie (Kunde) → Standards (Creator) → Konzepte mit Scripts → Out-of-the-box-Layer → Test-/Delivery-Plan.** Details je Block: `brand-foundation.md`.
+
+```
+header (eyebrow "UGC Creator Briefing", title, dek)
+
+h1 "Brand auf einen Blick"
+  lede  (1 Positionierungssatz)
+  table keyvalue  [Marke | Kategorie | Produkt | Was es ist | Ton | Was die Brand NICHT ist | Offer/Code]
+
+h1 "Produkt-Facts & USPs"
+  table headerrow/plain  [Fact | Warum es zählt / wie im Video nutzbar]
+  callout locked  "Gesperrt 1:1: …"   (Zahlen, Claims, Disclaimer, Code)
+
+h1 "Wen wir ansprechen"
+  p  (konkrete Persona — Name, Alltag, Trigger, Einwand)
+  table keyvalue  [Persona | Awareness | Trigger-Moment | Vorerfahrung | Einwand | Kauf-Ort]
+
+h1 "Strategische Grundlage"        ← Client-Layer (das Warum)
+  p  (Awareness · Funnel · Angle-Logik · Hypothese)
+  table headerrow/zebra  [Konzept | Angle | Framework | Awareness | Hypothese]
+
+h1 "Wie wir filmen — Standards"     ← Creator-Layer
+  table keyvalue  [Ratio | Länge | Hooks | Rohmaterial | Captions | Licht | Ton | Setting | Edit | Dateiname]
+  callout anchor  "Performance-Regeln. …"
+  callout locked  "Kennzeichnung & Claims. …"   (→ ad-compliance-check)
+
+h1 "Konzept 1 · [Title]"            ← pro Konzept ein Set (Creator+Kunde)
+  label "[Angle / Family]"
+  table keyvalue  [Format | Angle | Framework | Awareness | Zielperson | Setting | Sound]
+  callout anchor  "Strategischer Anker. … + Hypothese."
+  h3 "3 Hooks · zum Scroll-Stop-Test"
+  table hooks  [A, B, C]
+  h3 "Script · Time-coded (drehfertig)"
+  table headerrow/zebra  [Zeit | Bild / Action | On-Screen Text | Gesprochen (VO)]   (colItalics: [false,false,false,true])
+  p  "<i>Regie-Notiz: …</i>"
+  outro "CTA / Outro. …"
+  … (Konzept 2, Konzept 3)
+
+h1 "Out-of-the-box-Layer · Scroll-Breaker"   ← der dedizierte „nicht-Standard"-Layer
+  p  (Intro)
+  table headerrow/zebra  [Idee | Format | Warum es teilt | Wofür]
+
+h1 "Test- & Delivery-Plan"
+  table headerrow/plain  [Was | Detail]   (Hook-Varianten, Rohmaterial, Deadline, Naming, Freigabe)
+```
+
+**Script-Spalten:** `widths` ca. `[0.9, 3.4, 2.2, 3.0]`, `colAligns` `["center","left","left","left"]`, `colItalics` `[false,false,false,true]` (VO kursiv). Hook-Zeile: On-Screen = `<b>HOOK</b>`, VO = `"[ Hook · A/B/C ]"`.
+
+---
+
+## Locked-Facts im Dokument
+**Gesperrt 1:1** (Locked-Callout) hält fest, was unverändert bleibt (Zahlen, Claims, Disclaimer, Code, Review-Wortlaut). **[Ergänzung]** markiert jeden neuen Fakt/Vorschlag, der Freigabe braucht — im Text als `<b>[Ergänzung]</b>`. Disclaimer/Sternchen exakt übernehmen.
+
+---
+<sub>**ADMKRS Creative Suite** · © ADMKRS GmbH, München · v1.1.0 · interner Gebrauch · erstellt von ADMKRS. Gleiche Builder-Engine & B4-Standard wie creative-briefing.</sub>
