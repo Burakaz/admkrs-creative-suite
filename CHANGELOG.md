@@ -1,5 +1,11 @@
 # Changelog — ADMKRS Creative Suite
 
+## v1.1.3 — 2026-06
+Motion-Ad-Voice-over: Pflicht + Redefluss statt Stakkato.
+
+- **Regel** in `creative-briefing` (SKILL.md, `copywriting-frameworks.md` §4b, `document-format.md`): Motion Ads laufen **immer mit Voice-over**, und das VO muss ein **zusammenhängender, natürlich gesprochener Take** sein, der die Zielgruppe abholt — keine aneinandergereihten Schlagwörter/Slogans. Jede VO-Zeile knüpft an die vorige an; inkl. Vorher/Nachher-Beispiel.
+- **Motion-Beispiel-JSON** (`example_motion_briefing.json`): alle 4 Storyboard-VOs von Stakkato auf echten Redefluss umgeschrieben (das Beispiel prägte den Output am stärksten).
+
 ## v1.1.2 — 2026-06
 Dateinamen-Konvention & Ablage-Best-Practice für generierte Dokumente.
 

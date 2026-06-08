@@ -60,6 +60,8 @@ Welcher Output ist gewünscht? (Mehrere möglich.)
 
 Format-Details, Specs und Strukturen: `references/creative-formats.md`.
 
+> **Motion Ads: immer Voice-over, immer Redefluss.** Das gesprochene VO ist ein zusammenhängender, natürlicher Take, der die Zielgruppe abholt und durch die Ad zieht — **nicht** abgehackte Schlagwörter/Slogans aneinandergereiht. Jede VO-Zeile knüpft an die vorige an (gesprochener Rhythmus, „du"-Ansprache, Spannung→Auflösung→CTA). Pflicht-Regel inkl. Vorher/Nachher: `references/copywriting-frameworks.md` §4b.
+
 > Für ein **reines Creator-/UGC-Briefing** (Brand-Vorstellung als Datengrundlage für den Creator, das zugleich dem Kunden präsentierbar ist — mit viralen Hook-Tricks, Storytelling-Frameworks je Awareness, drehfertigen Scripts und Out-of-the-box-Layer) nutze den dedizierten Skill **`admkrs-cs-ugc-briefing`** (gleiche B4-Builder-Engine). Dieser Skill hier deckt UGC als *einen* Konzept-Typ neben Statics/Motion ab; `admkrs-cs-ugc-briefing` ist das vollständige Creator-Dokument.
 
 ### 2 — Brand-Profil laden oder anlegen

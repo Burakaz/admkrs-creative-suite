@@ -87,11 +87,30 @@ Die „Verpackung" einer Kampagne. Wähle eine, die zu Brand-Voice + Botschaft p
 
 ---
 
+## 4b — Motion Ads: Voice-over im Redefluss (Pflicht)
+
+**Motion Ads laufen IMMER mit Voice-over — und das VO ist ein echter Redefluss, kein Stakkato.** Es ist ein zusammenhängender, gesprochener Monolog, der die Zielgruppe abholt und durch die Ad trägt: eine Person, die natürlich redet. **Nicht** abgehackte Schlagwort-Fragmente, nicht fünf Slogans aneinandergereiht.
+
+- **Jede VO-Zeile knüpft an die vorige an** — auch über die Time-Codes hinweg. Bindeglieder, Atem, gesprochener Rhythmus („Hier ist die Sache… / Und das Beste daran? … / Also wenn du…"). Liest man die VO-Spalte von oben nach unten, ergibt sie **einen** flüssigen Take.
+- **Konversationell & in der Ansprache der Zielgruppe** (meist „du"), so wie ein Mensch wirklich spricht. Bogen: Hook (0–3 s, steht) → Spannung/Problem fühlbar machen → Auflösung/Mechanism → Beweis → CTA. Der Flow trägt, nicht die Aufzählung.
+- **Fakten, Zahlen & Offer bleiben 1:1** — aber **eingebettet in den Satzfluss**, nicht als nackte Liste hingeworfen.
+- Die On-Screen-Text-Spalte darf knapp/Schlagwort sein — das **gesprochene** VO niemals.
+
+**Stakkato — so NICHT** (zusammenhanglose Claims, „katastrophal & unverständlich"):
+> „Dein Betrieb hat seinen Ablauf. Deine Software kennt ihn nicht. Jeder Handgriff – einmal sauber statt dreimal von Hand. Festpreis, null Lizenzgebühren. Hol dir dein Erstgespräch."
+
+**Redefluss — so JA** (ein gesprochener Take, der abholt und fesselt):
+> „Dein Betrieb läuft auf seine ganz eigene Art – jeder Handgriff sitzt, jeder Auftrag hat seinen Weg. Nur deine Software? Die hat davon keine Ahnung. Also tippst du alles doppelt, dreifach, von Hand – Abend für Abend. Dabei müsste das gar nicht sein. Stell dir eine Software vor, die nicht du lernst, sondern die deinen Betrieb lernt – um deine Abläufe herum gebaut, in sechs Wochen, zum Festpreis. Keine Lizenzgebühren, kein Schnickschnack, den eh keiner nutzt. Sie passt sich dir an, nicht andersrum. Klingt das nach was? Dann lass uns reden – im kostenlosen Erstgespräch."
+
+(Beispiel ist generisch/illustrativ. Der konkrete Inhalt kommt aus dem Brief; was zählt, ist der **Flow**.)
+
+---
+
 ## 5 — Framework × Format (Schnell-Mapping)
 
 - **Static / Carousel:** HIC/HICC, Ogilvy, PAS, BAB, 4 Ps, String of Pearls (Carousel), Comparative. Proof via FORCEPS-Typ wählen.
-- **Motion Graphics:** AIDA/SLAP fürs Gerüst, BAB/DASER für Transformation, Number-Hooks, Surprise/Drama als Vehikel. Storyboard folgt Hook→Build→Proof→Offer.
-- **Video / UGC:** QUEST oder PASTOR oder Star-Story-Solution; Slice-of-Life/Storytelling als Vehikel; 5 Questions/SPIN bei B2B. Script-Bogen: Hook (0–3s) → Retention/Mechanism → Proof/Objection → CTA.
+- **Motion Graphics:** AIDA/SLAP fürs Gerüst, BAB/DASER für Transformation, Number-Hooks, Surprise/Drama als Vehikel. Storyboard folgt Hook→Build→Proof→Offer. **Immer mit Voice-over im Redefluss (§4b) — kein Stakkato.**
+- **Video / UGC:** QUEST oder PASTOR oder Star-Story-Solution; Slice-of-Life/Storytelling als Vehikel; 5 Questions/SPIN bei B2B. Script-Bogen: Hook (0–3s) → Retention/Mechanism → Proof/Objection → CTA. VO/Script als gesprochener Flow, nicht in Fragmenten (§4b).
 - **Retargeting (warm):** IDCA, ATR-Denke, Objection-Handling, Offer + Reason-Why.
 
 ---

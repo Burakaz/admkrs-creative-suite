@@ -115,6 +115,8 @@ h1 "B-Block — …"   p (italic Intro)
   … (nächstes Konzept)
 ```
 
+> **Voice-over = Pflicht & Redefluss:** Motion Ads laufen immer mit VO. Die **Voice-Over-Spalte** muss sich von oben nach unten als **ein** zusammenhängender, natürlich gesprochener Take lesen (Bindeglieder, „du"-Ansprache, Spannung→Auflösung→CTA) — **nicht** als Reihe abgehackter Slogans. On-Screen-Text darf knapp sein, das VO nie. Details & Vorher/Nachher: `copywriting-frameworks.md` §4b.
+
 ---
 
 ## Design-Tokens (fest verdrahtet — nur zur Orientierung)
