@@ -8,3 +8,4 @@ package-lock.json
 # Dev-/Build-Artefakte (nicht ins Repo)
 .firecrawl/
 .claude/launch.json
+docs/downloads/
