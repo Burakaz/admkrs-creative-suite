@@ -44,7 +44,7 @@ Ownable Twist: <der eine Grund, warum diese Brand gewinnt>.
 - <neue Fakten/Angles, die Freigabe brauchen>
 
 ## Naming-Konvention
-- Briefing-Datei: YYMMDD_<BRAND>_<Product>_<Type>
+- Briefing-Datei: YYMMDD_<BRAND>_<Product>_<Type>_<LANG>
 - Asset-Namen: <kunden-spezifisches Muster, z. B. PC_Single_Image_Protein_Coffee_<Variante>>
 
 ## Assets & Referenzen

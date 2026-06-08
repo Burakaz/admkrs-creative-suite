@@ -10,10 +10,10 @@ Das UGC-Briefing wird aus einer **JSON-Spec** gerendert. Builder: `assets/build_
 
 ```bash
 cd <skill>/assets && npm install docx        # einmalig pro Umgebung
-node <skill>/assets/build_briefing.js <input.json> <YYMMDD_BRAND_Product_UGC.docx>
+node <skill>/assets/build_briefing.js <input.json> <YYMMDD_BRAND_Product_UGC_LANG.docx>
 ```
 
-Wird der Output-Name weggelassen, nimmt der Builder das Feld `filename` aus der JSON. Danach das .docx mit `present_files` zeigen — **nicht** ungefragt in Drive/Slack/ClickUp posten. Optionaler Render-Check: docx → PDF → JPEG via LibreOffice (`skills/docx/scripts/office/soffice.py --convert-to pdf`, dann `pdftoppm -jpeg`).
+Wird der Output-Name weggelassen, nimmt der Builder das Feld `filename` aus der JSON (Konvention `YYMMDD_BRAND_Product_UGC_LANG`, Sprache am Ende: DE/EN/NL/FR/AT). Danach das .docx mit `present_files` zeigen. **Best Practice (Cowork mit verbundener Drive):** das fertige .docx in **Google Drive** im Kunden-Ordner unter **„Briefings"** ablegen (Name nach Konvention) — **nicht** ungefragt in Slack/ClickUp posten; Speichern in der Kunden-Drive ist ok. Optionaler Render-Check: docx → PDF → JPEG via LibreOffice (`skills/docx/scripts/office/soffice.py --convert-to pdf`, dann `pdftoppm -jpeg`).
 
 **Seite:** B4 Querformat (ISO B4, 250×353 mm, Landscape), 1 cm Ränder — ADMKRS-Standard für *alle* erzeugten Dokumente (fest im Builder).
 
@@ -28,7 +28,7 @@ Wird der Output-Name weggelassen, nimmt der Builder das Feld `filename` aus der 
 
 ```json
 {
-  "filename": "260607_NOVA_ProteinCoffee_UGC",
+  "filename": "260607_NOVA_ProteinCoffee_UGC_DE",
   "header": {
     "eyebrow": "UGC Creator Briefing",
     "title": "NOVA · Protein Coffee — UGC",

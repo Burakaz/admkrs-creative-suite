@@ -41,7 +41,7 @@ Wenn jedes Konzept entlang dieser Achsen variiert, entsteht automatisch echte Di
 
 ## 6 — Naming-Konvention (auswertbar bleiben)
 Damit DatAds sauber gruppieren kann, Assets konsistent benennen — beobachtetes ADMKRS-Schema:
-`Datum | Format | Style | Angle | LP` bzw. `Format_Concept_Creator` (z. B. `260519 | Moving Still | Matte | Angle:Entspannung | LP:Matte`, `UGC_VEGGIE_HACK_Erik_Konzept2`, `MOTION_AD_Veggie_Kebab_01`). Briefing-Datei weiterhin `YYMMDD_BRAND_Product_Type`.
+`Datum | Format | Style | Angle | LP` bzw. `Format_Concept_Creator` (z. B. `260519 | Moving Still | Matte | Angle:Entspannung | LP:Matte`, `UGC_VEGGIE_HACK_Erik_Konzept2`, `MOTION_AD_Veggie_Kebab_01`). Briefing-Datei weiterhin `YYMMDD_BRAND_Product_Type_LANG`.
 
 ---
 *Disziplin bleibt: gewinnende Daten leiten die Richtung, aber gesperrte Fakten/Claims/Reviews 1:1 (siehe `brand-profile-template.md`), nichts erfinden, und Klarheit vor Kunst. Daten sagen *welcher Angle* — das Handwerk (Hooks, Frameworks) macht ihn scharf.*

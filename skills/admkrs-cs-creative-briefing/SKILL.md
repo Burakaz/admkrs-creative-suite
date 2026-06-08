@@ -89,10 +89,10 @@ Inhalte in eine Briefing-JSON gießen und mit dem Builder rendern. **Format, Sch
 
 ```bash
 cd <skill>/assets && npm install docx   # einmalig
-node assets/build_briefing.js <briefing.json> <YYMMDD_BRAND_Product_Type.docx>
+node assets/build_briefing.js <briefing.json> <YYMMDD_BRAND_Product_Type_LANG.docx>
 ```
 
-Dateiname-Konvention: `YYMMDD_BRAND_Product_Type` (z. B. `260605_NOVA_Coffee_Whey_Statics`).
+Dateiname-Konvention: `YYMMDD_BRAND_Product_Type_LANG` — **Datum (YYMMDD) immer zuerst** (sortiert chronologisch), dann Marke, Produkt, Typ, und **Markt/Sprache am Ende**: `DE` · `EN` · `NL` · `FR` · `AT`. Z. B. `260608_NOVA_ProteinCoffee_Statics_DE`. Einheitlich für alle Kunden.
 
 ### 7 — Qualitäts-Check (selbst, vor der Übergabe)
 Geh die Checkliste unten durch. Wenn ein Punkt durchfällt, überarbeiten — nicht abliefern.

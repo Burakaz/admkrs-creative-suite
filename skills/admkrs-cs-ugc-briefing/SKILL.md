@@ -72,9 +72,9 @@ Inhalt in die UGC-Briefing-JSON gießen und rendern. **Schema, Skelett, Builder-
 
 ```bash
 cd <skill>/assets && npm install docx   # einmalig
-node assets/build_briefing.js <briefing.json> <YYMMDD_BRAND_Product_UGC.docx>
+node assets/build_briefing.js <briefing.json> <YYMMDD_BRAND_Product_UGC_LANG.docx>
 ```
-Dateiname-Konvention: `YYMMDD_BRAND_Product_UGC` (z. B. `260607_NOVA_ProteinCoffee_UGC`).
+Dateiname-Konvention: `YYMMDD_BRAND_Product_UGC_LANG` — **Datum (YYMMDD) immer zuerst** (sortiert chronologisch), dann Marke, Produkt, `UGC`, und **Markt/Sprache am Ende**: `DE` · `EN` · `NL` · `FR` · `AT`. Z. B. `260608_NOVA_ProteinCoffee_UGC_DE`. Einheitlich für alle Kunden.
 
 ### 7 — Qualitäts-Check
 Checkliste unten durchgehen. Fällt ein Punkt durch → überarbeiten, nicht abliefern.

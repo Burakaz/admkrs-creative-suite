@@ -11,11 +11,13 @@ Das Briefing wird aus einer **JSON-Spec** gerendert. Der Builder (`assets/build_
 ```bash
 cd <skill>/assets && npm install docx        # einmalig pro Umgebung
 node <skill>/assets/build_briefing.js <input.json> <OUTPUT.docx>
-# Output-Name = Dateiname-Konvention:
-# node assets/build_briefing.js briefing.json 260605_NOVA_Coffee_Whey_Statics.docx
+# Output-Name = Dateiname-Konvention YYMMDD_BRAND_Product_Type_LANG (Sprache am Ende: DE/EN/NL/FR/AT):
+# node assets/build_briefing.js briefing.json 260608_NOVA_ProteinCoffee_Statics_DE.docx
 ```
 
-Wird `OUTPUT.docx` weggelassen, nimmt der Builder das Feld `filename` aus der JSON. Danach das .docx dem User mit `present_files` zeigen (nicht ungefragt in Drive/Slack posten).
+Wird `OUTPUT.docx` weggelassen, nimmt der Builder das Feld `filename` aus der JSON. Danach das .docx dem User mit `present_files` zeigen.
+
+**Best Practice (Cowork mit verbundener Drive):** Das fertige .docx in **Google Drive** im Ordner des jeweiligen Kunden unter **„Briefings"** ablegen (Dateiname nach Konvention `YYMMDD_BRAND_Product_Type_LANG`) — statt es nur lokal liegen zu lassen. **Nicht** ungefragt in Slack/ClickUp posten; Speichern/Verschieben in der Kunden-Drive ist ok.
 
 Optionaler Render-Check (Optik verifizieren): docx → PDF → JPEG via LibreOffice (`skills/docx/scripts/office/soffice.py --convert-to pdf`, dann `pdftoppm -jpeg`).
 
@@ -33,7 +35,7 @@ Optionaler Render-Check (Optik verifizieren): docx → PDF → JPEG via LibreOff
 
 ```json
 {
-  "filename": "260605_NOVA_Coffee_Whey_Statics",
+  "filename": "260605_NOVA_Coffee_Whey_Statics_DE",
   "header": {
     "eyebrow": "Motion Concepts V5",          // optional, wird GROSS gesetzt (Kicker über dem Titel)
     "title": "NOVA · Protein Coffee — Statics",  // großer Titel
