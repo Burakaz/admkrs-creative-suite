@@ -149,6 +149,18 @@ h2 .thin{color:var(--muted);font-weight:500}
   font-family:var(--mono);font-size:9px;font-weight:700;color:#fff;flex:none}
 .docrow .nm{font-size:13.5px}.docrow .mt{font-size:11.5px;color:var(--muted)}
 .cap{font-size:11.5px;color:var(--muted);margin-top:11px;text-align:center}
+/* settings / skills UI mocks */
+.set-row{display:flex;align-items:center;gap:13px;padding:13px 15px;border:1px solid var(--card-bd);border-radius:11px;background:rgba(255,255,255,.03)}
+.set-row .si{width:34px;height:34px;border-radius:9px;display:grid;place-items:center;font-size:16px;background:rgba(255,255,255,.04);border:1px solid var(--card-bd);flex:none}
+.set-row .st{flex:1}.set-row .st .nm{font-size:13.5px;font-weight:600}.set-row .st .ds{font-size:11.5px;color:var(--muted)}
+.tgl{width:38px;height:22px;border-radius:100px;background:rgba(255,255,255,.12);position:relative;flex:none;transition:background .2s}
+.tgl::after{content:"";position:absolute;top:3px;left:3px;width:16px;height:16px;border-radius:50%;background:#fff;transition:transform .2s}
+.tgl.on{background:var(--good)}.tgl.on::after{transform:translateX(16px)}
+.crumb{font-family:var(--mono);font-size:11.5px;color:var(--muted);margin-bottom:2px}
+.crumb b{color:var(--accent);font-weight:400}
+.drop{border:1.5px dashed var(--card-bd);border-radius:12px;padding:22px 16px;text-align:center;background:rgba(255,255,255,.02)}
+.drop .di{font-size:22px;margin-bottom:6px}.drop .dt{font-size:13px;color:var(--soft)}.drop .dz{font-family:var(--mono);font-size:11.5px;color:var(--lime);margin-top:6px}
+.plus{margin-left:auto;width:26px;height:26px;border-radius:8px;border:1px solid var(--card-bd);display:grid;place-items:center;color:var(--accent);font-weight:600;flex:none}
 
 /* callout */
 .note{display:flex;gap:13px;border:1px solid rgba(198,242,78,.22);background:rgba(198,242,78,.045);
@@ -257,15 +269,17 @@ footer{border-top:1px solid var(--line);padding:46px 0 64px;color:var(--muted);f
       <div class="s-group">Verstehen</div>
       <a class="s-link" href="#was"><span class="idx">01</span>Was ist das?</a>
       <a class="s-link" href="#start"><span class="idx">02</span>In 3 Schritten</a>
-      <div class="s-group">Anwenden</div>
+      <div class="s-group">Installieren</div>
       <a class="s-link" href="#app"><span class="idx">03</span>Claude-App</a>
       <a class="s-link" href="#cowork"><span class="idx">04</span>Cowork</a>
-      <a class="s-link" href="#briefing"><span class="idx">05</span>Erstes Briefing</a>
+      <a class="s-link" href="#code"><span class="idx">05</span>Claude Code</a>
+      <div class="s-group">Anwenden</div>
+      <a class="s-link" href="#briefing"><span class="idx">06</span>Erstes Briefing</a>
       <div class="s-group">Material</div>
-      <a class="s-link" href="#download"><span class="idx">06</span>Download</a>
-      <a class="s-link" href="#skills"><span class="idx">07</span>Die 11 Skills</a>
+      <a class="s-link" href="#download"><span class="idx">07</span>Download</a>
+      <a class="s-link" href="#skills"><span class="idx">08</span>Die 11 Skills</a>
       <div class="s-group">Hilfe</div>
-      <a class="s-link" href="#faq"><span class="idx">08</span>Häufige Fragen</a>
+      <a class="s-link" href="#faq"><span class="idx">09</span>Häufige Fragen</a>
     </nav>
     <a class="s-cta" href="#start">Einrichtung starten →</a>
   </aside>
@@ -301,43 +315,50 @@ footer{border-top:1px solid var(--line);padding:46px 0 64px;color:var(--muted);f
         <div class="ex rv" data-d="1"><div class="ic">🧩</div><h3>Skills</h3><p><span class="word">Spezialwissen on top.</span> Ein Skill macht Claude zum Experten für eine Aufgabe — ohne Skill rät er, mit Skill folgt er unserem ADMKRS-Vorgehen.</p></div>
         <div class="ex rv" data-d="2"><div class="ic">⚡</div><h3>Die Suite</h3><p><span class="word">Unsere 11 Skills im Paket.</span> Strategie, Briefings, UGC, Teardown, Reporting, CRO, Compliance — einmal installiert, alle da.</p></div>
       </div>
-      <div class="note rv"><span class="ic">★</span><div><b>Das Wichtigste:</b> Du musst nichts „programmieren". Suite einmal installieren (zwei Befehle), danach schreibst du Claude normal auf Deutsch, was du brauchst — und nutzt den passenden Skill mit einem <span class="inline-code">/</span>.</div></div>
+      <div class="note rv"><span class="ic">★</span><div><b>Das Wichtigste:</b> Du musst nichts „programmieren". Du fügst die Skills <b>einmal</b> zu Claude hinzu, danach schreibst du Claude normal auf Deutsch, was du brauchst — der passende Skill springt automatisch an. In der <b>Claude-App</b> lädst du die Skills als Datei hoch (gleich Schritt für Schritt), in <b>Claude Code</b> geht's per Befehl.</div></div>
     </section>
 
     <!-- QUICKSTART -->
     <section class="block" id="start">
-      <div class="eyebrow rv">Der schnelle Weg</div>
+      <div class="eyebrow rv">Der schnelle Weg · Claude-App</div>
       <h2 class="rv">In 3 Schritten <span class="thin">startklar</span></h2>
-      <p class="sub rv">Hast du die Claude-App schon, dauert das zwei Minuten. Details &amp; Screenshots zu jedem Schritt weiter unten.</p>
+      <p class="sub rv">Für die <b style="color:var(--ink);font-weight:600">Claude-App &amp; claude.ai</b> (das nutzt fast jeder im Team). Skills werden hier als Datei hochgeladen — kein Befehl nötig. Details &amp; Screenshots weiter unten. <span class="muted">Du arbeitest in Claude Code? → <a href="#code" style="color:var(--accent)">eigener Abschnitt</a>.</span></p>
       <div class="steps">
-        <div class="step rv"><div class="sn">1</div><div><h4>Suite-Quelle hinzufügen</h4><p>In Claude unten ins Eingabefeld tippen und abschicken:</p><div class="prompt-line" style="margin-top:11px"><span class="caret">›</span><span class="cmd"><span class="slash">/plugin</span> marketplace add Burakaz/admkrs-creative-suite</span></div></div></div>
-        <div class="step rv" data-d="1"><div class="sn">2</div><div><h4>Suite installieren</h4><p>Direkt danach:</p><div class="prompt-line" style="margin-top:11px"><span class="caret">›</span><span class="cmd"><span class="slash">/plugin</span> install admkrs-creative-suite</span></div><p style="margin-top:11px">Alle 11 Skills sind jetzt aktiv. ✓</p></div></div>
-        <div class="step rv" data-d="2"><div class="sn">3</div><div><h4>Loslegen</h4><p>Tippe <span class="inline-code">/</span> ins Feld — du siehst alle Skills. Wähle z.B. <span class="inline-code">admkrs-cs-creative-briefing</span> und beschreibe Produkt &amp; Ziel. Claude macht den Rest.</p></div></div>
+        <div class="step rv"><div class="sn">1</div><div><h4>Skills-Funktion einschalten</h4><p>Einmalig: <b>Einstellungen → Capabilities → „Code execution and file creation"</b> aktivieren. (Bei Team/Enterprise schaltet das der Org-Owner frei.)</p></div></div>
+        <div class="step rv" data-d="1"><div class="sn">2</div><div><h4>Skill-Datei hochladen</h4><p>Unten im <a href="#download" style="color:var(--accent)">Download</a> die gewünschte Skill-<span class="inline-code">.zip</span> laden. Dann in Claude: <b>Customize → Skills → „+" → „Upload a skill"</b> → ZIP wählen. Pro Skill einmal.</p></div></div>
+        <div class="step rv" data-d="2"><div class="sn">3</div><div><h4>Loslegen</h4><p>Skill-Toggle <b>an</b> — fertig. Beschreib Claude einfach dein Produkt &amp; Ziel (z.B. „mach mir Static-Konzepte für …"); der passende Skill springt automatisch an. Claude macht den Rest.</p></div></div>
       </div>
-      <div class="note warn rv"><span class="ic">!</span><div>Du brauchst <b>Lese-Zugriff aufs private Repo</b>, damit Schritt 1 klappt. Burak lädt dich einmalig ein (GitHub-Einladung per Mail annehmen). Ohne Zugriff meldet Claude „not found".</div></div>
+      <div class="note warn rv"><span class="ic">!</span><div>Skills brauchen einen aktiven Claude-Plan (Free/Pro/Max/Team/Enterprise) <b>mit eingeschalteter „Code execution"</b>. Lade am besten nur die Skills, die du wirklich brauchst — du kannst jederzeit weitere ergänzen.</div></div>
     </section>
 
     <!-- CLAUDE APP -->
     <section class="block" id="app">
-      <div class="eyebrow rv">Weg A · für die tägliche Arbeit</div>
-      <h2 class="rv">In der <span class="thin">Claude-App</span></h2>
-      <p class="sub rv">Der bequemste Weg: einmal installieren, immer da. So sieht's aus.</p>
+      <div class="eyebrow rv">Weg A · für alle im Team</div>
+      <h2 class="rv">In der <span class="thin">Claude-App &amp; claude.ai</span></h2>
+      <p class="sub rv">Skills lädst du hier als Datei hoch — über das Skills-Menü, nicht per Befehl. Funktioniert in der Desktop-App und im Browser identisch. So sieht's aus.</p>
       <div class="steps">
-        <div class="step rv"><div class="sn">1</div><div><h4>App öffnen (oder installieren)</h4><p>Noch nicht da: <a href="https://claude.ai/download" style="color:var(--accent)">claude.ai/download</a> → für Mac oder Windows laden, installieren, mit deinem ADMKRS-Account einloggen.</p></div></div>
-        <div class="step rv" data-d="1"><div class="sn">2</div><div><h4>Suite-Quelle hinzufügen</h4><p>Klick unten ins Eingabefeld und tippe den Befehl. Während du tippst, schlägt Claude Befehle vor.</p>
-          <div class="win"><div class="win-bar"><span class="win-dot r"></span><span class="win-dot y"></span><span class="win-dot g"></span><span class="win-title">Claude — neuer Chat</span></div>
-          <div class="win-body tight"><div class="prompt-line"><span class="caret">›</span><span class="cmd"><span class="slash">/plugin</span> marketplace add Burakaz/admkrs-creative-suite</span></div>
-          <div class="msg ai"><span class="who">Claude</span>✓ Marketplace „admkrs-marketplace" hinzugefügt. 1 Plugin verfügbar.</div></div></div>
-          <div class="cap">Schematische Darstellung — bei dir sieht das Fenster ähnlich aus.</div></div></div>
-        <div class="step rv" data-d="2"><div class="sn">3</div><div><h4>Suite installieren</h4><p>Jetzt den Install-Befehl. Claude installiert alle 11 Skills auf einmal.</p>
-          <div class="win"><div class="win-bar"><span class="win-dot r"></span><span class="win-dot y"></span><span class="win-dot g"></span><span class="win-title">Claude — Plugin installieren</span></div>
-          <div class="win-body tight"><div class="prompt-line"><span class="caret">›</span><span class="cmd"><span class="slash">/plugin</span> install admkrs-creative-suite</span></div>
-          <div class="docrow" style="margin-top:4px"><div class="fic">PLG</div><div style="flex:1"><div class="nm">admkrs-creative-suite · v1.1.1</div><div class="mt">11 Skills · ADMKRS GmbH</div></div><span class="badge-ok">installiert ✓</span></div></div></div></div></div>
-        <div class="step rv"><div class="sn">4</div><div><h4>Skill aufrufen mit <span style="color:var(--lime);font-family:var(--mono)">/</span></h4><p>Tippe einen Schrägstrich <span class="inline-code">/</span> ins Feld. Es klappt eine Liste auf — alle Skills. Tippe weiter zum Filtern, wähle den passenden.</p>
-          <div class="win"><div class="win-bar"><span class="win-dot r"></span><span class="win-dot y"></span><span class="win-dot g"></span><span class="win-title">Claude — Skill wählen</span></div>
-          <div class="win-body tight"><div class="prompt-line"><span class="caret">›</span><span class="cmd"><span class="slash">/</span>admkrs</span><span class="ph" style="margin-left:auto">11 Skills</span></div>
-          <div class="menu"><div class="menu-item sel"><span class="nm">/admkrs-cs-creative-briefing</span><span class="ds">Briefing als docx</span></div><div class="menu-item"><span class="nm">/admkrs-cs-creative-strategy-os</span><span class="ds">Strategie &amp; Testing</span></div><div class="menu-item"><span class="nm">/admkrs-cs-creative-teardown</span><span class="ds">Ads zerlegen</span></div></div></div></div>
-          <p style="margin-top:13px">Danach beschreibst du dein Produkt &amp; Ziel — siehe <a href="#briefing" style="color:var(--accent)">Dein erstes Briefing</a>.</p></div></div>
+        <div class="step rv"><div class="sn">1</div><div><h4>App öffnen (oder installieren)</h4><p>Noch nicht da: <a href="https://claude.ai/download" style="color:var(--accent)">claude.ai/download</a> → für Mac oder Windows laden und mit deinem ADMKRS-Account einloggen. Im Browser geht's direkt über <a href="https://claude.ai" style="color:var(--accent)">claude.ai</a>.</p></div></div>
+        <div class="step rv" data-d="1"><div class="sn">2</div><div><h4>Skills-Funktion einschalten</h4><p>Einmalig in den <b>Einstellungen → Capabilities</b> die Schalter aktivieren. Ohne „Code execution" laufen Skills nicht.</p>
+          <div class="win"><div class="win-bar"><span class="win-dot r"></span><span class="win-dot y"></span><span class="win-dot g"></span><span class="win-title">Einstellungen — Capabilities</span></div>
+          <div class="win-body tight">
+            <div class="set-row"><div class="si">⚙️</div><div class="st"><div class="nm">Code execution and file creation</div><div class="ds">nötig, damit Skills funktionieren</div></div><span class="tgl on"></span></div>
+            <div class="set-row"><div class="si">🧩</div><div class="st"><div class="nm">Skills</div><div class="ds">eigene Skills hinzufügen &amp; nutzen</div></div><span class="tgl on"></span></div>
+          </div></div>
+          <div class="cap">Schematische Darstellung — bei Team/Enterprise schaltet das der Org-Owner frei.</div></div></div>
+        <div class="step rv" data-d="2"><div class="sn">3</div><div><h4>Skill-Datei hochladen</h4><p>Geh zu <b>Customize → Skills</b>, klick <b>„+" → „Create skill" → „Upload a skill"</b> und wähle die heruntergeladene <span class="inline-code">.zip</span> (z.B. <span class="inline-code">admkrs-cs-creative-briefing.zip</span> aus dem <a href="#download" style="color:var(--accent)">Download</a>).</p>
+          <div class="win"><div class="win-bar"><span class="win-dot r"></span><span class="win-dot y"></span><span class="win-dot g"></span><span class="win-title">Customize — Skills</span></div>
+          <div class="win-body tight">
+            <div class="crumb">Customize › <b>Skills</b><span class="plus" style="display:inline-grid;width:22px;height:22px;vertical-align:middle;margin-left:8px">+</span></div>
+            <div class="drop"><div class="di">⬆️</div><div class="dt">ZIP hierher ziehen oder auswählen</div><div class="dz">admkrs-cs-creative-briefing.zip</div></div>
+          </div></div>
+          <div class="cap">Die ZIP enthält den Ordner + SKILL.md — genau das verlangt der Upload.</div></div></div>
+        <div class="step rv"><div class="sn">4</div><div><h4>Einschalten &amp; nutzen</h4><p>Der Skill erscheint in der Liste — Toggle <b>an</b>. Ab dann genügt es, Claude deine Aufgabe zu beschreiben; der Skill springt automatisch an.</p>
+          <div class="win"><div class="win-bar"><span class="win-dot r"></span><span class="win-dot y"></span><span class="win-dot g"></span><span class="win-title">Customize — Skills</span></div>
+          <div class="win-body tight">
+            <div class="set-row"><div class="si">🧩</div><div class="st"><div class="nm">admkrs-cs-creative-briefing</div><div class="ds">Briefing als docx · ADMKRS GmbH</div></div><span class="tgl on"></span></div>
+            <div class="set-row"><div class="si">🧩</div><div class="st"><div class="nm">admkrs-cs-ad-compliance-check</div><div class="ds">Compliance-Check vor Launch</div></div><span class="tgl on"></span></div>
+          </div></div>
+          <p style="margin-top:13px">Danach beschreibst du dein Produkt &amp; Ziel — siehe <a href="#briefing" style="color:var(--accent)">Dein erstes Briefing</a>. Wiederhol Schritt 3 für jeden weiteren Skill.</p></div></div>
       </div>
     </section>
 
@@ -349,7 +370,7 @@ footer{border-top:1px solid var(--line);padding:46px 0 64px;color:var(--muted);f
       <div class="cols">
         <div class="steps">
           <div class="step rv"><div class="sn">1</div><div><h4>Cowork-Projekt öffnen</h4><p>Öffne den <b>Cowork</b>-Bereich und gehe ins Team-Projekt (oder starte ein neues). Hier landen die fertigen Dateien.</p></div></div>
-          <div class="step rv" data-d="1"><div class="sn">2</div><div><h4>Suite ist projektweit da</h4><p>Ist die Suite installiert, stehen alle Skills im Projekt bereit. Falls nicht: dieselben zwei <span class="inline-code">/plugin</span>-Befehle wie bei Weg A.</p></div></div>
+          <div class="step rv" data-d="1"><div class="sn">2</div><div><h4>Deine Skills sind da</h4><p>Skills, die du wie in <a href="#app" style="color:var(--accent)">Weg A</a> hochgeladen hast, stehen automatisch auch in Cowork bereit — du musst nichts erneut installieren.</p></div></div>
           <div class="step rv" data-d="2"><div class="sn">3</div><div><h4>Aufgabe stellen → Datei kommt</h4><p>Beschreibe die Aufgabe und nenne den Skill. Claude legt z.B. das <span class="inline-code">.docx</span>-Briefing direkt im Projekt ab — herunterladen oder im Team teilen.</p></div></div>
         </div>
         <div>
@@ -361,6 +382,21 @@ footer{border-top:1px solid var(--line);padding:46px 0 64px;color:var(--muted);f
         </div>
       </div>
       <div class="note rv"><span class="ic">★</span><div><b>App oder Cowork?</b> Schnell ein Briefing/Hooks → <b>Claude-App</b>. Größere Aufgabe, mehrere Dateien, im Team sichtbar → <b>Cowork</b>. Die Skills sind in beiden identisch.</div></div>
+    </section>
+
+    <!-- CLAUDE CODE -->
+    <section class="block" id="code">
+      <div class="eyebrow rv">Weg C · für Entwickler</div>
+      <h2 class="rv">In <span class="thin">Claude Code</span></h2>
+      <p class="sub rv">Nutzt du <b style="color:var(--ink);font-weight:600">Claude Code</b> (CLI/IDE)? Dann geht's am schnellsten: alle 11 Skills mit zwei Befehlen als Plugin — Updates kommen automatisch. <span class="muted">In der normalen Claude-App gibt es <span class="inline-code">/plugin</span> nicht — dafür ist <a href="#app" style="color:var(--accent)">Weg A</a>.</span></p>
+      <div class="steps">
+        <div class="step rv"><div class="sn">1</div><div><h4>Marketplace einmalig hinzufügen</h4>
+          <div class="prompt-line" style="margin-top:4px"><span class="caret">›</span><span class="cmd"><span class="slash">/plugin</span> marketplace add Burakaz/admkrs-creative-suite</span></div></div></div>
+        <div class="step rv" data-d="1"><div class="sn">2</div><div><h4>Suite installieren</h4>
+          <div class="prompt-line" style="margin-top:4px"><span class="caret">›</span><span class="cmd"><span class="slash">/plugin</span> install admkrs-creative-suite</span></div>
+          <p style="margin-top:11px">Alle 11 Skills aktiv. Aufruf z.B. <span class="inline-code">/admkrs-cs-creative-briefing</span> — oder tippe <span class="inline-code">/admkrs</span>, dann erscheinen alle.</p></div></div>
+      </div>
+      <div class="note warn rv"><span class="ic">!</span><div>Setzt <b>Lese-Zugriff aufs private Repo</b> voraus (Burak lädt dich auf GitHub ein). Ohne Zugriff meldet Claude Code „not found".</div></div>
     </section>
 
     <!-- BRIEFING -->
@@ -414,15 +450,12 @@ Offer: 20% auf die Erstbestellung.</code></pre></div>
 
     <!-- DOWNLOAD -->
     <section class="block" id="download">
-      <div class="eyebrow rv">Alternativ ohne GitHub</div>
+      <div class="eyebrow rv">Die Skill-Dateien</div>
       <h2 class="rv">Download</h2>
-      <p class="sub rv">Der <b style="color:var(--ink);font-weight:600">empfohlene</b> Weg ist die Plugin-Installation oben (Updates automatisch). Wenn du Skills lieber einzeln in Cowork lädst oder die Suite offline brauchst:</p>
+      <p class="sub rv">Für die <b style="color:var(--ink);font-weight:600">Claude-App &amp; Cowork</b> lädst du hier die einzelnen Skill-ZIPs und ziehst sie per <b>Customize → Skills → „+" → „Upload a skill"</b> rein (siehe <a href="#app" style="color:var(--accent)">Weg A</a>). Eine ZIP = ein Skill.</p>
       <div class="dl-grid">
-        <div class="dl rv"><div class="tag">Komplett</div><h3>Die ganze Suite (.zip)</h3>
-          <p class="muted" style="font-size:14px;margin:7px 0 0">Alle 11 Skills, Manifeste, README &amp; Lizenz. Entpacken und als lokalen Marketplace laden — oder einzelne Skills daraus nutzen.</p>
-          <a class="dl-btn" href="downloads/admkrs-creative-suite.zip" download>↓ admkrs-creative-suite.zip</a></div>
-        <div class="dl rv" data-d="1"><div class="tag">Einzeln · Cowork</div><h3>Skill für Skill</h3>
-          <p class="muted" style="font-size:14px;margin:7px 0 10px">Jede Datei per <b>„Save skill"</b> in Cowork installieren.</p>
+        <div class="dl rv" data-d="1"><div class="tag">Für App &amp; Cowork</div><h3>Skill für Skill</h3>
+          <p class="muted" style="font-size:14px;margin:7px 0 10px">Jede ZIP einzeln über <b>Customize → Skills → Upload a skill</b> hochladen. Nimm nur, was du brauchst.</p>
           <ul class="dl-list">
             <li><a href="downloads/skills/admkrs-cs-creative-strategy-os.zip" download>admkrs-cs-creative-strategy-os <span class="arr">↓</span></a></li>
             <li><a href="downloads/skills/admkrs-cs-creative-briefing.zip" download>admkrs-cs-creative-briefing <span class="arr">↓</span></a></li>
@@ -436,6 +469,9 @@ Offer: 20% auf die Erstbestellung.</code></pre></div>
             <li><a href="downloads/skills/admkrs-cs-pitch-teardown.zip" download>admkrs-cs-pitch-teardown <span class="arr">↓</span></a></li>
             <li><a href="downloads/skills/admkrs-cs-ad-compliance-check.zip" download>admkrs-cs-ad-compliance-check <span class="arr">↓</span></a></li>
           </ul></div>
+        <div class="dl rv"><div class="tag">Für Claude Code / offline</div><h3>Die ganze Suite (.zip)</h3>
+          <p class="muted" style="font-size:14px;margin:7px 0 0">Alle 11 Skills + Manifeste, README &amp; Lizenz in einem Paket — für Claude Code (lokaler Marketplace) oder zum Archivieren. <b>Nicht</b> für den App-Upload (der will einzelne Skills).</p>
+          <a class="dl-btn" href="downloads/admkrs-creative-suite.zip" download>↓ admkrs-creative-suite.zip</a></div>
       </div>
       <div class="note rv"><span class="ic">★</span><div><span class="inline-code">admkrs-cs-creative-briefing</span> und <span class="inline-code">admkrs-cs-ugc-briefing</span> erzeugen Word-Dokumente. Bei lokaler Nutzung einmalig im jeweiligen <span class="inline-code">assets/</span>-Ordner <span class="inline-code">npm install</span>. In der App/Cowork passiert das automatisch.</div></div>
     </section>
@@ -444,7 +480,7 @@ Offer: 20% auf die Erstbestellung.</code></pre></div>
     <section class="block" id="skills">
       <div class="eyebrow rv">Nachschlagen</div>
       <h2 class="rv">Die 11 Skills — <span class="thin">was jeder macht</span></h2>
-      <p class="sub rv">Jeden rufst du mit <span class="inline-code">/name</span> auf. Sie kennen sich gegenseitig — das Strategy-OS dirigiert, die anderen liefern.</p>
+      <p class="sub rv">Du beschreibst einfach deine Aufgabe — der passende Skill springt automatisch an (in Claude Code auch direkt per <span class="inline-code">/name</span>). Sie kennen sich gegenseitig: das Strategy-OS dirigiert, die anderen liefern.</p>
 
       <div class="grp-label rv">Strategie &amp; Output</div>
       <div class="grid">
@@ -479,12 +515,12 @@ Offer: 20% auf die Erstbestellung.</code></pre></div>
       <div class="eyebrow rv">Wenn was hakt</div>
       <h2 class="rv">Häufige <span class="thin">Fragen</span></h2>
       <div class="rv" style="margin-top:22px">
-        <details><summary>Claude sagt „marketplace not found" / „repository not found"</summary><p>Dann fehlt dir der Lese-Zugriff aufs private Repo. Bitte Burak, dich auf GitHub als Collaborator einzuladen (E-Mail-Einladung annehmen). Danach Schritt 1 nochmal.</p></details>
-        <details><summary>Ich finde das Eingabefeld / die <code>/</code>-Befehle nicht</summary><p>Das ist das Textfeld unten im Chat, in das du normalerweise tippst. Ein einzelner Schrägstrich <code>/</code> öffnet die Skill-Liste. Tippst du <code>/plugin</code>, kommen die Plugin-Befehle.</p></details>
-        <details><summary>Muss ich Befehle exakt tippen?</summary><p>Nur die zwei <code>/plugin</code>-Zeilen bei der Einrichtung sollten genau stimmen. Beim Arbeiten danach schreibst du normal auf Deutsch — Claude versteht dich auch ohne perfekte Syntax.</p></details>
-        <details><summary>Bekomme ich Updates automatisch?</summary><p>Ja, wenn du über das Plugin installiert hast (Quickstart / Weg A). Sobald Burak eine neue Version pusht, aktualisiert sich die Suite. Bei manuellem Download lädst du die neue .zip selbst.</p></details>
+        <details><summary>In meiner Claude-App gibt es kein <code>/plugin</code>!</summary><p>Richtig — <code>/plugin</code> und Marketplaces gibt es <b>nur in Claude Code</b> (dem Entwickler-Tool). In der normalen Claude-App, auf claude.ai und in Cowork lädst du Skills stattdessen über <b>Customize → Skills → „+" → „Upload a skill"</b> hoch (siehe <a href="#app">Weg A</a>). Das ist der richtige Weg für fast alle im Team.</p></details>
+        <details><summary>Beim Upload passiert nichts / „Skills" fehlt im Menü</summary><p>Dann ist die Skills-Funktion noch aus. Geh in die <b>Einstellungen → Capabilities</b> und aktiviere <b>„Code execution and file creation"</b>. Bei Team/Enterprise muss das der Org-Owner in den Org-Settings freigeben.</p></details>
+        <details><summary>Welche Datei lade ich hoch — die große Suite-ZIP?</summary><p>Nein. Für den App-Upload nimmst du die <b>einzelnen</b> Skill-ZIPs (z.B. <code>admkrs-cs-creative-briefing.zip</code>) — eine ZIP = ein Skill. Die große Suite-ZIP ist nur für Claude Code / zum Archivieren.</p></details>
+        <details><summary>Muss ich Befehle exakt tippen?</summary><p>In der App gar nicht — du beschreibst deine Aufgabe normal auf Deutsch, der Skill springt automatisch an. Nur in Claude Code sollten die zwei <code>/plugin</code>-Zeilen genau stimmen.</p></details>
+        <details><summary>Bekomme ich Updates automatisch?</summary><p>In <b>Claude Code</b>: ja (Plugin-Installation aktualisiert sich). In der <b>App</b>: bei größeren Updates die neue Skill-ZIP nochmal hochladen — Burak sagt im Team Bescheid, wenn's eine neue Version gibt.</p></details>
         <details><summary>Sind hier echte Kundendaten drin?</summary><p>Nein. Alle Beispiele nutzen die fiktive Marke „NOVA". Die Suite enthält unsere Methodik, keine Kundendaten.</p></details>
-        <details><summary>Geht das auch im Browser ohne App?</summary><p>Die <code>/plugin</code>-Installation ist für App/Cowork gedacht. Im Browser nutzt du Skills einzeln über den Download (Cowork → „Save skill").</p></details>
       </div>
     </section>
 
