@@ -5,7 +5,7 @@
 **Das Creative-Strategy-Betriebssystem der ADMKRS GmbH.**
 11 verzahnte Skills für Paid-Social- & Google-Creative-Strategy auf höchstem Niveau — Meta (Andromeda) & Google.
 
-`v1.1.0` · © 2026 ADMKRS GmbH, München · interner Gebrauch
+`v1.1.1` · © 2026 ADMKRS GmbH, München · interner Gebrauch
 
 </div>
 
@@ -19,19 +19,19 @@ Grundprinzipien (in allen Skills): **Klarheit vor Kunst · echte Creative-Divers
 ## Die 11 Skills
 | Skill | Wofür |
 | --- | --- |
-| **creative-strategy-os** | Das Vorgehen: neue Brand von Tag 1 bis zum skalierten Test-Motor (Onboarding → Audit → Research → Diversity → Test → Diagnose → Iterate → Scale → Cadence). |
-| **creative-briefing** | Schreibt die Briefings (Hooks, Konzepte, Storyboards) als docx im ADMKRS-Stil. Enthält Strategy-, Hook- & Framework-Engines, die **Creative-Format-Bibliothek** (Video + Static) und Field-Notes. |
-| **ugc-briefing** | Erstellt das komplette UGC-Creator-Briefing als docx (B4) — ein Dokument für Creator UND Kunden: Brand-Vorstellung, virale Hook-Tricks, Storytelling-Frameworks je Awareness, drehfertige Scripts (3 Hooks · 1 Body) + Out-of-the-box-/Scroll-Breaker-Layer. |
-| **creative-teardown** | Fremde/eigene Gewinner-Ads zerlegen (6-Pass), Meta-Ad-Library lesen, Swipe-File. |
-| **performance-reporting** | Reports mit Learnings statt Vanity: Metrik-Stack, Profit/MER, Attribution 2026, Report-Architektur, Campaign-Tracker. |
-| **landing-page-cro** | Landingpages auf Conversion briefen/auditieren (Message-Match, Core Web Vitals, Checkout-Friction). |
-| **offer-promo-strategy** | Offers margenbewusst designen (Break-even-Math, Cadence). |
-| **ugc-creator-ops** | Creator sourcen/briefen, Partnership-Ads, Rechte & EU-Kennzeichnung. |
-| **google-cross-channel** | Creatives für Demand Gen / PMax / YouTube mit exakten 2026-Specs. |
-| **pitch-teardown** | Neukunden über audit-/teardown-geführtes Selling gewinnen. |
-| **ad-compliance-check** | Creatives gegen Meta-Standards 2026 + EU/DACH prüfen, bevor sie live gehen. |
+| **admkrs-cs-creative-strategy-os** | Das Vorgehen: neue Brand von Tag 1 bis zum skalierten Test-Motor (Onboarding → Audit → Research → Diversity → Test → Diagnose → Iterate → Scale → Cadence). |
+| **admkrs-cs-creative-briefing** | Schreibt die Briefings (Hooks, Konzepte, Storyboards) als docx im ADMKRS-Stil. Enthält Strategy-, Hook- & Framework-Engines, die **Creative-Format-Bibliothek** (Video + Static) und Field-Notes. |
+| **admkrs-cs-ugc-briefing** | Erstellt das komplette UGC-Creator-Briefing als docx (B4) — ein Dokument für Creator UND Kunden: Brand-Vorstellung, virale Hook-Tricks, Storytelling-Frameworks je Awareness, drehfertige Scripts (3 Hooks · 1 Body) + Out-of-the-box-/Scroll-Breaker-Layer. |
+| **admkrs-cs-creative-teardown** | Fremde/eigene Gewinner-Ads zerlegen (6-Pass), Meta-Ad-Library lesen, Swipe-File. |
+| **admkrs-cs-performance-reporting** | Reports mit Learnings statt Vanity: Metrik-Stack, Profit/MER, Attribution 2026, Report-Architektur, Campaign-Tracker. |
+| **admkrs-cs-landing-page-cro** | Landingpages auf Conversion briefen/auditieren (Message-Match, Core Web Vitals, Checkout-Friction). |
+| **admkrs-cs-offer-promo-strategy** | Offers margenbewusst designen (Break-even-Math, Cadence). |
+| **admkrs-cs-ugc-creator-ops** | Creator sourcen/briefen, Partnership-Ads, Rechte & EU-Kennzeichnung. |
+| **admkrs-cs-google-cross-channel** | Creatives für Demand Gen / PMax / YouTube mit exakten 2026-Specs. |
+| **admkrs-cs-pitch-teardown** | Neukunden über audit-/teardown-geführtes Selling gewinnen. |
+| **admkrs-cs-ad-compliance-check** | Creatives gegen Meta-Standards 2026 + EU/DACH prüfen, bevor sie live gehen. |
 
-**Wie sie zusammenspielen:** `creative-strategy-os` dirigiert — Audit nutzt `creative-teardown` + `performance-reporting`; Research/Diversity speist `creative-briefing`; das Briefing zieht `offer-promo-strategy` und (für Google) `google-cross-channel`; für Creator-Content liefert `ugc-briefing` das UGC-Briefing-Dokument und `ugc-creator-ops` die Operations (Sourcing/Rechte/Partnership-Ads); vor Launch läuft `ad-compliance-check`; die Landingpage über `landing-page-cro`; nach Launch diagnostiziert `performance-reporting` → nächste Runde. `pitch-teardown` gewinnt die Brand überhaupt erst.
+**Wie sie zusammenspielen:** `admkrs-cs-creative-strategy-os` dirigiert — Audit nutzt `admkrs-cs-creative-teardown` + `admkrs-cs-performance-reporting`; Research/Diversity speist `admkrs-cs-creative-briefing`; das Briefing zieht `admkrs-cs-offer-promo-strategy` und (für Google) `admkrs-cs-google-cross-channel`; für Creator-Content liefert `admkrs-cs-ugc-briefing` das UGC-Briefing-Dokument und `admkrs-cs-ugc-creator-ops` die Operations (Sourcing/Rechte/Partnership-Ads); vor Launch läuft `admkrs-cs-ad-compliance-check`; die Landingpage über `admkrs-cs-landing-page-cro`; nach Launch diagnostiziert `admkrs-cs-performance-reporting` → nächste Runde. `admkrs-cs-pitch-teardown` gewinnt die Brand überhaupt erst.
 
 ## Struktur
 ```
@@ -65,7 +65,7 @@ git branch -M main
 git remote add origin git@github.com:Burakaz/admkrs-creative-suite.git   # privates Repo zuerst anlegen
 git push -u origin main
 ```
-> Repo **privat** halten, solange interne Methoden/IP enthalten sind. Die Skills `creative-briefing` und `ugc-briefing` nutzen für die docx-Generierung `docx` (Node) — einmalig je `cd skills/<skill>/assets && npm install`.
+> Repo **privat** halten, solange interne Methoden/IP enthalten sind. Die Skills `admkrs-cs-creative-briefing` und `admkrs-cs-ugc-briefing` nutzen für die docx-Generierung `docx` (Node) — einmalig je `cd skills/<skill>/assets && npm install`.
 
 ### Team-Website
 Eine fertige Info-Website fürs Team liegt unter [`docs/index.html`](docs/index.html) — einfach lokal öffnen, oder via **GitHub Pages** veröffentlichen: Repo → *Settings → Pages → Source: `main` / `/docs`*. Sie erklärt die Suite, die 11 Skills und die Installation.
