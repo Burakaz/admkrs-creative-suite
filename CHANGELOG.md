@@ -1,5 +1,11 @@
 # Changelog — ADMKRS Creative Suite
 
+## v1.1.4 — 2026-06
+Anzeigename & Feinschliff.
+
+- `displayName: "ADMKRS – Creative Strategy Suite"` in plugin.json — Plugin erscheint in der UI unter diesem Namen (technischer `name` / Install-ID bleibt `admkrs-creative-suite`).
+- Website-Downloads zeigen jetzt auf `releases/latest` (kein versioniertes Nachziehen mehr nötig).
+
 ## v1.1.3 — 2026-06
 Motion-Ad-Voice-over: Pflicht + Redefluss statt Stakkato.
 
