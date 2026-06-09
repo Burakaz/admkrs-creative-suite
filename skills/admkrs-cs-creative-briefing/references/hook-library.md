@@ -1,15 +1,17 @@
-# Hook-Library — die Hook-Engine
+# Hook-Library – die Hook-Engine
 
-Der Hook ist ~80 % der Miete und Andromedas stärkstes Signal (siehe `creative-strategy.md` §2). Diese Datei ist das **Arsenal**: kategorisierte Fill-in-Templates, aus denen du schnell scharfe Hook-Optionen baust. Die *Handwerks-Regeln* (1-Sekunden-Test, konkret>generisch, Banned-Buzzwords) stehen in `copywriting.md` — hier sind die Muster.
+Der Hook ist ~80 % der Miete und Andromedas stärkstes Signal (siehe `creative-strategy.md` §2). Diese Datei ist das **Arsenal**: kategorisierte Fill-in-Templates, aus denen du schnell scharfe Hook-Optionen baust. Die *Handwerks-Regeln* (1-Sekunden-Test, konkret>generisch, Banned-Buzzwords) stehen in `copywriting.md` – hier sind die Muster.
 
 ## So benutzt du diese Library
 1. **Awareness & Angle bestimmen** (aus `creative-strategy.md`): Wo steht die Person? Welche Tür (Pain/Desire/Proof/…) öffnen wir?
 2. **Kategorie wählen** (unten), die zu Awareness + Angle passt.
-3. **Template füllen** — Platzhalter `[ ]` durch **echte** Zahl/Name/Situation ersetzen (nie erfinden, gesperrte Fakten 1:1).
-4. **Klartext-Tests** aus `copywriting.md` drüberlaufen lassen (Oma-/1-Sekunden-/Cut-Test).
-5. **3 Optionen aus *verschiedenen* Kategorien** bauen (A/B/C) — so testet man den Scroll-Stop unabhängig vom Konzept (Motion/Video brauchen genau das).
+3. **Template füllen** – Platzhalter `[ ]` durch **echte** Zahl/Name/Situation ersetzen (nie erfinden, gesperrte Fakten 1:1).
+4. **Klartext-Gate** aus `copywriting.md` §1 drüberlaufen lassen – **Pflicht, hart:** Kontext-frei-Test (jedes Substantiv konkret, kein „welche/r/s genau?" offen) · Schachtel-Test (ein Gedanke, ein Hauptsatz) · Oma- · 1-Sekunden- · Cut-Test. Danach den **Kürzen-Pass**.
+5. **3 Optionen aus *verschiedenen* Kategorien** bauen (A/B/C) – so testet man den Scroll-Stop unabhängig vom Konzept (Motion/Video brauchen genau das).
 
 Faustregeln, die für *alle* Hooks gelten: unter ~10 Wörter · funktioniert ohne Ton (Caption-tragbar) · vorne das Spannendste, nicht der Markenname · eine Idee · Marken-Voice statt Generic-AI.
+
+> **⚠️ Klarheits-Gate über allen Templates.** Templates sind Gerüste – sie verleiten leicht zu **kontext-abhängigen Claims** („Eine Zahl im Monat") und **Schachtelsätzen**. Ein gefülltes Template, das man nur versteht, wenn man die Auflösung schon kennt, ist **kaputt** → umschreiben (Fehlerbilder: `copywriting.md` §1b). Detail/Beweis gehört in die Sub-/USP-Zeile, **nicht** in den Hook. Klarheit steht **über** Haltung/Cleverness: eine Pointe oder Haltung, die der kalte Betrachter nicht in 1 Sekunde versteht, ist wertlos.
 
 ---
 
@@ -42,11 +44,12 @@ Jede Kategorie: *wann (Awareness)* → Templates → 1 gefülltes ADMKRS-Beispie
 - `Alles, was du über [Thema] weißt, ist falsch.`
 - `Kanntest du diesen [Nische]-Trick?`
 - EN: `The [thing] that [authority] doesn't want you to know.`
-> *Vorsicht ADMKRS:* nur einsetzen, wenn die Auflösung wirklich überrascht — sonst Clickbait. Klarheit gewinnt.
+> *Vorsicht ADMKRS:* nur einsetzen, wenn die Auflösung wirklich überrascht – sonst Clickbait. Klarheit gewinnt.
+> Bsp (kontext-frei): „Warum dein Proteinshake dich nachmittags müde macht." *(`[Thema]` konkret – eine offene „Lücke" wie „Das wussten Sie noch nicht …" verfehlt den Kontext-frei-Test.)*
 
 ### 4 · Social Proof / Review / Testimonial
 *Wann:* Product-Aware, Vertrauens-Bottleneck.
-- `★★★★★ „[echtes Review-Zitat]" — [Name], [Ort]`
+- `★★★★★ „[echtes Review-Zitat]" – [Name], [Ort]`
 - `Mein Go-to-[Produkt] für [Ergebnis].`
 - `Es gibt einen Grund, warum [Produkt] ständig ausverkauft ist.`
 - `Ich hab jedes [Produktkategorie] getestet, damit du es nicht musst.`
@@ -57,7 +60,7 @@ Jede Kategorie: *wann (Awareness)* → Templates → 1 gefülltes ADMKRS-Beispie
 *Wann:* Most-Aware, Bottom-Funnel.
 - `Das ist dein Zeichen, [Aktion] zu machen.`
 - `Nur noch [Zahl/Zeit]: [Offer].`
-- `Wenn du [Produkt] noch nicht probiert hast — jetzt.`
+- `Wenn du [Produkt] noch nicht probiert hast – jetzt.`
 > *ADMKRS:* Dringlichkeit nur, wenn echt (kein Fake-Countdown). Offer 1:1 wie freigegeben.
 
 ### 6 · Comparison / Switch / „vs."
@@ -74,48 +77,51 @@ Jede Kategorie: *wann (Awareness)* → Templates → 1 gefülltes ADMKRS-Beispie
 - `Was [Profis] über [Thema] wissen, das du nicht weißt.`
 - `3 Gründe, warum du [Produkt] brauchst.`
 - `Die häufigsten Fehler, die [Zielgruppe] macht.`
+> Bsp (kontext-frei): „Was Sportmediziner über Zucker im Eiskaffee sagen." *(`[Thema]`/`[Profis]` konkret füllen – kein offenes Substantiv stehen lassen.)*
 
 ### 8 · Lifestyle / Identity / Aspiration
 *Wann:* Identity-Angle, Desire.
 - `[Nische], die mich wie [Identität] fühlen lässt.`
 - `Der faule Weg zu [Ergebnis].`
 - `Für alle, die [Wert/Haltung] über [Kompromiss] stellen.`
-- `Wie ich [Lifestyle] erreiche — ohne [Opfer].`
+- `Wie ich [Lifestyle] erreiche – ohne [Opfer].`
 > Bsp: „Für alle, die ihren Morgen nicht zwischen Genuss und Protein entscheiden wollen."
 
 ### 9 · Story / Narrative / Behind-the-Scenes
 *Wann:* Cold, Storytelling-Vehikel (Video/UGC).
 - `[Zeitpunkt] her hab ich was entdeckt, das alles verändert hat.`
 - `A day in the life: [Zielgruppe], die [Ergebnis] erreicht.`
-- `Come with me — [Aktivität] mit [Produkt].`
+- `Come with me – [Aktivität] mit [Produkt].`
 - `Ich hab gerade mein Paket von [Brand] bekommen.`
+> Bsp (kontext-frei): „Vor einem Jahr hab ich meinen letzten Zucker-Eiskaffee getrunken." *(konkretes Bild, keine vage „Sache, die alles veränderte".)*
 
 ### 10 · Question / Engagement
 *Wann:* Qualifizieren, Scroll-Stop.
 - `Wer will [Ergebnis] ohne [Pain Point]?`
 - `Wie isst du eigentlich genug [Nährstoff]? (Die meisten unterschätzen es.)`
 - `Bist du auch [Verhalten]? Dann ist das für dich.`
-> *ADMKRS:* nur fragen, wenn die Antwort unbequem/überraschend ist — sonst verschenkt.
+> *ADMKRS:* nur fragen, wenn die Antwort unbequem/überraschend ist – sonst verschenkt.
 
 ### 11 · Trend / Viral / Pop-Culture
 *Wann:* nativer Social-Stop, junge Zielgruppen.
 - `Dinge in meinem/meiner [Kategorie], die einfach Sinn ergeben.`
 - `„Es ist nur [Kategorie]." Das [Produkt]: [Transformation zeigen].`
 - `Sachen, ohne die ich nicht mehr leben kann.`
-> *ADMKRS:* nur Trends, die zur Brand passen — kein Trend-Hopping um des Trends willen.
+> *ADMKRS:* nur Trends, die zur Brand passen – kein Trend-Hopping um des Trends willen.
 
 ### 12 · Objection-Handling / Skepsis
 *Wann:* Product-Aware, „klingt zu gut".
-- `Ein [Produkt] gegen [Problem] — aber funktioniert es wirklich?`
+- `Ein [Produkt] gegen [Problem] – aber funktioniert es wirklich?`
 - `Klingt zu gut? Lies die Zutaten.`
 - `Ich hatte selbst Zweifel, aber …`
-- `Das ist [Produkt] — und ich zeig dir, was es macht.`
+- `Das ist [Produkt] – und ich zeig dir, was es macht.`
 
 ### 13 · Emotional Trigger (Hope / Frustration)
 *Wann:* High-emotion, Desire/Transformation.
 - `Das [Produkt], nach dem du gesucht hast.`
 - `„Das perfekte [Produkt] gibt es nicht." [Dann widerlegen.]`
-- `Wie ich [Transformation] geschafft hab — ohne [Einwand].`
+- `Wie ich [Transformation] geschafft hab – ohne [Einwand].`
+> Bsp (kontext-frei): „Endlich ein Eiskaffee, der satt macht statt nervös." *(Emotion braucht einen konkreten Anker – „Das Produkt, nach dem du gesucht hast" allein verfehlt den Kontext-frei-Test.)*
 
 ### 14 · Number / Stat / Volume-Math  *(stärkster Andromeda-Stopper)*
 *Wann:* fast immer einsetzbar; konkrete Zahl = sofortiger Stop.
@@ -128,10 +134,10 @@ Jede Kategorie: *wann (Awareness)* → Templates → 1 gefülltes ADMKRS-Beispie
 *Wann:* Scroll-nativer Pattern-Interrupt; das Hirn liest diese Formate automatisch.
 - **Interface-Hijacking:** Text-Screenshot · Notes-App-Eintrag · Slack-/Chat-Thread · Tweet-Screenshot · Notification-Popup als Hook-Frame.
 - **Fake Text Exchange** (inszenierter Chat) · **Comment-Skeptic** (echter/negativer Kommentar + direkte Antwort) · **Multi-Screen-Self-Conversation** (für nicht-physische Produkte) · **Whiteboard-Explainer** (komplexe Produkte) · **„People always ask me …"**.
-> *ADMKRS:* nur, wenn echt/plausibel und markenkonform — keine erfundenen Chats/Kommentare als „echt" ausgeben. Quelle & Detail in `field-notes.md` §3.
+> *ADMKRS:* nur, wenn echt/plausibel und markenkonform – keine erfundenen Chats/Kommentare als „echt" ausgeben. Quelle & Detail in `field-notes.md` §3.
 
-### 16 · Haltung / Anti-Kategorie  *(Voss — Position beziehen statt Kategorie-Claim)*
-*Wann:* Differenzierung in austauschbaren Kategorien; wenn der naheliegende Hook ein Claim ist, den jede Agentur sagen könnte. Voss: „Sei anders." / „Wer keine Haltung hat und keinen Charakter, geht in der Masse unter." **Klarheit-Tests bleiben Pflicht** — anecken nie auf Kosten der Verständlichkeit. Details: `voss-principles.md`.
+### 16 · Haltung / Anti-Kategorie  *(Voss – Position beziehen statt Kategorie-Claim)*
+*Wann:* Differenzierung in austauschbaren Kategorien; wenn der naheliegende Hook ein Claim ist, den jede Agentur sagen könnte. Voss: „Sei anders." / „Wer keine Haltung hat und keinen Charakter, geht in der Masse unter." **Klarheit steht über Haltung – Pflicht, hart:** eine Haltung muss in **einfacher Sprache** in 1 Sekunde rüberkommen, sonst ist sie wertlos. Gerade „offene Frage", „Tabu" und „falsche Prämisse" verleiten zu kontext-abhängigen/verschachtelten Sprüchen → Kontext-frei- & Schachtel-Test (`copywriting.md` §1/§1b) gelten auch hier. Details: `voss-principles.md`.
 - **Falsche Prämisse kippen:** `[Was alle in der Kategorie glauben]? Stimmt nicht.` · `Du brauchst kein [naheliegende Lösung]. Du brauchst [Reframe].`
 - **Offene Frage / Reframe** (Behauptung → Projektion): `[Produktkategorie]? Oder ist es längst [größere Bedeutung]?` → Muster „Is it love?": nicht behaupten, fragen lassen.
 - **Tabu / anecken:** `Sagt sonst keiner: [unbequeme Wahrheit der Kategorie].` · `[Branche] redet nicht gern über [Tabu]. Wir schon.`
@@ -165,4 +171,4 @@ Wähle die Kategorie nach:
 Pro Konzept **3 Hooks aus 3 verschiedenen Kategorien** (z. B. Number + Comparison + Proof). Variiere: emotional vs. logisch · Frage vs. Aussage · Problem- vs. Benefit-fokussiert · breit vs. nischig. Das ist die A/B/C-Logik der Motion/Video-Briefings.
 
 ---
-*Quelle der Template-Sammlung: adcreativeacademy.com „Comprehensive Hook Database" & „Creative Hook Framework Database" (Course 401), synthetisiert und für ADMKRS/Andromeda + DE/EN adaptiert. Templates sind Startpunkte — immer mit echten Fakten füllen und auf Klarheit trimmen.*
+*Quelle der Template-Sammlung: adcreativeacademy.com „Comprehensive Hook Database" & „Creative Hook Framework Database" (Course 401), synthetisiert und für ADMKRS/Andromeda + DE/EN adaptiert. Templates sind Startpunkte – immer mit echten Fakten füllen und auf Klarheit trimmen.*

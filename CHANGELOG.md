@@ -1,5 +1,15 @@
 # Changelog — ADMKRS Creative Suite
 
+## v1.3.1 — 2026-06
+`creative-briefing`: Klarheit hart durchgesetzt (gegen „gewollt kreative", kontext-abhängige Hooks).
+
+- **Neue harte Tests** in `copywriting.md` §1 + Qualitäts-Check (`SKILL.md`): **Kontext-frei-Test** (jedes Substantiv konkret — kein offenes „welche Zahl/Rechnung?"), **Schachtel-Test** (ein Gedanke/Hauptsatz), **Kürzen-Pass (Pflicht)** und **Detail-Regel** (Beweise/Zahlen/Listen in Sub/USP, nicht in den Hook).
+- **Neuer Abschnitt `copywriting.md` §1b „Anti-Patterns — sofort umschreiben"**: kontext-abhängiger Claim · Schachtelsatz · vage Dreierliste · gewollt kreatives Wortspiel · abstrakte Gleichsetzung — je mit Vorher/Nachher.
+- **weak→strong** um Praxisfälle erweitert (u. a. „Eine Zahl im Monat…" → „Ein Fixpreis im Monat. Alles drin.").
+- **hook-library.md**: Klarheits-Gate über allen Templates; kontext-freie Beispiele für Kategorien, die vorher keins hatten (Curiosity/Authority/Story/Emotional); Klarheit **über** Haltung (Voss-Kat 16).
+- Leitprinzip „Klarheit vor Kunst" in `SKILL.md` verschärft (mit Beispiel). Motion-/Statics-Beispiele bauen weiter; ein vager Beispiel-Hook auf ein konkretes (verbatim) Review-Fragment korrigiert.
+- **ADMKRS-Hausregel: kein langer Gedankenstrich „—" (Em-Dash)** in produzierter Copy — verankert in `copywriting.md` §8, Quality-Check (`SKILL.md`) & `ugc-briefing`. Lange „—" in den Beispiel-Briefings + Copy-Docs auf „–"/Satzzeichen umgestellt (Quell-Zitate in `field-notes.md`/`voss-principles.md` unangetastet).
+
 ## v1.3.0 — 2026-06
 Format-Türen: Static / Motion / Video als eigene Skills (gleiche Engine).
 
