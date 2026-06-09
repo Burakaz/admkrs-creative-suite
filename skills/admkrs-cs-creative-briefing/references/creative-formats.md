@@ -74,6 +74,24 @@ Animiert / faceless / skalierbar. Gut ohne Dreh.
 
 ---
 
+## 5b — VIDEO · Voice-Over-First (Pflicht für alle Motion/Video-Konzepte)
+
+**Default-Doktrin: Jedes Motion-/Video-Konzept wird VO-first gebrieft.** Das **Voice-Over-Skript ist das Rückgrat** des Videos — ein sauberer Lesefluss der VO trägt den Watch-Flow. Bild und On-Screen-Text **hängen sich an die VO-Beats**, nicht umgekehrt. (Auch faceless Motion-Graphics/Data-led laufen mit VO; reine sound-on-ASMR/Cinematic sind die begründete Ausnahme.) Im Dokument steht deshalb das **„VO-Script (Spine)"** als zusammenhängender, am Stück lesbarer Block **vor** dem time-coded Storyboard (siehe `document-format.md`).
+
+**Schreibregeln für den VO-Lesefluss:**
+- **Hook in Sekunde 0–2.** Die erste VO-Zeile ist der Hook und kommt vor jedem Branding/Setup. *Plattform-Doku:* die Kern-**Proposition in die ersten 3 s**, der **Hook spätestens bis Sek. 6** (TikTok). „Get to the heart of the story faster." (Google ABCD).
+- **Fürs Ohr schreiben, nicht fürs Auge.** Jeden Satz laut lesen — was sich verhakt, fliegt raus. „Scripts should sound natural when spoken." / „Keep it conversational and natural." (Motion). Konversationell in der Sprache der Zielgruppe, kein Corporate-/Werbe-Sprech.
+- **Tempo:** kurze Hauptsätze, **ein Gedanke pro Satz**, keine Schachtelsätze. Captions bei **~5–10 Wörtern/Sekunde** anzeigen (TikTok-Doku) — das gesprochene VO entsprechend ruhig takten, damit Ton und Caption synchron bleiben. Short-Form-Richtwert: **~60 Wörter / unter 20 s** (Motion).
+- **Momentum & offene Schleifen.** Früh eine offene Schleife/Cliffhanger setzen, spät auflösen — „Use traditional storytelling tactics (like cliffhangers & teasers) to drive up watch time." (Motion). **Jeder Satz zieht in den nächsten.**
+- **Keine Dead Air.** Jede Zeile trägt Info oder Spannung. Reine Überleitungszeilen streichen.
+- **Ein Benefit, gezeigt.** „Pick one product benefit and show (don't tell)." (Motion) — das VO begleitet die Demonstration, ersetzt sie nicht.
+- **CTA am Ende explizit aussprechen,** nicht nur einblenden: „Reinforce your onscreen CTA with voice-over to ensure the next step is clear." (Google).
+- **Sound-off-tauglich:** immer Captions; die Kernaussage muss als Text allein funktionieren (viele schauen ohne Ton — Motion).
+
+> Belege & Quellen (Plattform-Doku vs. Practitioner sauber getrennt): `field-notes.md`. Der **Redefluss-Standard** (kein Stakkato, jede Zeile knüpft an) + Vorher/Nachher: `copywriting-frameworks.md` §4b. Für **Haltung** im VO: `voss-principles.md`.
+
+---
+
 ## 6 — STATIC & Nicht-Video
 
 ### Single-Image & Text/Hook

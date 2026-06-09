@@ -33,6 +33,15 @@ Inhalt: 1) ADMKRS-Cross-Account-Learnings · 2) Frameworks worth stealing · 3) 
 - **SLCT + Pass³ (Briefing für KI-Assets):** `Subject · Lighting/Look · Camera · Technical` als Prompt-Struktur für KI-Bild/Video; Pass³ = 3-Pass-Check vor Nutzung.
 - **Neue Struktur-Frameworks** (Ergänzung zu `copywriting-frameworks.md`): **SCQA** (Situation·Complication·Question·Answer) für Edu/Problem-Aware; **LIFT** (Value-Prop·Relevance·Clarity·Anxiety·Distraction·Urgency) als Ad-/LP-Diagnose.
 
+## 2b — Voice-Over/Script-getriebener Watch-Through (Evidenz für VO-First)
+
+Belege dafür, dass das **VO-/Skript** der Retention-Hebel bei Short-Form ist — Grundlage der VO-First-Doktrin (`creative-formats.md` §5b, `document-format.md`). **Plattform-Doku** und **Practitioner** getrennt markiert; nur per Fetch verifizierte Zitate.
+
+- **Plattform-Doku — Google (ABCD, Google-Ads-Hilfe):** „Get to the heart of the story faster, and use engaging pacing and tight framing to draw viewers in." · „Reinforce your message with audio and text." · „Reinforce your onscreen CTA with voice-over to ensure the next step is clear." → Hook früh, Audio/VO trägt die Botschaft, CTA explizit per VO.
+- **Plattform-Doku — TikTok (Creative best practices):** „Prioritize your hook in the first 6 seconds to boost engagement and increase watch time." · „Introduce your content proposition in the first 3 seconds for better recall and awareness." · „Use captions or text overlays … We recommend displaying 5-10 words per second when using text." → Hook ≤6 s, Proposition ≤3 s, Caption-Lesetempo 5–10 W/s (VO entsprechend takten).
+- **Practitioner — Motion (motionapp.com):** „Your hook determines whether viewers stick around or scroll past." · „Scripts should sound natural when spoken." · „Keep it conversational and natural." · „Keep it under 20 seconds—about 60 words." · „Use traditional storytelling tactics (like cliffhangers & teasers) to drive up watch time." · „Pick one product benefit and show (don't tell) exactly how it works." · „Include captions … since many users watch with sound off." → fürs Ohr schreiben, knapp, offene Schleifen, ein Benefit, sound-off-tauglich.
+- **Bewusst NICHT als Fakt zitiert** (nur in Dritt-Snippets, nicht primärquellen-verifiziert): Meta „47 % des Werts in den ersten 3 s" / „85 % schauen sound-off"; TikTok-VoiceOver-„+71 % Recognition/+1,7×". Als Richtung plausibel, aber ohne Primärbeleg — nicht als Zahl verwenden.
+
 ## 3 — Neue Hook-Formate (→ in `hook-library.md` einsortieren)
 - **Interface-Hijacking:** Text-Screenshot, Notes-App-Eintrag, Slack-Thread, Tweet-Screenshot, Notification-Popup — funktioniert, weil das Gehirn trainiert ist, diese Formate zu lesen.
 - **Fake Text Exchange** · **TikTok-Comment-Skeptic** (negativer Kommentar + direkte Creator-Antwort) · **Multi-Screen-Self-Conversation** (für nicht-physische Produkte/Services) · **Whiteboard-Explainer** (komplexe Produkte, wirkt authentischer) · **„People always ask me…"**.

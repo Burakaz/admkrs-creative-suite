@@ -1,5 +1,12 @@
 # Changelog — ADMKRS Creative Suite
 
+## v1.2.0 — 2026-06
+`creative-briefing`: Oliver-Voss-Haltung + Voice-Over-First.
+
+- **Oliver-Voss-Haltung:** neue `references/voss-principles.md` (verifizierte Voss-Zitate, Ton-Guide, Voss-Hook-Konstruktionen, Quellen). Hook-Library um **Kategorie 16 „Haltung/Anti-Kategorie"** ergänzt. **Haltungs-/Voss-Test** in `copywriting.md` & Qualitäts-Check (Position beziehen statt Kategorie-Claim) — „Klarheit vor Kunst" bleibt explizit oberstes Gesetz. Neue **Voss-Schärfe**-Stufe im Workflow (1/2/3, Default 2; Stufe 3 → `ad-compliance-check`).
+- **Voice-Over-First (Doktrin für alle Motion/Video):** das **VO-Script (Spine)** ist das führende, am Stück lesbare Element pro Konzept — VO zuerst, Storyboard mappt `Time·Visual·On-Screen` auf die VO-Beats. Schreibregeln in `creative-formats.md` §5b, Struktur in `document-format.md`, **VO-Flow-Test** im Qualitäts-Check. VO-Retention-Evidenz (Google ABCD, TikTok, Motion — Plattform-Doku vs. Practitioner getrennt) in `field-notes.md` §2b. Motion-Beispiel um VO-Spine-Blöcke erweitert.
+- Recherche-basiert (parallele Multi-Agent-Recherche + Zitat-Verifikation gegen die Quell-URLs); nicht belegbare Zitate bewusst weggelassen/markiert.
+
 ## v1.1.4 — 2026-06
 Anzeigename & Feinschliff.
 
