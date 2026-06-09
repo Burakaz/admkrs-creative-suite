@@ -82,7 +82,8 @@ h1 em{font-style:normal;color:var(--accent)}
 .sk-role{font-size:11px;font-weight:600;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);border:1px solid var(--line);border-radius:100px;padding:3px 9px}
 .sk-role.lead{color:var(--accent);border-color:rgba(255,106,43,.35)}
 .sk p{margin:10px 0 0;font-size:14px;color:var(--soft);line-height:1.55}
-.sk ul{list-style:none;margin:12px 0 0;padding:0;display:flex;flex-direction:column;gap:7px}
+.sk-how{font-size:10px;font-weight:700;letter-spacing:.13em;text-transform:uppercase;color:var(--muted);margin:14px 0 0}
+.sk ul{list-style:none;margin:8px 0 0;padding:0;display:flex;flex-direction:column;gap:7px}
 .sk li{position:relative;padding-left:18px;font-size:13px;color:var(--soft);line-height:1.45}
 .sk li::before{content:"";position:absolute;left:3px;top:7px;width:5px;height:5px;border-radius:50%;background:var(--accent);opacity:.7}
 
@@ -177,11 +178,14 @@ const STEPS = [
     skills:[{n:"creative-strategy-os", role:"führt", lead:true, p:"Definiert Diversity & Test-Plan.", pts:["P.D.A. / Concept-Architecture","Format-Mix: UGC / Offer-Static / Motion","60/30/10 · Test-Matrix"]}],
     lehre:"Unter Andromeda ist das Creative das Targeting. Echte Vielfalt (Angle/Persona/Format) ist der #1-Performance-Hebel." },
   { ph:"Schritt 4", short:"Briefing & Produktion", title:["Briefing ", "& Produktion"],
-    was:"Das Herzstück: Aus Insight und Test-Plan werden konkrete Konzepte — je 3 Hooks zum Testen, VO-First-Storyboards, Copy, Sub-Claims, CTA — als fertiges docx im ADMKRS-Stil. Hooks zuerst, Klarheit vor Kunst, dann Haltung (Voss). Je nach Format gibt es eigene Türen auf dieselbe Engine: static-briefing, motion-ad-briefing (VO-First), video-ad-briefing und ugc-briefing.",
+    was:"Das Herzstück: Aus Insight und Test-Plan werden konkrete Konzepte — je 3 Hooks zum Testen, VO-First-Storyboards, Copy, Sub-Claims, CTA — als fertiges docx im ADMKRS-Stil. Hooks zuerst, Klarheit vor Kunst, dann Haltung (Voss). Je nach Format greift eine eigene Tür auf dieselbe Engine — Static, Motion (VO-First) oder Video (Creator/UGC → eigener Schritt 5):",
     skills:[
-      {n:"creative-briefing", role:"führt", lead:true, p:"Schreibt das Briefing als docx.", pts:["3 Konzepte · je 3 Hooks (Scroll-Stop)","VO-First: VO-Script als Rückgrat von Motion","Haltung statt Kategorie-Claim (Voss-Schärfe)"]},
-      {n:"offer-promo-strategy", role:"zieht", p:"Liefert das margenbewusste Angebot.", pts:["% vs € vs Bundle vs Free-Shipping","Break-even-Math"]},
-      {n:"google-cross-channel", role:"für Google", p:"Adaptiert auf Google-Formate.", pts:["Demand Gen · PMax · YouTube","exakte 2026-Specs"]}
+      {n:"creative-briefing", role:"Engine + Generalist", lead:true, p:"Kommt zum Einsatz, sobald getextet wird — und versorgt die drei Format-Türen mit Methode, Hooks & docx-Builder.", pts:["3 Konzepte · je 3 Hooks (Scroll-Stop)","Strategy-, Hook- & Framework-Engine + Voss-Haltung","baut das fertige .docx im ADMKRS-Stil"]},
+      {n:"static-briefing", role:"Format-Tür · Static", p:"Kommt zum Einsatz für Single-Image-, Review-, Comparison- & Offer-Statics und Carousels.", pts:["Strategie-Layer → Briefing-Tabelle (1 Zeile pro Static)","Offer-Static = Effizienz-Hebel","nutzt die creative-briefing-Engine, nur auf Static gescoped"]},
+      {n:"motion-ad-briefing", role:"Format-Tür · Motion", p:"Kommt zum Einsatz für animierte/kinetische Ads & Motion-Graphics — VO-First.", pts:["VO-Script (Spine) führt, Storyboard mappt auf die VO-Beats","ein gesprochener Take statt abgehacktem Stakkato","faceless, ohne Dreh skalierbar"]},
+      {n:"video-ad-briefing", role:"Format-Tür · Video", p:"Kommt zum Einsatz für gedrehte Video-Ads (Talking-Head, Studio, Demo, VSL).", pts:["time-coded Script/Shotlist","gesprochener Flow, sound-off-tauglich via Captions","reines Creator-/UGC-Video → ugc-briefing"]},
+      {n:"offer-promo-strategy", role:"zieht", p:"Kommt zum Einsatz, wenn ein Angebot in die Creatives soll.", pts:["% vs € vs Bundle vs Free-Shipping wählen","Break-even-Math & Cadence"]},
+      {n:"google-cross-channel", role:"für Google", p:"Kommt zum Einsatz, wenn das Konzept auf Google läuft.", pts:["Demand Gen · PMax · YouTube","exakte 2026-Specs (Assets, Limits, Ratios)"]}
     ],
     lehre:"Die ersten 2 Sekunden entscheiden. Erst verständlich (Klarheit), dann frech (Haltung) — und bei Motion trägt das Voice-Over den Watch-Flow." },
   { ph:"Schritt 5", short:"Creator & UGC", title:["Creator ", "& UGC"],
@@ -220,6 +224,7 @@ STEPS.forEach((s, i) => {
     <div class="sk">
       <div class="sk-head"><span class="sk-name"><span class="slash">/</span>${sk.n}</span><span class="sk-role${sk.lead ? ' lead' : ''}">${sk.role}</span></div>
       <p>${sk.p}</p>
+      <div class="sk-how">So arbeitet er</div>
       <ul>${sk.pts.map(p => `<li>${p}</li>`).join('')}</ul>
     </div>`).join('');
 
