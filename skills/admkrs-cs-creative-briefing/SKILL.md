@@ -30,6 +30,7 @@ Diese Prinzipien gelten in jedem Briefing. Sie sind der Grund, warum ein ADMKRS-
 - **Hooks zuerst, immer.** Die ersten 2 Sekunden entscheiden über alles. Ein Hook, der nur das Produkt benennt ("Protein Iced Coffee"), ist kein Hook — er erzeugt kein Verlangen. Jeder Hook braucht Spannung, eine Zahl oder ein sensorisches Versprechen. Pro Konzept liefern wir mehrere Hook-Optionen zum Testen.
 - **Konkret schlägt generisch.** Echte Namen, echte Zahlen, echte Situationen. "278 SaaS-Gründer in DACH" statt "viele Kunden". "21g Protein" statt "viel Protein". Konkretheit ist der billigste Performance-Hebel, den es gibt.
 - **Klarheit vor Kunst.** Wenn die Oma im ersten Lesen nicht versteht, was gemeint ist, ist es zu clever. Kreativität dient der Botschaft, nicht umgekehrt. Erst verständlich machen, dann veredeln.
+- **Haltung statt Höflichkeit (Voss).** Ist die Botschaft klar, darf sie nicht *beliebig* sein. Ein Hook bezieht Position — kein Kategorie-Claim, den jede Agentur sagen könnte. Oliver Voss: „Wer keine Haltung hat und keinen Charakter, geht in der Masse unter." Mutig sein, anecken, anders sein — **aber erst nach Klarheit, nie auf ihre Kosten.** Klarheit bleibt das oberste Gesetz; Haltung kommt obendrauf. Stell-Stufe „Voss-Schärfe" (Default 2) + Ton-Guide & Muster: `references/voss-principles.md`.
 - **Eine Idee pro Creative.** Ein Creative = ein Gedanke. Wer drei Dinge gleichzeitig sagt, sagt nichts. Mehrere Botschaften gehören in mehrere Konzepte, nicht in ein Asset.
 - **Plattform-nativ denken.** Ein Reel ist kein TV-Spot. Sound-off zuerst, vertikal, Daumen-Stop in Sekunde 0, Caption-tragbar.
 - **Andromeda: Creative IST das Targeting.** Meta findet die Zielgruppe über das Creative. Deshalb gewinnt **echte Konzept-Vielfalt** (verschiedene Angles, Personas, Pains) — nicht 30 Varianten desselben Bildes. Siehe `references/creative-strategy.md`.
@@ -60,7 +61,7 @@ Welcher Output ist gewünscht? (Mehrere möglich.)
 
 Format-Details, Specs und Strukturen: `references/creative-formats.md`.
 
-> **Motion Ads: immer Voice-over, immer Redefluss.** Das gesprochene VO ist ein zusammenhängender, natürlicher Take, der die Zielgruppe abholt und durch die Ad zieht — **nicht** abgehackte Schlagwörter/Slogans aneinandergereiht. Jede VO-Zeile knüpft an die vorige an (gesprochener Rhythmus, „du"-Ansprache, Spannung→Auflösung→CTA). Pflicht-Regel inkl. Vorher/Nachher: `references/copywriting-frameworks.md` §4b.
+> **Motion/Video ist VO-First.** Jedes Motion-/Video-Konzept wird **vom Voice-Over her** gebrieft: das VO-Skript ist das **Rückgrat**, Bild & On-Screen-Text hängen sich an die VO-Beats. Im Dokument steht das **„VO-Script (Spine)"** als am Stück lesbarer Block **vor** dem time-coded Storyboard. Das gesprochene VO ist ein zusammenhängender, natürlicher Take (Hook 0–2 s → Spannung → Auflösung → CTA), **kein** Stakkato aus Schlagwörtern. Schreibregeln: `references/creative-formats.md` §5b · Struktur: `references/document-format.md` · Vorher/Nachher: `references/copywriting-frameworks.md` §4b.
 
 > Für ein **reines Creator-/UGC-Briefing** (Brand-Vorstellung als Datengrundlage für den Creator, das zugleich dem Kunden präsentierbar ist — mit viralen Hook-Tricks, Storytelling-Frameworks je Awareness, drehfertigen Scripts und Out-of-the-box-Layer) nutze den dedizierten Skill **`admkrs-cs-ugc-briefing`** (gleiche B4-Builder-Engine). Dieser Skill hier deckt UGC als *einen* Konzept-Typ neben Statics/Motion ab; `admkrs-cs-ugc-briefing` ist das vollständige Creator-Dokument.
 
@@ -76,6 +77,7 @@ Bevor du textest: diagnostizieren und Architektur bauen. **Wenn der Kunde in Dat
 - Welche **Angles** bedienen wir (Pain, Desire, Identity, Mechanism, Proof, Objection, Comparison, Offer …)?
 - Welches **Konzept-Portfolio** (echte Vielfalt, nicht Klone)? Für Motion/Video: 1 Angle = 1 Konzept. Wo möglich den **Format-Mix** bedienen: UGC-Video (Hook/Volumen) · Offer-Static (Effizienz) · Motion (Conversion).
 - Was ist der **ownable Twist** der Brand gegen den Wettbewerb?
+- **Voss-Schärfe festlegen** (Mut-Grad der Haltung): **1** = Premium-safe (klare Haltung, kein Anecken) · **2** = mutig (Default) · **3** = voll Voss (polarisierend). Steht im Strategie-Layer / bei den Strategic anchors. **Stufe 3 immer durch `admkrs-cs-ad-compliance-check`** (Personal-Attributes-/Backfire-Risiko). Stufen & Muster: `references/voss-principles.md`.
 Das Ergebnis dieses Passes ist der **Strategie-Layer** (Statics/Carousel) bzw. die **Strategic anchors** (Motion/Video) im Dokument.
 
 ### 5 — Creatives schreiben
@@ -114,6 +116,8 @@ Vor jeder Übergabe gegenprüfen:
 - [ ] **Eine-Idee-Test:** Trägt jedes Creative genau einen Gedanken?
 - [ ] **WIIFM-Test:** Sagt jedes Creative klar, was die Person davon hat — nicht nur, was das Produkt kann?
 - [ ] **AI-Slop-Test:** Null Buzzwords aus der Banned-List? Klingt es wie ein Mensch mit Haltung?
+- [ ] **Haltungs-/Voss-Test:** Bezieht jeder Hook **Position** — oder ist er ein Kategorie-Claim, den jede Agentur sagen könnte? *Erst* nach bestandenem Oma-Test prüfen (Klarheit hat Vorrang). Passt die **Voss-Schärfe** zur Brand, und läuft Stufe 3 durch `admkrs-cs-ad-compliance-check`?
+- [ ] **VO-Flow-Test (Motion/Video):** Liest sich das **„VO-Script (Spine)"** am Stück flüssig und zieht es durch (Hook 0–2 s, jede Zeile knüpft an die vorige, keine Dead Air) — oder sind es zusammenhanglose Sätze pro Szene? Mappt das Storyboard `Time·Visual·On-Screen` auf die VO-Beats?
 - [ ] **Vielfalt-Test (Andromeda):** Unterscheiden sich die Konzepte in Angle/Persona/Format — nicht nur kosmetisch? Format-Mix (UGC/Offer-Static/Motion) bedient, wo sinnvoll?
 - [ ] **Daten-Test:** Deckt sich die Richtung mit den DatAds-Gewinnern der Brand (Best Hooks/Bestperformer)? Keine „Ads to Kill"-Muster wiederholt?
 - [ ] **Pre-Ship-Score:** Hält das Set dem 8-Dimensionen-QA stand (Hook/Message/CTA/Audience … `field-notes.md` §2)? Die 2 schwächsten Dimensionen gefixt?
@@ -132,7 +136,8 @@ Vor jeder Übergabe gegenprüfen:
 - `references/field-notes.md` — verifizierte 2026-Intelligence: Frameworks worth stealing (P.D.A./Concept-Architecture, Ad Families, Creative-Demand-Score, 8-Dim-Pre-Ship-Scoring, Competitor-Teardown), neue Hook-Formate, **Facts-vs-Myths-Tabelle**, was sich Feb–Jun 2026 änderte (Advantage+/AI-Disclosure/Specs) + ADMKRS-Cross-Account-Learnings. **Lesen in Schritt 4 & 7.**
 - `references/creative-formats.md` — vollständige Format-Bibliothek (Statics, Carousels, Motion, Video/UGC) mit Specs, Struktur, Do/Don't. **Lesen in Schritt 1 & 5.**
 - `references/copywriting.md` — Hook-Craft, Klarheits-Tests, Banned-Buzzwords, DE/EN-Copy, weak→strong-Beispiele. **Lesen in Schritt 5.**
-- `references/hook-library.md` — Hook-Engine: Fill-in-Templates nach Kategorie/Awareness, Selection-Guide, Test-Plan. **Lesen in Schritt 5, wann immer Hooks gebraucht werden.**
+- `references/hook-library.md` — Hook-Engine: Fill-in-Templates nach Kategorie/Awareness (inkl. Kategorie 16 „Haltung/Anti-Kategorie" — Voss), Selection-Guide, Test-Plan. **Lesen in Schritt 5, wann immer Hooks gebraucht werden.**
+- `references/voss-principles.md` — Oliver-Voss-Haltung: Kernprinzipien (verifizierte Zitate), Ton-Guide, Voss-Hook-Konstruktionen, **Voss-Schärfe-Stufen (1/2/3)**, Do/Don't, Quellen. **Lesen in Schritt 4–5, wann immer Haltung/Differenzierung gefragt ist.**
 - `references/copywriting-frameworks.md` — Struktur-Engine: 19 Frameworks, Qualitäts-Checklisten (WIIFM, FORCEPS-Beweistypen, 4Us, Rule of One …) und Creative-Vehicles + Selector. **Lesen in Schritt 5 für den Aufbau von Concepts/Scripts.**
 - `references/intake-questions.md` — Frage-Bank nach Kategorie + wann fragen vs. loslegen + Red-Flags im Brief. **Lesen in Schritt 3.**
 - `references/document-format.md` — JSON-Schema, Block-Typen, Design-Tokens, Builder-Befehl, Dateiname-Konvention. **Lesen in Schritt 6.**
@@ -140,4 +145,4 @@ Vor jeder Übergabe gegenprüfen:
 - `examples/example_statics_briefing.json` & `examples/example_motion_briefing.json` — vollständige, gerenderte Vorlagen. Als Muster nutzen.
 
 ---
-<sub>**ADMKRS Creative Suite** · © ADMKRS GmbH, München · v1.1.0 · interner Gebrauch · erstellt von ADMKRS. Quellen am jeweiligen Skill-Ende; Specs/Policies an Primärquellen prüfen.</sub>
+<sub>**ADMKRS Creative Suite** · © ADMKRS GmbH, München · v1.2.0 · interner Gebrauch · erstellt von ADMKRS. Quellen am jeweiligen Skill-Ende; Specs/Policies an Primärquellen prüfen. · v1.2.0: Oliver-Voss-Haltung (`voss-principles.md`, Haltungs-Test, Voss-Schärfe) + VO-First-Doktrin (VO-Script-Spine, VO-Flow-Test).</sub>

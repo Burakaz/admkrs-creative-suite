@@ -130,6 +130,16 @@ Jede Kategorie: *wann (Awareness)* → Templates → 1 gefülltes ADMKRS-Beispie
 - **Fake Text Exchange** (inszenierter Chat) · **Comment-Skeptic** (echter/negativer Kommentar + direkte Antwort) · **Multi-Screen-Self-Conversation** (für nicht-physische Produkte) · **Whiteboard-Explainer** (komplexe Produkte) · **„People always ask me …"**.
 > *ADMKRS:* nur, wenn echt/plausibel und markenkonform — keine erfundenen Chats/Kommentare als „echt" ausgeben. Quelle & Detail in `field-notes.md` §3.
 
+### 16 · Haltung / Anti-Kategorie  *(Voss — Position beziehen statt Kategorie-Claim)*
+*Wann:* Differenzierung in austauschbaren Kategorien; wenn der naheliegende Hook ein Claim ist, den jede Agentur sagen könnte. Voss: „Sei anders." / „Wer keine Haltung hat und keinen Charakter, geht in der Masse unter." **Klarheit-Tests bleiben Pflicht** — anecken nie auf Kosten der Verständlichkeit. Details: `voss-principles.md`.
+- **Falsche Prämisse kippen:** `[Was alle in der Kategorie glauben]? Stimmt nicht.` · `Du brauchst kein [naheliegende Lösung]. Du brauchst [Reframe].`
+- **Offene Frage / Reframe** (Behauptung → Projektion): `[Produktkategorie]? Oder ist es längst [größere Bedeutung]?` → Muster „Is it love?": nicht behaupten, fragen lassen.
+- **Tabu / anecken:** `Sagt sonst keiner: [unbequeme Wahrheit der Kategorie].` · `[Branche] redet nicht gern über [Tabu]. Wir schon.`
+- **Eigenes Medium / Pattern-Interrupt:** ein Träger/Format, das im Feed so nicht vorkommt, aber relevant bleibt (statt die Standard-Ad-Schablone zu füllen).
+- **Du-Reframe:** `Nicht für jeden. Für dich.` · `[Generische „man"-Botschaft]` → auf *eine* Person kippen.
+- **Newsjacking** (Sixt-Mechanik): `[tagesaktuelles Ereignis] → [eigener Punch/Angebot]` in 24–48 h.
+> Bsp (im Voss-Stil, selbst gebaut): „Hör auf, deinen Eiskaffee schönzureden. Sag, was Sache ist: 22g Protein, 0 Ausreden." · *ADMKRS:* **Voss-Schärfe 3** (polarisierend) immer durch `admkrs-cs-ad-compliance-check` (Personal-Attributes-/Backfire-Risiko).
+
 ---
 
 ## Branchen-Muster (Schnellzugriff)

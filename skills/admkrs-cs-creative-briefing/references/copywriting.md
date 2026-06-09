@@ -27,6 +27,9 @@ Bevor ein Satz "schön" sein darf, muss er klar sein. Vier Tests, die jeder Hook
 
 Klarheits-Werkzeuge: kurze Sätze. Konkrete Substantive. Aktive Verben. Eine Idee pro Zeile. Zahlen als Ziffern (24g, nicht "vierundzwanzig Gramm"). Kein Fachjargon, außer die Zielgruppe spricht ihn selbst.
 
+**Erst diese vier Klarheits-Tests bestehen — dann (und nur dann) der Haltungs-Test:**
+- **Haltungs-/Voss-Test:** Bezieht der Hook **Position**, oder ist er ein **Kategorie-Claim, den jede Agentur sagen könnte**? „Protein Iced Coffee, jetzt neu" könnte jeder sagen — das ist kein Hook, das ist eine Beschriftung. Oliver Voss: *„Wer keine Haltung hat und keinen Charakter, geht in der Masse unter."* Wenn der Hook klar **und** verständlich ist, aber beliebig: schärfen, bis er etwas behauptet/fragt, das die Marke ownen kann (Muster & Stufen in `voss-principles.md`). **Reihenfolge ist Gesetz: erst verständlich, dann frech** — Haltung rechtfertigt nie Unklarheit.
+
 ---
 
 ## 2 — Hook-Craft (die ersten 2 Sekunden)

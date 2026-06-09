@@ -109,13 +109,17 @@ h1 "B-Block — …"   p (italic Intro)
   callout anchor  "Strategic anchor. …"
   h3 "3 Hooks · for scroll-stop testing"
   table hooks  [A,B,C]
+  h3 "VO-Script (Spine) · am Stück"        ← VO-FIRST: führt, kommt VOR dem Storyboard
+  p  "<das komplette gesprochene VO als ein zusammenhängender Take, \n je Beat eine Zeile>"
   h3 "Storyboard · Time-coded"   (Video: "Script · Time-coded")
   table headerrow/zebra  [Time | Visual | On-Screen Text | Voice-Over]
   outro "Outro. …"
   … (nächstes Konzept)
 ```
 
-> **Voice-over = Pflicht & Redefluss:** Motion Ads laufen immer mit VO. Die **Voice-Over-Spalte** muss sich von oben nach unten als **ein** zusammenhängender, natürlich gesprochener Take lesen (Bindeglieder, „du"-Ansprache, Spannung→Auflösung→CTA) — **nicht** als Reihe abgehackter Slogans. On-Screen-Text darf knapp sein, das VO nie. Details & Vorher/Nachher: `copywriting-frameworks.md` §4b.
+> **VO-First (Pflicht-Vorgehen).** Pro Motion-/Video-Konzept ist das **„VO-Script (Spine)"** das **führende Element**: ein `h3` „VO-Script (Spine)" + ein `p`-Block mit dem **kompletten gesprochenen VO am Stück** (je Beat eine Zeile via `\n`) — **vor** dem time-coded Storyboard. Schreib das VO zuerst und durchgehend, sodass es sich als **ein** natürlicher Take liest; **dann** mappt das Storyboard `Time · Visual · On-Screen-Text` **auf die VO-Beats** (die Voice-Over-Spalte im Storyboard wiederholt die Beats des Spine, zerlegt nach Zeit).
+>
+> **Redefluss, kein Stakkato:** Der Spine liest sich von oben nach unten als zusammenhängender, natürlich gesprochener Monolog (Bindeglieder, „du"-Ansprache, Hook 0–2 s → Spannung → Auflösung → CTA). Jede Zeile knüpft an die vorige an. On-Screen-Text darf knapp/Schlagwort sein, das gesprochene VO nie. Schreibregeln: `creative-formats.md` §5b · Vorher/Nachher: `copywriting-frameworks.md` §4b. *(Kein Builder-Eingriff nötig — `h3`+`p` sind Standard-Blöcke.)*
 
 ---
 
