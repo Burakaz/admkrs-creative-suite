@@ -30,6 +30,7 @@ Produziert das UGC-Briefing, das ADMKRS verkauft: ein **B4-.docx**, das **gleich
 - **Boundaries, not scripts.** Fest: Kernaussage, Claim-Grenzen, Awareness/Hook-Typ, Specs, Disclosure, Offer. Frei: die genauen Worte, die Situation, Energie. Über-Briefing killt Authentizität.
 - **Out-of-the-box ist Pflicht-Layer.** Jedes Briefing enthält neben bewährten Frameworks einen Scroll-Breaker-Layer (Comment-Reply, Green-Screen, Street-Interview, POV-Skit, Expectation-vs-Reality …). Creative Diversity gewinnt unter Andromeda.
 - **Klarheit vor Kunst & konkret > generisch.** „19 g Protein · 95 % weniger Zucker" schlägt „viel Protein". Keine Generic-AI-Buzzwords („Game-Changer", „unlock", „elevate").
+- **Kein langer Gedankenstrich „—" (Em-Dash)** in irgendeiner produzierten Copy (Hooks, Scripts, VO, On-Screen-Text, Fließtext, JSON-Felder) — ADMKRS-Hausregel. Stattdessen Punkt/Komma, notfalls das kurze „–".
 - **Dual-Purpose by design.** Strategie-Layer (Awareness, Angle-Logik, KPI-Hypothesen) für den Kunden; Hooks/Scripts/Specs für den Creator. `references/brand-foundation.md`.
 - **Nichts erfinden.** Zahlen, Claims, Testimonials, Preise, Offers bleiben 1:1. Neue Vorschläge als **[Ergänzung]** markieren und zur Freigabe stellen.
 

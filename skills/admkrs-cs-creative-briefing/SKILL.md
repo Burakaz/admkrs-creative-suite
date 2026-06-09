@@ -29,7 +29,7 @@ Diese Prinzipien gelten in jedem Briefing. Sie sind der Grund, warum ein ADMKRS-
 
 - **Hooks zuerst, immer.** Die ersten 2 Sekunden entscheiden über alles. Ein Hook, der nur das Produkt benennt ("Protein Iced Coffee"), ist kein Hook — er erzeugt kein Verlangen. Jeder Hook braucht Spannung, eine Zahl oder ein sensorisches Versprechen. Pro Konzept liefern wir mehrere Hook-Optionen zum Testen.
 - **Konkret schlägt generisch.** Echte Namen, echte Zahlen, echte Situationen. "278 SaaS-Gründer in DACH" statt "viele Kunden". "21g Protein" statt "viel Protein". Konkretheit ist der billigste Performance-Hebel, den es gibt.
-- **Klarheit vor Kunst.** Wenn die Oma im ersten Lesen nicht versteht, was gemeint ist, ist es zu clever. Kreativität dient der Botschaft, nicht umgekehrt. Erst verständlich machen, dann veredeln.
+- **Klarheit vor Kunst (hart durchgesetzt).** Der kalte Betrachter hat **null Vorkontext** — er liest den Hook isoliert, 1 Sekunde. Jedes Substantiv muss **konkret** sein: kann man „welche/r/s genau?" fragen und die Antwort steht nicht im Hook, ist er kaputt. **Ein Gedanke, ein Hauptsatz** — keine Schachtelsätze, keine vagen Dreierlisten, keine Wortspiele zum Entschlüsseln. *✗ „Eine Zahl im Monat. Keine Stundenzettel, keine Überraschungsrechnung, keine Ausreden." → ✓ „Ein Fixpreis im Monat. Alles drin."* (Detail wie „kein Stundensatz" gehört in die USP-Zeile, nicht in den Hook.) Erst verständlich, dann veredeln — Kreativität, die Klarheit kostet, ist ein Fehler. Tests, Anti-Patterns & Kürzen-Pass: `references/copywriting.md` §1/§1b.
 - **Haltung statt Höflichkeit (Voss).** Ist die Botschaft klar, darf sie nicht *beliebig* sein. Ein Hook bezieht Position — kein Kategorie-Claim, den jede Agentur sagen könnte. Oliver Voss: „Wer keine Haltung hat und keinen Charakter, geht in der Masse unter." Mutig sein, anecken, anders sein — **aber erst nach Klarheit, nie auf ihre Kosten.** Klarheit bleibt das oberste Gesetz; Haltung kommt obendrauf. Stell-Stufe „Voss-Schärfe" (Default 2) + Ton-Guide & Muster: `references/voss-principles.md`.
 - **Eine Idee pro Creative.** Ein Creative = ein Gedanke. Wer drei Dinge gleichzeitig sagt, sagt nichts. Mehrere Botschaften gehören in mehrere Konzepte, nicht in ein Asset.
 - **Plattform-nativ denken.** Ein Reel ist kein TV-Spot. Sound-off zuerst, vertikal, Daumen-Stop in Sekunde 0, Caption-tragbar.
@@ -86,7 +86,8 @@ Das Ergebnis dieses Passes ist der **Strategie-Layer** (Statics/Carousel) bzw. d
 Jetzt texten — mit drei Engines griffbereit: `references/copywriting.md` (Craft & Klarheit), `references/hook-library.md` (Hook-Templates nach Kategorie/Awareness) und `references/copywriting-frameworks.md` (Struktur-Gerüste + Beweis-Typen + Creative-Vehicles).
 - **Hooks zuerst.** Aus `hook-library.md` pro Motion/Video-Konzept **3 Optionen aus *verschiedenen* Kategorien** (A/B/C) für Scroll-Stop-Tests; bei Statics je ein starker Hook pro Angle.
 - **Struktur wählen.** Passendes Framework aus `copywriting-frameworks.md` (z. B. PAS/BAB für Static, QUEST/PASTOR für UGC, AIDA/SLAP für Motion) — als Gerüst, nicht als Schema-F.
-- **Klartext, dann Craft.** Jeder Hook/Claim besteht den 1-Sekunden- und den „So What?"/WIIFM-Test.
+- **Klartext, dann Craft.** Jeder Hook/Claim besteht **zuerst** Kontext-frei- & Schachtel-Test (`copywriting.md` §1), dann 1-Sekunden- und „So What?"/WIIFM-Test.
+- **Kürzen-Pass (Pflicht).** Erster Hook-Wurf ≠ finaler Hook: einmal kürzen, Schachtelsätze in Hauptsätze auflösen, jedes überflüssige Wort streichen. Beweise/Zahlen-Details/Aufzählungen aus dem Hook **raus** → in Sub/Claim/USP-Zeile (Detail-Regel). Anti-Patterns in `copywriting.md` §1b gegenchecken.
 - Konkrete Zahlen/Namen rein. Disclaimers/Sternchentexte exakt übernehmen.
 - Visual-Direction so schreiben, dass ein Designer/Editor ohne Rückfrage starten kann.
 
@@ -113,11 +114,16 @@ Das .docx mit `present_files` zeigen. Kurz sagen, welche strategischen Entscheid
 Vor jeder Übergabe gegenprüfen:
 
 - [ ] **Hook-Test:** Stoppt jeder Hook in 2 Sekunden den Daumen? Spannung/Zahl/Sinn drin — kein bloßes Produkt-Label?
+- [ ] **Kontext-frei-Test (hartes Gate):** Versteht jeder Hook **ohne jeden Vorkontext** in 1 Sekunde? Ist **jedes Substantiv konkret** — kann man nirgends „welche/r/s genau?" fragen, ohne dass die Antwort im Hook steht? (Sonst umschreiben — `copywriting.md` §1/§1b.)
+- [ ] **Schachtel-Test:** Trägt jeder Hook **einen** Gedanken in **einem** Hauptsatz — kein Nebensatz, keine Aufzählung, kein Satz, den man zweimal liest?
+- [ ] **Kürzen-Pass gemacht?** Jeder Hook nach dem ersten Entwurf einmal gekürzt & entschachtelt; Beweise/Zahlen-Details/Listen sitzen in **Sub/USP-Zeile**, nicht im Hook (Detail-Regel)?
+- [ ] **Anti-Pattern-Check:** Kein kontext-abhängiger Claim, Schachtelsatz, vage Dreierliste, entschlüsselungsbedürftiges Wortspiel oder abstrakte Gleichsetzung (`copywriting.md` §1b)?
 - [ ] **Oma-Test:** Versteht ein fachfremder Mensch jede Botschaft beim ersten Lesen?
 - [ ] **Konkret-Test:** Echte Zahlen/Namen statt "viele/besser/hochwertig"?
 - [ ] **Eine-Idee-Test:** Trägt jedes Creative genau einen Gedanken?
 - [ ] **WIIFM-Test:** Sagt jedes Creative klar, was die Person davon hat — nicht nur, was das Produkt kann?
 - [ ] **AI-Slop-Test:** Null Buzzwords aus der Banned-List? Klingt es wie ein Mensch mit Haltung?
+- [ ] **Gedankenstrich-Check:** **Null** lange „—" (Em-Dash) in der gesamten produzierten Copy (Hooks, Claims, Sub, CTA, On-Screen, VO/Script, Fließtext, JSON-Felder)? Stattdessen Punkt/Komma, notfalls kurzes „–". (ADMKRS-Hausregel, `copywriting.md` §8.)
 - [ ] **Haltungs-/Voss-Test:** Bezieht jeder Hook **Position** — oder ist er ein Kategorie-Claim, den jede Agentur sagen könnte? *Erst* nach bestandenem Oma-Test prüfen (Klarheit hat Vorrang). Passt die **Voss-Schärfe** zur Brand, und läuft Stufe 3 durch `admkrs-cs-ad-compliance-check`?
 - [ ] **VO-Flow-Test (Motion/Video):** Liest sich das **„VO-Script (Spine)"** am Stück flüssig und zieht es durch (Hook 0–2 s, jede Zeile knüpft an die vorige, keine Dead Air) — oder sind es zusammenhanglose Sätze pro Szene? Mappt das Storyboard `Time·Visual·On-Screen` auf die VO-Beats?
 - [ ] **Vielfalt-Test (Andromeda):** Unterscheiden sich die Konzepte in Angle/Persona/Format — nicht nur kosmetisch? Format-Mix (UGC/Offer-Static/Motion) bedient, wo sinnvoll?
@@ -147,4 +153,4 @@ Vor jeder Übergabe gegenprüfen:
 - `examples/example_statics_briefing.json` & `examples/example_motion_briefing.json` — vollständige, gerenderte Vorlagen. Als Muster nutzen.
 
 ---
-<sub>**ADMKRS Creative Suite** · © ADMKRS GmbH, München · v1.3.0 · interner Gebrauch · erstellt von ADMKRS. Quellen am jeweiligen Skill-Ende; Specs/Policies an Primärquellen prüfen. · v1.2.0: Oliver-Voss-Haltung (`voss-principles.md`, Haltungs-Test, Voss-Schärfe) + VO-First-Doktrin (VO-Script-Spine, VO-Flow-Test).</sub>
+<sub>**ADMKRS Creative Suite** · © ADMKRS GmbH, München · v1.3.1 · interner Gebrauch · erstellt von ADMKRS. Quellen am jeweiligen Skill-Ende; Specs/Policies an Primärquellen prüfen. · v1.3.1: Klarheit hart durchgesetzt — Kontext-frei-Test (jedes Substantiv konkret), Schachtel-Test, Kürzen-Pass, Detail-Regel, Anti-Patterns (`copywriting.md` §1b). · v1.2.0: Oliver-Voss-Haltung + VO-First-Doktrin.</sub>
