@@ -65,6 +65,8 @@ Format-Details, Specs und Strukturen: `references/creative-formats.md`.
 
 > Für ein **reines Creator-/UGC-Briefing** (Brand-Vorstellung als Datengrundlage für den Creator, das zugleich dem Kunden präsentierbar ist — mit viralen Hook-Tricks, Storytelling-Frameworks je Awareness, drehfertigen Scripts und Out-of-the-box-Layer) nutze den dedizierten Skill **`admkrs-cs-ugc-briefing`** (gleiche B4-Builder-Engine). Dieser Skill hier deckt UGC als *einen* Konzept-Typ neben Statics/Motion ab; `admkrs-cs-ugc-briefing` ist das vollständige Creator-Dokument.
 
+> **Format-spezifische Türen (gleiche Engine):** Für einen *einzelnen* Format-Fokus gibt es eigene Einstiegs-Skills, die diese Methode + References + den docx-Builder 1:1 nutzen (keine Duplikate): **`admkrs-cs-static-briefing`** (Statics/Carousel), **`admkrs-cs-motion-ad-briefing`** (Motion, VO-First), **`admkrs-cs-video-ad-briefing`** (gedrehtes Video/VSL), **`admkrs-cs-ugc-briefing`** (Creator/UGC). **Dieser Skill bleibt die gemeinsame Engine + der Generalist** — nutze ihn direkt für Multi-Format-Sets oder wenn das Format noch offen ist.
+
 ### 2 — Brand-Profil laden oder anlegen
 Schau in `assets/brand_profiles/` nach einer Datei für den Kunden (z. B. `example-brand.md`). Wenn vorhanden: lies sie — sie enthält Voice, gesperrte Claims/Zahlen, Produkte, Naming-Konvention, Offers, frühere Referenzen. Wenn nicht: arbeite mit dem, was im Brief steht, und biete am Ende an, ein Profil anzulegen (`references/brand-profile-template.md`). Profile nur mit Zustimmung speichern — nicht heimlich.
 
@@ -145,4 +147,4 @@ Vor jeder Übergabe gegenprüfen:
 - `examples/example_statics_briefing.json` & `examples/example_motion_briefing.json` — vollständige, gerenderte Vorlagen. Als Muster nutzen.
 
 ---
-<sub>**ADMKRS Creative Suite** · © ADMKRS GmbH, München · v1.2.0 · interner Gebrauch · erstellt von ADMKRS. Quellen am jeweiligen Skill-Ende; Specs/Policies an Primärquellen prüfen. · v1.2.0: Oliver-Voss-Haltung (`voss-principles.md`, Haltungs-Test, Voss-Schärfe) + VO-First-Doktrin (VO-Script-Spine, VO-Flow-Test).</sub>
+<sub>**ADMKRS Creative Suite** · © ADMKRS GmbH, München · v1.3.0 · interner Gebrauch · erstellt von ADMKRS. Quellen am jeweiligen Skill-Ende; Specs/Policies an Primärquellen prüfen. · v1.2.0: Oliver-Voss-Haltung (`voss-principles.md`, Haltungs-Test, Voss-Schärfe) + VO-First-Doktrin (VO-Script-Spine, VO-Flow-Test).</sub>

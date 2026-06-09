@@ -1,5 +1,12 @@
 # Changelog — ADMKRS Creative Suite
 
+## v1.3.0 — 2026-06
+Format-Türen: Static / Motion / Video als eigene Skills (gleiche Engine).
+
+- Neue **format-spezifische Einstiegs-Skills**: `admkrs-cs-static-briefing` (Statics/Carousel), `admkrs-cs-motion-ad-briefing` (Motion, **VO-First**), `admkrs-cs-video-ad-briefing` (gedrehtes Video/VSL). Sie nutzen die **gemeinsame `creative-briefing`-Engine + References 1:1** (keine Duplikate); `creative-briefing` bleibt Engine + Generalist, `ugc-briefing` deckt Creator/UGC ab. → **14 Skills**.
+- Repo **öffentlich** gestellt (teilbar; LICENSE bleibt proprietär, `noindex`). Website-Hinweise entsprechend (kein Login nötig); Plugin-Weg bleibt empfohlen (Auto-Update).
+- Website: neue Detailseite **`prozess.html`** — Creative Strategy als chronologischer Prozess (Schritt 0–8) mit Skill-für-Skill-Durchklick und „Was du lernst"-Takes; von der Startseite verlinkt.
+
 ## v1.2.0 — 2026-06
 `creative-briefing`: Oliver-Voss-Haltung + Voice-Over-First.
 

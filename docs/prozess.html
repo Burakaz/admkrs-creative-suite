@@ -1,0 +1,253 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Creative Strategy als Prozess — ADMKRS Creative Strategy Suite</title>
+<meta name="description" content="Wie ADMKRS Creative Strategy angeht — Schritt für Schritt, und welcher der 14 Skills in welchem Schritt unterstützt.">
+<meta name="robots" content="noindex, nofollow">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+<style>
+:root{
+  --bg:#09090A; --panel:#0E0E10; --ink:#ECEAE4; --soft:#C9C5BC; --muted:#86837C;
+  --line:rgba(236,234,228,.09); --line-2:rgba(236,234,228,.06);
+  --card:rgba(255,255,255,.022); --card-bd:rgba(236,234,228,.09);
+  --accent:#FF6A2B; --accent-soft:rgba(255,106,43,.12); --lime:#C6F24E; --good:#8BE08B;
+  --font:"Inter",system-ui,-apple-system,Segoe UI,Roboto,sans-serif;
+  --mono:ui-monospace,"SF Mono",SFMono-Regular,Menlo,Consolas,monospace;
+  --r:16px;
+}
+*{box-sizing:border-box} html{scroll-behavior:smooth}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:var(--font);font-size:16px;line-height:1.6;
+  -webkit-font-smoothing:antialiased;overflow-x:hidden;font-feature-settings:"cv11","ss01";letter-spacing:-0.011em}
+body::before{content:"";position:fixed;inset:0;z-index:0;pointer-events:none;
+  background:radial-gradient(900px 520px at 88% -8%,rgba(255,106,43,.13),transparent 62%),
+             radial-gradient(760px 460px at 2% 8%,rgba(198,242,78,.05),transparent 58%)}
+a{color:inherit;text-decoration:none}
+::selection{background:rgba(255,106,43,.28)}
+.wrap{position:relative;z-index:1;max-width:1180px;margin:0 auto;padding:0 clamp(22px,5vw,40px)}
+
+/* top */
+nav{position:sticky;top:0;z-index:30;background:rgba(9,9,10,.86);backdrop-filter:blur(12px);border-bottom:1px solid var(--line)}
+.nav-in{display:flex;align-items:center;gap:16px;height:60px}
+.brand{font-weight:800;letter-spacing:.06em;font-size:15px}
+.brand .mk{color:var(--accent)}
+.back{margin-left:auto;font-size:13.5px;color:var(--muted);font-weight:500;transition:.2s}
+.back:hover{color:var(--ink)}
+
+/* hero */
+header{padding:clamp(56px,9vh,96px) 0 28px}
+.eyebrow{display:inline-flex;align-items:center;gap:8px;font-size:12px;font-weight:600;letter-spacing:.04em;color:var(--accent);text-transform:uppercase}
+.eyebrow::before{content:"";width:18px;height:1px;background:var(--accent);opacity:.6}
+h1{font-weight:800;letter-spacing:-.04em;line-height:1.0;font-size:clamp(38px,6vw,72px);margin:20px 0 0}
+h1 em{font-style:normal;color:var(--accent)}
+.lede{max-width:680px;margin:24px 0 0;font-size:clamp(16px,1.7vw,19px);color:var(--soft)}
+
+/* layout: stepper + panel */
+.proc{display:grid;grid-template-columns:300px minmax(0,1fr);gap:36px;padding:40px 0 72px;align-items:start}
+@media(max-width:880px){.proc{grid-template-columns:1fr;gap:18px}}
+
+/* stepper */
+.stepper{position:sticky;top:84px;display:flex;flex-direction:column;gap:2px}
+@media(max-width:880px){.stepper{position:static;flex-direction:row;overflow-x:auto;gap:8px;padding-bottom:6px;scrollbar-width:none}.stepper::-webkit-scrollbar{display:none}}
+.step{display:flex;align-items:center;gap:13px;padding:12px 14px;border-radius:12px;border:1px solid transparent;
+  cursor:pointer;transition:.2s;color:var(--muted);text-align:left;background:none;font-family:inherit;width:100%}
+@media(max-width:880px){.step{flex:none;width:auto;white-space:nowrap}}
+.step:hover{color:var(--soft);background:rgba(255,255,255,.02)}
+.step.active{color:var(--ink);background:var(--accent-soft);border-color:rgba(255,106,43,.3)}
+.step .sn{flex:none;width:30px;height:30px;border-radius:9px;display:grid;place-items:center;font-size:13px;font-weight:800;
+  border:1px solid var(--line);color:var(--muted);transition:.2s}
+.step.active .sn{color:var(--accent);border-color:rgba(255,106,43,.4);background:rgba(255,106,43,.08)}
+.step .stt{font-size:13.5px;font-weight:600;line-height:1.25}
+.step .sph{display:block;font-size:11px;font-weight:500;color:var(--muted);letter-spacing:.02em}
+@media(max-width:880px){.step .sph{display:none}}
+
+/* panel */
+.panel{display:none;animation:fade .4s cubic-bezier(.2,.7,.2,1)}
+.panel.active{display:block}
+@keyframes fade{from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:none}}
+.p-eyebrow{font-family:var(--mono);font-size:12px;color:var(--accent);letter-spacing:.06em}
+.p-title{font-weight:800;letter-spacing:-.03em;font-size:clamp(26px,3.6vw,40px);line-height:1.05;margin:8px 0 0}
+.p-title .thin{color:var(--muted);font-weight:500}
+.p-was{margin:18px 0 0;font-size:16.5px;color:var(--soft);max-width:680px}
+
+/* skill cards in panel */
+.sk-cards{display:flex;flex-direction:column;gap:14px;margin:26px 0 0}
+.sk{border:1px solid var(--card-bd);background:var(--card);border-radius:var(--r);padding:22px 24px}
+.sk-head{display:flex;align-items:center;gap:10px;flex-wrap:wrap}
+.sk-name{font-family:var(--mono);font-size:14.5px;color:var(--ink)}
+.sk-name .slash{color:var(--accent)}
+.sk-role{font-size:11px;font-weight:600;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);border:1px solid var(--line);border-radius:100px;padding:3px 9px}
+.sk-role.lead{color:var(--accent);border-color:rgba(255,106,43,.35)}
+.sk p{margin:10px 0 0;font-size:14px;color:var(--soft);line-height:1.55}
+.sk ul{list-style:none;margin:12px 0 0;padding:0;display:flex;flex-direction:column;gap:7px}
+.sk li{position:relative;padding-left:18px;font-size:13px;color:var(--soft);line-height:1.45}
+.sk li::before{content:"";position:absolute;left:3px;top:7px;width:5px;height:5px;border-radius:50%;background:var(--accent);opacity:.7}
+
+/* Lehre callout */
+.lehre{display:flex;gap:13px;border:1px solid rgba(198,242,78,.22);background:rgba(198,242,78,.05);
+  border-radius:13px;padding:16px 18px;margin:24px 0 0;font-size:14.5px;color:var(--soft);line-height:1.55}
+.lehre .ic{flex:none;color:var(--lime);font-weight:700}
+.lehre b{color:var(--ink)}
+
+/* panel footer nav */
+.p-nav{display:flex;justify-content:space-between;gap:12px;margin:30px 0 0;padding-top:18px;border-top:1px solid var(--line-2)}
+.p-nav button{font-family:inherit;font-size:13px;font-weight:600;color:var(--soft);background:none;border:1px solid var(--card-bd);
+  border-radius:100px;padding:9px 16px;cursor:pointer;transition:.2s}
+.p-nav button:hover{color:var(--ink);border-color:var(--ink)}
+.p-nav button:disabled{opacity:.3;cursor:default}
+
+/* flywheel / feedback */
+section.tail{border-top:1px solid var(--line);padding:56px 0}
+.tail h2{font-weight:800;letter-spacing:-.03em;font-size:clamp(24px,3.4vw,36px);margin:14px 0 12px}
+.tail p{color:var(--soft);max-width:720px;font-size:16px}
+.tail .cards{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin-top:26px}
+@media(max-width:760px){.tail .cards{grid-template-columns:1fr}}
+.tc{border:1px solid var(--card-bd);background:var(--card);border-radius:var(--r);padding:22px}
+.tc h3{font-weight:700;font-size:17px;margin:0 0 6px;letter-spacing:-.02em}
+.tc p{font-size:14px;color:var(--soft)}
+footer{border-top:1px solid var(--line);padding:40px 0 60px;color:var(--muted);font-size:13px}
+.foot-brand{font-weight:800;letter-spacing:.06em;color:var(--ink);font-size:17px}
+.foot-brand .mk{color:var(--accent)}
+.cta{display:inline-flex;align-items:center;gap:8px;margin-top:18px;background:var(--ink);color:var(--bg);font-weight:600;font-size:14px;padding:12px 20px;border-radius:100px;transition:.2s}
+.cta:hover{background:var(--accent)}
+</style>
+</head>
+<body>
+<nav><div class="wrap nav-in">
+  <a class="brand" href="index.html">ADMKRS<span class="mk">·</span>SUITE</a>
+  <a class="back" href="index.html">← Zurück zur Übersicht</a>
+</div></nav>
+
+<header><div class="wrap">
+  <div class="eyebrow">Wie wir arbeiten</div>
+  <h1>Creative Strategy<br><em>als Prozess.</em></h1>
+  <p class="lede">Die 14 Skills sind kein Tool-Zoo — sie bilden <b style="color:var(--ink)">unseren Creative-Strategy-Prozess</b> ab und unterstützen ADMKRS Schritt für Schritt zu besserer Strategie, schärferen Briefings und stärkeren Creatives. Klick dich durch: Was passiert in welchem Schritt, welcher Skill greift, und was du dabei über Creative Strategy lernst.</p>
+</div></header>
+
+<div class="wrap">
+  <div class="proc">
+    <!-- STEPPER -->
+    <div class="stepper" id="stepper"></div>
+
+    <!-- PANELS -->
+    <div id="panels"></div>
+  </div>
+</div>
+
+<section class="tail"><div class="wrap">
+  <div class="eyebrow">Das Flywheel</div>
+  <h2>Jeder Durchlauf macht den nächsten besser.</h2>
+  <p>Creative Strategy ist kein einmaliges Projekt, sondern ein Kreislauf: Die Learnings aus dem Reporting fließen zurück in Research &amp; Diversity — und werden zum Input der nächsten Runde. Genauso behandeln wir die Suite selbst.</p>
+  <div class="cards">
+    <div class="tc"><h3>Daten leiten</h3><p>Jede Entscheidung beginnt bei dem, was nachweislich zieht — nicht beim Bauchgefühl. Gewinner iterieren, Verlierer stoppen.</p></div>
+    <div class="tc"><h3>Vielfalt skaliert</h3><p>Unter Andromeda ist das Creative das Targeting. Echte Konzept-Vielfalt schlägt 30 Varianten desselben Bildes.</p></div>
+    <div class="tc"><h3>Feedback fließt zurück</h3><p>Haben wir im echten Einsatz etwas gelernt, fließt es in die Skills ein — wir optimieren die Suite laufend mit. Sie wird mit uns besser.</p></div>
+  </div>
+  <a class="cta" href="index.html#start">Suite aktivieren &amp; loslegen →</a>
+</div></section>
+
+<footer><div class="wrap">
+  <div class="foot-brand">ADMKRS<span class="mk">·</span>SUITE</div>
+  <div style="margin-top:8px">Creative Strategy Suite · © 2026 ADMKRS GmbH, München · interner Gebrauch</div>
+</div></footer>
+
+<script>
+const STEPS = [
+  { ph:"Schritt 0", short:"Neukunde gewinnen", title:["Neukunde ", "gewinnen"],
+    was:"Bevor Strategie entsteht, muss die Brand erst mal da sein. Wir gewinnen Neukunden nicht über Behauptungen, sondern über einen geführten Audit: aus dem Account und der Meta Ad Library eines Prospects bauen wir eine Opportunity-Analyse — ein kostenloser Teardown wird zum Sales-Asset.",
+    skills:[{n:"pitch-teardown", role:"führt", lead:true, p:"Gewinnt Neukunden über audit- & teardown-geführtes Selling.", pts:["Prospect-Account + Ad-Library auditieren","Free Teardown als Sales-Asset","Proposal & Pitch überzeugend strukturieren"]}],
+    lehre:"Zeig, was du siehst, bevor du pitchst. Ein konkreter Teardown überzeugt mehr als jedes Versprechen." },
+  { ph:"Schritt 1", short:"Onboarding & Audit", title:["Onboarding ", "& Audit"],
+    was:"Bevor wir kreieren, diagnostizieren wir. Wir verstehen die Brand (Onboarding), lesen die Performance-Daten und zerlegen die bisherigen Gewinner-Ads — eigene wie fremde. So wissen wir, was schon zieht, bevor wir Neues bauen.",
+    skills:[
+      {n:"creative-strategy-os", role:"dirigiert", lead:true, p:"Das Betriebssystem: führt eine neue Brand von Tag 1 durch Onboarding → Audit → Research → Diversity → Test → Scale.", pts:["Brand-Onboarding-Worksheet","Account-Audit & Diagnose","orchestriert alle anderen Skills"]},
+      {n:"creative-teardown", role:"liefert", p:"Zerlegt Gewinner-Ads systematisch.", pts:["6-Pass-Teardown","Meta Ad Library lesen (Longevity = Winner)","Swipe-File mit übertragbaren Insights"]},
+      {n:"performance-reporting", role:"liefert Daten", p:"Liest die Account-Daten als Ausgangslage.", pts:["Best Hooks / Bestperformer","Was killen, was iterieren"]}
+    ],
+    lehre:"Diagnose vor Kreation. Daten und Teardown sagen dir, wo der Hebel liegt — Bauchgefühl ist der teuerste Berater." },
+  { ph:"Schritt 2", short:"Research & Insight", title:["Research ", "& Insight"],
+    was:"Jetzt suchen wir das „Nugget“ (Voss): den verdichteten Insight, auf dem eine Kampagne tragen kann. Wir minen Kundensprache — Reviews, Reddit, CS-Transkripte, Ad-Kommentare — nach psychografischen Mustern und Awareness-Stages, nicht nach Demografie.",
+    skills:[{n:"creative-strategy-os", role:"führt", lead:true, p:"Steuert Research & Insight-Findung.", pts:["Kundensprache minen (Message Mining)","Awareness-Stages (Schwartz) & Angles","Insight statt Demografie"]}],
+    lehre:"Insight schlägt Demografie. Red über das, was dein Gegenüber nachts wachhält — nicht über dein Produkt." },
+  { ph:"Schritt 3", short:"Diversity & Test-Plan", title:["Creative Diversity ", "& Test-Architektur"],
+    was:"Wir bestimmen, wie viele wirklich verschiedene Konzepte wir brauchen, und bauen die Test-Architektur. P.D.A. (Persona × Desire × Angle), Format-Mix, 60/30/10-Budget — echte Vielfalt statt Klone, weil Andromeda inhaltliche Gleichheit erkennt.",
+    skills:[{n:"creative-strategy-os", role:"führt", lead:true, p:"Definiert Diversity & Test-Plan.", pts:["P.D.A. / Concept-Architecture","Format-Mix: UGC / Offer-Static / Motion","60/30/10 · Test-Matrix"]}],
+    lehre:"Unter Andromeda ist das Creative das Targeting. Echte Vielfalt (Angle/Persona/Format) ist der #1-Performance-Hebel." },
+  { ph:"Schritt 4", short:"Briefing & Produktion", title:["Briefing ", "& Produktion"],
+    was:"Das Herzstück: Aus Insight und Test-Plan werden konkrete Konzepte — je 3 Hooks zum Testen, VO-First-Storyboards, Copy, Sub-Claims, CTA — als fertiges docx im ADMKRS-Stil. Hooks zuerst, Klarheit vor Kunst, dann Haltung (Voss). Je nach Format gibt es eigene Türen auf dieselbe Engine: static-briefing, motion-ad-briefing (VO-First), video-ad-briefing und ugc-briefing.",
+    skills:[
+      {n:"creative-briefing", role:"führt", lead:true, p:"Schreibt das Briefing als docx.", pts:["3 Konzepte · je 3 Hooks (Scroll-Stop)","VO-First: VO-Script als Rückgrat von Motion","Haltung statt Kategorie-Claim (Voss-Schärfe)"]},
+      {n:"offer-promo-strategy", role:"zieht", p:"Liefert das margenbewusste Angebot.", pts:["% vs € vs Bundle vs Free-Shipping","Break-even-Math"]},
+      {n:"google-cross-channel", role:"für Google", p:"Adaptiert auf Google-Formate.", pts:["Demand Gen · PMax · YouTube","exakte 2026-Specs"]}
+    ],
+    lehre:"Die ersten 2 Sekunden entscheiden. Erst verständlich (Klarheit), dann frech (Haltung) — und bei Motion trägt das Voice-Over den Watch-Flow." },
+  { ph:"Schritt 5", short:"Creator & UGC", title:["Creator ", "& UGC"],
+    was:"Für Creator-Content brauchen wir ein eigenes, drehfertiges Briefing und saubere Operations. Ein Dokument für Creator und Kunden zugleich — plus Sourcing, Rechte und EU-Kennzeichnung.",
+    skills:[
+      {n:"ugc-briefing", role:"führt", lead:true, p:"Komplettes UGC-Creator-Briefing als docx.", pts:["virale Hook-Tricks + Frameworks je Awareness","drehfertige time-coded Scripts (3 Hooks · 1 Body)"]},
+      {n:"ugc-creator-ops", role:"Operations", p:"Regelt das Drumherum.", pts:["Creator sourcen & briefen","Partnership-Ads, Nutzungsrechte & EU-Kennzeichnung"]}
+    ],
+    lehre:"Authentizität schlägt Politur. Aber Rechte und Disclosure gehören vor den Dreh geklärt, nicht danach." },
+  { ph:"Schritt 6", short:"Compliance-Check", title:["Compliance ", "vor Launch"],
+    was:"Bevor irgendetwas live geht, prüfen wir jedes Creative gegen Meta-Standards 2026 und EU/DACH-Recht. Reichweite zu verlieren, bevor sie startet, ist der teuerste Fehler.",
+    skills:[{n:"ad-compliance-check", role:"Guardrail", lead:true, p:"Prüft Creatives vor dem Launch.", pts:["Meta Advertising Standards 2026","EU/DACH: Health-, Finance-, Personal-Attributes-Claims","AI-Disclosure, Before/After, Testimonials"]}],
+    lehre:"Der günstigste Test ist der, der eine Ablehnung verhindert. Besonders polarisierende Hooks (Voss-Schärfe 3) hier gegenprüfen." },
+  { ph:"Schritt 7", short:"Landingpage", title:["Landingpage ", "/ Post-Click"],
+    was:"Die beste Ad stirbt an einer schlechten Seite. Wir ziehen den Message-Match von der Ad bis auf die Landingpage durch und nehmen Reibung aus Page-Speed und Checkout.",
+    skills:[{n:"landing-page-cro", role:"führt", lead:true, p:"Brieft & auditiert die Post-Click-Erfahrung.", pts:["Message-Match: Ad → Page","Core Web Vitals, Checkout-/Form-Friction","evidenzbasiert (Baymard, NNGroup)"]}],
+    lehre:"CTR hoch, aber CVR niedrig? Fast immer die Landingpage. Der Klick ist nur die halbe Miete." },
+  { ph:"Schritt 8", short:"Launch & Reporting", title:["Launch, Reporting ", "& Iteration"],
+    was:"Nach dem Launch lesen wir die Performance — nicht als Vanity-Zahlen, sondern als Entscheidungen. Was gewinnt, wird iteriert und skaliert; was nicht zieht, wird gestoppt. Die Learnings starten die nächste Runde.",
+    skills:[{n:"performance-reporting", role:"führt", lead:true, p:"Reports mit Learnings statt Vanity.", pts:["Metrik-Stack: Hook · Hold · CTR · CVR · ROAS","Profit/MER & Attribution 2026","Campaign-Tracker + Cadence"]}],
+    lehre:"Ein Report liefert Entscheidungen, keine Zahlen. Und er schließt den Kreis: Learnings → zurück in Research & Diversity." }
+];
+
+const stepper = document.getElementById('stepper');
+const panels = document.getElementById('panels');
+
+STEPS.forEach((s, i) => {
+  const b = document.createElement('button');
+  b.className = 'step' + (i === 0 ? ' active' : '');
+  b.dataset.i = i;
+  b.innerHTML = `<span class="sn">${i}</span><span><span class="sph">${s.ph}</span><span class="stt">${s.short}</span></span>`;
+  b.addEventListener('click', () => select(i));
+  stepper.appendChild(b);
+
+  const skCards = s.skills.map(sk => `
+    <div class="sk">
+      <div class="sk-head"><span class="sk-name"><span class="slash">/</span>${sk.n}</span><span class="sk-role${sk.lead ? ' lead' : ''}">${sk.role}</span></div>
+      <p>${sk.p}</p>
+      <ul>${sk.pts.map(p => `<li>${p}</li>`).join('')}</ul>
+    </div>`).join('');
+
+  const p = document.createElement('div');
+  p.className = 'panel' + (i === 0 ? ' active' : '');
+  p.dataset.i = i;
+  p.innerHTML = `
+    <div class="p-eyebrow">${s.ph} · von ${STEPS.length - 1}</div>
+    <h2 class="p-title">${s.title[0]}<span class="thin">${s.title[1] || ''}</span></h2>
+    <p class="p-was">${s.was}</p>
+    <div class="sk-cards">${skCards}</div>
+    <div class="lehre"><span class="ic">★</span><div><b>Was du über Creative Strategy lernst:</b> ${s.lehre}</div></div>
+    <div class="p-nav">
+      <button class="prev"${i === 0 ? ' disabled' : ''}>← ${i > 0 ? STEPS[i-1].short : ''}</button>
+      <button class="next"${i === STEPS.length - 1 ? ' disabled' : ''}>${i < STEPS.length - 1 ? STEPS[i+1].short : ''} →</button>
+    </div>`;
+  panels.appendChild(p);
+  p.querySelector('.prev').addEventListener('click', () => { if (i > 0) select(i - 1); });
+  p.querySelector('.next').addEventListener('click', () => { if (i < STEPS.length - 1) select(i + 1); });
+});
+
+function select(i){
+  document.querySelectorAll('.step').forEach(s => s.classList.toggle('active', +s.dataset.i === i));
+  document.querySelectorAll('.panel').forEach(p => p.classList.toggle('active', +p.dataset.i === i));
+  const act = document.querySelector('.step.active');
+  if (act) act.scrollIntoView({inline:'center', block:'nearest', behavior:'smooth'});
+  if (window.innerWidth <= 880) document.querySelector('.proc').scrollIntoView({behavior:'smooth', block:'start'});
+}
+</script>
+</body>
+</html>
