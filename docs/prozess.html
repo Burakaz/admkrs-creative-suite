@@ -27,11 +27,29 @@ body::before{content:"";position:fixed;inset:0;z-index:0;pointer-events:none;
              radial-gradient(760px 460px at 2% 8%,rgba(198,242,78,.05),transparent 58%)}
 a{color:inherit;text-decoration:none}
 ::selection{background:rgba(255,106,43,.28)}
-.wrap{position:relative;z-index:1;max-width:1180px;margin:0 auto;padding:0 clamp(22px,5vw,40px)}
+.wrap{position:relative;z-index:1;max-width:1460px;margin:0 auto;padding:0 clamp(22px,5vw,40px)}
+
+/* ===== shell: Sidebar + Content (einheitliches Layout aller Seiten) ===== */
+.shell{position:relative;z-index:1;display:grid;grid-template-columns:272px minmax(0,1fr);max-width:1460px;margin:0 auto}
+.side{position:sticky;top:60px;height:calc(100vh - 60px);display:flex;flex-direction:column;
+  padding:28px 22px 24px 34px;border-right:1px solid var(--line)}
+.s-tag{font-size:12px;color:var(--muted);letter-spacing:.01em}
+.main-pad{padding:0 clamp(24px,4vw,64px);min-width:0}
+.s-cta{margin-top:18px;display:flex;align-items:center;justify-content:space-between;gap:8px;
+  font-size:12.5px;font-weight:600;color:var(--soft);border:1px solid var(--card-bd);border-radius:100px;
+  padding:9px 15px;white-space:nowrap;transition:.2s}
+.s-cta .arr{color:var(--accent);transition:transform .2s}
+.s-cta:hover{color:var(--ink);border-color:var(--ink)}
+.s-cta:hover .arr{transform:translateX(2px)}
+@media(max-width:920px){
+  .shell{grid-template-columns:minmax(0,1fr)}
+  .side{position:static;height:auto;border-right:0;border-bottom:1px solid var(--line);padding:12px 18px}
+  .s-tag,.s-cta{display:none}
+}
 
 /* top — globale Menüleiste (identisch auf allen Seiten) */
 .gnav{position:sticky;top:0;z-index:50;background:rgba(9,9,10,.86);backdrop-filter:blur(12px);border-bottom:1px solid var(--line)}
-.gnav-in{position:relative;display:flex;align-items:center;gap:14px;height:60px;max-width:1180px;margin:0 auto;padding:0 clamp(18px,4vw,40px)}
+.gnav-in{position:relative;display:flex;align-items:center;gap:14px;height:60px;max-width:1460px;margin:0 auto;padding:0 clamp(18px,4vw,34px)}
 .gnav .brand{display:inline-flex;align-items:center;gap:9px;font-weight:800;letter-spacing:.05em;font-size:15px}
 .gnav .brand .mk{color:var(--accent)}
 .gnav .ver{font-size:10.5px;font-weight:600;color:var(--muted);border:1px solid var(--line);border-radius:100px;padding:2px 8px;letter-spacing:.02em}
@@ -47,7 +65,7 @@ a{color:inherit;text-decoration:none}
 @media(max-width:460px){.gnav .ver{display:none}.gnav .brand{font-size:13.5px}}
 
 /* hero */
-header{padding:clamp(56px,9vh,96px) 0 18px}
+header{padding:clamp(44px,7vh,76px) 0 18px}
 .eyebrow{display:inline-flex;align-items:center;gap:8px;font-size:12px;font-weight:600;letter-spacing:.04em;color:var(--accent);text-transform:uppercase}
 .eyebrow::before{content:"";width:18px;height:1px;background:var(--accent);opacity:.6}
 h1{font-weight:800;letter-spacing:-.04em;line-height:1.0;font-size:clamp(38px,6vw,72px);margin:20px 0 0}
@@ -64,16 +82,16 @@ h1 em{font-style:normal;color:var(--accent)}
 .lg .dot{width:8px;height:8px;border-radius:50%;flex:none}
 .lg i{color:var(--muted);font-style:normal;font-size:11.5px}
 
-/* layout: stepper + panel */
-.proc{display:grid;grid-template-columns:300px minmax(0,1fr);gap:36px;padding:34px 0 72px;align-items:start}
-@media(max-width:880px){.proc{grid-template-columns:1fr;gap:18px}}
+/* panels-bereich */
+#panels{padding:30px 0 72px}
 
-/* stepper */
-.stepper{position:sticky;top:84px;display:flex;flex-direction:column;gap:2px}
-@media(max-width:880px){.stepper{position:static;flex-direction:row;overflow-x:auto;gap:8px;padding-bottom:6px;scrollbar-width:none}.stepper::-webkit-scrollbar{display:none}}
+/* stepper (lebt in der Sidebar) */
+.stepper{display:flex;flex-direction:column;gap:2px;margin-top:26px;flex:1;overflow-y:auto;scrollbar-width:none}
+.stepper::-webkit-scrollbar{display:none}
+@media(max-width:920px){.stepper{margin-top:0;flex-direction:row;overflow-x:auto;gap:8px;padding-bottom:2px}}
 .step{display:flex;align-items:center;gap:13px;padding:12px 14px;border-radius:12px;border:1px solid transparent;
   cursor:pointer;transition:.2s;color:var(--muted);text-align:left;background:none;font-family:inherit;width:100%}
-@media(max-width:880px){.step{flex:none;width:auto;white-space:nowrap}}
+@media(max-width:920px){.step{flex:none;width:auto;white-space:nowrap;padding:8px 12px}}
 .step:hover{color:var(--soft);background:rgba(255,255,255,.02)}
 .step.active{color:var(--ink);background:var(--accent-soft);border-color:rgba(255,106,43,.3)}
 .step .sn{flex:none;width:30px;height:30px;border-radius:9px;display:grid;place-items:center;font-size:13px;font-weight:800;
@@ -81,7 +99,7 @@ h1 em{font-style:normal;color:var(--accent)}
 .step.active .sn{color:var(--accent);border-color:rgba(255,106,43,.4);background:rgba(255,106,43,.08)}
 .step .stt{font-size:13.5px;font-weight:600;line-height:1.25}
 .step .sph{display:block;font-size:11px;font-weight:500;color:var(--muted);letter-spacing:.02em}
-@media(max-width:880px){.step .sph{display:none}}
+@media(max-width:920px){.step .sph{display:none}}
 
 /* panel */
 .panel{display:none;animation:fade .4s cubic-bezier(.2,.7,.2,1)}
@@ -96,20 +114,20 @@ h1 em{font-style:normal;color:var(--accent)}
 .lbl.section{display:block;margin:32px 0 0}
 
 /* goal */
-.p-goal{display:flex;gap:11px;align-items:baseline;margin:18px 0 0;max-width:720px}
+.p-goal{display:flex;gap:11px;align-items:baseline;margin:18px 0 0;max-width:840px}
 .p-goal .goal-t{flex:none;font-size:10px;font-weight:700;letter-spacing:.13em;text-transform:uppercase;color:var(--accent);
   border:1px solid rgba(255,106,43,.35);border-radius:100px;padding:4px 10px;position:relative;top:-1px}
 .p-goal span:last-child{font-size:17.5px;color:var(--ink);font-weight:600;letter-spacing:-.012em;line-height:1.4}
-.p-was{margin:16px 0 0;font-size:15.5px;color:var(--soft);max-width:720px}
+.p-was{margin:16px 0 0;font-size:15.5px;color:var(--soft);max-width:840px}
 
 /* why block */
 .why{border:1px solid var(--line);background:rgba(255,255,255,.018);border-left:2px solid var(--accent);
-  border-radius:0 12px 12px 0;padding:15px 20px;margin:20px 0 0;max-width:760px}
+  border-radius:0 12px 12px 0;padding:15px 20px;margin:20px 0 0;max-width:880px}
 .why p{margin:7px 0 0;font-size:14.5px;color:var(--soft);line-height:1.62}
 .why b{color:var(--ink)}
 
 /* ablauf */
-.ablauf{list-style:none;margin:12px 0 0;padding:0;display:flex;flex-direction:column;gap:9px;max-width:820px}
+.ablauf{list-style:none;margin:12px 0 0;padding:0;display:flex;flex-direction:column;gap:9px;max-width:940px}
 .ab{display:flex;gap:14px;align-items:flex-start;border:1px solid var(--card-bd);background:var(--card);border-radius:13px;padding:13px 16px}
 .ab-n{flex:none;width:26px;height:26px;border-radius:8px;display:grid;place-items:center;font-size:12.5px;font-weight:800;
   color:var(--muted);border:1px solid var(--line);background:rgba(255,255,255,.02)}
@@ -134,7 +152,7 @@ h1 em{font-style:normal;color:var(--accent)}
 .sk li::before{content:"";position:absolute;left:3px;top:7px;width:5px;height:5px;border-radius:50%;background:var(--accent);opacity:.7}
 
 /* result box */
-.out{border:1px solid rgba(139,224,139,.24);background:rgba(139,224,139,.05);border-radius:13px;padding:15px 20px;margin:30px 0 0;max-width:760px}
+.out{border:1px solid rgba(139,224,139,.24);background:rgba(139,224,139,.05);border-radius:13px;padding:15px 20px;margin:30px 0 0;max-width:880px}
 .out-top{display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap}
 .out-l{font-size:10px;font-weight:700;letter-spacing:.13em;text-transform:uppercase;color:var(--good)}
 .out .feeds{font-size:12px;color:var(--muted);font-weight:500}
@@ -142,14 +160,14 @@ h1 em{font-style:normal;color:var(--accent)}
 
 /* anfänger-falle */
 .falle{display:flex;gap:13px;border:1px solid rgba(255,132,88,.26);background:rgba(255,132,88,.06);
-  border-radius:13px;padding:15px 18px;margin:14px 0 0;font-size:14px;color:var(--soft);line-height:1.58;max-width:760px}
+  border-radius:13px;padding:15px 18px;margin:14px 0 0;font-size:14px;color:var(--soft);line-height:1.58;max-width:880px}
 .falle .ic{flex:none;width:20px;height:20px;border-radius:50%;display:grid;place-items:center;font-weight:800;font-size:12px;
   color:var(--warn);border:1px solid rgba(255,132,88,.5)}
 .falle b{color:var(--ink)}
 
 /* Lehre callout */
 .lehre{display:flex;gap:13px;border:1px solid rgba(198,242,78,.22);background:rgba(198,242,78,.05);
-  border-radius:13px;padding:16px 18px;margin:14px 0 0;font-size:14.5px;color:var(--soft);line-height:1.55;max-width:760px}
+  border-radius:13px;padding:16px 18px;margin:14px 0 0;font-size:14.5px;color:var(--soft);line-height:1.55;max-width:880px}
 .lehre .ic{flex:none;color:var(--lime);font-weight:700}
 .lehre b{color:var(--ink)}
 
@@ -187,7 +205,14 @@ footer{border-top:1px solid var(--line);padding:40px 0 60px;color:var(--muted);f
   <a class="gnav-cta" href="index.html#start">Suite aktivieren →</a>
 </div></nav>
 
-<header><div class="wrap">
+<div class="shell">
+  <aside class="side">
+    <div class="s-tag">Der Prozess · 9 Schritte</div>
+    <div class="stepper" id="stepper"></div>
+    <a class="s-cta" href="styles.html">Ad-Style-Katalog<span class="arr">→</span></a>
+  </aside>
+  <main class="main-pad">
+<header>
   <div class="eyebrow">Wie wir arbeiten</div>
   <h1>Creative Strategy<br><em>als Prozess.</em></h1>
   <p class="lede">Die 14 Skills sind kein Tool-Zoo. Sie bilden <b style="color:var(--ink)">unseren Creative-Strategy-Prozess</b> ab und führen dich Schritt für Schritt durch, auch wenn du Creative Strategy zum ersten Mal machst. Pro Schritt: das Ziel, das Warum dahinter, wie es bei ADMKRS konkret abläuft, welcher Skill greift und die typische Anfänger-Falle.</p>
@@ -204,19 +229,12 @@ footer{border-top:1px solid var(--line);padding:40px 0 60px;color:var(--muted);f
       <span class="lg"><span class="dot" style="background:#FF7A7A"></span>Compliance <i>Pre-Launch-Check</i></span>
     </div>
   </div>
-</div></header>
+</header>
 
-<div class="wrap">
-  <div class="proc">
-    <!-- STEPPER -->
-    <div class="stepper" id="stepper"></div>
+<!-- PANELS -->
+<div id="panels"></div>
 
-    <!-- PANELS -->
-    <div id="panels"></div>
-  </div>
-</div>
-
-<section class="tail"><div class="wrap">
+<section class="tail">
   <div class="eyebrow">Das Flywheel</div>
   <h2>Jeder Durchlauf macht den nächsten besser.</h2>
   <p>Creative Strategy ist kein einmaliges Projekt, sondern ein Kreislauf: Die Learnings aus dem Reporting fließen zurück in Research &amp; Diversity und werden zum Input der nächsten Runde. Genauso behandeln wir die Suite selbst.</p>
@@ -226,7 +244,9 @@ footer{border-top:1px solid var(--line);padding:40px 0 60px;color:var(--muted);f
     <div class="tc"><h3>Feedback fließt zurück</h3><p>Haben wir im echten Einsatz etwas gelernt, fließt es in die Skills ein. Wir optimieren die Suite laufend mit, sie wird mit uns besser.</p></div>
   </div>
   <a class="cta" href="index.html#start">Suite aktivieren &amp; loslegen →</a>
-</div></section>
+</section>
+  </main>
+</div>
 
 <footer><div class="wrap">
   <div class="foot-brand">ADMKRS<span class="mk">·</span>SUITE</div>
@@ -469,7 +489,7 @@ function select(i){
   document.querySelectorAll('.panel').forEach(p => p.classList.toggle('active', +p.dataset.i === i));
   const act = document.querySelector('.step.active');
   if (act) act.scrollIntoView({inline:'center', block:'nearest', behavior:'smooth'});
-  if (window.innerWidth <= 880) document.querySelector('.proc').scrollIntoView({behavior:'smooth', block:'start'});
+  if (window.innerWidth <= 920) document.querySelector('#panels').scrollIntoView({behavior:'smooth', block:'start'});
 }
 </script>
 </body>
