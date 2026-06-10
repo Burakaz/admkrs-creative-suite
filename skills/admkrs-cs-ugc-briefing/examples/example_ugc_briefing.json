@@ -8,6 +8,8 @@
   "blocks": [
     { "type": "lede", "text": "Ein Dokument für zwei Leser: der Creator dreht damit sofort, der Kunde sieht die Strategie. NOVA macht aus dem Kaffee, den du eh trinkst, deine einfachste Protein-Quelle des Tages." },
 
+    { "type": "callout", "variant": "todo", "lead": "Vor Produktion klären (blockiert sonst alles):", "text": "1) <b>Zahlen:</b> 19 g Protein, 95 % weniger Zucker, Code TRYNOVA, 10 % Rabatt gegen Briefing bestätigen.\n2) <b>Creator-Casting:</b> Sarah-Typ (Alter, Markt, Sprache) final + Verfügbarkeit.\n3) <b>Rechte & Laufzeit:</b> Nutzungsrechte / Whitelisting vor dem Dreh vertraglich klären (→ ugc-creator-ops).\n4) <b>Kennzeichnung:</b> „Werbung“ als Pflicht bestätigen; Claim-Grenzen mit Kunde absegnen (→ ad-compliance-check).\n5) <b>Deadline + Liefermodus:</b> Datum + Drive/WeTransfer festlegen.\nKeine neuen Zahlen erfinden – fehlende Werte als Platzhalter an ADMKRS zurück." },
+
     { "type": "h1", "text": "Brand auf einen Blick" },
     {
       "type": "table",

@@ -18,11 +18,13 @@ Brieft **Motion Ads** (animiert, kinetische Typo, Motion-Graphics, faceless) im 
 
 ## Vorgehen
 Folge dem Workflow aus `admkrs-cs-creative-briefing`, **nur für Motion**:
-- **Dokument-Skelett:** Overview → pro Konzept: Property-Table + Strategic anchor + 3 Hooks (verschiedene Kategorien) + **VO-Script (Spine)** + time-coded Storyboard `[Time | Visual | On-Screen-Text | Voice-Over]`. **1 Angle = 1 Konzept.**
+- **Dokument-Skelett:** `todo`-Callout „Vor Produktion klären" (ganz oben) → **„Auf einen Blick"** (Ziel · Zielgruppe · Formate · Deadline · Wichtige Infos inkl. Bold-Konvention) → Overview → pro Konzept: Property-Table (Format · Offer · VO-Direction · Music — **zeilenweise**, keine Audience-Psychografik-Prosa) + Strategic anchor + 3 Hooks (verschiedene Kategorien) + **VO-Script (Spine)** + time-coded Storyboard `[Time | Visual | On-Screen-Text | Voice-Over]`. **1 Angle = 1 Konzept.**
+- **Format-Regel (Meta):** 4:5 + 9:16 Standard, **kein 1:1**. Sonderformate extra mit Plattform + Pixeln. **Bold-Konvention:** fett = landet auf dem Creative (On-Screen-Text).
 - **References lesen** (Ordner `references/` von `admkrs-cs-creative-briefing`): `creative-strategy.md` · `hook-library.md` (inkl. Kat. 16 Voss) · `copywriting.md` · `copywriting-frameworks.md` (§4b VO-Redefluss, AIDA/SLAP, BAB/DASER) · `creative-formats.md` (§5b VO-First + Gruppe D) · `voss-principles.md` · `document-format.md` · `field-notes.md` (§2b VO-Retention-Evidenz).
 - **Bauen:** `node skills/admkrs-cs-creative-briefing/assets/build_briefing.js <briefing.json> <YYMMDD_BRAND_Product_Motion_LANG.docx>`. Muster: `examples/example_motion_briefing.json` (mit VO-Spine).
 
 ## Leitprinzipien (kurz)
-**Hooks zuerst · VO-First & Redefluss · Klarheit vor Kunst, dann Haltung (Voss) · eine Idee pro Konzept · nichts erfinden.** Plattform-nativ, sound-off-tauglich (Captions). **Sicherheit:** nie senden/posten/löschen ohne Freigabe; vor Launch `admkrs-cs-ad-compliance-check`.
+**Hooks zuerst · VO-First & Redefluss · Klarheit vor Kunst, dann Haltung (Voss) · eine Idee pro Konzept · nichts erfinden.** Plattform-nativ, sound-off-tauglich (Captions).
+**Build-fertig & zeilenweise:** Property-/Storyboard-Zellen zeilenweise (`\n`); nur was der Motion-Designer zum Bauen braucht (keine Strategie-Prosa); final entschieden; offene Punkte gebündelt im `todo`-Callout oben, fehlende Werte als `[Platzhalter]`. **Sicherheit:** nie senden/posten/löschen ohne Freigabe; vor Launch `admkrs-cs-ad-compliance-check`.
 
-<sub>**ADMKRS Creative Suite** · © ADMKRS GmbH, München · v1.3.0 · interner Gebrauch · Format-Tür zu `admkrs-cs-creative-briefing` (gemeinsame Engine, keine Duplikate).</sub>
+<sub>**ADMKRS Creative Suite** · © ADMKRS GmbH, München · v1.5.0 · interner Gebrauch · Format-Tür zu `admkrs-cs-creative-briefing` (gemeinsame Engine, keine Duplikate).</sub>

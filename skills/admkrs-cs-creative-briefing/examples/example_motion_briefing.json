@@ -7,6 +7,24 @@
   },
   "blocks": [
     {
+      "type": "callout",
+      "variant": "todo",
+      "lead": "Before production – confirm first (otherwise blocked):",
+      "text": "1) <b>Per-SKU numbers:</b> protein (19g / 14g / 43g) and 95% less sugar confirmed against the brief. Mismatch = placeholder.\n2) <b>Voice talent:</b> final voice, age, language (NL?) and how to pronounce the brand name NOVA.\n3) <b>Offer + code:</b> 10% / 30% with code TRYNOVA confirmed per block.\n4) <b>Music:</b> licence / sound package cleared before the edit starts.\n5) <b>Assets:</b> final product renders + logo supplied.\nDon't invent numbers – send missing values back to ADMKRS as placeholders."
+    },
+    {
+      "type": "table",
+      "layout": "keyvalue",
+      "widths": [1, 4.2],
+      "rows": [
+        ["Goal", "Cold acquisition (SK block) + single-SKU offer push (B block). CVR focus."],
+        ["Audience", "Women 25–45 NL, sugar-conscious, flavour-loyal. Cold to brand (SK), product-aware (B)."],
+        ["Formats", "Meta standard: 4:5 (1080×1350) and 9:16 (1080×1920).\nNo 1:1.\nOther platforms only on request (then with platform + pixels)."],
+        ["Deadline", "20.06.2026 (EOD) · rough cut for review by 17.06."],
+        ["Key info", "<b>Bold = ends up on the creative.</b> Everything else is direction.\nCaptions always on (sound-off first).\nProduct label must stay readable in every hero shot."]
+      ]
+    },
+    {
       "type": "lede",
       "text": "Four concepts. Three high-performance hook options per concept for scroll-stop testing."
     },
@@ -112,11 +130,11 @@
         ],
         [
           "Voice-Over Direction",
-          "Warm, confident female voice. Late 30s tonality. Slightly playful, never preachy. Like recommending something to a friend."
+          "Warm, confident female voice.\nLate 30s tonality.\nSlightly playful, never preachy.\nLike recommending something to a friend."
         ],
         [
           "Music / Sound",
-          "Bright, modern, sparse – single repeating piano motif with a soft bass kick. No drops, no swells."
+          "Bright, modern, sparse.\nSingle repeating piano motif + soft bass kick.\nNo drops, no swells."
         ]
       ]
     },
@@ -266,11 +284,11 @@
         ],
         [
           "Voice-Over Direction",
-          "Bright, direct female voice. Early 30s. Crisper than Crunch scripts – slightly more energetic, never shouty. Like a smart friend ordering for you."
+          "Bright, direct female voice.\nEarly 30s, crisper than the Crunch scripts.\nSlightly more energetic, never shouty.\nLike a smart friend ordering for you."
         ],
         [
           "Music / Sound",
-          "Light percussion, hi-hats, water-drop FX. Single sustained synth pad. 110 BPM, never aggressive."
+          "Light percussion, hi-hats, water-drop FX.\nSingle sustained synth pad.\n110 BPM, never aggressive."
         ]
       ]
     },
@@ -428,11 +446,11 @@
         ],
         [
           "Voice-Over Direction",
-          "Warm, intimate, slightly conspiratorial female voice. Late 30s. Reads like a friend leaning in. No salesman lift on the offer line."
+          "Warm, intimate, slightly conspiratorial female voice.\nLate 30s, reads like a friend leaning in.\nNo salesman lift on the offer line."
         ],
         [
           "Music / Sound",
-          "Soft piano melody, builds gently over 15 seconds, releases on the kit reveal. 80 BPM. Quiet whoosh on each product cut."
+          "Soft piano melody, builds gently, releases on the kit reveal.\n80 BPM.\nQuiet whoosh on each product cut."
         ]
       ]
     },
@@ -582,11 +600,11 @@
         ],
         [
           "Voice-Over Direction",
-          "Steady, intelligent, lightly playful female voice. Mid 30s. Reads facts with confidence – never lectures, never pitches."
+          "Steady, intelligent, lightly playful female voice.\nMid 30s.\nReads facts with confidence, never lectures, never pitches."
         ],
         [
           "Music / Sound",
-          "Mid-tempo electronic, light rhythmic pulse. Bass-led but soft. Builds slightly into the kit reveal. Subtle 'tick' on each protein number."
+          "Mid-tempo electronic, light rhythmic pulse.\nBass-led but soft, builds into the kit reveal.\nSubtle ‘tick’ on each protein number."
         ]
       ]
     },

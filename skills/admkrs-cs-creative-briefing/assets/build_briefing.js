@@ -42,6 +42,8 @@ const T = {
   lockedBar: "B9AEDB",    // lavender accent bar
   anchorFill: "FFF7DE",   // cream  "Strategic anchor" callout
   anchorBar: "E8B923",    // gold accent bar
+  todoFill: "FCEDE6",     // warm light  "Vor Produktion klären / offene Punkte" callout
+  todoBar:  "D9532B",     // warm accent bar (signals: muss vor Produktion geklärt werden)
 };
 
 // sizes are half-points (docx unit): 1pt = 2
@@ -118,7 +120,8 @@ function allGrid() {
 
 function cell(content, o = {}) {
   const base = { size: o.size || SZ.body, color: o.color || T.body, bold: o.bold, italics: o.italics };
-  const paras = textParagraphs(content, base, { between: 18, afterLast: 0, align: o.align });
+  // between:40 ≈ 2pt Luft zwischen "\n"-Zeilen — macht zeilenweise Inhalte klar lesbar (kein Block).
+  const paras = textParagraphs(content, base, { between: 40, afterLast: 0, align: o.align });
   return new TableCell({
     width: { size: o.width, type: WidthType.DXA },
     shading: o.fill ? { fill: o.fill, type: ShadingType.CLEAR, color: "auto" } : undefined,
@@ -207,25 +210,35 @@ function tableHooks(block) {
   return new Table({ width: { size: CONTENT_W, type: WidthType.DXA }, columnWidths: widths, borders: allGrid(), rows });
 }
 
-// Full-width single-cell callout (locked = lavender, anchor = cream + gold bar).
+// Full-width single-cell callout. Multi-line via "\n" (jede Zeile = eigener Absatz —
+// für nummerierte/aufgezählte Hinweise statt Block). variant:
+//   "locked" = lavendel (Gesperrt 1:1)  ·  "anchor" = creme + Goldbalken (Strategic anchor)
+//   "todo"   = warm (Vor Produktion klären / offene Punkte, blockieren sonst)
 function callout(block) {
-  const isAnchor = block.variant === "anchor";
-  const fill = isAnchor ? T.anchorFill : T.lockedFill;
-  const barColor = isAnchor ? T.anchorBar : T.lockedBar;
+  const variant = block.variant || "locked";
+  const fill = variant === "anchor" ? T.anchorFill : variant === "todo" ? T.todoFill : T.lockedFill;
+  const barColor = variant === "anchor" ? T.anchorBar : variant === "todo" ? T.todoBar : T.lockedBar;
+  const barSize = variant === "anchor" ? 24 : 18;
   const borders = {
     top: noBorder(), bottom: noBorder(), right: noBorder(),
-    left: { style: BorderStyle.SINGLE, size: isAnchor ? 24 : 18, color: barColor },
+    left: { style: BorderStyle.SINGLE, size: barSize, color: barColor },
   };
-  const runs = [];
-  if (block.lead) runs.push(mkRun(block.lead + "  ", { bold: true, italics: false, size: SZ.callout, color: T.ink }));
-  inlineRuns(block.text, { italics: true, size: SZ.callout, color: "3C3C3C" }).forEach(r => runs.push(r));
-  const para = new Paragraph({ children: runs, spacing: { line: 264 } });
+  const lines = String(block.text == null ? "" : block.text).split("\n");
+  const paras = lines.map((ln, idx) => {
+    const runs = [];
+    if (idx === 0 && block.lead) runs.push(mkRun(block.lead + "  ", { bold: true, italics: false, size: SZ.callout, color: T.ink }));
+    inlineRuns(ln, { italics: true, size: SZ.callout, color: "3C3C3C" }).forEach(r => runs.push(r));
+    return new Paragraph({
+      children: runs.length ? runs : [mkRun("", { size: SZ.callout })],
+      spacing: { line: 264, after: idx === lines.length - 1 ? 0 : 70 },
+    });
+  });
   const c = new TableCell({
     width: { size: CONTENT_W, type: WidthType.DXA },
     shading: { fill, type: ShadingType.CLEAR, color: "auto" },
     margins: { top: 110, bottom: 110, left: 160, right: 140 },
     borders,
-    children: [para],
+    children: paras,
   });
   return new Table({
     width: { size: CONTENT_W, type: WidthType.DXA },

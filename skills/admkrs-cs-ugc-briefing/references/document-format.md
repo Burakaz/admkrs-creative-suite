@@ -20,7 +20,9 @@ Wird der Output-Name weggelassen, nimmt der Builder das Feld `filename` aus der 
 ---
 
 ## Inline-Markup (in jedem Textfeld)
-`<b>fett</b>` · `<i>kursiv</i>` · `\n` neue Zeile in Zelle/Absatz. Literale `*`, `—`, `·`, „Anführungszeichen" bleiben unverändert (Sternchen-Disclaimer wie `*pro Portion` einfach so schreiben).
+`<b>fett</b>` · `<i>kursiv</i>` · `\n` neue Zeile in Zelle, Absatz **oder Callout**. Literale `*`, `·`, „Anführungszeichen" bleiben unverändert (Sternchen-Disclaimer wie `*pro Portion` einfach so schreiben). **Kein langer Gedankenstrich „—"** in produzierter Copy (Hausregel) — Punkt/Komma, notfalls „–".
+
+**Zeile für Zeile, nie als Block (Pflicht):** Aufzählungen, mehrere Anweisungen, mehrere Fakten — je Punkt eine `\n`-Zeile, in Zellen wie in Callouts. Ein „1) … 2) … 3) …"-Fließtext-Block ist falsch.
 
 ---
 
@@ -40,7 +42,7 @@ Wird der Output-Name weggelassen, nimmt der Builder das Feld `filename` aus der 
 
 ## Block-Typen (wie admkrs-cs-creative-briefing)
 
-`h1`/`h2`/`h3` (Überschriften) · `label` (graue Kursiv-Zeile unter h2) · `lede` (fetter Intro-Satz) · `p` (Absatz, `\n` für Zeilen) · `callout` (`variant`: `"locked"`=lavendel | `"anchor"`=creme+Gold; Felder `lead`, `text`) · `table` (`layout`: `headerrow` \| `keyvalue` \| `hooks`) · `outro` (fette Lead-In + Text) · `spacer` · `divider`.
+`h1`/`h2`/`h3` (Überschriften) · `label` (graue Kursiv-Zeile unter h2) · `lede` (fetter Intro-Satz) · `p` (Absatz, `\n` für Zeilen) · `callout` (**mehrzeilig**, jede `\n`-Zeile = eigener Absatz; `variant`: `"locked"`=lavendel \| `"anchor"`=creme+Gold \| `"todo"`=warm/„Vor Produktion klären"; Felder `lead`, `text`) · `table` (`layout`: `headerrow` \| `keyvalue` \| `hooks`) · `outro` (fette Lead-In + Text) · `spacer` · `divider`.
 
 **Tabellen-Layouts:**
 - `headerrow` — schwarze Kopfzeile + Zeilen. `header`, `rows`, `widths` (relative Gewichte), `style` `"plain"`/`"zebra"`, optional `colAligns`, `colItalics` (z. B. VO-Spalte kursiv).
@@ -57,9 +59,10 @@ Die Reihenfolge setzt **Brand-Foundation (Creator+Kunde) → Strategie (Kunde) �
 
 ```
 header (eyebrow "UGC Creator Briefing", title, dek)
+lede  (1 Positionierungssatz)
+callout todo  "Vor Produktion klären (blockiert sonst alles): …"   ← offene Punkte gebündelt, ganz oben (Zahlen, Casting, Rechte, Kennzeichnung, Deadline)
 
 h1 "Brand auf einen Blick"
-  lede  (1 Positionierungssatz)
   table keyvalue  [Marke | Kategorie | Produkt | Was es ist | Ton | Was die Brand NICHT ist | Offer/Code]
 
 h1 "Produkt-Facts & USPs"
@@ -103,8 +106,16 @@ h1 "Test- & Delivery-Plan"
 
 ---
 
+## Struktur-Regeln — zeilenweise & final
+
+- **Zeile für Zeile, kein Block.** Aufzählungen/mehrere Fakten je `\n`-Zeile, in Zellen wie in Callouts.
+- **Offene Punkte gebündelt nach oben** in **einen** `todo`-Callout („Vor Produktion klären …"), nummeriert, zeilenweise. Schließt mit: „Keine neuen Zahlen erfinden – fehlende Werte als Platzhalter an ADMKRS zurück." Nicht in die Build-Zellen verstreuen.
+- **Final entscheiden, ein konkreter Fakt statt Floskel**, Platzhalter (`[Platzhalter: …]`) statt geraten. (UGC ist dual-purpose: Strategie-Layer für den Kunden bleibt — anders als bei den schlanken Motion-/Static-Designer-Dokumenten.)
+
+---
+
 ## Locked-Facts im Dokument
 **Gesperrt 1:1** (Locked-Callout) hält fest, was unverändert bleibt (Zahlen, Claims, Disclaimer, Code, Review-Wortlaut). **[Ergänzung]** markiert jeden neuen Fakt/Vorschlag, der Freigabe braucht — im Text als `<b>[Ergänzung]</b>`. Disclaimer/Sternchen exakt übernehmen.
 
 ---
-<sub>**ADMKRS Creative Suite** · © ADMKRS GmbH, München · v1.1.0 · interner Gebrauch · erstellt von ADMKRS. Gleiche Builder-Engine & B4-Standard wie admkrs-cs-creative-briefing.</sub>
+<sub>**ADMKRS Creative Suite** · © ADMKRS GmbH, München · v1.5.0 · interner Gebrauch · erstellt von ADMKRS. Gleiche Builder-Engine & B4-Standard wie admkrs-cs-creative-briefing.</sub>

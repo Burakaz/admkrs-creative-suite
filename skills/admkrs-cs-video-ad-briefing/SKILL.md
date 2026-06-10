@@ -20,11 +20,13 @@ Gesprochenes (VO/Dialog) ist ein **zusammenhängender Take**, kein Stakkato — 
 
 ## Vorgehen
 Folge dem Workflow aus `admkrs-cs-creative-briefing`, **nur für Video**:
-- **Dokument-Skelett:** Overview → pro Konzept: Property-Table + Strategic anchor + 3 Hooks + (bei VO-Spots: VO-Script-Spine) + time-coded **Script/Shotlist** `[Time | Visual | On-Screen-Text | Voice-Over/VO]`. **1 Angle = 1 Konzept.** Before/After: **Nachher zuerst**. Demo: Problem → Produkt greift → Ergebnis.
+- **Dokument-Skelett:** `todo`-Callout „Vor Produktion klären" (ganz oben) → **„Auf einen Blick"** (Ziel · Zielgruppe · Formate · Deadline · Wichtige Infos inkl. Bold-Konvention) → Overview → pro Konzept: Property-Table (**zeilenweise**, nur Build-Relevantes) + Strategic anchor + 3 Hooks + (bei VO-Spots: VO-Script-Spine) + time-coded **Script/Shotlist** `[Time | Visual | On-Screen-Text | Voice-Over/VO]`. **1 Angle = 1 Konzept.** Before/After: **Nachher zuerst**. Demo: Problem → Produkt greift → Ergebnis.
+- **Format-Regel (Meta):** 4:5 + 9:16 Standard, **kein 1:1**. Sonderformate extra mit Plattform + Pixeln. **Bold-Konvention:** fett = landet auf dem Creative (On-Screen-Text).
 - **References lesen** (Ordner `references/` von `admkrs-cs-creative-briefing`): `creative-strategy.md` · `hook-library.md` (inkl. Kat. 16 Voss) · `copywriting.md` · `copywriting-frameworks.md` (QUEST/PASTOR/Star-Story-Solution; §4b) · `creative-formats.md` (Gruppen A–C + §5b) · `creative-methods.md` (Video-/Short-Form-Anatomie) · `voss-principles.md` · `document-format.md` · `field-notes.md`.
 - **Bauen:** `node skills/admkrs-cs-creative-briefing/assets/build_briefing.js <briefing.json> <YYMMDD_BRAND_Product_Video_LANG.docx>`. Engine/Struktur wie Motion-Beispiel.
 
 ## Leitprinzipien (kurz)
-**Hooks zuerst · gesprochener Flow statt Stakkato · Klarheit vor Kunst, dann Haltung (Voss) · eine Idee pro Konzept · nichts erfinden.** Drehfertige Visual-Direction (Specs, Ratio, Licht/Ton). **Sicherheit:** nie senden/posten/löschen ohne Freigabe; vor Launch `admkrs-cs-ad-compliance-check`.
+**Hooks zuerst · gesprochener Flow statt Stakkato · Klarheit vor Kunst, dann Haltung (Voss) · eine Idee pro Konzept · nichts erfinden.** Drehfertige Visual-Direction (Specs, Ratio, Licht/Ton).
+**Build-fertig & zeilenweise:** Property-/Script-Zellen zeilenweise (`\n`); nur was Regie/Editor zum Bauen braucht; final entschieden; offene Punkte gebündelt im `todo`-Callout oben, fehlende Werte als `[Platzhalter]`. **Sicherheit:** nie senden/posten/löschen ohne Freigabe; vor Launch `admkrs-cs-ad-compliance-check`.
 
-<sub>**ADMKRS Creative Suite** · © ADMKRS GmbH, München · v1.3.0 · interner Gebrauch · Format-Tür zu `admkrs-cs-creative-briefing` (gemeinsame Engine, keine Duplikate).</sub>
+<sub>**ADMKRS Creative Suite** · © ADMKRS GmbH, München · v1.5.0 · interner Gebrauch · Format-Tür zu `admkrs-cs-creative-briefing` (gemeinsame Engine, keine Duplikate).</sub>

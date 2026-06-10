@@ -32,7 +32,8 @@ Produziert das UGC-Briefing, das ADMKRS verkauft: ein **B4-.docx**, das **gleich
 - **Klarheit vor Kunst & konkret > generisch.** „19 g Protein · 95 % weniger Zucker" schlägt „viel Protein". Keine Generic-AI-Buzzwords („Game-Changer", „unlock", „elevate").
 - **Kein langer Gedankenstrich „—" (Em-Dash)** in irgendeiner produzierten Copy (Hooks, Scripts, VO, On-Screen-Text, Fließtext, JSON-Felder) — ADMKRS-Hausregel. Stattdessen Punkt/Komma, notfalls das kurze „–".
 - **Dual-Purpose by design.** Strategie-Layer (Awareness, Angle-Logik, KPI-Hypothesen) für den Kunden; Hooks/Scripts/Specs für den Creator. `references/brand-foundation.md`.
-- **Nichts erfinden.** Zahlen, Claims, Testimonials, Preise, Offers bleiben 1:1. Neue Vorschläge als **[Ergänzung]** markieren und zur Freigabe stellen.
+- **Nichts erfinden.** Zahlen, Claims, Testimonials, Preise, Offers bleiben 1:1. Neue Vorschläge als **[Ergänzung]** markieren und zur Freigabe stellen. Fehlt ein Wert: **`[Platzhalter: …]`**, nie raten.
+- **Zeilenweise & build-fertig.** Aufzählungen/mehrere Anweisungen je `\n`-Zeile (in Zellen wie Callouts), nie als „1) … 2) …"-Block. Alle offenen Punkte/Blocker gebündelt in **einen `todo`-Callout** („Vor Produktion klären (blockiert sonst alles):") ganz oben — nicht in die Build-Zellen verstreuen. (Der dual-purpose Strategie-Layer bleibt — anders als bei den schlanken Motion-/Static-Designer-Dokumenten.)
 
 ### Harte Sicherheits-Regeln (nicht verhandelbar)
 - **Nie senden / posten / publizieren / hochladen** (E-Mail, Slack, ClickUp, Ads Manager, an Creator) ohne explizite Freigabe. Alles geht als **Entwurf**.
@@ -121,4 +122,4 @@ Checkliste unten durchgehen. Fällt ein Punkt durch → überarbeiten, nicht abl
 Siehe die jeweiligen Reference-Dateien (gelabelt nach OFFIZIELL/PEER-REVIEWED/VENDOR/AGENCY). Kern-Primärquellen: TikTok/Instagram/YouTube Creator-Doku & Exec-Statements · Berger & Milkman 2012 (JMR) · Eugene Schwartz *Breakthrough Advertising* · Meta Transparency Center · die-medienanstalten.de (Werbekennzeichnung) · FTC/EU (DSA, AI Act). *Vendor-/Folklore-Zahlen direktional; Plattform/Recht an Primärquellen prüfen.*
 
 ---
-<sub>**ADMKRS Creative Suite** · © ADMKRS GmbH, München · v1.1.0 · interner Gebrauch · erstellt von ADMKRS. Quellen am jeweiligen Skill-Ende; Specs/Policies an Primärquellen prüfen.</sub>
+<sub>**ADMKRS Creative Suite** · © ADMKRS GmbH, München · v1.5.0 · interner Gebrauch · erstellt von ADMKRS. Quellen am jeweiligen Skill-Ende; Specs/Policies an Primärquellen prüfen. · v1.5.0: zeilenweise statt Block, mehrzeilige Callouts + `todo`-Block „Vor Produktion klären".</sub>
