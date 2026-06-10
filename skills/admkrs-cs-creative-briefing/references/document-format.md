@@ -26,8 +26,9 @@ Optionaler Render-Check (Optik verifizieren): docx → PDF → JPEG via LibreOff
 ## Inline-Markup (in jedem Textfeld erlaubt)
 
 - `<b>fett</b>` — Bold. `<i>kursiv</i>` — Italic. Verschachtelbar: `<b><i>…</i></b>`.
-- `\n` — neue Zeile innerhalb einer Zelle / eines Absatzes.
-- Literale `*`, `—`, `·`, „Anführungszeichen" bleiben unverändert (kollidieren **nicht** mit dem Markup — Sternchen-Disclaimer wie `*pro 30g Pulver` einfach so schreiben).
+- `\n` — neue Zeile innerhalb einer Zelle, eines Absatzes **oder Callouts**.
+- **Zeile für Zeile, nie als Block (Pflicht):** Jede Aufzählung, jeder eigenständige Gedanke, jede einzelne Anweisung kommt auf eine **eigene Zeile** (`\n`). Niemals mehrere nummerierte/aufgezählte Punkte in einen Fließtext-Block packen — ein „1) … 2) … 3) …"-Absatz ist falsch, je Punkt eine `\n`-Zeile ist richtig. Gilt für Zellen **und** Callouts.
+- Literale `*`, `·`, „Anführungszeichen" bleiben unverändert (kollidieren **nicht** mit dem Markup — Sternchen-Disclaimer wie `*pro 30g Pulver` einfach so schreiben). **Kein langer Gedankenstrich „—"** in produzierter Copy (ADMKRS-Hausregel) — stattdessen Punkt/Komma, notfalls das kurze „–".
 
 ---
 
@@ -57,7 +58,7 @@ Optionaler Render-Check (Optik verifizieren): docx → PDF → JPEG via LibreOff
 | `label` | kleine kursive graue Zeile unter h2 (Family-Label, z. B. „Crunch") | `text` |
 | `lede` | fetter Intro-Satz | `text` |
 | `p` | normaler Absatz (Intro-/Erklärtext), `\n` für Zeilen | `text` |
-| `callout` | farbiger Hinweis-Block | `variant` (`"locked"`=lavendel \| `"anchor"`=creme+Goldbalken), `lead`, `text` |
+| `callout` | farbiger Hinweis-Block, **mehrzeilig** (jede `\n`-Zeile = eigener Absatz) | `variant` (`"locked"`=lavendel \| `"anchor"`=creme+Gold \| `"todo"`=warm/„Vor Produktion klären"), `lead`, `text` |
 | `table` | Tabelle (siehe Layouts) | `layout`, `style`, `widths`, `header`, `rows`, `colAligns`, `colItalics` |
 | `outro` | fette Lead-In-Zeile + Text (Motion/Video-Outro) | `lead`, `text` |
 | `spacer` | vertikaler Abstand | `size` (optional) |
@@ -85,21 +86,52 @@ Optionaler Render-Check (Optik verifizieren): docx → PDF → JPEG via LibreOff
 
 ## Skelett je Briefing-Typ
 
-**Statics / Carousel:**
+**Statics / Carousel (Designer-Dokument — schlank, build-fertig):**
 ```
 header (title, dek)
-h1 "Strategie-Layer"
-table headerrow/plain  [Hebel | Beschreibung]
+callout todo    "Vor Produktion klären (blockiert sonst alles): …"   ← offene Punkte gebündelt, ganz oben
+table keyvalue  "Auf einen Blick"  [Ziel | Zielgruppe | Formate | Deadline | Wichtige Infos]   ← Pflicht
+callout anchor  "Strategischer Anker. …"   ← die EINE strategische Idee, 1–2 Zeilen (keine Hebel-Tabelle)
 callout locked  "Gesperrt 1:1: …"
+p  "<b>Fett = landet auf dem Creative.</b> Alles andere ist Anweisung/Kontext."   ← Lese-Konvention, direkt über der Tabelle
 h1 "Briefing"
-table headerrow/plain  [Static | Dateiname | Hook | Sub / Claim | USPs / Inhalt | CTA + Disclaimer | Visual-Direction]
+table headerrow/plain  [# | Dateiname | Produkt | Creative Format | Hook | Subline | USPs / Badge | Disclaimer | Visual-Direction]
 ```
-(Carousel: letzte Tabelle = `[Card | Visual | On-Card Text | Zweck]`.)
+
+**„Auf einen Blick" (Pflicht-Block in jedem Designer-Briefing):**
+- **Ziel** — was das Set erreichen soll (z. B. „Prospecting cold · CVR-Fokus", „Retargeting · Offer-Push").
+- **Zielgruppe** — 1 Zeile, konkret (wer ist die Person, nicht Demografie-Salat).
+- **Formate** — **Meta-Standard: 4:5 (1080×1350) und 9:16 (1080×1920). Kein 1:1 mehr für Meta-Briefings.** Sonderformate (andere Plattformen) immer **extra mit Plattform + Format + Pixeln** angeben (z. B. „Pinterest: 2:3 · 1000×1500").
+- **Deadline** — Datum; fehlt es: `[Platzhalter: Deadline]` + ab in den todo-Callout.
+- **Wichtige Infos** — zeilenweise, nur was die Produktion wirklich braucht.
+
+**Bold-Konvention (Pflicht):** **Alles, was fett (`<b>`) geschrieben ist, landet als Text auf dem Creative.** Hook, Subline, USPs/Badge, Disclaimer-Wortlaut → fett. Anweisungen, Kontext, Visual-Direction → nicht fett. Die Konvention steht als `p`-Zeile direkt über der Briefing-Tabelle im Dokument.
+
+**Briefing-Tabelle — Spalten (Statics):**
+
+| Spalte | Inhalt |
+| --- | --- |
+| `#` | Creative-Nummer (1, 2, 3 …) |
+| `Dateiname` | nach Naming-Convention des Kunden, sonst ADMKRS-Stil |
+| `Produkt` | kurze Produktbezeichnung (z. B. „Schokoriegel", „Protein Butter Cups") |
+| `Creative Format` | der Ad-Style aus der Style-Bibliothek (`creative-formats.md`): z. B. Vorher/Nachher, Product Features, USP Ad, 3 Reasons Why, Us vs Them, Review, Lifestyle, Organic Screen, Native Ad, Problem/Solution, Product-Hero … |
+| `Hook` | die Headline — **fett** (landet auf dem Creative) |
+| `Subline` | die Klammer-Auflösung zum Hook — **fett** |
+| `USPs / Badge` | **optional** — nur wenn hier Text aufs Creative kommt UND relevant; **fett**, zeilenweise |
+| `Disclaimer` | **optional** — klein aufs Creative, nur falls vorhanden & wichtig; **fett** |
+| `Visual-Direction` | **frei halten:** Inspos, Stimmung, Referenzen — **keine Formatangaben** (stehen oben), **keine Farben**, keine Pixel-Vorgaben. Designer kreativ arbeiten lassen. Ausnahme: es gibt eine klare Kunden-Vorgabe, dann steht sie hier. |
+
+- **Optionale Spalten (`USPs / Badge`, `Disclaimer`) nur aufnehmen, wenn mindestens ein Creative im Set sie braucht** — sonst Spalte ganz weglassen (kein „–"-Friedhof).
+- Jede Zelle **zeilenweise** (`\n`), keine Prosa-Blöcke.
+- **Keine `Strategie-Layer`-Tabelle** mehr im Designer-Dokument — die Hebel-/Warum-Analyse bleibt im Strategie-Pass (Chat), im Dokument steht nur der Anker.
+- Carousel: letzte Tabelle = `[Card | Visual | On-Card Text | Zweck]`, Card 1 = Standalone-Hook, letzte Card = CTA.
 
 **Motion / Video (pro Konzept ein Block-Set):**
 ```
 header (eyebrow, title, dek)
-lede + p   (Intro)
+lede + p   (kurzer Intro)
+callout todo   "Vor Produktion klären (blockiert sonst alles): …"   ← offene Punkte gebündelt, ganz oben
+table keyvalue  "Auf einen Blick"  [Ziel | Zielgruppe | Formate | Deadline | Wichtige Infos]   ← Pflicht (Formate: 4:5 + 9:16 Meta-Standard, kein 1:1; Sonderformate mit Plattform + Pixel)
 h1 "Overview"
 table headerrow/zebra  [# | Title | Family | Offer | Length]
 h1 "B-Block — …"   p (italic Intro)
@@ -120,6 +152,23 @@ h1 "B-Block — …"   p (italic Intro)
 > **VO-First (Pflicht-Vorgehen).** Pro Motion-/Video-Konzept ist das **„VO-Script (Spine)"** das **führende Element**: ein `h3` „VO-Script (Spine)" + ein `p`-Block mit dem **kompletten gesprochenen VO am Stück** (je Beat eine Zeile via `\n`) — **vor** dem time-coded Storyboard. Schreib das VO zuerst und durchgehend, sodass es sich als **ein** natürlicher Take liest; **dann** mappt das Storyboard `Time · Visual · On-Screen-Text` **auf die VO-Beats** (die Voice-Over-Spalte im Storyboard wiederholt die Beats des Spine, zerlegt nach Zeit).
 >
 > **Redefluss, kein Stakkato:** Der Spine liest sich von oben nach unten als zusammenhängender, natürlich gesprochener Monolog (Bindeglieder, „du"-Ansprache, Hook 0–2 s → Spannung → Auflösung → CTA). Jede Zeile knüpft an die vorige an. On-Screen-Text darf knapp/Schlagwort sein, das gesprochene VO nie. Schreibregeln: `creative-formats.md` §5b · Vorher/Nachher: `copywriting-frameworks.md` §4b. *(Kein Builder-Eingriff nötig — `h3`+`p` sind Standard-Blöcke.)*
+
+---
+
+## Struktur-Regeln — zeilenweise, Designer-tauglich, finale Briefings
+
+Ein Briefing ist eine Bau-Anweisung, kein Strategie-Essay. Es muss so klar sein, dass ein Designer oder Editor es **ohne Rückfrage** umsetzen kann.
+
+- **Zeile für Zeile, kein Block.** Aufzählungen, mehrere Anweisungen, mehrere Fakten: je Punkt eine `\n`-Zeile — in Zellen wie in Callouts. Ein dichter Absatz mit „1) … 2) … 3) …" ist ein Fehler.
+- **Nur was beim Bauen hilft.** In Motion-/Static-Designer-Dokumenten kommt rein, was Bild, Text, Layout, Specs, VO oder Schnitt betrifft. Strategie steckt im **einen** `anchor`-Callout (1–2 Zeilen), nicht in einer Hebel-/Analyse-Tabelle. Audience-Psychografik, Awareness-Theorie, Test-Hypothesen-Prosa gehören nicht ins Designer-Dokument (UGC-Briefing ist die Ausnahme: dual-purpose für Creator **und** Kunde).
+- **„Auf einen Blick" ist Pflicht.** Jedes Designer-Briefing trägt oben Ziel · Zielgruppe · Formate · Deadline · Wichtige Infos als keyvalue-Tabelle.
+- **Format-Regel (Meta):** Standard ist **4:5 + 9:16. Kein 1:1 mehr in Meta-Briefings.** Sonderformate für andere Plattformen immer extra mit **Plattform + Format + Pixeln**. Formatangaben stehen NUR im „Auf einen Blick", nie in den Visual-Direction-Zellen.
+- **Bold-Konvention:** **fett = landet auf dem Creative.** Hook/Subline/USPs/Disclaimer-Wortlaut fett, alles andere nicht. Konvention als `p`-Zeile über der Tabelle ausweisen.
+- **Visual-Direction frei halten.** Inspos, Stimmung, Referenzen — keine Formatangaben, keine Farben, keine Pixel-Maße. Designer sollen kreativ arbeiten. Nur bei klarer Kunden-Vorgabe wird sie hier festgeschrieben.
+- **Final entscheiden, nicht abwägen.** Build-Zellen enthalten Entscheidungen, keine offenen Fragen und kein „evtl./oder vielleicht". Beispiel: „Initiale im Kreis, kein KI-Gesicht" statt „KI-Frau geblurrt, könnte fake wirken".
+- **Ein konkreter Fakt statt Floskel.** Keine generischen Badges doppeln („Geschmack, der für sich spricht" 3× im Set). Je Slide/Static **ein** konkreter, freigegebener Fakt („1,5 g Zucker pro Riegel", „max. 84 kcal pro Tüte"). Info statt Floskel = weniger salesy.
+- **Offene Punkte gebündelt nach oben (`todo`-Callout).** Alle Blocker/Rückfragen in **einen** `todo`-Callout ganz oben („Vor Produktion klären (blockiert sonst alles):"), nummeriert, zeilenweise — nicht verstreut in die Build-Zellen. Schließt immer mit: „Keine neuen Zahlen erfinden – fehlende Werte als Platzhalter an ADMKRS zurück."
+- **Platzhalter statt Erfindung.** Fehlt ein Wert, schreib `[Platzhalter: …]` und nimm ihn in den `todo`-Callout auf — niemals raten oder Zahlen erfinden.
 
 ---
 

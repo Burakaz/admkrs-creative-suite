@@ -5,7 +5,7 @@
 **Das Creative-Strategy-Betriebssystem der ADMKRS GmbH.**
 14 verzahnte Skills für Paid-Social- & Google-Creative-Strategy auf höchstem Niveau — Meta (Andromeda) & Google.
 
-`v1.3.1` · © 2026 ADMKRS GmbH, München · interner Gebrauch
+`v1.5.0` · © 2026 ADMKRS GmbH, München · interner Gebrauch
 
 </div>
 

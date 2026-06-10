@@ -35,7 +35,9 @@ Diese Prinzipien gelten in jedem Briefing. Sie sind der Grund, warum ein ADMKRS-
 - **Plattform-nativ denken.** Ein Reel ist kein TV-Spot. Sound-off zuerst, vertikal, Daumen-Stop in Sekunde 0, Caption-tragbar.
 - **Andromeda: Creative IST das Targeting.** Meta findet die Zielgruppe über das Creative. Deshalb gewinnt **echte Konzept-Vielfalt** (verschiedene Angles, Personas, Pains) — nicht 30 Varianten desselben Bildes. Siehe `references/creative-strategy.md`.
 - **Keine Generic-AI-Buzzwords.** "Game-changer", "elevate your", "unlock the power of", "revolutionary", "in today's fast-paced world" sind verboten. Wenn ein Satz nach KI klingt, neu schreiben. Siehe Banned-List in `references/copywriting.md`.
-- **Nichts erfinden.** Zahlen, Health Claims, Testimonials, Preise, Offers werden nie erfunden. Was gesperrt/freigegeben ist, bleibt 1:1. Neue Vorschläge werden klar als **[Ergänzung]** markiert und zur Freigabe gestellt.
+- **Nichts erfinden.** Zahlen, Health Claims, Testimonials, Preise, Offers werden nie erfunden. Was gesperrt/freigegeben ist, bleibt 1:1. Neue Vorschläge werden klar als **[Ergänzung]** markiert und zur Freigabe gestellt. Fehlt ein Wert: **`[Platzhalter: …]`** + ab in den „Vor Produktion klären"-Block — nie raten.
+- **Build-fertig & zeilenweise (Dokument-Disziplin).** Ein Briefing ist eine **Bau-Anweisung**, kein Strategie-Essay. Jede Aufzählung/Anweisung steht **zeilenweise** (nie als „1) … 2) … 3) …"-Block, in Zellen wie Callouts). **Designer-Dokumente (Static/Motion/Video) enthalten nur, was beim Bauen hilft** — Strategie steckt in **einem** `anchor`-Callout (1–2 Zeilen), nicht in einer Hebel-/Analyse-Tabelle; keine Audience-Psychografik-Prosa. Build-Zellen sind **final entschieden** (keine offenen Fragen, kein „evtl."), **ein konkreter Fakt statt Floskel** (keine Badge-Doppler). Alle offenen Punkte gebündelt in **einen `todo`-Callout** („Vor Produktion klären (blockiert sonst alles):") ganz oben. (UGC-Briefing ist die Ausnahme: dual-purpose für Creator **und** Kunde, Strategie-Layer bleibt.) Struktur & Skelette: `references/document-format.md`.
+- **„Auf einen Blick" + Bold-Konvention + Format-Regel (Designer-Standard).** Jedes Designer-Briefing trägt oben **Ziel · Zielgruppe · Formate · Deadline · Wichtige Infos**. **Fett = landet auf dem Creative** (Hook, Subline, USPs, Disclaimer; Anweisungen nicht fett — Konvention im Dokument ausweisen). **Meta-Formate: 4:5 + 9:16, kein 1:1**; Sonderformate extra mit Plattform + Pixeln. Je Static/Konzept das **Creative Format** (Ad-Style aus `references/creative-formats.md`) benennen. **Visual-Direction frei halten** (Inspos statt Vorgaben, keine Formate/Farben — außer klare Kunden-Vorgabe).
 - **Advantage+/KI-Awareness (2026).** Im Briefing festlegen, welche Elemente **KI-invariant** sind (Logo, Claim, gesperrte Zahlen, Farben) — Metas Auto-Enhancements können Text/Claims verändern (Vorschau vor Launch prüfen). Extern KI-generierte Assets als solche kennzeichnen (Metas AI-Disclosure-Pflicht seit März 2026). Details: `references/field-notes.md` §5.
 
 ### Harte Sicherheits-Regeln (nicht verhandelbar)
@@ -54,10 +56,10 @@ Welcher Output ist gewünscht? (Mehrere möglich.)
 
 | Typ | Wann | Dokument-Skelett |
 | --- | --- | --- |
-| **Statics** | Single-Image-Ads, Reviews, Comparison, Offer | Strategie-Layer → Briefing-Tabelle (eine Zeile pro Static) |
-| **Carousel** | Multi-Card-Storytelling, Edukation, Range | Strategie-Layer → Carousel-Tabelle (eine Zeile pro Card) |
-| **Motion** | animierte Ads, kinetische Typo, keine Live-Faces | Overview → pro Konzept: Property-Table + Strategic anchor + 3 Hooks + time-coded Storyboard |
-| **Video / UGC** | Talking-Head, UGC, Studio, VSL | Overview → pro Konzept: Property-Table + Strategic anchor + 3 Hooks + Script/Shotlist (time-coded) |
+| **Statics** | Single-Image-Ads, Reviews, Comparison, Offer | `todo` → **„Auf einen Blick"** → `anchor` → Tabelle `[# | Dateiname | Produkt | Creative Format | Hook | Subline | USPs/Badge | Disclaimer | Visual-Direction]` (1 Zeile/Static) |
+| **Carousel** | Multi-Card-Storytelling, Edukation, Range | wie Statics → Carousel-Tabelle (1 Zeile/Card) |
+| **Motion** | animierte Ads, kinetische Typo, keine Live-Faces | `todo` → **„Auf einen Blick"** → Overview → pro Konzept: Property-Table + Strategic anchor + 3 Hooks + VO-Spine + time-coded Storyboard |
+| **Video / UGC** | Talking-Head, UGC, Studio, VSL | `todo` → **„Auf einen Blick"** → Overview → pro Konzept: Property-Table + Strategic anchor + 3 Hooks + Script/Shotlist (time-coded) |
 
 Format-Details, Specs und Strukturen: `references/creative-formats.md`.
 
@@ -131,6 +133,15 @@ Vor jeder Übergabe gegenprüfen:
 - [ ] **Pre-Ship-Score:** Hält das Set dem 8-Dimensionen-QA stand (Hook/Message/CTA/Audience … `field-notes.md` §2)? Die 2 schwächsten Dimensionen gefixt?
 - [ ] **Myth-Check:** Keine widerlegten Annahmen genutzt (20 %-Regel, „1,5 s-Hook", Vendor-Benchmarks/„95 %" als Fakt)? Siehe `field-notes.md` §4.
 - [ ] **Fakten-Test:** Alle Zahlen/Claims/Offers belegt oder als **[Ergänzung]** markiert? Nichts erfunden?
+- [ ] **Zeilen-Test:** Aufzählungen & mehrere Anweisungen **zeilenweise** (`\n`) statt Block? Callouts mehrzeilig — kein „1) … 2) … 3) …"-Absatz in einer Zeile?
+- [ ] **Auf-einen-Blick-Test:** Stehen Ziel, Zielgruppe, Formate, Deadline und Wichtige Infos oben im Dokument? Deadline konkret oder als `[Platzhalter]` im todo?
+- [ ] **Bold-Test:** Ist **alles, was aufs Creative soll, fett** — und nichts anderes? Konventions-Zeile über der Tabelle drin?
+- [ ] **Format-Test (Meta):** 4:5 + 9:16 angegeben, **kein 1:1**? Sonderformate mit Plattform + Pixeln? Keine Formatangaben in Visual-Direction-Zellen?
+- [ ] **Style-Test:** Trägt jedes Static/Konzept ein benanntes **Creative Format** aus der Style-Bibliothek (`creative-formats.md`)?
+- [ ] **Visual-Frei-Test:** Visual-Direction = Inspos/Stimmung/Referenz, keine Farb-/Format-Vorgaben (außer dokumentierte Kunden-Vorgabe)?
+- [ ] **Designer-Schlank-Test (Static/Motion/Video):** Nur Build-Relevantes drin? Strategie = **ein** Anker (1–2 Zeilen), **keine** Hebel-/Analyse-Tabelle und keine Audience-Psychografik-Prosa? (UGC-Briefing ausgenommen — dual-purpose.)
+- [ ] **Final-statt-offen-Test:** Sind Build-Zellen **entschieden** (kein „evtl./oder", keine offene Frage)? Alle offenen Punkte gebündelt im **`todo`-Callout** oben, fehlende Werte als `[Platzhalter]`?
+- [ ] **Floskel-Doppler-Test:** Keine generische Badge mehrfach wiederholt — je Slide/Static **ein** konkreter, freigegebener Fakt (Info statt Floskel)?
 - [ ] **Umsetzbarkeit:** Kann ein Designer/Editor ohne Rückfrage loslegen? Specs, Ratio, Disclaimer da?
 - [ ] **Format-Test:** Sieht das .docx aus wie die Referenz (schwarze Header, Zebra, Callouts, Typo)?
 
@@ -142,7 +153,7 @@ Vor jeder Übergabe gegenprüfen:
 - `references/creative-methods.md` — Testing-Math, Creative-Diagnose über Metriken (+ Benchmarks), Concept→Iteration→Variation, Short-Form-Video- & UGC-Anatomie, Ad-Psychologie, World-class-Brief. **Lesen in Schritt 4–5.**
 - `references/performance-playbook.md` — datengetrieben briefen mit DatAds (welche Reports ziehen, Metrik-Diagnose Thumbstop/Hold/CTR/CVR, Format-Mix-Prinzip, Deconstruction-Dimensionen, Naming). **Lesen in Schritt 4.**
 - `references/field-notes.md` — verifizierte 2026-Intelligence: Frameworks worth stealing (P.D.A./Concept-Architecture, Ad Families, Creative-Demand-Score, 8-Dim-Pre-Ship-Scoring, Competitor-Teardown), neue Hook-Formate, **Facts-vs-Myths-Tabelle**, was sich Feb–Jun 2026 änderte (Advantage+/AI-Disclosure/Specs) + ADMKRS-Cross-Account-Learnings. **Lesen in Schritt 4 & 7.**
-- `references/creative-formats.md` — vollständige Format-Bibliothek (Statics, Carousels, Motion, Video/UGC) mit Specs, Struktur, Do/Don't. **Lesen in Schritt 1 & 5.**
+- `references/creative-formats.md` — vollständige Format- & **Ad-Style-Bibliothek** (Statics, Carousels, Motion, Video/UGC; §6b: 135 recherchierte Styles inkl. B2B & Interactive, mit Trend-Markern). Liefert das Vokabular für die `Creative Format`-Spalte im Briefing. **Lesen in Schritt 1 & 5.**
 - `references/copywriting.md` — Hook-Craft, Klarheits-Tests, Banned-Buzzwords, DE/EN-Copy, weak→strong-Beispiele. **Lesen in Schritt 5.**
 - `references/hook-library.md` — Hook-Engine: Fill-in-Templates nach Kategorie/Awareness (inkl. Kategorie 16 „Haltung/Anti-Kategorie" — Voss), Selection-Guide, Test-Plan. **Lesen in Schritt 5, wann immer Hooks gebraucht werden.**
 - `references/voss-principles.md` — Oliver-Voss-Haltung: Kernprinzipien (verifizierte Zitate), Ton-Guide, Voss-Hook-Konstruktionen, **Voss-Schärfe-Stufen (1/2/3)**, Do/Don't, Quellen. **Lesen in Schritt 4–5, wann immer Haltung/Differenzierung gefragt ist.**
@@ -153,4 +164,4 @@ Vor jeder Übergabe gegenprüfen:
 - `examples/example_statics_briefing.json` & `examples/example_motion_briefing.json` — vollständige, gerenderte Vorlagen. Als Muster nutzen.
 
 ---
-<sub>**ADMKRS Creative Suite** · © ADMKRS GmbH, München · v1.3.1 · interner Gebrauch · erstellt von ADMKRS. Quellen am jeweiligen Skill-Ende; Specs/Policies an Primärquellen prüfen. · v1.3.1: Klarheit hart durchgesetzt — Kontext-frei-Test (jedes Substantiv konkret), Schachtel-Test, Kürzen-Pass, Detail-Regel, Anti-Patterns (`copywriting.md` §1b). · v1.2.0: Oliver-Voss-Haltung + VO-First-Doktrin.</sub>
+<sub>**ADMKRS Creative Suite** · © ADMKRS GmbH, München · v1.5.0 · interner Gebrauch · erstellt von ADMKRS. Quellen am jeweiligen Skill-Ende; Specs/Policies an Primärquellen prüfen. · v1.5.0: Dokument-Disziplin — zeilenweise statt Block, mehrzeilige Callouts + `todo`-Block „Vor Produktion klären", schlanke Designer-Dokumente (Kern-Anker statt Strategie-Tabelle), final statt offen, ein Fakt statt Floskel. · v1.3.1: Klarheit hart durchgesetzt (Kontext-frei-Test, Schachtel-Test, Kürzen-Pass, Anti-Patterns). · v1.2.0: Oliver-Voss-Haltung + VO-First-Doktrin.</sub>

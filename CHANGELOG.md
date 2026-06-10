@@ -1,5 +1,35 @@
 # Changelog — ADMKRS Creative Suite
 
+## v1.5.0 — 2026-06
+Designer-Standard + Ad-Style-Bibliothek (184 Styles) + neue Website-Seite.
+
+**Designer-Briefing-Standard (Static/Motion/Video):**
+- **„Auf einen Blick"-Block (Pflicht)** oben in jedem Designer-Briefing: Ziel · Zielgruppe · Formate · Deadline · Wichtige Infos.
+- **Format-Regel Meta:** Standard ist **4:5 + 9:16 — kein 1:1 mehr** in Meta-Briefings. Sonderformate (andere Plattformen) immer extra mit Plattform + Format + Pixeln.
+- **Bold-Konvention:** **Alles, was fett geschrieben ist, landet auf dem Creative** (Hook, Subline, USPs, Disclaimer). Konvention steht als Zeile über der Briefing-Tabelle.
+- **Neue Statics-Tabellen-Spalten:** `# | Dateiname | Produkt | Creative Format | Hook | Subline | USPs/Badge (opt.) | Disclaimer (opt.) | Visual-Direction`. Optionale Spalten weglassen, wenn im Set leer. Subline = Klammer-Auflösung zum Hook.
+- **Visual-Direction frei:** Inspos/Stimmung/Referenzen statt Vorgaben — keine Formatangaben, keine Farben (außer klare Kunden-Vorgabe). Designer kreativ arbeiten lassen.
+- Neue Quality-Checks: Auf-einen-Blick-, Bold-, Format-, Style- und Visual-Frei-Test.
+
+**Ad-Style-Bibliothek (`creative-formats.md` §6b):**
+- **135 neue Ad-Styles** per Web-Recherche (Juni 2026, 10 parallele Sweeps, 242 Quellen-Domains, u. a. Motion, Foreplay, Superads, MagicBrief, TikTok Creative Center, Meta Business Help) — dedupliziert gegen den Bestand, kuratiert, mit Erkennungsmerkmal / Wofür gut / Aufbau, Trend-Markern (↑/↓) und inkl. der Kern-Styles USP Ad, Product Features, 3/5 Reasons Why, Problem/Solution, Organic Screen(shot).
+- 10 neue Kategorien: Static DR & Produkt-Layout · Static Brand/Editorial · Static UI-Fakes & Screenshot-Proof · Video UGC/Creator · Video Social Proof · Video DR-Story/Demo/Production · Motion & CGI · Carousel-Formate · B2B & SaaS · Interactive & Platform-Mechaniken.
+- Die `Creative Format`-Spalte im Briefing nimmt ihre Style-Namen aus dieser Bibliothek (§1–6b).
+
+**Website:**
+- Neue Seite **`styles.html`** — die komplette Style-Bibliothek (184 Styles, Bestand + Recherche) mit Filter-Tabs (Static/Video/Motion/Carousel/B2B) und Live-Suche; von index.html und prozess.html verlinkt.
+
+## v1.4.0 — 2026-06
+Dokument-Disziplin: zeilenweise statt Block, schlanke Designer-Briefings.
+
+- **Builder (`build_briefing.js`, beide Engines identisch gepatcht):** Callouts sind jetzt **mehrzeilig** (jede `\n`-Zeile = eigener Absatz) statt ein Block. Neue Callout-Variante **`todo`** (warmer Balken) für **„Vor Produktion klären (blockiert sonst alles):"**. Mehr Zeilenluft in Tabellenzellen.
+- **Zeile für Zeile statt Block (Pflicht):** Aufzählungen/Anweisungen kommen je auf eine eigene `\n`-Zeile — in Zellen wie Callouts. Verankert in `document-format.md` (beide Skills), den Leitprinzipien & im Quality-Check.
+- **Schlanke Designer-Dokumente (Motion/Static/Video):** keine Strategie-/Hebel-Tabelle mehr — Strategie steckt in **einem** `anchor`-Callout (1–2 Zeilen). Build-Zellen **final entschieden** (keine offenen Fragen), **ein konkreter Fakt statt Floskel** (keine Badge-Doppler), Visual-Direction als **Schritt-Liste**. UGC-Briefing bleibt dual-purpose (Strategie-Layer für den Kunden).
+- **Offene Punkte gebündelt:** alle Blocker/Rückfragen in **einen `todo`-Callout** ganz oben, fehlende Werte als `[Platzhalter: …]` — nie raten, nie erfinden.
+- **Beispiele neu im Standard:** `example_statics_briefing.json` (todo-Block, Kern-Anker, zeilenweise Build-Zellen), `example_motion_briefing.json` (todo-Block, VO-Direction/Music zeilenweise), `example_ugc_briefing.json` (todo-Block). Alle bauen sauber.
+- **Neue Quality-Checks:** Zeilen-Test · Designer-Schlank-Test · Final-statt-offen-Test · Floskel-Doppler-Test.
+- Footer-Versionen aller Briefing-Skills auf **v1.4.0** vereinheitlicht.
+
 ## v1.3.1 — 2026-06
 `creative-briefing`: Klarheit hart durchgesetzt (gegen „gewollt kreative", kontext-abhängige Hooks).
 
