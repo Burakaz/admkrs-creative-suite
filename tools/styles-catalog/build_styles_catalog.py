@@ -68,6 +68,10 @@ def r_ui(s):
         reply = s.get('sub') or s.get('caption') or ''
         bub_out = ('<div class="bub out a2">' + E(reply) + '</div>') if reply else ''
         return f'<div class="sc-ui ui-chat"><div class="statusrow"><span>9:41</span><i>•••</i></div><div class="ui-bar">{lab or "Mara"}</div><div class="ui-body"><div class="bub in a1">{E(s["hook"])}</div>{bub_out}</div></div>'
+    if k == 'whatsapp':
+        reply = s.get('sub') or s.get('caption') or ''
+        bub_out = ('<div class="bub out wa a2">' + E(reply) + '<i class="ticks">✓✓</i></div>') if reply else ''
+        return f'<div class="sc-ui ui-wa"><div class="ui-bar wa-bar">Mara · online</div><div class="ui-body wa-bg"><span class="wa-day">{lab or "Heute"}</span><div class="bub in a1">{E(s["hook"])}</div>{bub_out}</div></div>'
     if k == 'reddit':
         return f'<div class="sc-ui ui-reddit"><div class="rd-head">{lab or "r/Fitness"} · u/anna_k</div><div class="rd-title">{E(s["hook"])}</div>{cap}<div class="tw-meta a3">▲ 1,2k · 214 Kommentare</div></div>'
     if k == 'search':
@@ -85,6 +89,24 @@ def r_ui(s):
         return f'<div class="sc-ui ui-date"><div class="dt-card a1"><div class="dt-ph">{product_gfx(s["tone"])}</div><div class="nhk">{E(s["hook"])}</div></div><div class="dt-acts a3"><i>✕</i><i class="lk">♥</i></div></div>'
     if k == 'maps':
         return f'<div class="sc-ui ui-maps"><div class="mp"></div><i class="cpin a1"></i><div class="nhk">{E(s["hook"])}</div>{cap}</div>'
+    if k == 'airdrop':
+        return f'<div class="sc-ui ui-air"><div class="air-rings"><i></i><i></i>{avatar("N")}</div><div class="air-from">{lab or "AirDrop"}</div><div class="nhk ctr">{E(s["hook"])}</div><div class="em-prev ctr">{E(s.get("sub") or "")}</div><div class="air-btns"><span class="decl">Ablehnen</span><span class="acc">Annehmen</span></div></div>'
+    if k == 'widget':
+        return f'<div class="sc-ui ui-wid"><div class="wid-icons"><i></i><i></i><i></i><i></i></div><div class="wid-card a1"><span class="wid-app">{lab or "NOVA"}</span><span class="wid-num">{E(s.get("num") or "")}</span><span class="wid-sub">{E(s.get("sub") or "")}</span></div><div class="nhk ctr">{E(s["hook"])}</div></div>'
+    if k == 'island':
+        return f'<div class="sc-ui ui-isl"><div class="isl-pill"><i class="dotg"></i>{lab or "NOVA · Live"}</div><div class="isl-card a1"><div class="nhk">{E(s["hook"])}</div><div class="em-prev">{E(s.get("sub") or "")}</div><div class="isl-track"><i></i></div></div></div>'
+    if k == 'siri':
+        return f'<div class="sc-ui ui-siri"><div class="siri-tag">{lab or "Siri-Vorschlag"}</div><div class="siri-card a1"><span class="siri-orb"></span><div><div class="nhk">{E(s["hook"])}</div><div class="em-prev">{E(s.get("sub") or "")}</div></div></div></div>'
+    if k == 'share':
+        return f'<div class="sc-ui ui-share"><div class="sh-grab"></div><div class="sh-obj">{product_gfx(s["tone"], s.get("flavor"))}</div><div class="nhk ctr">{E(s["hook"])}</div><div class="sh-row">{avatar("M")}{avatar("L")}{avatar("J")}<span class="ava plus">+</span></div><div class="em-prev ctr">{E(s.get("sub") or "")}</div></div>'
+    if k == 'screentime':
+        bars = ''.join(f'<i style="--h:{h}%" class="{"hi" if i == 5 else ""}"></i>' for i, h in enumerate([42, 58, 49, 66, 54, 88, 38]))
+        return f'<div class="sc-ui ui-st"><div class="ui-bar">{lab or "Bildschirmzeit"}</div><div class="ui-body"><div class="st-bars">{bars}</div><div class="nhk">{E(s["hook"])}</div><div class="em-prev">{E(s.get("sub") or "")}</div></div></div>'
+    if k == 'wallet':
+        return f'<div class="sc-ui ui-wal"><div class="wal-card a1"><div class="wal-top"><span>{lab or "NOVA"}</span><span class="wal-num">{E(s.get("num") or "")}</span></div><div class="nhk">{E(s["hook"])}</div><div class="code">{E(s.get("badge") or "CODE TRYNOVA")}</div></div><div class="wal-add">Zu Apple Wallet hinzufügen</div></div>'
+    if k == 'alert':
+        o = (s.get('items') or ['Abbrechen', 'OK'])[:2]
+        return f'<div class="sc-ui ui-alert"><div class="al-box a1"><div class="nhk ctr">{E(s["hook"])}</div><div class="em-prev ctr">{E(s.get("sub") or "")}</div><div class="al-btns"><span>{E(o[0])}</span><span class="b">{E(o[1] if len(o) > 1 else "OK")}</span></div></div></div>'
     # comment
     return f'<div class="sc-ui ui-comment"><div class="cm a1">{avatar("J")}<div><b>jana_m</b> {E(s["hook"])}</div></div><div class="cm reply a2">{avatar("N")}<div><b>nova</b> {E(s.get("sub") or s.get("caption") or "")}</div></div></div>'
 
@@ -197,37 +219,73 @@ def chips(wofuer):
         if re.search(tok, wofuer, re.I): found.append(tok)
     return found
 
-# ---------- Seite ----------
+# ---------- Seite (V2: Familien-Ebene) ----------
+FAMILIES = json.load(open(os.path.join(HERE, 'families.json'), encoding='utf-8'))
+POOL = {s['name']: {**s, 'medium': g['medium']} for g in DATA for s in g['styles']}
+
 head = open(os.path.join(HERE, 'catalog_head.html'), encoding='utf-8').read()
 foot = open(os.path.join(HERE, 'catalog_foot.html'), encoding='utf-8').read()
+
+MEDIUM_LABEL = {'static': 'Static', 'video': 'Video', 'motion': 'Motion', 'carousel': 'Carousel', 'mixed': 'B2B & Plattform'}
+
+def render_card(st, fam, num, is_top):
+    q = ' '.join([st['name'], fam['titel'], st['erkennung'], st['wofuer'], st['aufbau']]).lower()
+    ch = ''.join(f'<span class="chip">{c}</span>' for c in chips(st['wofuer']))
+    badges = ('<span class="top-badge">TOP</span>' if is_top else '') + \
+             ('<span class="tr-badge">steigt</span>' if st.get('trend') == 'steigt' else '')
+    return f'''<div class="card" data-q="{E(q)}">
+{preview(st, fam['medium'])}
+<div class="info">
+<div class="ihead"><span class="no">{num:03d}</span><h3>{E(st['name'])}{badges}</h3></div>
+<p class="erk">{E(st['erkennung'])}</p>
+<div class="wof">{ch}<span>{E(st['wofuer'])}</span></div>
+{'<p class="auf"><b>Aufbau:</b> ' + E(st['aufbau']) + '</p>' if st['aufbau'] else ''}
+</div></div>'''
 
 num = 0
 sections = []
 gnav_links = []
-for gi, g in enumerate(DATA):
+last_medium = None
+missing_pool = []
+for fi, fam in enumerate(FAMILIES):
+    if fam['medium'] != last_medium:
+        sections.append(f'<div class="med-h">{E(MEDIUM_LABEL[fam["medium"]])}</div>')
+        gnav_links.append(f'      <span class="gm">{E(MEDIUM_LABEL[fam["medium"]])}</span>')
+        last_medium = fam['medium']
+    styles = []
+    for n in fam['styles']:
+        st = POOL.get(n)
+        if not st:
+            missing_pool.append(n); continue
+        styles.append(st)
+    # Tops zuerst, Rest in Familien-Reihenfolge
+    ordered = [s for n in fam['top'] for s in styles if s['name'] == n] + [s for s in styles if s['name'] not in fam['top']]
     cards = []
-    for st in g['styles']:
+    for st in ordered:
         num += 1
-        q = ' '.join([st['name'], st['erkennung'], st['wofuer'], st['aufbau']]).lower()
-        ch = ''.join(f'<span class="chip">{c}</span>' for c in chips(st['wofuer']))
-        cards.append(f'''<div class="card" data-q="{E(q)}">
-{preview(st, g['medium'])}
-<div class="info">
-<div class="ihead"><span class="no">{num:03d}</span><h3>{E(st['name'])}</h3></div>
-<p class="erk">{E(st['erkennung'])}</p>
-<div class="wof">{ch}<span>{E(st['wofuer'])}</span></div>
-{'<p class="auf"><b>Aufbau:</b> ' + E(st['aufbau']) + '</p>' if st['aufbau'] else ''}
-</div></div>''')
-    short = g['kategorie'].replace('Static · ', '').replace('Video · ', '').replace('Motion · ', '')
-    gnav_links.append(f'      <a class="g-link" href="#g{gi}">{E(short)}<span class="gc">{len(g["styles"])}</span></a>')
-    sections.append(f'''<section class="grp" id="g{gi}" data-medium="{g['medium']}">
-<h2>{E(g['kategorie'])} <em class="cnt">{len(g['styles'])}</em></h2>
-<div class="grid">{''.join(cards)}</div>
+        cards.append(render_card(st, fam, num, st['name'] in fam['top']))
+    thumb_spec = POOL.get(fam['top'][0])
+    thumb = preview(thumb_spec, fam['medium']) if thumb_spec else ''
+    tops = ''.join(f'<span class="tp">{E(t)}</span>' for t in fam['top'])
+    sections.append(f'''<section class="fam" id="{fam['id']}" data-medium="{fam['medium']}">
+<div class="fam-head" role="button" tabindex="0" aria-expanded="false">
+<div class="fam-thumb">{thumb}</div>
+<div class="fam-info">
+<div class="fam-title"><h3>{E(fam['titel'])}</h3><span class="fam-cnt">{len(styles)} Substyles</span></div>
+<p class="fam-einsatz">{E(fam['einsatz'])}</p>
+<div class="fam-tops"><span class="tl">Top-Picks</span>{tops}</div>
+</div>
+<span class="fam-chev">▼</span>
+</div>
+<div class="fam-body"><div class="fam-body-in"><div class="grid">{''.join(cards)}</div></div></div>
 </section>''')
+    gnav_links.append(f'      <a class="g-link" href="#{fam["id"]}">{E(fam["titel"])}<span class="gc">{len(styles)}</span></a>')
 
-out = head.replace('{{GNAV}}', '\n'.join(gnav_links)) + '\n'.join(sections) + foot
+total_styles = num
+out = head.replace('{{GNAV}}', '\n'.join(gnav_links)).replace('{{TOTAL}}', str(total_styles)).replace('{{FAMS}}', str(len(FAMILIES)))
+out = out + '\n'.join(sections) + foot.replace('{{TOTAL}}', str(total_styles)).replace('{{FAMS}}', str(len(FAMILIES)))
 open(os.path.join(HERE, '..', '..', 'docs', 'styles.html'), 'w', encoding='utf-8').write(out)
-print(f'OK: {num} Styles geschrieben. Fallback-Previews (Spec fehlte): {len(preview.missing)}')
+print(f'OK: {len(FAMILIES)} Familien, {total_styles} Styles geschrieben. Fallback-Previews: {len(preview.missing)}')
 print(f'Validierungs-Warnungen: {len(preview.warnings)}')
 for w in preview.warnings: print('  WARN:', w)
-for m in preview.missing: print('  fehlt:', m)
+if missing_pool: print('FEHLT IM POOL:', missing_pool)

@@ -522,17 +522,18 @@
     "aufbau": "Render-Szene als Hero (Splash, Ingredient-Orbit), knappe Benefit-Zeile, hyperreal-clean oder bewusst surreal."
    },
    {
-    "name": "AI-Photoshoot Static↑ steigt",
+    "name": "AI-Photoshoot Static",
     "erkennung": "Szene, Hintergrund oder Modell komplett AI-generiert um ein echtes Packshot herum, Photoshoot-Qualität ohne Shooting.",
     "wofuer": "E-Com-Statics und Catalog-Assets in hoher Varianz für Advantage+ und schnelles Static-Testing.",
-    "aufbau": "Echtes Packshot als Basis, AI-Inpainting für Szene und Kontext, Text-Overlay mit Hook; Pipeline schlägt Einzel-Tool."
+    "aufbau": "Echtes Packshot als Basis, AI-Inpainting für Szene und Kontext, Text-Overlay mit Hook; Pipeline schlägt Einzel-Tool.",
+    "trend": "steigt"
    }
   ]
  },
  {
   "kategorie": "Static · UI-Fakes & Screenshot-Proof",
   "medium": "static",
-  "count": 13,
+  "count": 21,
   "styles": [
    {
     "name": "Organic Screen(shot)",
@@ -601,16 +602,65 @@
     "aufbau": "Eine spezifische Review mit konkretem Ergebnis plus Rating und Logo, optional Produktbild daneben."
    },
    {
-    "name": "Press-Hit / Article-Screenshot-Static↑ steigt",
+    "name": "Press-Hit / Article-Screenshot-Static",
     "erkennung": "Screenshot eines Presseartikels mit Publisher-Masthead, Headline und Autorenzeile, oft mit Marker-Highlight.",
     "wofuer": "MOF Authority für Supplements, Skincare, Finance, High-Consideration-E-Com; echter Press-Hit schlägt Fake.",
-    "aufbau": "Publisher-Logo und Headline tragen den Hook, markierte Kernaussage liefert den Claim; Fake-News-Look ist Policy-Risiko."
+    "aufbau": "Publisher-Logo und Headline tragen den Hook, markierte Kernaussage liefert den Claim; Fake-News-Look ist Policy-Risiko.",
+    "trend": "steigt"
    },
    {
     "name": "Post-it / Handwritten-Note Static",
     "erkennung": "Abfotografierte handgeschriebene Notiz auf Post-it, Whiteboard oder Zettel, bewusst unperfekt.",
     "wofuer": "Ugly-Ads-Familie TOF für DTC; Cases nennen rund 3x Click-Rate vs. poliertes Creative.",
     "aufbau": "Ein Kernclaim oder Mini-Liste handschriftlich, Produkt daneben oder gar nicht, der Pitch liegt in der Caption."
+   },
+   {
+    "name": "AirDrop-Share-Static",
+    "erkennung": "Gefakter AirDrop-Empfangsdialog: Absender, Vorschau und „Annehmen/Ablehnen“, als wäre dir gerade etwas geschickt worden.",
+    "wofuer": "ToFu Cold, Pattern-Interrupt; Gen-Z-affin, stark für Offer-Drops und Codes.",
+    "aufbau": "Absender + „Dateiname“ als Hook (Offer/Produkt), Annehmen-Button als implizite CTA."
+   },
+   {
+    "name": "iOS-Widget-Static",
+    "erkennung": "Homescreen-Ausschnitt mit Marken-Widget zwischen App-Icons.",
+    "wofuer": "ToFu/MoFu für Habit- und Daily-Use-Produkte; zeigt Alltagsintegration, 2026 Standard-UI.",
+    "aufbau": "Widget-Kachel trägt die eine Kernzahl/Botschaft, der Homescreen-Kontext macht sie nativ."
+   },
+   {
+    "name": "Live-Activity / Dynamic-Island-Static",
+    "erkennung": "Dynamic-Island-Pille bzw. Live-Activity-Karte mit laufendem Status (Lieferung, Timer, Drop).",
+    "wofuer": "MoFu/BoFu für Order- und Delivery-Momente, Drops, Countdowns; auf allen iPhones vertraut.",
+    "aufbau": "Status-Zeile als Spannungs-Hook („Zustellung heute, 14:02“), Produkt/Offer darunter."
+   },
+   {
+    "name": "Siri-Suggestion-Static",
+    "erkennung": "Siri-/Spotlight-Vorschlagsbanner im System-Look: „Vorschlag: …“ mit App-Marke.",
+    "wofuer": "ToFu für Routine-Trigger (Morgen-/Abend-Rituale); wirkt wie vom System empfohlen.",
+    "aufbau": "Vorschlagstext = Hook mit Tageszeit-Bezug, Marken-Icon daneben, dezente System-Anmutung."
+   },
+   {
+    "name": "Share-Sheet-Static",
+    "erkennung": "iOS-Teilen-Menü mit Empfänger-Avataren und Aktionszeile („Kopieren“, AirDrop).",
+    "wofuer": "ToFu mit Viral-Framing: inszeniert das Produkt als Ding, das man weiterschickt.",
+    "aufbau": "Geteilter Inhalt (Produkt/Code) oben, Empfängerreihe liefert den sozialen Beweis."
+   },
+   {
+    "name": "Screen-Time-Static",
+    "erkennung": "Bildschirmzeit-/Wochenreport-UI mit Tagesbalken als Visual.",
+    "wofuer": "ToFu Habit-Kontrast („3 Std. Scrollen, 0 Min. Frühstück“); Food, Health, Productivity.",
+    "aufbau": "Report als Problem-Beweis, Brand-Zeile als Auflösung darunter."
+   },
+   {
+    "name": "Wallet-Pass-Static",
+    "erkennung": "Apple-Wallet-Pass/Gutschein-Karte mit Logo-Feld und Code-Zeile.",
+    "wofuer": "BoFu Offer-Push; macht den Rabatt greifbar wie eine Bordkarte.",
+    "aufbau": "Pass mit Brand + Offer groß, Code exakt, „Zu Wallet hinzufügen“-Anmutung als CTA."
+   },
+   {
+    "name": "System-Alert-Static",
+    "erkennung": "iOS-Systemdialog mit zwei Buttons, aber zugespitzter Frage statt Systemtext.",
+    "wofuer": "ToFu Pattern-Interrupt bei hoher Ad-Fatigue; selbstironisch, leicht polarisierend.",
+    "aufbau": "Dialog-Titel = Hook-Frage, zwei Buttons als Binär-Entscheidung („Weiter scrollen / Probieren“)."
    }
   ]
  },
@@ -680,16 +730,18 @@
     "aufbau": "Klassische UGC-Struktur, der Unterschied ist das Casting: die unerwartete Person ist Pattern-Interrupt und Relatability-Hebel."
    },
    {
-    "name": "Yapper Ad↑ steigt",
+    "name": "Yapper Ad",
     "erkennung": "Person redet schnell, ungeskriptet und energiegeladen in die Kamera, One-Take, kein Teleprompter-Gefühl.",
     "wofuer": "Cold Audiences auf Meta und TikTok Shop; wirkt wie eine zufällig mitgehörte Empfehlung, Praktiker melden besseren CTR als poliertes UGC.",
-    "aufbau": "Nur Talking-Points statt Skript, ein Take pro Creator, minimales Editing; kollabiert sobald ein Skript erkennbar wird."
+    "aufbau": "Nur Talking-Points statt Skript, ein Take pro Creator, minimales Editing; kollabiert sobald ein Skript erkennbar wird.",
+    "trend": "steigt"
    },
    {
-    "name": "Faceless POV / Hands-Only Demo↑ steigt",
+    "name": "Faceless POV / Hands-Only Demo",
     "erkennung": "Nur Hände und Produkt aus Ich-Perspektive, Voiceover echt oder AI, nie ein Gesicht im Bild.",
     "wofuer": "Standard-Produktcontent für Beauty, Food, Tech, Fitness; skaliert ohne Creator-Rechte und Whitelisting-Themen.",
-    "aufbau": "POV-Hook (Hand greift Produkt), 15 bis 25 Sekunden Demo in maximal 2 Settings, Caption-Layer plus Voiceover."
+    "aufbau": "POV-Hook (Hand greift Produkt), 15 bis 25 Sekunden Demo in maximal 2 Settings, Caption-Layer plus Voiceover.",
+    "trend": "steigt"
    },
    {
     "name": "Try-On Haul",
@@ -716,10 +768,11 @@
     "aufbau": "Absurder visueller Non-Sequitur als Hook, Produkt taucht beiläufig auf, Punchline statt klassischem CTA."
    },
    {
-    "name": "Brainrot / AI-Absurd Ad↑ steigt",
+    "name": "Brainrot / AI-Absurd Ad",
     "erkennung": "AI-generierte absurde Figuren oder Mashups mit sped-up Voiceover und Overstimulation, bewusst sinnfrei.",
     "wofuer": "TOF Virality bei Gen Z und Gen Alpha (QSR, Snacks, Gaming, Apps); kultureller Attention-Play, kaum BOF-tauglich.",
-    "aufbau": "Bekannte Brainrot-Figur oder AI-Absurd-Szene als Hook, Trend-Sound dazu, Produkt wird Teil des Gags."
+    "aufbau": "Bekannte Brainrot-Figur oder AI-Absurd-Szene als Hook, Trend-Sound dazu, Produkt wird Teil des Gags.",
+    "trend": "steigt"
    }
   ]
  },
@@ -729,10 +782,11 @@
   "count": 6,
   "styles": [
    {
-    "name": "Reply-to-Comment Video↑ steigt",
+    "name": "Reply-to-Comment Video",
     "erkennung": "Eingeblendete Kommentar-Bubble mit User-Frage oben im Frame, Creator antwortet direkt darauf in die Kamera.",
     "wofuer": "MOF/BOF Objection-Handling für E-Com und Apps; wirkt wie Community-Interaktion statt Ad, setzt echte Kommentare voraus.",
-    "aufbau": "Kommentar als Hook, 20 bis 40 Sekunden direkte Antwort mit Demo oder Proof, weicher CTA."
+    "aufbau": "Kommentar als Hook, 20 bis 40 Sekunden direkte Antwort mit Demo oder Proof, weicher CTA.",
+    "trend": "steigt"
    },
    {
     "name": "Negative-Comment / Skeptic-Response",
@@ -747,10 +801,11 @@
     "aufbau": "Stop-buying-X-Hook, Kritik an der Kategorie als Begründung, dann die beworbene Alternative als belegte Empfehlung."
    },
    {
-    "name": "Comment-Overlay / Live-Social-Proof Ad↑ steigt",
+    "name": "Comment-Overlay / Live-Social-Proof Ad",
     "erkennung": "Organisch erfolgreiches Video läuft als Paid Ad, die echte Kommentarspalte bleibt teilweise sichtbar im Frame.",
     "wofuer": "TOF/MOF Social Proof für Skeptiker; Kommentare lesen sich als Community-Validierung statt Advertiser-Copy.",
-    "aufbau": "Whitelisted Organic-Winner plus Screenshot-Layer der Comment-Section, Produkt-Payoff und CTA am Ende."
+    "aufbau": "Whitelisted Organic-Winner plus Screenshot-Layer der Comment-Section, Produkt-Payoff und CTA am Ende.",
+    "trend": "steigt"
    },
    {
     "name": "Social-Proof Mashup",
@@ -759,10 +814,11 @@
     "aufbau": "High-Energy-Schnitt mit etwa einem Proof-Element pro Sekunde, Text ohne Ton lesbar, Offer-CTA am Ende."
    },
    {
-    "name": "Price-Transparency / We're-Not-Cheap Ad↑ steigt",
+    "name": "Price-Transparency / We're-Not-Cheap Ad",
     "erkennung": "Die Ad thematisiert den hohen Preis offensiv und rechnet ihn vor: Zutaten, Sourcing, Produktion.",
     "wofuer": "BOF Objection-Busting für Premium-DTC; macht den Preis-Einwand zum Selling-Point.",
-    "aufbau": "Hook nennt die Objection wörtlich, dann Cost-Breakdown mit sichtbaren Belegen, Abschluss mit Werte-Statement statt Discount."
+    "aufbau": "Hook nennt die Objection wörtlich, dann Cost-Breakdown mit sichtbaren Belegen, Abschluss mit Werte-Statement statt Discount.",
+    "trend": "steigt"
    }
   ]
  },
@@ -808,10 +864,11 @@
     "aufbau": "Soap-Konflikt in Sekunde 1, eskalierende Szenen, Produkt als Plot-Device, Cliffhanger trägt den CTA."
    },
    {
-    "name": "Long-Form Story Ad↑ steigt",
+    "name": "Long-Form Story Ad",
     "erkennung": "Story-getriebenes Format im Stil viraler TikToks mit Subtitles, Quick-Cuts und Trend-Audio über 60 bis 180 Sekunden.",
     "wofuer": "Produkte deren Wert von Sequenz, Kontext oder Proof abhängt; testet auch auf Meta-Placements gut.",
-    "aufbau": "Persönliche Story oder Konflikt als Hook, Spannungsbogen mit Quick-Cuts gegen Drop-off, Produkt als Auflösung statt Pitch."
+    "aufbau": "Persönliche Story oder Konflikt als Hook, Spannungsbogen mit Quick-Cuts gegen Drop-off, Produkt als Auflösung statt Pitch.",
+    "trend": "steigt"
    },
    {
     "name": "Quiz-Hook Video",
@@ -862,10 +919,11 @@
     "aufbau": "Feature als Hook-Claim, fokussierte Demo nur dieses Features, Mini-CTA; ein Feature pro Video."
    },
    {
-    "name": "Generative-AI B-Roll↑ steigt",
+    "name": "Generative-AI B-Roll",
     "erkennung": "AI-generierte B-Roll-Shots (Veo, Sora, Kling), die kein Budget je drehen würde, gemischt mit echtem Footage.",
     "wofuer": "Ersetzt Stock-B-Roll in VSL-, Storytime- und Explainer-Ads; stärkster Use Case sind AI-Hook-Shots.",
-    "aufbau": "Hook-Shot AI-generiert (2 bis 3 Sekunden, visuell unmöglich), danach Mix aus AI-B-Roll und echtem Produkt-Footage; AI trägt Attention, echtes Footage trägt Proof."
+    "aufbau": "Hook-Shot AI-generiert (2 bis 3 Sekunden, visuell unmöglich), danach Mix aus AI-B-Roll und echtem Produkt-Footage; AI trägt Attention, echtes Footage trägt Proof.",
+    "trend": "steigt"
    },
    {
     "name": "Polished Studio Production",
@@ -1212,6 +1270,209 @@
     "erkennung": "Imitiert eine private Story: Selfie- oder POV-Aufnahme, native IG-Text-Overlays und Sticker statt Ad-Design, als Static oder Video.",
     "wofuer": "TOF/MOF für DTC und Apps; native wirkende Stories schlagen Studio-Looks konsistent, günstige Alternative zu UGC-Video.",
     "aufbau": "Casual Selfie- oder POV-Opener mit Produkt im Bild, Story-Typo trägt Hook plus Mini-Testimonial, maximal ein Claim pro Frame, CTA erst nach dem Hook."
+   }
+  ]
+ },
+ {
+  "kategorie": "Reintegriert · Static & Editorial",
+  "medium": "static",
+  "count": 17,
+  "styles": [
+   {
+    "name": "WhatsApp-Chat-Static",
+    "erkennung": "Gefakter WhatsApp-Verlauf als Static: grüne Bubbles, Haken und Timestamps, wirkt wie ein abfotografierter Chat unter Freunden.",
+    "wofuer": "ToFu Cold für DTC-Alltagsprodukte; Scroll-Stop über Native-Look, simuliert eine Empfehlung im Freundeskreis statt einer Ad.",
+    "aufbau": "Eingehende Frage als Hook-Bubble, die Antwort liefert Produkt plus konkretes Ergebnis, die letzte Nachricht trägt Link oder Code.",
+    "examples": []
+   },
+   {
+    "name": "iMessage-Chat-Static",
+    "erkennung": "iOS-Chatverlauf mit blauen und grauen Bubbles im iMessage-Look, inklusive Kontaktname und „Heute“-Zeitstempel.",
+    "wofuer": "ToFu/MoFu für Empfehlungsprodukte (Food, Beauty, Supplements); gleiche Mechanik wie WhatsApp, wirkt auf iOS-Audiences nativer.",
+    "aufbau": "Frage-Bubble als Hook, die blaue Antwort-Bubble bringt Produkt und Benefit, optional ein Reaction-Emoji als Social-Proof-Detail.",
+    "examples": []
+   },
+   {
+    "name": "Tweet/X-Screenshot-Static",
+    "erkennung": "Screenshot eines Tweets mit Avatar, Handle, Text und Like-Zahlen, läuft unverändert als Static im Feed.",
+    "wofuer": "ToFu Cold, Pattern-Interrupt; Meinung oder Geständnis im Tweet-Format wirkt wie organischer Content, stark für Brands mit eigener Stimme.",
+    "aufbau": "Pointierter One-Liner als Tweet-Text trägt alles, Engagement-Zahlen liefern den Social Proof, kein klassischer CTA im Bild.",
+    "examples": []
+   },
+   {
+    "name": "Reddit-Thread-Static",
+    "erkennung": "Reddit-UI mit Subreddit, Post-Titel, Upvotes und Top-Kommentar als komplettes Visual.",
+    "wofuer": "ToFu/MoFu für skeptische, research-affine Audiences; Reddit gilt als ehrlichste Plattform, ideal für erklärungsbedürftige Produkte.",
+    "aufbau": "Der Post-Titel stellt die Frage der Zielgruppe, der Top-Kommentar liefert die Marke als Antwort, Upvotes machen den Beweis.",
+    "examples": []
+   },
+   {
+    "name": "Notes-App-Static",
+    "erkennung": "Screenshot der iOS-Notizen-App mit Titelzeile und Listenpunkten, wirkt wie eine geleakte private Notiz statt Werbung.",
+    "wofuer": "ToFu Cold für Routine- und Habit-Produkte (Supplements, Skincare, Food); Lo-fi-Look stoppt, weil er nicht als Ad pattern-matcht.",
+    "aufbau": "Notiz-Titel als Hook, darunter eine kurze Routine- oder Einkaufsliste, das Produkt steht als selbstverständlicher Eintrag mittendrin.",
+    "examples": []
+   },
+   {
+    "name": "Ugly / Raw-Lo-fi-Static",
+    "erkennung": "Bewusst hässlich: MS-Paint-Anmutung, Clipart, grelle Farben und schiefe Typo, sieht nach null Budget aus.",
+    "wofuer": "ToFu Cold bei hoher Ad-Fatigue, quer durch DTC; bricht jede Feed-Ästhetik, die Ugly-Ads-Familie schlägt polierte Creatives regelmäßig beim CTR.",
+    "aufbau": "Ein roher Claim dominiert das Format, das Produkt klebt als schlecht freigestellter Sticker daneben, der Stilbruch selbst ist der Hook.",
+    "examples": []
+   },
+   {
+    "name": "UGC-Foto-Screenshot-Static",
+    "erkennung": "Echtes Kundenfoto in Screenshot-Optik mit Caption oder Review-Zeile, wirkt wie aus Galerie oder Story geteilt.",
+    "wofuer": "MoFu Social Proof für E-Com und DTC, stark im Retargeting; das echte Foto schlägt Studio-Optik, sobald Vertrauen die Hürde ist.",
+    "aufbau": "Das Kundenfoto trägt das Visual, eine kurze O-Ton-Caption ist der Hook, Name plus „Verified“-Detail macht den Beweis rund.",
+    "examples": []
+   },
+   {
+    "name": "Meme-Static",
+    "erkennung": "Klassisches Bild-Meme mit bekanntem Template oder Top-Bottom-Text, die Marke taucht nur als Pointe auf.",
+    "wofuer": "ToFu für junge Audiences und Engagement; billig zu produzieren, stark für Shares und Comments, als reiner DR-Treiber eher schwach.",
+    "aufbau": "Das bekannte Meme-Format liefert die Situation, die Pointe verbindet das Insider-Gefühl mit dem Produkt, bewusst kein CTA im Bild.",
+    "examples": []
+   },
+   {
+    "name": "Offer / Promo-Static",
+    "erkennung": "Rabatt, Code oder Preisvorteil ist das größte Element im Bild, das Produkt spielt die zweite Geige.",
+    "wofuer": "BoFu und Retargeting in Sale-Phasen; konvertiert Warenkorb-Abbrecher und preissensible Wiederkehrer, E-Com quer durch alle Kategorien.",
+    "aufbau": "Offer als dominante Zahl, darunter Code und Deadline, ein CTA schließt ab; Urgency-Elemente wie Timer oder „nur bis Sonntag“ verstärken.",
+    "examples": []
+   },
+   {
+    "name": "Bundle-Static",
+    "erkennung": "Mehrere Produkte werden als ein Paket inszeniert, oft mit Spar-Badge oder „Im Set“-Hinweis statt Einzelpreis.",
+    "wofuer": "MoFu/BoFu, hebt AOV und senkt die Einstiegshürde; E-Com mit Sortiment, stark für Starter-Kits, Probier-Sets und Gifting.",
+    "aufbau": "Box oder Produktgruppe als Hero, Inhalt kurz aufgeschlüsselt, Ersparnis als Zahl, ein einziger CTA.",
+    "examples": []
+   },
+   {
+    "name": "Seasonal / Event-Static",
+    "erkennung": "Saison- oder Event-Codierung über Farben, Motive und Datum macht das Creative sofort als zeitlich verortet erkennbar.",
+    "wofuer": "ToFu bis BoFu je nach Offer; nutzt vorhandene Kaufanlässe (Sommer, BFCM, Valentinstag) als Relevanz-Hebel, passt für fast jede Kategorie.",
+    "aufbau": "Anlass im Hook, Produkt im saisonalen Kontext, optional Offer mit Enddatum als eingebaute Dringlichkeit.",
+    "examples": []
+   },
+   {
+    "name": "Before/After-Static",
+    "erkennung": "Zwei Zustände nebeneinander oder übereinander, klar als Vorher und Nachher gelabelt.",
+    "wofuer": "MoFu/BoFu für Ergebnis- und Routine-Produkte (Beauty, Fitness, Nutrition); macht die Transformation in einer Sekunde lesbar, bei Körper-Claims Policy-Risiko beachten.",
+    "aufbau": "Das Nachher zieht den Blick zuerst, das Vorher liefert den Kontrast, die Headline benennt den Unterschied konkret.",
+    "examples": []
+   },
+   {
+    "name": "Split-Visual-Static",
+    "erkennung": "Das Bild ist hart in zwei Hälften geteilt, der visuelle Kontrast der beiden Seiten ist die eigentliche Botschaft.",
+    "wofuer": "ToFu/MoFu Scroll-Stop und Positionierung; gut für „alt gegen neu“ und Kategorie-Vergleiche ohne namentlichen Wettbewerber.",
+    "aufbau": "Links der Status quo, rechts die Lösung, eine Headline überspannt beide Hälften.",
+    "examples": []
+   },
+   {
+    "name": "Infographic / Data-Viz-Static",
+    "erkennung": "Eine Zahl, ein Chart oder ein visualisierter Datenpunkt trägt das Creative statt eines Produktfotos.",
+    "wofuer": "MoFu Educate-to-Convert; stark für Produkte mit messbarem Vorteil (Nutrition, SaaS, Finance) und rational kaufende Audiences.",
+    "aufbau": "Überraschende Zahl als Hook, Mini-Visualisierung als Beweis, Produkt als Absender unten.",
+    "examples": []
+   },
+   {
+    "name": "Ingredient / Feature-Callout-Static",
+    "erkennung": "Produkt zentral im Bild, Linien oder Pins zeigen auf einzelne Zutaten oder Features mit kurzen Labels.",
+    "wofuer": "MoFu Prequalifizierung für erklärbare Produkte (Supplements, Food, Tech); beantwortet „was ist drin und warum“ vor dem Klick.",
+    "aufbau": "Hero-Shot in der Mitte, drei bis fünf Callouts mit Benefit oder Zahl, ein Claim als Headline.",
+    "examples": []
+   },
+   {
+    "name": "Editorial / Native-Static",
+    "erkennung": "Sieht aus wie ein Artikel-Teaser mit Publisher-Anmutung: Rubrik, journalistische Headline und Lesezeit statt Ad-Design.",
+    "wofuer": "ToFu/MoFu für erklärungsbedürftige oder skeptische Kategorien; senkt Ad-Resistenz und pre-framet die Landingpage.",
+    "aufbau": "Headline wie eine Story statt wie ein Claim, Kicker oben, „Weiterlesen“ als CTA; Kennzeichnung als Anzeige ist Pflicht.",
+    "examples": []
+   },
+   {
+    "name": "Advertorial-Listicle-Static",
+    "erkennung": "Artikel-Optik plus nummerierte Liste („5 Gründe…“), wirkt wie ein redaktioneller Listicle-Teaser.",
+    "wofuer": "ToFu/MoFu Cold Traffic für High-Consideration-Produkte und Supplements; füttert Advertorial-LPs und längere Leseflüsse.",
+    "aufbau": "Zahl plus Versprechen als Headline, zwei bis drei Gründe werden angeteasert, der spannendste bleibt offen als Klickgrund.",
+    "examples": []
+   }
+  ]
+ },
+ {
+  "kategorie": "Reintegriert · Carousel & Katalog",
+  "medium": "carousel",
+  "count": 10,
+  "styles": [
+   {
+    "name": "Edu-Sequence-Carousel",
+    "erkennung": "Nummerierte Schritte, exakt einer pro Card; Card 1 verspricht das Ergebnis, die letzte Card verkauft.",
+    "wofuer": "ToFu/MoFu Education für erklärungsbedürftige Produkte (Zubereitung, Anwendung, Routinen); baut Kaufnähe über Verständnis auf.",
+    "aufbau": "Card 1 nennt Ergebnis plus Schrittzahl als Hook, danach pro Card ein Schritt mit Visual, Endcard mit CTA.",
+    "examples": []
+   },
+   {
+    "name": "Listicle-Carousel",
+    "erkennung": "„5 Gründe…“-Logik mit exakt einem Argument pro Card, alle Cards im identischen Layout.",
+    "wofuer": "MoFu für Lead-Gen, B2B und DTC; macht Benefits einzeln swipebar, statt sie in ein Static zu quetschen.",
+    "aufbau": "Card 1 nennt Zahl und Versprechen, jede Folge-Card trägt genau einen Grund, die letzte Card schließt mit CTA.",
+    "examples": []
+   },
+   {
+    "name": "Before/After-Carousel",
+    "erkennung": "Card 1 zeigt das Nachher als Scroll-Stopper, das Vorher kommt erst beim Swipen.",
+    "wofuer": "MoFu für Beauty, Fitness, Home und alle Transformations-Produkte; Vorsicht bei claim-sensiblen Kategorien (Meta-Policy).",
+    "aufbau": "After-Visual als Hook auf Card 1, Vorher und der Weg dorthin auf den Folge-Cards, Produkt als Brücke, CTA am Ende.",
+    "examples": []
+   },
+   {
+    "name": "Story / Narrative-Carousel",
+    "erkennung": "Ein durchgehendes Motiv läuft sichtbar über die Kartenkanten, die Cards ergeben nur zusammen das ganze Bild.",
+    "wofuer": "ToFu Brand und Launch; der angeschnittene Rand treibt die Swipe-Rate, Engagement-Format für Fashion, Sport, Lifestyle.",
+    "aufbau": "Card 1 zeigt den auffälligsten Ausschnitt plus Teaser, die Folge-Cards vervollständigen das Panorama bis zur CTA-Endcard.",
+    "examples": []
+   },
+   {
+    "name": "Lookbook / Produkt-Range-Carousel",
+    "erkennung": "Pro Card eine SKU oder Sorte im identischen Layout, wie ein durchblätterbarer Mini-Katalog.",
+    "wofuer": "MoFu/BoFu für Brands mit Varianten-Sortiment; kommuniziert Auswahl und lässt Nutzer ihre Sorte selbst finden.",
+    "aufbau": "Card 1 etabliert die Range („4 Sorten“), danach pro Card ein Produkt mit einem Kern-Fakt, Endcard bündelt mit CTA.",
+    "examples": []
+   },
+   {
+    "name": "Objection-Busting-Carousel",
+    "erkennung": "Card 1 spricht den größten Kaufeinwand wörtlich aus, oft als Zitat in Anführungszeichen.",
+    "wofuer": "MoFu/BoFu Retargeting für Produkte mit bekannten Einwänden (Preis, Geschmack, „brauch ich nicht“); räumt Kaufblocker einzeln ab.",
+    "aufbau": "Haupteinwand als Hook auf Card 1, pro Folge-Card ein Einwand plus Antwort mit Proof, CTA erst wenn alle Blocker weg sind.",
+    "examples": []
+   },
+   {
+    "name": "Tap-through-Reveal-Carousel",
+    "erkennung": "Card 1 stellt eine Frage, die Auflösung kommt erst auf den nächsten Cards.",
+    "wofuer": "ToFu Engagement und Zeit-auf-Ad; der Information-Gap zwingt zum Swipen, stark für Edu- und Supplement-Brands.",
+    "aufbau": "Frage mit Wissenslücke auf Card 1, Auflösung auf Card 2 bis 3, danach Produkt-Brücke und CTA am Ende.",
+    "examples": []
+   },
+   {
+    "name": "DPA / Dynamic Product Ads",
+    "erkennung": "Produktbild, Titel und Preis kommen automatisch aus dem Katalog-Feed, kein manuell gebautes Creative.",
+    "wofuer": "BoFu Retargeting für Warenkorb-Abbrecher und Produkt-Viewer; Pixel-Events sind Pflicht, der Produkttitel ist der größte Hebel.",
+    "aufbau": "Der Feed liefert das Asset, Meta spielt dem Nutzer exakt das angesehene Produkt aus; Preis- oder Rabatt-Overlay optional.",
+    "examples": []
+   },
+   {
+    "name": "Advantage+ Catalog Ad",
+    "erkennung": "Katalog-Format, bei dem Meta-AI Layout, Headline und Produktauswahl pro Nutzer automatisch variiert.",
+    "wofuer": "Prospecting plus Retargeting in einem; E-Com mit gepflegtem Produktfeed, skaliert ohne manuelle Creative-Varianten.",
+    "aufbau": "Sauberer Feed plus wenige Text-Optionen rein, Meta testet die Kombinationen; Kontrolle läuft über Feed-Qualität statt Einzel-Layout.",
+    "examples": []
+   },
+   {
+    "name": "Collection Ad",
+    "erkennung": "Großes Hero-Visual oben, darunter drei Produkt-Thumbnails; Tap öffnet die Instant Experience.",
+    "wofuer": "MoFu/BoFu Mobile E-Com, Browse-to-Buy mit Katalog; wenn Nutzer im Feed shoppen sollen statt erst auf der LP.",
+    "aufbau": "Hero (Video oder Static) macht die Marke auf, die Thumbnails ziehen in den In-App-Store, Kauf ohne LP-Friction.",
+    "examples": []
    }
   ]
  }

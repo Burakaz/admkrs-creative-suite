@@ -1,5 +1,28 @@
 # Changelog — ADMKRS Creative Suite
 
+## v1.7.0 — 2026-06
+Katalog in 25 Familien gegliedert + 27 Styles reintegriert (jetzt 219).
+
+**Style-Bibliothek (`creative-formats.md`):**
+- Neue **§0 „Die 25 Style-Familien"**: erste Orientierung mit Top-Picks je Familie; Familien als Diversity-Check-Raster.
+- **WhatsApp-Chat-Static** und **iMessage-Chat-Static** explizit benannt (Native-Liste).
+
+**Website (`styles.html`) — Katalog-V2:**
+- Erste Ebene jetzt **25 Familien** (statt 219 flacher Karten): kompakte Familien-Karte mit Mini-Preview, Einsatz-Zeile und kuratierten **Top-Picks** (58 markiert), Substyles aufklappbar. Sidebar nach Medium gegliedert, Suche öffnet Treffer-Familien automatisch.
+- **27 Styles reintegriert**, die bisher nur als Stichpunkte im Skill standen: WhatsApp/iMessage/Tweet/Reddit/Notes, Offer/Bundle/Seasonal, Before/After- und Split-Visual-Static, Infografik/Ingredient-Callout, Editorial/Advertorial, 7 Carousel-Basistypen, DPA/Advantage+ Catalog/Collection. WhatsApp mit eigenem Preview-Look (grüne Bubbles, Haken).
+- Trend-Marker („steigt") aus den Namen in ein eigenes Badge-Feld bereinigt; `examples`-Feld je Style vorbereitet (für die kommende Beispiel-Bibliothek).
+
+## v1.6.0 — 2026-06
+iOS-native Ad-Styles + Preview-Feinschliff.
+
+**Style-Bibliothek (`creative-formats.md` §6b · UI-Fakes):**
+- **8 neue iOS-native Styles:** AirDrop-Share, iOS-Widget, Live-Activity / Dynamic-Island, Siri-Suggestion, Share-Sheet, Screen-Time, Wallet-Pass, System-Alert — Katalog jetzt **192 Styles**.
+
+**Website (`styles.html`):**
+- Alle 8 neuen Styles mit eigener NOVA-Preview (AirDrop-Radar mit Annehmen/Ablehnen, Homescreen-Widget, Island-Pille mit Live-Status, Siri-Karte, Share-Sheet mit Empfängern, Screen-Time-Balkenreport, Wallet-Pass, iOS-Dialog).
+- Preview-Polish: 26 Hook-Duplikate bereinigt, detailliertere Produkt-Grafiken (Sorten-Label, Licht/Schatten), Reels-Rail + Sound-Bars bei Video, Phone-Statusleisten, CSS-Icons statt Emojis. **Statics stehen still**, nur bewegte Medien (Video/Motion/Carousel) animieren.
+- Seiten-Zähler dynamisch aus den Katalog-Daten generiert.
+
 ## v1.5.0 — 2026-06
 Designer-Standard + Ad-Style-Bibliothek (184 Styles) + neue Website-Seite.
 

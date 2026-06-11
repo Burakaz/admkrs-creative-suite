@@ -7,6 +7,40 @@ So nutzt du es: (1) In der Diversity-Phase ziehst du Styles aus **verschiedenen 
 
 ---
 
+## 0 — Die 25 Style-Familien (erste Orientierung)
+
+Der komplette Katalog (219 Styles, mit NOVA-Previews) ist nach **25 Familien** gegliedert — Website: `styles.html`. Im Briefing reicht als `Creative Format` der **Substyle-Name**; die Familie hilft beim Finden und beim Diversity-Check (Konzepte aus *verschiedenen* Familien ziehen). **Top-Picks** = die gängigsten Performance-Bringer je Familie, der richtige Startpunkt.
+
+| Medium | Familie | Top-Picks |
+| --- | --- | --- |
+| Static | **Produkt & Hero** (13) | Product-Hero · Lifestyle / Context · Hand-Held-Product-Static |
+| Static | **Text & Statement** (5) | Hook-Static (Text-led) · USP Ad (One Core Idea) · Calling-Out-Audience-Static |
+| Static | **Review & Proof** (5) | Testimonial/Review-Card · Star-Rating-Hero |
+| Static | **Vergleich & Transformation** (7) | Us vs Them · Before/After-Static · Problem/Solution-Static |
+| Static | **Listen & Education** (11) | 3/5 Reasons Why · Product-Features-Callout · FAQ-Static |
+| Static | **Offer & Promo** (3) | Offer / Promo-Static · Bundle-Static |
+| Static | **iOS & System-UI** (11) | Push-Notification / Lock-Screen Static · AirDrop-Share-Static · iOS-Widget-Static |
+| Static | **Social- & Web-Screenshots** (13) | Organic Screen(shot) · WhatsApp-Chat-Static · Comment-Screenshot Static/Stack |
+| Static | **Native & Lo-fi** (4) | Notes-App-Static · Meme-Static |
+| Static | **Brand, Editorial & Ästhetik** (9) | Billboard / OOH-Mock-Static · Advertorial-Listicle-Static |
+| Video | **UGC & Creator-Alltag** (16) | UGC Talking-Head · Unboxing · What-I-Ordered-vs-What-I-Got |
+| Video | **Founder, Experte & Talk** (6) | Founder-Direct / Founder-Rant · Expert / Whitecoat |
+| Video | **Reaktion & Community** (8) | Reply-to-Comment Video · Deinfluencing Ad |
+| Video | **Skits, Story & Chaos** (11) | Problem-Solution-Skit · „TikTok made me buy it" |
+| Video | **Demo & Beweis** (12) | Demo / Product-in-Action · Before/After / Transformation · Faceless POV / Hands-Only Demo |
+| Video | **Produziert & Cinematic** (12) | Short-Form VSL (Mini-VSL) · Sensory-Macro / Satisfying B-Roll |
+| Video | **Attention-Mechaniken** (5) | Green-Screen-Explainer · „Save-worthy" Value/Edu-Reel |
+| Motion | **Typo & Graphics** (7) | Kinetic Typo / Motion-Graphics · Dynamic Word-by-Word Captions |
+| Motion | **3D, CGI & Effekte** (8) | FOOH (Fake Out-of-Home) · 3D-Produkt-Render / CGI-Spot |
+| Motion | **AI-native Motion** (4) | AI-Voice / TTS über B-Roll |
+| Carousel | **Carousel-Mechaniken** (17) | Photo-Dump Carousel · Before/After-Carousel · Objection-Busting-Carousel |
+| B2B & Plattform | **B2B · Proof & Trust** (7) | Case-Study-Result-Card · G2-Badge-Static |
+| B2B & Plattform | **B2B · Produkt & Demo** (8) | Annotated-Dashboard-Screenshot · Old-Way-vs-New-Way Split |
+| B2B & Plattform | **B2B · Lead-Gen & Authority** (5) | LinkedIn Document-Ad (PDF-Swipe) · Thought-Leader-Ad (Sponsored Personal Post) |
+| B2B & Plattform | **Plattform-Mechaniken** (12) | Partnership / Whitelisted Creator Ad · Click-to-WhatsApp / Messenger Ad |
+
+---
+
 ## 1 — VIDEO · Gruppe A: UGC & Authentizität
 Roh, plattform-nativ, „echte Person". Starker Signal-Typ für Andromeda (native schlägt poliert in den meisten DTC-Kategorien). Meist **ToFu/MoFu**, Hook in 0–2 s.
 
@@ -127,7 +161,7 @@ Carousels liefern in Aggregat-Daten oft **30–50 % niedrigere Cost-per-Conversi
 - **Testimonial/Review-Card**, **Star-Rating-Hero**, **„As seen in"/Press-Logos** (nur mit Rechten), **Comparison/„Us vs Them"** (eigene Vorteile mit Haken, Konkurrenz sachlich).
 
 ### Native / Lo-fi (2026 stärkster Static-Wachstumstrend — Gegenbewegung zur AI-Flut)
-- **Notes-App-Static**, **Tweet/X-Screenshot**, **Reddit-Screenshot**, **Chat/iMessage-Screenshot**, **Founder-Note/Handwritten**, **„Ugly"/Raw/Lo-fi**, **UGC-Foto-Screenshot**. → ToFu Cold, Scroll-Stop. *Nur echt/plausibel, keine erfundenen Chats als „echt" (→ admkrs-cs-ad-compliance-check).*
+- **Notes-App-Static**, **Tweet/X-Screenshot**, **Reddit-Screenshot**, **WhatsApp-Chat-Static**, **iMessage-Chat-Static**, **Founder-Note/Handwritten**, **„Ugly"/Raw/Lo-fi**, **UGC-Foto-Screenshot**. → ToFu Cold, Scroll-Stop. *Nur echt/plausibel, keine erfundenen Chats als „echt" (→ admkrs-cs-ad-compliance-check).*
 
 ### Infografik / Offer / Advertorial
 - **Infographic/Data-Viz**, **Ingredient/Feature-Callout**, **Split-Visual**.
@@ -195,6 +229,14 @@ Zweiter Teil der Bibliothek: per Web-Recherche (Juni 2026) ergänzte Styles, ded
 | **Comment-Screenshot Static/Stack** | Echter oder nachgebauter Kommentar-Thread mit Avataren, Likes und Badges als zentrales Visual, auch als Card-Stack. | MOF Social Proof und Objection Handling für E-Com und Apps; Kommentare gelten als ehrlichste Review-Form. | 1 bis 3 Kommentare mit konkretem Ergebnis oder Einwand plus Antwort, exakte Plattform-UI per Mockup-Tool. |
 | **Review-Platform-UI Static** | Original-UI von Trustpilot, Google Reviews oder App Store mit Sternen, Reviewer, Datum und Plattform-Logo. | MOF/BOF Trust und Retargeting für Skeptiker; Drittplattform-Optik schlägt Brand-Claims. | Eine spezifische Review mit konkretem Ergebnis plus Rating und Logo, optional Produktbild daneben. |
 | **Press-Hit / Article-Screenshot-Static** ↑ | Screenshot eines Presseartikels mit Publisher-Masthead, Headline und Autorenzeile, oft mit Marker-Highlight. | MOF Authority für Supplements, Skincare, Finance, High-Consideration-E-Com; echter Press-Hit schlägt Fake. | Publisher-Logo und Headline tragen den Hook, markierte Kernaussage liefert den Claim; Fake-News-Look ist Policy-Risiko. |
+| **AirDrop-Share-Static** | Gefakter AirDrop-Empfangsdialog: Absender, Vorschau und „Annehmen/Ablehnen“, als wäre dir gerade etwas geschickt worden. | ToFu Cold, Pattern-Interrupt; Gen-Z-affin, stark für Offer-Drops und Codes. | Absender + „Dateiname“ als Hook (Offer/Produkt), Annehmen-Button als implizite CTA. |
+| **iOS-Widget-Static** | Homescreen-Ausschnitt mit Marken-Widget zwischen App-Icons. | ToFu/MoFu für Habit- und Daily-Use-Produkte; zeigt Alltagsintegration, 2026 Standard-UI. | Widget-Kachel trägt die eine Kernzahl/Botschaft, der Homescreen-Kontext macht sie nativ. |
+| **Live-Activity / Dynamic-Island-Static** | Dynamic-Island-Pille bzw. Live-Activity-Karte mit laufendem Status (Lieferung, Timer, Drop). | MoFu/BoFu für Order- und Delivery-Momente, Drops, Countdowns; auf allen iPhones vertraut. | Status-Zeile als Spannungs-Hook („Zustellung heute, 14:02“), Produkt/Offer darunter. |
+| **Siri-Suggestion-Static** | Siri-/Spotlight-Vorschlagsbanner im System-Look: „Vorschlag: …“ mit App-Marke. | ToFu für Routine-Trigger (Morgen-/Abend-Rituale); wirkt wie vom System empfohlen. | Vorschlagstext = Hook mit Tageszeit-Bezug, Marken-Icon daneben, dezente System-Anmutung. |
+| **Share-Sheet-Static** | iOS-Teilen-Menü mit Empfänger-Avataren und Aktionszeile („Kopieren“, AirDrop). | ToFu mit Viral-Framing: inszeniert das Produkt als Ding, das man weiterschickt. | Geteilter Inhalt (Produkt/Code) oben, Empfängerreihe liefert den sozialen Beweis. |
+| **Screen-Time-Static** | Bildschirmzeit-/Wochenreport-UI mit Tagesbalken als Visual. | ToFu Habit-Kontrast („3 Std. Scrollen, 0 Min. Frühstück“); Food, Health, Productivity. | Report als Problem-Beweis, Brand-Zeile als Auflösung darunter. |
+| **Wallet-Pass-Static** | Apple-Wallet-Pass/Gutschein-Karte mit Logo-Feld und Code-Zeile. | BoFu Offer-Push; macht den Rabatt greifbar wie eine Bordkarte. | Pass mit Brand + Offer groß, Code exakt, „Zu Wallet hinzufügen“-Anmutung als CTA. |
+| **System-Alert-Static** | iOS-Systemdialog mit zwei Buttons, aber zugespitzter Frage statt Systemtext. | ToFu Pattern-Interrupt bei hoher Ad-Fatigue; selbstironisch, leicht polarisierend. | Dialog-Titel = Hook-Frage, zwei Buttons als Binär-Entscheidung („Weiter scrollen / Probieren“). |
 | **Post-it / Handwritten-Note Static** | Abfotografierte handgeschriebene Notiz auf Post-it, Whiteboard oder Zettel, bewusst unperfekt. | Ugly-Ads-Familie TOF für DTC; Cases nennen rund 3x Click-Rate vs. poliertes Creative. | Ein Kernclaim oder Mini-Liste handschriftlich, Produkt daneben oder gar nicht, der Pitch liegt in der Caption. |
 
 ### Video · UGC, Creator & Attention
