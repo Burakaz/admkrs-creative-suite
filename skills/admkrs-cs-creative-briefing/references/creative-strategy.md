@@ -134,7 +134,7 @@ Ein guter Hebel ist diagnostisch und konkret, z. B.:
 - markiert Chancen/Risiken ("KI-Frau als 'Verified Customer' kann fake wirken — Glaubwürdigkeitsrisiko + Meta-Graubereich");
 - markiert **[Ergänzung]**, wenn ein neuer Fakt vorgeschlagen wird (z. B. "60 mg Koffein/Portion — Wert & Claim-Freigabe prüfen").
 
-Bei Motion/Video übernimmt der **Strategic anchor** pro Konzept diese Rolle: ein bis zwei Sätze, die die strategische Idee des Konzepts auf den Punkt bringen ("Volume math is the dopamine spike. One bottle = eight litres.").
+Bei Motion/Video übernimmt die **`Idee`-Zeile** (Konzept-keyvalue) diese Rolle: ein Satz, der die strategische Idee des Konzepts auf den Punkt bringt ("Volume math is the dopamine spike. One bottle = eight litres.").
 
 Immer mit einem **Gesperrt-Hinweis** abschließen (Locked-Callout), der festhält, was 1:1 bleibt (Zahlen, Health Claims, Sternchentexte, Review-Wortlaut, Dateinamen) und dass neue Fakten als [Ergänzung] markiert sind.
 

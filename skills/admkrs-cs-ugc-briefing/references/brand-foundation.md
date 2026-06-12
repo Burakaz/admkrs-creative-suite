@@ -18,7 +18,7 @@ Das UGC-Briefing hat **zwei Leser**: den **Creator** (braucht eine perfekte Date
 | Claim-Guardrails | ✅ | ✅ |
 | Specs / Delivery / Naming | ✅ | optional |
 
-**Praxis:** *ein* Dokument. Der Client-Layer steht als Kapitel **„Strategische Grundlage"** oben (Kunde liest es, Creator überspringt es). Alternativ zwei Exporte aus derselben JSON (eine mit, eine ohne Strategie-Kapitel). Default: **ein Dokument mit beidem** — es macht die Arbeit teurer-aussehend und legitimiert die Creative-Entscheidungen.
+**Praxis:** *ein* Dokument, **Creator-First geordnet**. Der Client-Layer steht als Kapitel **„Anhang · Strategie (für die Kunden-Präsentation)" ganz hinten** — der Creator hört vorher auf zu lesen, der Kunde blättert hin. Vorne steht nur, was der Creator zum Drehen braucht (Auftrag → Lieferung → Darf/Darf-nicht → Produkt & Ton → Scripts). Alternativ zwei Exporte aus derselben JSON (Creator-Doc ohne Anhang, Kunden-Doc mit) — sinnvoll, wenn Hypothesen/Angle-Logik nicht an Creator weitergeleitet werden sollen.
 
 ---
 
@@ -64,9 +64,9 @@ Als `keyvalue`: Persona · Awareness-Stufe · Trigger-Moment · Vorerfahrung · 
 
 ---
 
-## 5 — Strategische Grundlage (Client-Layer)
+## 5 — Strategie-Anhang (Client-Layer, ganz hinten im Dokument)
 
-Der Teil, der das Briefing zum Kunden-Deliverable macht. Vier kurze Bausteine:
+Der Teil, der das Briefing zum Kunden-Deliverable macht — als **Anhang nach den Scripts**, nie vor ihnen. Vier kurze Bausteine:
 
 **a) Strategie-Absatz** (1 kurzer Paragraph): Wer ist die Zielperson, welche Awareness-Stufe, welcher Funnel, welche Angle-Logik, was die Hypothese ist.
 > „Cold Traffic, Problem-Aware. Wir öffnen mit dem 15-Uhr-Crash — ein Moment, den Sarah jeden Tag fühlt — und positionieren NOVA als die einfachste Lösung im Kaffee, den sie eh trinkt. Drei Hook-Varianten testen drei Einstiege: Pain, Social-Proof, Result-First. Body identisch. Hypothese: Social-Proof-Hook gewinnt bei Warm-Lookalikes, Result-First bei kaltem Prospecting."
@@ -81,19 +81,18 @@ Der Teil, der das Briefing zum Kunden-Deliverable macht. Vier kurze Bausteine:
 
 ---
 
-## 6 — „Wie wir filmen" (Creator-Standards, einmal für alle Clips)
+## 6 — „Lieferung & Specs" + „Darf & darf nicht" (Creator-Standards, einmal für alle Clips)
 
-Ein Block, der für alle Konzepte gilt — `keyvalue` für die Specs + zwei Callouts:
+Zwei Blöcke vorne im Dokument, gelten für alle Konzepte — **keine Callouts mehr**:
 
-- **Specs:** Ratio (9:16, optional 4:5), Länge (25–35 s + 15-s-Cut), **3 Hook-Varianten / gleicher Body**, Rohmaterial separat, Captions ohne Einbrennen, Edit-Level minimal, Licht/Ton/Setting, Dateiname-Konvention.
-- **`anchor`-Callout — Performance-Regeln:** erste Zeile Energie · in die Linse · 10 % langsamer sprechen · keine Sales-Energie · Produkt in der Hand · je Hook 3 Takes.
-- **`locked`-Callout — Kennzeichnung & Claims:** „Werbung" sichtbar im gesamten werblichen Teil; keine englischen Labels; Disclaimer 1:1; verbotene Formulierungen. Detail: `admkrs-cs-ad-compliance-check`.
+- **„Lieferung & Specs" (`keyvalue`):** Stückzahl explizit (Konzepte × Hook-Takes = Files), Ratio (9:16, Luft für 4:5-Crop), Länge, **3 Hook-Varianten / gleicher Body**, roh oder geschnitten, Captions ohne Einbrennen, Dateiname-Konvention, Upload-Ort, **Kennzeichnung** („Werbung" sichtbar im gesamten werblichen Teil; englische Labels reichen in DE nicht).
+- **„Darf & darf nicht" (`headerrow` [Darf ich sagen (1:1) | Darf ich NICHT sagen]):** sagbare Claims/Zahlen wörtlich links, Verbotenes rechts (Heil-/Med-Claims, „klinisch bewiesen", Outcomes, Wettbewerber-Namen). Darunter als `p` zeilenweise: Film-Dos/Don'ts (Licht, Linse, Tempo, keine Sales-Energie, Produkt in der Hand, je Hook 3 Takes), **Aussprache des Markennamens**, Referenz-Links. Detail-Prüfung: `admkrs-cs-ad-compliance-check`.
 
 ---
 
 ## 7 — Locked-Facts-Disziplin
 
-Wie im `admkrs-cs-creative-briefing`: **Gesperrt 1:1** hält fest, was unverändert bleibt (Zahlen, Claims, Disclaimer, Code, Review-Wortlaut). **[Ergänzung]** markiert jeden neuen Fakt/Vorschlag, der noch Freigabe braucht. Nie senden/posten/veröffentlichen ohne explizite Freigabe — das Briefing geht **als Entwurf** an den Kunden.
+Gesperrte Zahlen/Claims/Disclaimer/Codes stehen **wörtlich in der „Darf ich sagen"-Spalte und in den Scripts** — eine Quelle, kein separater Locked-Block. **[Ergänzung]**-Marker sind intern (Kunden-Abstimmung) und erscheinen nicht im Creator-Dokument; fehlt ein Wert: `[Platzhalter: …]` inline. Nie senden/posten/veröffentlichen ohne explizite Freigabe — das Briefing geht **als Entwurf** an den Kunden.
 
 ---
-<sub>**ADMKRS Creative Suite** · © ADMKRS GmbH, München · v1.1.0 · interner Gebrauch · erstellt von ADMKRS. Beispiel NOVA ist fiktiv; echte Brand-Fakten 1:1, nichts erfinden.</sub>
+<sub>**ADMKRS Creative Suite** · © ADMKRS GmbH, München · v1.8.0 · interner Gebrauch · erstellt von ADMKRS. Beispiel NOVA ist fiktiv; echte Brand-Fakten 1:1, nichts erfinden.</sub>

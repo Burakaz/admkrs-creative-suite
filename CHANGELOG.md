@@ -1,5 +1,28 @@
 # Changelog — ADMKRS Creative Suite
 
+## v1.8.0 — 2026-06
+Das schlanke Ausführer-Dokument: alles raus, was Designer/Editor/Creator nicht zum Bauen brauchen. Plus Text-Budget + CTA-Spalte (zusammengeführt aus dem unveröffentlichten v1.7.2).
+
+**Neues Dokument-Skelett (Statics/Motion/Video) — Ausführer-Test für jeden Block:**
+- **Alle Callouts vor der Arbeit gestrichen:** kein `todo` („Vor Produktion klären"), kein `anchor` („Strategischer Anker"), kein `locked` („Gesperrt 1:1"). Offene Punkte leben in ClickUp/Chat; im Dokument markiert nur `[Platzhalter: …]` **inline** die betroffene Stelle. Die Strategie-Idee wandert als **`Idee`-Zeile** in „Auf einen Blick" bzw. die Konzept-keyvalue. Gesperrte Texte stehen fett in den Zellen — eine Quelle, kein Drift.
+- **3-Zeilen-Legende** ersetzt die Callouts: Fett = landet auf dem Creative · Alle Texte 1:1 übernehmen · [Platzhalter] nicht selbst füllen.
+- **Auch gestrichen:** `h1 "Briefing"`, Intro-Absätze (lede/p), Family-Label, Target-Audience pro Konzept, `outro` (End-Card ist jetzt **letzte timecodierte Storyboard-Zeile**).
+- **Neu in „Auf einen Blick":** **Assets-Zeile (Pflicht)** — Logo/Fonts/Packshots/Footage/Referenz-Ads-Link (der häufigste Produktionsblocker) · **Abgabe** (Lieferort + Spec) · Motion/Video zusätzlich **Deliverables-Zählung** (Konzepte × Hooks × Formate = Exporte) und **VO & Captions** (Quelle + Stil). „Wichtige Infos" nur noch, wenn konkret.
+- **Hooks präziser:** je Hook-Variante eine zweite Zeile „Visual 0–2 s"; Video-Storyboards mit Clip-Referenz (Dateiname/Timecode). VO-Spine explizit als Copy-Block für die VO-Produktion (wortidentisch mit Storyboard-VO-Spalte).
+- **Stand-Zeile im dek** („Stand 05.06. · freigegeben") als Freigabe-Anker statt Problemliste.
+- **Rollen statt Namen (Pflicht):** keine Personennamen im Dokument — „zurück an ADMKRS", nie „[Name] fragen". Neuer **Namen-Test** im Quality-Check.
+
+**UGC-Briefing: Creator-First**
+- Neue Reihenfolge: **Dein Auftrag → Lieferung & Specs → Darf & darf nicht → Produkt & Ton → Scripts** — der Kunden-Strategie-Layer (Persona, Angles, Hypothesen) steht als **Anhang ganz hinten** (oder als separates Kunden-Doc aus derselben JSON).
+- **„Darf & darf nicht"-Tabelle** ersetzt die locked-Callouts; Scripts in **Beat-Blöcken** (Hook/Problem/Demo/CTA mit Richtwert-Sekunden) statt starrem Timecode; **Scope explizit** (Stückzahl ausgerechnet, Scroll-Breaker klar als Bonus); neu im Intake: Aussprache des Markennamens, Produkt-Logistik, Upload-Ort, roh/geschnitten, Referenz-Videos.
+
+**Text-Budget + CTA (aus v1.7.2, unveröffentlicht):**
+- **Text-Budget (Pflicht):** Default ist **Hook + Subline, das reicht meistens**. USPs nur, wenn das Konzept sie braucht — dann max. 3 Stichpunkte à 2–4 Wörter oder ein kurzer Satz. Nie USP-Liste + Zusatz-Sätze + Badges stapeln.
+- **Neue optionale `CTA`-Spalte:** gestaltetes On-Creative-CTA-Element (2–4 Wörter, fett, z. B. „Jetzt probieren") — öfter einsetzen, wann immer es dem Creative hilft (DR/Offer/Hero). Weiterhin: kein Meta-Ads-Manager-Button im Briefing. Schema: `[# | Static | Dateiname | Produkt | Creative Format | Hook | Subline | USPs/Badge | CTA | Disclaimer | Visual-Direction]`.
+- **„Standard schlägt Vorlage":** Auch beim Fortschreiben älterer Briefings gilt immer das aktuelle Tabellen-Schema — alte Strukturen migrieren, nie kopieren.
+- **Kein Angle-/Framework-Label** („Pain", „Objection") in der Designer-Tabelle — Strategie-Notation bleibt im Strategie-Pass.
+- Neue Checks: **Schema-Test**, **Text-Budget-Test**, **Ausführer-Test**, **Namen-Test**, **Creator-First-Test**, **Scope-Test**; alle 3 Beispiel-Briefings (Statics/Motion/UGC) auf das neue Skelett umgebaut.
+
 ## v1.7.1 — 2026-06
 Briefing-Tabelle: Nummern-Spalte und Konzept-Name getrennt, Bold-Konvention beidseitig hart, kein Ads-Manager-CTA.
 
