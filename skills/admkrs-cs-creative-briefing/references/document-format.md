@@ -80,7 +80,7 @@ Optionaler Render-Check (Optik verifizieren): docx → PDF → JPEG via LibreOff
   - `rows`: `[ ["A","…"], ["B","<b>…</b>"], ["C","<b>…</b>"] ]`
   - `widths` (optional): default `[0.7, 9]`
 
-**Spaltenbreiten-Tipp:** Die erste Spalte (Index/Static-Nr. + Kurzlabel) so breit wählen, dass das längste Label nicht mitten im Wort umbricht — bei langen Labels wie „Comparison“ Gewicht ~1,2 statt 1,0. Kurze Labels („Iced Coffee“) brauchen weniger. Lieber das Label kurz halten *und* die Spalte passend dimensionieren.
+**Spaltenbreiten-Tipp:** Die `#`-Spalte ist **superschmal** (Gewicht ~0,3, nur die Ziffer, zentriert). Die Name-Spalte (`Static`/`Motion`/`Video`) so breit wählen, dass das längste Konzept-Label nicht mitten im Wort umbricht — bei langen Namen wie „Growth / Headcount" Gewicht ~1,1. Lieber den Namen kurz halten *und* die Spalte passend dimensionieren.
 
 ---
 
@@ -95,7 +95,7 @@ callout anchor  "Strategischer Anker. …"   ← die EINE strategische Idee, 1�
 callout locked  "Gesperrt 1:1: …"
 p  "<b>Fett = landet auf dem Creative.</b> Alles andere ist Anweisung/Kontext."   ← Lese-Konvention, direkt über der Tabelle
 h1 "Briefing"
-table headerrow/plain  [# | Dateiname | Produkt | Creative Format | Hook | Subline | USPs / Badge | Disclaimer | Visual-Direction]
+table headerrow/plain  [# | Static | Dateiname | Produkt | Creative Format | Hook | Subline | USPs / Badge | Disclaimer | Visual-Direction]
 ```
 
 **„Auf einen Blick" (Pflicht-Block in jedem Designer-Briefing):**
@@ -105,13 +105,16 @@ table headerrow/plain  [# | Dateiname | Produkt | Creative Format | Hook | Subli
 - **Deadline** — Datum; fehlt es: `[Platzhalter: Deadline]` + ab in den todo-Callout.
 - **Wichtige Infos** — zeilenweise, nur was die Produktion wirklich braucht.
 
-**Bold-Konvention (Pflicht):** **Alles, was fett (`<b>`) geschrieben ist, landet als Text auf dem Creative.** Hook, Subline, USPs/Badge, Disclaimer-Wortlaut → fett. Anweisungen, Kontext, Visual-Direction → nicht fett. Die Konvention steht als `p`-Zeile direkt über der Briefing-Tabelle im Dokument.
+**Bold-Konvention (Pflicht, in beide Richtungen):** **Alles, was fett (`<b>`) ist, landet als Text auf dem Creative — und NUR das.** Hook, Subline, USPs/Badge, Disclaimer-Wortlaut → fett. **Nie fett:** `#`, Konzept-Name, Dateiname, Produkt, Creative Format, Visual-Direction, Anweisungen/Kontext. Die Konvention steht als `p`-Zeile direkt über der Briefing-Tabelle im Dokument.
+
+**Final & ohne Ballast (Pflicht):** Build-Zellen enthalten **nur, was wirklich auf dem Creative landet** plus die Visual-Direction — keine Zusatz-Infos, Meta-Kommentare oder Erklärungen in den Zellen. **Kein Ads-Manager-CTA im Briefing:** Der Meta-CTA-Button („Jetzt einkaufen", „Mehr dazu" …) wird im Ads Manager eingestellt und gehört **nicht** in die Tabelle. Ein CTA-Text steht nur dann drin (fett), wenn er als **gestaltetes Element auf dem Creative selbst** liegt — und dann als das, was dort wörtlich steht.
 
 **Briefing-Tabelle — Spalten (Statics):**
 
 | Spalte | Inhalt |
 | --- | --- |
-| `#` | Creative-Nummer (1, 2, 3 …) |
+| `#` | **nur die Ziffer** (1, 2, 3 …) — Spalte **superschmal** (Gewicht ~0,3), zentriert, **nicht fett** (landet nicht auf dem Creative). |
+| `Static` | der **Konzept-Name** (z. B. „WISMO", „Growth / Headcount", „Kalter Kaffee") — **nicht fett**. Header heißt je Briefing-Typ **`Static`**, **`Motion`** oder **`Video`**. |
 | `Dateiname` | nach Naming-Convention des Kunden, sonst ADMKRS-Stil |
 | `Produkt` | kurze Produktbezeichnung (z. B. „Schokoriegel", „Protein Butter Cups") |
 | `Creative Format` | der Ad-Style aus der Style-Bibliothek (`creative-formats.md`): z. B. Vorher/Nachher, Product Features, USP Ad, 3 Reasons Why, Us vs Them, Review, Lifestyle, Organic Screen, Native Ad, Problem/Solution, Product-Hero … |
