@@ -14,13 +14,31 @@
     {
       "type": "table",
       "layout": "keyvalue",
-      "widths": [1, 4.2],
+      "widths": [
+        1,
+        4.2
+      ],
       "rows": [
-        ["Ziel", "Prospecting cold + Retargeting · Creative Upgrade des Static-Sets · CVR-Fokus."],
-        ["Zielgruppe", "Kaffee-Liebhaber:innen 25–45, zuckerbewusst, wollen Genuss ohne Kompromiss. Skeptisch gegenüber „Protein-Geschmack“."],
-        ["Formate", "Meta-Standard: 4:5 (1080×1350) und 9:16 (1080×1920).\nKein 1:1.\nSonderformate nur auf Ansage (dann mit Plattform + Pixeln)."],
-        ["Deadline", "16.06.2026 (EOD)"],
-        ["Wichtige Infos", "Sternchentexte exakt übernehmen, nie kürzen.\nProdukt-Label muss lesbar sein.\nCTA-Button nur, wo in der Tabelle vermerkt."]
+        [
+          "Ziel",
+          "Prospecting cold + Retargeting · Creative Upgrade des Static-Sets · CVR-Fokus."
+        ],
+        [
+          "Zielgruppe",
+          "Kaffee-Liebhaber:innen 25–45, zuckerbewusst, wollen Genuss ohne Kompromiss. Skeptisch gegenüber „Protein-Geschmack“."
+        ],
+        [
+          "Formate",
+          "Meta-Standard: 4:5 (1080×1350) und 9:16 (1080×1920).\nKein 1:1.\nSonderformate nur auf Ansage (dann mit Plattform + Pixeln)."
+        ],
+        [
+          "Deadline",
+          "16.06.2026 (EOD)"
+        ],
+        [
+          "Wichtige Infos",
+          "Sternchentexte exakt übernehmen, nie kürzen.\nProdukt-Label muss lesbar sein.\nMeta-CTA (z. B. „Jetzt einkaufen\") wird im Ads Manager gesetzt, gehört nicht aufs Creative."
+        ]
       ]
     },
     {
@@ -35,18 +53,58 @@
       "lead": "Gesperrt 1:1:",
       "text": "Alle Zahlen, Health Claims, *pro-30g-Sternchentexte, Review-Wortlaut und Dateinamen bleiben unverändert.\nNeue Fakten sind als <b>[Ergänzung]</b> markiert und brauchen Freigabe."
     },
-    { "type": "h1", "text": "Briefing" },
-    { "type": "p", "text": "<b>Fett = landet auf dem Creative.</b> Alles andere ist Anweisung/Kontext für euch." },
+    {
+      "type": "h1",
+      "text": "Briefing"
+    },
+    {
+      "type": "p",
+      "text": "<b>Fett = landet auf dem Creative.</b> Alles andere ist Anweisung/Kontext für euch."
+    },
     {
       "type": "table",
       "layout": "headerrow",
       "style": "plain",
-      "widths": [0.55, 1.45, 0.95, 1.05, 1.55, 1.25, 1.35, 0.95, 1.75],
-      "colAligns": ["center", "left", "left", "left", "left", "left", "left", "left", "left"],
-      "header": ["#", "Dateiname", "Produkt", "Creative Format", "Hook", "Subline", "USPs / Badge", "Disclaimer", "Visual-Direction"],
+      "widths": [
+        0.3,
+        0.95,
+        1.45,
+        0.95,
+        1.05,
+        1.55,
+        1.25,
+        1.35,
+        0.95,
+        1.75
+      ],
+      "colAligns": [
+        "center",
+        "left",
+        "left",
+        "left",
+        "left",
+        "left",
+        "left",
+        "left",
+        "left",
+        "left"
+      ],
+      "header": [
+        "#",
+        "Static",
+        "Dateiname",
+        "Produkt",
+        "Creative Format",
+        "Hook",
+        "Subline",
+        "USPs / Badge",
+        "Disclaimer",
+        "Visual-Direction"
+      ],
       "rows": [
         [
-          "<b>1</b>",
+          "1",
+          "Kalter Kaffee",
           "PC_Single_Image_Protein_Coffee_Kalter_Kaffee",
           "Protein Coffee (Range)",
           "USP Ad",
@@ -57,7 +115,8 @@
           "Split-Idee: Produktreihe trifft USP-Seite.\nInspo: cleane Functional-Food-Splits.\nSonst frei – überrascht uns."
         ],
         [
-          "<b>2</b>",
+          "2",
+          "Trust / Review",
           "PC_Single_Image_Protein_Coffee_trust",
           "Protein Coffee (Range)",
           "Review",
@@ -68,18 +127,20 @@
           "Review nativ und gut lesbar.\nProfil-Icon: Initiale „L“ im Kreis, kein KI-Gesicht.\nInspo: unser Referenz-Creative „-20% / 20% sparen“."
         ],
         [
-          "<b>3</b>",
+          "3",
+          "Bohne",
           "PC_Single_Image_Protein_Coffee_Bohne",
           "Protein Coffee (Range)",
           "Product-Hero",
           "<b>Dein Kaffee kann mehr!</b>",
           "<b>Ohne Zuckerzusatz & bis zu 24g Protein*</b>",
-          "<b>Button: „Jetzt entdecken“</b>",
+          "–",
           "<b>*pro 30g Pulver</b>",
           "Mehrere Sorten locker arrangiert, Produkt als Held.\nSonst frei."
         ],
         [
-          "<b>4</b>",
+          "4",
+          "Iced Coffee",
           "PC_Single_Image_Protein_Coffee_Iced_Coffee",
           "Protein Iced Coffee",
           "Product Features",
@@ -90,7 +151,8 @@
           "Genuss-Moment Eiskaffee.\nInspo: Referenz „Protein Coconut Dream“, ohne den Störer „Jetzt Neu“."
         ],
         [
-          "<b>5</b>",
+          "5",
+          "Caramel Crunch",
           "PC_Single_Image_Protein_Coffee_Caramel_Crunch",
           "Protein Caramel Crunch",
           "Product Features",

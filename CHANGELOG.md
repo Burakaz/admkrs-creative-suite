@@ -1,5 +1,14 @@
 # Changelog — ADMKRS Creative Suite
 
+## v1.7.1 — 2026-06
+Briefing-Tabelle: Nummern-Spalte und Konzept-Name getrennt, Bold-Konvention beidseitig hart, kein Ads-Manager-CTA.
+
+- **`#`-Spalte**: nur noch die Ziffer (1, 2, 3 …), **superschmal** (~0,3 Gewicht), zentriert, nicht fett.
+- **Neue Spalte 2** trägt den **Konzept-Namen** („WISMO", „Kalter Kaffee" …), nicht fett; Header heißt je Briefing-Typ **`Static`**, **`Motion`** oder **`Video`**.
+- **Bold-Konvention in beide Richtungen:** fett = landet auf dem Creative, **und nur das**. #, Konzept-Name, Dateiname, Creative Format und Visual-Direction sind nie fett.
+- **Final & ohne Ballast:** Build-Zellen enthalten nur On-Creative-Text + Visual-Direction. **Kein Ads-Manager-CTA** („Jetzt einkaufen"-Button aus Meta) im Briefing — CTA-Text nur als gestaltetes Element auf dem Creative selbst. Neuer **On-Creative-Test** im Quality-Check.
+- Schema jetzt: `[# | Static | Dateiname | Produkt | Creative Format | Hook | Subline | USPs/Badge | Disclaimer | Visual-Direction]`. Doku, Skills und Beispiel-Briefing angepasst.
+
 ## v1.7.0 — 2026-06
 Katalog in 25 Familien gegliedert + 27 Styles reintegriert (jetzt 219).
 
