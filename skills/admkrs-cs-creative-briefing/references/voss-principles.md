@@ -74,7 +74,7 @@ Die Muster mit Fill-in-Templates stehen in `hook-library.md` **Kategorie 16 (Hal
 
 ## 5 — Voss-Schärfe (Stell-Stufe im Briefing)
 
-Lege pro Briefing eine **Voss-Schärfe** fest (Stell­schraube für den Mut-Grad). **Default = 2.** Sie steht im Strategie-Layer / bei den Strategic anchors.
+Lege pro Briefing eine **Voss-Schärfe** fest (Stell­schraube für den Mut-Grad). **Default = 2.** Sie wird im Strategie-Pass (Chat) festgehalten – nicht im Designer-Dokument.
 
 | Stufe | Was | Wofür |
 | --- | --- | --- |

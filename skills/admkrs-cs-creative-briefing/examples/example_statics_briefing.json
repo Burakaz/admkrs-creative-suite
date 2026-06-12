@@ -2,15 +2,9 @@
   "filename": "260610_NOVA_ProteinCoffee_Statics_DE",
   "header": {
     "title": "NOVA · Protein Coffee – Statics",
-    "dek": "Creative Upgrade  ·  5 Statics  ·  Stand 10.06.2026"
+    "dek": "Creative Upgrade  ·  5 Statics  ·  Stand 10.06.2026  ·  freigegeben"
   },
   "blocks": [
-    {
-      "type": "callout",
-      "variant": "todo",
-      "lead": "Vor Produktion klären (blockiert sonst alles):",
-      "text": "1) <b>Protein-Werte je Sorte:</b> 24 g / 22 g / 21 g gegen Briefing-Stand bestätigen. Abweichung = Platzhalter.\n2) <b>Review (Static 2):</b> echtes Zitat + Freigabe von „Lena“ – oder anonymisieren.\n3) <b>Rabatt:</b> Höhe (-20 %?) final bestätigen, bevor er auf ein Creative kommt.\nKeine neuen Zahlen erfinden – fehlende Werte als Platzhalter an ADMKRS zurück."
-    },
     {
       "type": "table",
       "layout": "keyvalue",
@@ -28,6 +22,10 @@
           "Kaffee-Liebhaber:innen 25–45, zuckerbewusst, wollen Genuss ohne Kompromiss. Skeptisch gegenüber „Protein-Geschmack“."
         ],
         [
+          "Idee",
+          "Indulgence trifft Macros: schmeckt wie Eiskaffee/Dessert, liefert das Protein, ohne Zuckerzusatz.\nJeder Hook: konkrete Sorte + echte Zahl, nie das Produkt-Label („Protein Iced Coffee“)."
+        ],
+        [
           "Formate",
           "Meta-Standard: 4:5 (1080×1350) und 9:16 (1080×1920).\nKein 1:1.\nSonderformate nur auf Ansage (dann mit Plattform + Pixeln)."
         ],
@@ -36,30 +34,22 @@
           "16.06.2026 (EOD)"
         ],
         [
+          "Assets",
+          "Drive: NOVA > 02_Assets (Logo, Fonts, Brand-Farben, Packshots aller Sorten).\nReferenz-Creatives: NOVA > 03_Ads > Winner („-20 % / 20 % sparen“, „Protein Coconut Dream“)."
+        ],
+        [
+          "Abgabe",
+          "PNG je Static in 4:5 + 9:16 · Drive: NOVA > 04_Delivery > 260616_Statics."
+        ],
+        [
           "Wichtige Infos",
-          "Sternchentexte exakt übernehmen, nie kürzen.\nProdukt-Label muss lesbar sein.\nMeta-CTA (z. B. „Jetzt einkaufen\") wird im Ads Manager gesetzt, gehört nicht aufs Creative."
+          "Produkt-Label muss auf jedem Static lesbar sein."
         ]
       ]
     },
     {
-      "type": "callout",
-      "variant": "anchor",
-      "lead": "Strategischer Anker.",
-      "text": "Indulgence trifft Macros: schmeckt wie Eiskaffee/Dessert, liefert das Protein, ohne Zuckerzusatz.\nDiese Spannung trägt jeden Hook – konkrete Sorte + echte Zahl, nie das Produkt-Label („Protein Iced Coffee“)."
-    },
-    {
-      "type": "callout",
-      "variant": "locked",
-      "lead": "Gesperrt 1:1:",
-      "text": "Alle Zahlen, Health Claims, *pro-30g-Sternchentexte, Review-Wortlaut und Dateinamen bleiben unverändert.\nNeue Fakten sind als <b>[Ergänzung]</b> markiert und brauchen Freigabe."
-    },
-    {
-      "type": "h1",
-      "text": "Briefing"
-    },
-    {
       "type": "p",
-      "text": "<b>Fett = landet auf dem Creative.</b> Alles andere ist Anweisung/Kontext für euch."
+      "text": "<b>Fett = landet auf dem Creative.</b> Alles andere ist Anweisung/Kontext für euch.\nAlle Texte 1:1 übernehmen – kein Wort ändern, keine Zahlen erfinden.\n[Platzhalter: …] = Wert fehlt. Nicht selbst füllen – zurück an ADMKRS."
     },
     {
       "type": "table",
@@ -74,11 +64,13 @@
         1.55,
         1.25,
         1.35,
+        0.7,
         0.95,
         1.75
       ],
       "colAligns": [
         "center",
+        "left",
         "left",
         "left",
         "left",
@@ -98,6 +90,7 @@
         "Hook",
         "Subline",
         "USPs / Badge",
+        "CTA",
         "Disclaimer",
         "Visual-Direction"
       ],
@@ -111,6 +104,7 @@
           "<b>Kalter Kaffee? Jetzt mit bis zu 24g Protein.</b>",
           "<b>Entdecke unsere Protein Coffee's</b>",
           "<b>5 leckere Sorten</b>\n<b>bis zu 24g Protein*</b>\n<b>ohne Zuckerzusatz</b>",
+          "<b>Jetzt probieren</b>",
           "<b>*pro 30g Pulver</b>",
           "Split-Idee: Produktreihe trifft USP-Seite.\nInspo: cleane Functional-Food-Splits.\nSonst frei – überrascht uns."
         ],
@@ -124,6 +118,7 @@
           "–",
           "<b>Lena · Verified Customer</b>\n<b>★★★★★</b>\n<b>„Noch nie solch ein leckeres Whey Protein in dieser Geschmacksrichtung gefunden!“</b>",
           "–",
+          "–",
           "Review nativ und gut lesbar.\nProfil-Icon: Initiale „L“ im Kreis, kein KI-Gesicht.\nInspo: unser Referenz-Creative „-20% / 20% sparen“."
         ],
         [
@@ -135,6 +130,7 @@
           "<b>Dein Kaffee kann mehr!</b>",
           "<b>Ohne Zuckerzusatz & bis zu 24g Protein*</b>",
           "–",
+          "<b>Jetzt entdecken</b>",
           "<b>*pro 30g Pulver</b>",
           "Mehrere Sorten locker arrangiert, Produkt als Held.\nSonst frei."
         ],
@@ -145,8 +141,9 @@
           "Protein Iced Coffee",
           "Product Features",
           "<b>Eiskaffee ohne schlechtes Gewissen</b>",
+          "<b>Wie cremiger Eiskaffee. Ohne Zuckerzusatz.</b>",
+          "<b>22g Protein pro Portion*</b>",
           "–",
-          "<b>kein Zuckerzusatz</b>\n<b>22g Protein pro Portion*</b>\n<b>wie cremiger Eiskaffee</b>",
           "<b>*pro 30g Pulver</b>",
           "Genuss-Moment Eiskaffee.\nInspo: Referenz „Protein Coconut Dream“, ohne den Störer „Jetzt Neu“."
         ],
@@ -159,6 +156,7 @@
           "<b>Karamell mit echtem Crunch – und 21g Protein.</b>",
           "–",
           "<b>kein Zuckerzusatz</b>\n<b>21g Protein pro Portion*</b>\n<b>mit echtem Crunch</b>",
+          "–",
           "<b>*pro 30g Pulver</b>",
           "Wie Static 4, in der Caramel-Crunch-Welt.\nCrunch-Textur spürbar machen."
         ]

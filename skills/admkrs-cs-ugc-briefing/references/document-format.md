@@ -42,7 +42,7 @@ Wird der Output-Name weggelassen, nimmt der Builder das Feld `filename` aus der 
 
 ## Block-Typen (wie admkrs-cs-creative-briefing)
 
-`h1`/`h2`/`h3` (Überschriften) · `label` (graue Kursiv-Zeile unter h2) · `lede` (fetter Intro-Satz) · `p` (Absatz, `\n` für Zeilen) · `callout` (**mehrzeilig**, jede `\n`-Zeile = eigener Absatz; `variant`: `"locked"`=lavendel \| `"anchor"`=creme+Gold \| `"todo"`=warm/„Vor Produktion klären"; Felder `lead`, `text`) · `table` (`layout`: `headerrow` \| `keyvalue` \| `hooks`) · `outro` (fette Lead-In + Text) · `spacer` · `divider`.
+`h1`/`h2`/`h3` (Überschriften) · `label` (graue Kursiv-Zeile unter h2) · `lede` (fetter Intro-Satz) · `p` (Absatz, `\n` für Zeilen) · `table` (`layout`: `headerrow` \| `keyvalue` \| `hooks`) · `spacer` · `divider`. — *Vom Builder weiterhin renderbar, aber im UGC-Briefing nicht mehr verwendet:* `callout` (todo/anchor/locked) und `outro` (CTA gehört als letzter Beat ins Script).
 
 **Tabellen-Layouts:**
 - `headerrow` — schwarze Kopfzeile + Zeilen. `header`, `rows`, `widths` (relative Gewichte), `style` `"plain"`/`"zebra"`, optional `colAligns`, `colItalics` (z. B. VO-Spalte kursiv).
@@ -53,53 +53,44 @@ Wird der Output-Name weggelassen, nimmt der Builder das Feld `filename` aus der 
 
 ---
 
-## UGC-Briefing-Skelett (Dual-Purpose)
+## UGC-Briefing-Skelett (Creator-First, Kunden-Layer als Anhang)
 
-Die Reihenfolge setzt **Brand-Foundation (Creator+Kunde) → Strategie (Kunde) → Standards (Creator) → Konzepte mit Scripts → Out-of-the-box-Layer → Test-/Delivery-Plan.** Details je Block: `brand-foundation.md`.
+**Reihenfolge-Prinzip: Der Creator liest von vorne — also steht vorne, was er zum Drehen braucht.** Auftrag → Lieferung → Darf/Darf-nicht → Produkt & Ton → Konzepte mit Scripts → Scroll-Breaker → **Strategie-Anhang für den Kunden ganz hinten** (der Creator überspringt ihn, den Kunden stört er dort nicht). Kein todo-Callout, keine locked-Callouts — offene Punkte leben in ClickUp/Chat, gesperrte Texte stehen 1:1 in den Zellen, die Regeln stehen in „Darf & darf nicht". Details je Block: `brand-foundation.md`.
 
 ```
-header (eyebrow "UGC Creator Briefing", title, dek)
-lede  (1 Positionierungssatz)
-callout todo  "Vor Produktion klären (blockiert sonst alles): …"   ← offene Punkte gebündelt, ganz oben (Zahlen, Casting, Rechte, Kennzeichnung, Deadline)
+header (eyebrow "UGC Creator Briefing", title, dek)   ← dek mit Stand + "freigegeben"
 
-h1 "Brand auf einen Blick"
-  table keyvalue  [Marke | Kategorie | Produkt | Was es ist | Ton | Was die Brand NICHT ist | Offer/Code]
+h1 "Dein Auftrag"                  ← 4–5 Zeilen, mehr nicht
+  table keyvalue  [Auftrag (1 Satz: "3 Videos à 20–30 s für TikTok/Reels") | Deadline | Produkt-Logistik (kommt per Post bis …) | Rückfragen (Kanal — Rolle, kein Name) | Offer/Code]
 
-h1 "Produkt-Facts & USPs"
-  table headerrow/plain  [Fact | Warum es zählt / wie im Video nutzbar]
-  callout locked  "Gesperrt 1:1: …"   (Zahlen, Claims, Disclaimer, Code)
+h1 "Lieferung & Specs"
+  table keyvalue  [Stückzahl (explizit: 3 Konzepte × 3 Hook-Takes = 9 Files? oder 3?) | Ratio & Länge (9:16, …) | Roh oder geschnitten | Captions ja/nein | Dateiname | Upload-Ort (Link) | Kennzeichnung ("Werbung"-Disclosure — Pflicht)]
 
-h1 "Wen wir ansprechen"
-  p  (konkrete Persona — Name, Alltag, Trigger, Einwand)
-  table keyvalue  [Persona | Awareness | Trigger-Moment | Vorerfahrung | Einwand | Kauf-Ort]
+h1 "Darf & darf nicht"             ← MUSS vor den Scripts stehen
+  table headerrow/plain  [Darf ich sagen | Darf ich NICHT sagen]   (Claims/Zahlen 1:1 sagbar vs. verboten — Heil-/Med-Claims etc.)
+  p  (zeilenweise: Film-Dos/Don'ts · Aussprache des Markennamens · 2–3 Referenz-Links "so soll es aussehen" + 1 "so nicht")
 
-h1 "Strategische Grundlage"        ← Client-Layer (das Warum)
-  p  (Awareness · Funnel · Angle-Logik · Hypothese)
-  table headerrow/zebra  [Konzept | Angle | Framework | Awareness | Hypothese]
+h1 "Produkt & Ton"                 ← max. halbe Seite
+  table keyvalue  [Produkt (1 Zeile) | 5 Facts, die du sagen darfst (zeilenweise, 1:1) | Ton (1 Zeile) | Was die Brand NICHT ist (1 Zeile)]
 
-h1 "Wie wir filmen — Standards"     ← Creator-Layer
-  table keyvalue  [Ratio | Länge | Hooks | Rohmaterial | Captions | Licht | Ton | Setting | Edit | Dateiname]
-  callout anchor  "Performance-Regeln. …"
-  callout locked  "Kennzeichnung & Claims. …"   (→ admkrs-cs-ad-compliance-check)
-
-h1 "Konzept 1 · [Title]"            ← pro Konzept ein Set (Creator+Kunde)
-  label "[Angle / Family]"
-  table keyvalue  [Format | Angle | Framework | Awareness | Zielperson | Setting | Sound]
-  callout anchor  "Strategischer Anker. … + Hypothese."
+h1 "Konzept 1 · [Title]"           ← das Kernstück, pro Konzept ein Set
+  p  "Idee: …"   (1 Satz — warum dieses Video; ersetzt den Anker-Callout)
   h3 "3 Hooks · zum Scroll-Stop-Test"
   table hooks  [A, B, C]
-  h3 "Script · Time-coded (drehfertig)"
-  table headerrow/zebra  [Zeit | Bild / Action | On-Screen Text | Gesprochen (VO)]   (colItalics: [false,false,false,true])
-  p  "<i>Regie-Notiz: …</i>"
-  outro "CTA / Outro. …"
+  h3 "Script · drehfertig"
+  table headerrow/zebra  [Beat | Was du tust | On-Screen Text | Was du sagst]   (colItalics: [false,false,false,true])
+       ← Beats (Hook/Problem/Demo/CTA) statt Sekunden-Korsett; Richtwert-Sekunden in der Beat-Zelle. Letzte Zeile = CTA-Beat (kein outro-Block).
+  p  "<i>Regie-Notiz: …</i>"   (optional, 1 Zeile)
   … (Konzept 2, Konzept 3)
 
-h1 "Out-of-the-box-Layer · Scroll-Breaker"   ← der dedizierte „nicht-Standard"-Layer
-  p  (Intro)
-  table headerrow/zebra  [Idee | Format | Warum es teilt | Wofür]
+h1 "Scroll-Breaker · Bonus"        ← explizit gescoped
+  p  "Optional — NICHT Teil der [N] Videos. Nur wenn Zeit & Lust:"  + max. 2 Ideen zeilenweise
+  (Sind Scroll-Breaker Teil des Auftrags → stattdessen als reguläres Konzept briefen.)
 
-h1 "Test- & Delivery-Plan"
-  table headerrow/plain  [Was | Detail]   (Hook-Varianten, Rohmaterial, Deadline, Naming, Freigabe)
+h1 "Anhang · Strategie (für die Kunden-Präsentation)"   ← GANZ hinten; Creator kann hier aufhören zu lesen
+  p  (Persona · Awareness · Funnel)
+  table headerrow/zebra  [Konzept | Angle | Framework | Awareness | Hypothese]
+  (Auf Wunsch stattdessen als separates Kunden-Dokument aus derselben JSON — Creator-Doc bleibt dann ohne Anhang.)
 ```
 
 **Script-Spalten:** `widths` ca. `[0.9, 3.4, 2.2, 3.0]`, `colAligns` `["center","left","left","left"]`, `colItalics` `[false,false,false,true]` (VO kursiv). Hook-Zeile: On-Screen = `<b>HOOK</b>`, VO = `"[ Hook · A/B/C ]"`.
@@ -108,14 +99,17 @@ h1 "Test- & Delivery-Plan"
 
 ## Struktur-Regeln — zeilenweise & final
 
-- **Zeile für Zeile, kein Block.** Aufzählungen/mehrere Fakten je `\n`-Zeile, in Zellen wie in Callouts.
-- **Offene Punkte gebündelt nach oben** in **einen** `todo`-Callout („Vor Produktion klären …"), nummeriert, zeilenweise. Schließt mit: „Keine neuen Zahlen erfinden – fehlende Werte als Platzhalter an ADMKRS zurück." Nicht in die Build-Zellen verstreuen.
-- **Final entscheiden, ein konkreter Fakt statt Floskel**, Platzhalter (`[Platzhalter: …]`) statt geraten. (UGC ist dual-purpose: Strategie-Layer für den Kunden bleibt — anders als bei den schlanken Motion-/Static-Designer-Dokumenten.)
+- **Creator-Test für jeden Block:** Hilft das dem Creator beim Drehen? Nein → in den Anhang (Kunden-Strategie) oder ganz raus (interne Punkte). Das Dokument geht raus und wird auf dem **Handy** gelesen — kurze Blöcke, Beats statt Sekunden-Korsett.
+- **Zeile für Zeile, kein Block.** Aufzählungen/mehrere Fakten je `\n`-Zeile. Ein „1) … 2) … 3) …"-Fließtext-Block ist falsch.
+- **Keine offenen Punkte im Dokument.** Das Briefing geht erst raus, wenn geklärt (dek: „Stand … · freigegeben"); fehlt doch ein Wert: `[Platzhalter: …]` **inline** an der Stelle — der Creator füllt nie selbst. Offene Punkte trackt ADMKRS intern (ClickUp/Chat).
+- **Scope glasklar.** Stückzahl explizit ausrechnen (Konzepte × Hook-Takes = Files); Scroll-Breaker explizit als „Bonus, nicht Teil des Scopes" labeln (oder als reguläres Konzept briefen).
+- **Final entscheiden, ein konkreter Fakt statt Floskel**, nichts erfinden.
+- **Rollen statt Namen:** keine Personennamen im Dokument — „Rückfragen an ADMKRS via [Kanal]", nie „[Name] fragen".
 
 ---
 
 ## Locked-Facts im Dokument
-**Gesperrt 1:1** (Locked-Callout) hält fest, was unverändert bleibt (Zahlen, Claims, Disclaimer, Code, Review-Wortlaut). **[Ergänzung]** markiert jeden neuen Fakt/Vorschlag, der Freigabe braucht — im Text als `<b>[Ergänzung]</b>`. Disclaimer/Sternchen exakt übernehmen.
+**Kein Locked-Callout mehr.** Sagbare Claims/Zahlen stehen 1:1 in „Darf & darf nicht" und in den Scripts — das ist die einzige Quelle. Verbotenes steht in der „Darf ich NICHT sagen"-Spalte. **[Ergänzung]**-Marker sind intern (Strategie-Pass/Kunden-Abstimmung) und erscheinen nicht im Creator-Dokument. Disclaimer/Sternchen exakt übernehmen.
 
 ---
-<sub>**ADMKRS Creative Suite** · © ADMKRS GmbH, München · v1.5.0 · interner Gebrauch · erstellt von ADMKRS. Gleiche Builder-Engine & B4-Standard wie admkrs-cs-creative-briefing.</sub>
+<sub>**ADMKRS Creative Suite** · © ADMKRS GmbH, München · v1.8.0 · interner Gebrauch · erstellt von ADMKRS. Gleiche Builder-Engine & B4-Standard wie admkrs-cs-creative-briefing.</sub>

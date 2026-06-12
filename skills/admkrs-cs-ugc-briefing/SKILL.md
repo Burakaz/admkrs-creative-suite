@@ -31,9 +31,9 @@ Produziert das UGC-Briefing, das ADMKRS verkauft: ein **B4-.docx**, das **gleich
 - **Out-of-the-box ist Pflicht-Layer.** Jedes Briefing enthält neben bewährten Frameworks einen Scroll-Breaker-Layer (Comment-Reply, Green-Screen, Street-Interview, POV-Skit, Expectation-vs-Reality …). Creative Diversity gewinnt unter Andromeda.
 - **Klarheit vor Kunst & konkret > generisch.** „19 g Protein · 95 % weniger Zucker" schlägt „viel Protein". Keine Generic-AI-Buzzwords („Game-Changer", „unlock", „elevate").
 - **Kein langer Gedankenstrich „—" (Em-Dash)** in irgendeiner produzierten Copy (Hooks, Scripts, VO, On-Screen-Text, Fließtext, JSON-Felder) — ADMKRS-Hausregel. Stattdessen Punkt/Komma, notfalls das kurze „–".
-- **Dual-Purpose by design.** Strategie-Layer (Awareness, Angle-Logik, KPI-Hypothesen) für den Kunden; Hooks/Scripts/Specs für den Creator. `references/brand-foundation.md`.
-- **Nichts erfinden.** Zahlen, Claims, Testimonials, Preise, Offers bleiben 1:1. Neue Vorschläge als **[Ergänzung]** markieren und zur Freigabe stellen. Fehlt ein Wert: **`[Platzhalter: …]`**, nie raten.
-- **Zeilenweise & build-fertig.** Aufzählungen/mehrere Anweisungen je `\n`-Zeile (in Zellen wie Callouts), nie als „1) … 2) …"-Block. Alle offenen Punkte/Blocker gebündelt in **einen `todo`-Callout** („Vor Produktion klären (blockiert sonst alles):") ganz oben — nicht in die Build-Zellen verstreuen. (Der dual-purpose Strategie-Layer bleibt — anders als bei den schlanken Motion-/Static-Designer-Dokumenten.)
+- **Creator-First, Kunden-Layer hinten.** Der Creator liest von vorne: Auftrag → Lieferung/Specs → **Darf & darf nicht** → Produkt & Ton → Scripts. Der Strategie-Layer für den Kunden (Awareness, Angle-Logik, KPI-Hypothesen) steht als **Anhang ganz hinten** — oder auf Wunsch als separates Kunden-Dokument aus derselben JSON. `references/brand-foundation.md`.
+- **Nichts erfinden.** Zahlen, Claims, Testimonials, Preise, Offers bleiben 1:1. Neue Vorschläge intern als **[Ergänzung]** zur Freigabe stellen (nicht im Creator-Dokument). Fehlt ein Wert: **`[Platzhalter: …]`** inline, nie raten — der Creator füllt nie selbst.
+- **Zeilenweise, final & scope-klar.** Aufzählungen je `\n`-Zeile, nie als „1) … 2) …"-Block. **Kein todo-/locked-Callout** — offene Punkte leben in ClickUp/Chat, das Dokument geht erst freigegeben raus (dek: „Stand … · freigegeben"). **Stückzahl explizit** (Konzepte × Hook-Takes = Files), Scroll-Breaker explizit als Bonus gescoped. **Keine Personennamen** — Rollen statt Namen.
 
 ### Harte Sicherheits-Regeln (nicht verhandelbar)
 - **Nie senden / posten / publizieren / hochladen** (E-Mail, Slack, ClickUp, Ads Manager, an Creator) ohne explizite Freigabe. Alles geht als **Entwurf**.
@@ -53,7 +53,7 @@ Welches Produkt, welche Plattformen (IG Reels / TikTok / Shorts / UGC-Statics), 
 Gibt es ein Brand-Profil (z. B. aus `admkrs-cs-creative-briefing/assets/brand_profiles/`)? Wenn ja: Voice, gesperrte Claims/Zahlen, Offers, Naming übernehmen. Wenn nein: aus dem Brief bauen und am Ende anbieten, ein Profil anzulegen (nur mit Zustimmung speichern). Brand-Snapshot, Produkt-Facts, Persona: `references/brand-foundation.md`.
 
 ### 3 — Intake: Lücken schließen
-Prüfe den Brief auf das, was das Briefing sonst falsch macht: Offer/Code, gesperrte Zahlen/Claims, Zielperson, Awareness-Stufe, Plattform, Disclosure-Pflicht, verfügbares Rohmaterial/Creator-Typ. **Nur die echten Lücken fragen.** Widersprüchlicher/löchriger Brief → **sag es, bevor du schreibst.** In Cowork: Frage-Tool, Fragen batchen.
+Prüfe den Brief auf das, was das Briefing sonst falsch macht: Offer/Code, gesperrte Zahlen/Claims, Zielperson, Awareness-Stufe, Plattform, Disclosure-Pflicht, verfügbares Rohmaterial/Creator-Typ — plus die Creator-Praxis-Fragen: **Stückzahl & Takes** (wie viele Files am Ende?), **roh oder geschnitten**, **Upload-Ort**, **Produkt-Logistik** (bekommt der Creator das Produkt, bis wann?), **Aussprache des Markennamens**, **Referenz-Videos**. **Nur die echten Lücken fragen.** Widersprüchlicher/löchriger Brief → **sag es, bevor du schreibst.** In Cowork: Frage-Tool, Fragen batchen.
 
 ### 4 — Strategie-Pass
 Bevor du textest: Architektur bauen.
@@ -61,7 +61,7 @@ Bevor du textest: Architektur bauen.
 - **Angle je Konzept** (Pain, Desire, Social-Proof, Mechanism, Comparison, Identity …) — echte Vielfalt, keine Klone (Andromeda).
 - **Framework je Konzept** über den Quick-Selector (Awareness → Produkt-Typ → Sophistication).
 - **Virale Mechanik:** Share- vs. Save-Ziel, Hook-Fenster, native Formate, was 2026 steigt/fällt → `viral-mechanics.md`.
-- Ergebnis = die **Strategische Grundlage** (Client-Layer) + je Konzept ein **Strategischer Anker** mit Hypothese.
+- Ergebnis = je Konzept eine **`Idee`-Zeile** (1 Satz, vorne beim Konzept) + der **Strategie-Anhang** für die Kunden-Präsentation (Persona, Angle-Tabelle, Hypothesen — ganz hinten im Dokument oder als separates Kunden-Doc).
 
 ### 5 — Hooks & Scripts schreiben
 - **Hooks zuerst:** pro Konzept 3 Optionen aus *verschiedenen* Kategorien (`hook-bank.md`), Standard-Mix Problem · Demo/Result · „I was skeptical".
@@ -93,7 +93,9 @@ Checkliste unten durchgehen. Fällt ein Punkt durch → überarbeiten, nicht abl
 - [ ] **Framework-Fit:** Passt die Story-Struktur zur Awareness-Stufe und zum Produkt-Typ?
 - [ ] **Ohr-Test:** Klingt jedes Script gesprochen (Contractions, kurz, Pausen) — nicht wie vorgelesen?
 - [ ] **Out-of-the-box-Test:** Gibt es einen echten Scroll-Breaker-Layer, nicht nur Talking-Head?
-- [ ] **Dual-Purpose-Test:** Sieht der Kunde das Warum (Awareness, Angle, Hypothese, KPI-Reads) UND kann der Creator sofort drehen?
+- [ ] **Creator-First-Test:** Steht alles, was der Creator zum Drehen braucht, **vorne** (Auftrag, Lieferung, Darf/Darf-nicht, Scripts) — und der Kunden-Strategie-Layer (Awareness, Angle, Hypothesen) **hinten als Anhang**? Kann der Creator sofort drehen, ohne den Anhang zu lesen?
+- [ ] **Scope-Test:** Stückzahl explizit ausgerechnet (Konzepte × Hook-Takes = Files)? Scroll-Breaker klar als „Bonus, nicht Scope" gelabelt? Upload-Ort, roh/geschnitten, Aussprache des Markennamens, Produkt-Logistik drin?
+- [ ] **Namen-Test:** Keine Personennamen im Dokument — Rückfragen an Rolle/Kanal, nie „[Name] fragen"?
 - [ ] **Konkret-Test:** Echte Zahlen/Namen/Code statt „viele/besser/hochwertig"?
 - [ ] **Boundaries-Test:** Kernaussage/Claim-Grenzen/Specs fest — aber nicht über-skriptet (Brief ≤ ~2 Seiten Geist)?
 - [ ] **Compliance-Test:** „Werbung"-Kennzeichnung gesetzt, keine engl. Labels, keine Heil-/Med-Claims, Disclaimer 1:1? (→ `admkrs-cs-ad-compliance-check`)
@@ -122,4 +124,4 @@ Checkliste unten durchgehen. Fällt ein Punkt durch → überarbeiten, nicht abl
 Siehe die jeweiligen Reference-Dateien (gelabelt nach OFFIZIELL/PEER-REVIEWED/VENDOR/AGENCY). Kern-Primärquellen: TikTok/Instagram/YouTube Creator-Doku & Exec-Statements · Berger & Milkman 2012 (JMR) · Eugene Schwartz *Breakthrough Advertising* · Meta Transparency Center · die-medienanstalten.de (Werbekennzeichnung) · FTC/EU (DSA, AI Act). *Vendor-/Folklore-Zahlen direktional; Plattform/Recht an Primärquellen prüfen.*
 
 ---
-<sub>**ADMKRS Creative Suite** · © ADMKRS GmbH, München · v1.5.0 · interner Gebrauch · erstellt von ADMKRS. Quellen am jeweiligen Skill-Ende; Specs/Policies an Primärquellen prüfen. · v1.5.0: zeilenweise statt Block, mehrzeilige Callouts + `todo`-Block „Vor Produktion klären".</sub>
+<sub>**ADMKRS Creative Suite** · © ADMKRS GmbH, München · v1.8.0 · interner Gebrauch · erstellt von ADMKRS. Quellen am jeweiligen Skill-Ende; Specs/Policies an Primärquellen prüfen. · v1.8.0: Creator-First (Auftrag → Specs → Darf/Darf-nicht → Scripts; Strategie-Anhang hinten), keine Callouts, Beat-Scripts, Scope explizit.</sub>
