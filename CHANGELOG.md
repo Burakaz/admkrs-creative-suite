@@ -1,5 +1,22 @@
 # Changelog — ADMKRS Creative Suite
 
+## v1.9.0 — 2026-06
+`creative-strategy-os` für planlose Media Buyer verständlich gemacht + definitorischer Rigor (inspiriert vom Influee-5-Pillar-Framework, gegengeprüft und auf unser Phasen-Modell gemappt — kein paralleles Framework, kein Vendor-Material übernommen).
+
+- **Neuer „START HIER"-Block** ganz oben in der SKILL.md (die Rolle stand vorher erst weit unten): der Job eines Creative Strategists in einem Absatz (vom Targeting- zum Lern-System-Betreiber), die **Creative-Map** als zentraler Output, plus eine **4-Begriffe-Box** (Persona/Pain/Angle/Awareness) mit der Leiter **Kundenzitat → Pain → Angle → Hook → Script**.
+- **Pain ≠ Angle** als explizite Schicht in Phase 2 (`research-diversity-testdesign.md` §2.1b): warum schwache Ads „wie Marketing klingen", Prüfregel „klingt der Pain wie eine Headline, ist er zu hoch", High-Frequency-Anker (5+ = Hook-Struktur).
+- **Persona-Disziplin** geschärft: Definition über **Lebenssituation + Beziehung zum Problem** (nicht Awareness/Mindset/Funnel/Demografie), **Konsistenz-Test** über alle Awareness-Stufen, **Sub-Persona-Split**.
+- **Awareness = was das SKRIPT sagt** (nicht was der Kunde denkt): 5 Script-Jobs als Tabelle (Unaware→Most-Aware), macht Schwartz von Buzzword zu Schreib-Anweisung.
+- **Ausführbarer Diversity-Check:** Andromeda **NEW/REPEAT/VARIANT** + „eine Strukturachse mutieren" (Talent/Shot/Pacing/Opener) + Konzentrations-Check (>40 % gleiches Format).
+- **Durchgehender Worked Example** (eine fiktive Brand von Kundenzitat bis Concept-Matrix-Zeile + Hypothese) — die Maschine einmal komplett.
+- Templates aktualisiert: Concept-Matrix mit **Coverage-Spalte** (Scaling/Testing/Not-Running) + Empty-Cell-Disziplin; Test-Plan mit **Hypothesen-Schablone**.
+
+**Briefings — Visual-Direction radikal reduziert:**
+- **Visual-Direction-Spalte: Default leer.** Die Spalte bleibt im Schema, aber wird nur gefüllt, wenn das Konzept eine visuelle Richtung zwingend braucht oder eine klare Kunden-Vorgabe existiert — sonst leer (Designer entscheidet die Optik). Keine Detail-/Stimmungs-Beschreibung, keine „clean & premium"-Floskeln, keine Formate/Farben. Faustregel: ist das Creative auch ohne Visual-Direction klar gebrieft, bleibt die Zelle leer.
+- Abgrenzung: betrifft die Static-/Carousel-`Visual-Direction`-Spalte. Bei Motion/Video bleibt die Storyboard-`Visual`-Spalte die funktionale Beat-Anweisung (knapp, nur was Animation/Schnitt braucht).
+- Neuer **Visual-Reduktions-Test** im Quality-Check; NOVA-Statics-Beispiel entsprechend entschlackt (3 von 5 Visual-Direction-Zellen jetzt leer).
+- Bewusst NICHT übernommen: Influees Master-Prompt-Monolith, Creator-Casting-MCP (liegt bei uns in `ugc-creator-ops`/`ugc-briefing`), Production-Brief-Generator (Job des `creative-briefing`-Companions), Format-Liste, Vendor-Marker.
+
 ## v1.8.0 — 2026-06
 Das schlanke Ausführer-Dokument: alles raus, was Designer/Editor/Creator nicht zum Bauen brauchen. Plus Text-Budget + CTA-Spalte (zusammengeführt aus dem unveröffentlichten v1.7.2).
 

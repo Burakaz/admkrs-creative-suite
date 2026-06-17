@@ -1,7 +1,10 @@
 # Test-Plan  ·  <BRAND> · Runde <N> · <Datum>
 
-## Hypothese
-Was glauben wir, und was würde es beweisen/widerlegen? ____
+## Hypothese (eine je gestarteter Zelle)
+Schablone: **Wenn wir [Angle] in [Format] für [Persona] bei [Awareness] shippen, erwarten wir [konkretes Outcome], weil [Mechanismus].**
+- Zelle 1: ____
+- Zelle 2: ____
+Was würde sie widerlegen? ____
 
 ## Struktur
 - Testing-Kampagne: ABO  · Ad-Sets: __  · Budget/Ad-Set: ____

@@ -12,12 +12,31 @@ Quellen: eigene Reviews (Shop/Trustpilot/Amazon), **Reddit** & Foren der Nische,
 Scanne auf **wiederkehrende Formulierungen** — wiederholte Sprache = validiertes Verkaufsargument. Extrahiere pro Fund: **Pain · Trigger · Objection · Transformation · swipeable Phrase** (wörtliches Zitat).
 **AI-Support:** AI scrapen/clustern lassen; dann menschlich kuratieren (keine erfundenen Zitate).
 
+### 2.1b Die Leiter: Pain ≠ Angle (warum schwache Ads „wie Marketing klingen")
+Der häufigste Fehler: man springt von Research direkt in Angles und überspringt die Pain-Schicht. Dann starten die Ads mit *Angles, die sich als Pain verkleiden* — polished, abstrakt, marketing-geschrieben statt emotional wahr. Jede Ebene baut nachweisbar auf der darunter auf:
+**Kundenzitat → Pain → Angle → Hook (erste 3 Sek) → Script.**
+- **Pain** = der rohe emotionale Auslöser, wörtlich (*„Ich kann meine Prenatals nicht bei mir behalten"* → darunter die Wurzel: *„Ich fühle mich schuldig, weil ich sie auslasse"*). **Prüfregel: Klingt dein Pain wie eine Headline, ist er eine Ebene zu hoch — tiefer graben, re-extrahieren.**
+- **Angle** = die narrative Verkaufstür, die du AUF dem Pain baust. **Jeder Angle muss auf einen zitierten Pain zurückführen** — sonst ist er erfunden.
+- **High-Frequency-Anker:** Taucht dieselbe Kundensprache **5+ mal** über Quellen auf, markiere sie — das wird eine wiederkehrende **Hook-Struktur**, nicht nur ein Argument.
+Das macht „nichts erfinden" *diagnostizierbar*: kein Angle ohne Pain, kein Pain ohne Zitat + Quelle.
+
 ### 2.2 Angle-Bank (psychografisch, nicht demografisch)
-Cluster die VoC in eine wiederverwendbare **Angle-Bank**. Struktur **P.D.A. = Persona × Desire × Angle**:
-- **Persona:** psychografisch (z. B. „gestresste Vielbeschäftigte, die abends nicht abschalten"), nicht „Frauen 25–45".
+Cluster die VoC in eine wiederverwendbare **Angle-Bank**. Struktur **P.D.A. = Persona × Desire × Angle** (sie strukturiert die Angle-Bank; die Concept-Matrix in Phase 3 baut daraus die Test-Slate und nimmt Awareness + Format dazu):
+- **Persona:** ein *Typ Kunde*, definiert durch **(1) Lebenssituation** (der Alltag, der das Problem dringend macht) **+ (2) Beziehung zum Problem** (scheitert gerade daran / vermeidet es / hängt an einem Workaround). **Nicht** Awareness-Stufe, **nicht** Mindset-Trait, **nicht** Funnel-Stage, **nicht** Demografie („Frauen 25–45" = *Avatar*, sagt nichts über die Ad). **Konsistenz-Test:** schreib eine Script-Richtung für Unaware UND Most-Aware — ändert sich die Persona dazwischen, sind es zwei Personas (oder eine über Mindset definierte → neu schneiden). **Sub-Persona-Split:** gleiche Lebenssituation, andere Failure-History (nie probiert vs. 2× gescheitert) → echte Diversität aus EINER Persona, statt Zweit-Personas zu erfinden.
 - **Desire:** das gewünschte Gefühl/Ergebnis (Loslassen, Sicherheit, Status, Genuss-ohne-Reue).
 - **Angle:** die Verkaufstür (Pain, Mechanism, Proof, Comparison, Identity, Offer … 16er-Liste in `admkrs-cs-creative-briefing/references/field-notes.md`).
-Lege zusätzlich die **Awareness-Stage** je Angle fest (Unaware → Most-Aware) — sie bestimmt, wo der Hook ansetzt.
+
+**Awareness = was das SKRIPT bei dieser Stufe tut** (nicht was der Kunde glaubt). Lege die Stufe je Angle fest — sie bestimmt, wo der Hook ansetzt. Gleiche Persona, gleicher Pain, 5 Script-Jobs → 5 echt verschiedene Ads:
+
+| Stage | Job des Scripts | Bsp (Sensitive-Stomach Mom, Nausea-Pain) |
+|---|---|---|
+| Unaware | Symptom + Problem verbinden | „Die meisten Vitamine sind optional. Prenatals nicht." |
+| Problem-Aware | den Pain validieren | „Du versagst nicht. Deine Prenatal-Formel macht dich krank." |
+| Solution-Aware | die Kategorie reframen | „Gummi-Prenatals lösen ein Problem und schaffen ein neues." |
+| Product-Aware | gegen den Konkurrenten positionieren | „Nimmst du schon Ritual und bist trotzdem übel?" |
+| Most-Aware | Aktion auslösen (konkreter Trigger) | „60 % auf die methylierte Version, nur diese Woche." |
+
+Anti-Fehler: klingen Unaware und Problem-Aware austauschbar, ist deine Unaware-Zeile in Wahrheit Problem-Aware → höher ansetzen oder Zelle leer lassen.
 Ergebnis: 4–8 belastbare Angles + der **ownable Twist** (meist Mechanism × Trade-off), den nur diese Brand besitzt.
 
 ---
@@ -40,7 +59,24 @@ Ein **Konzept (Angle)** wird zur **Ad Family**, indem du denselben Winkel über 
 ### 3.4 Diversity-Math (wie viel?)
 - ~5 % der Creatives werden echte Winner → plane Volumen entsprechend (mehr Konzepte = mehr Schuss aufs Tor), **aber Qualität vor Menge**.
 - Pragmatischer Start: **6–10 Konzepte/Runde**, je 1–3 Format-Treatments. Tempo richtet sich nach Produktionskapazität (Phase 0.3) und Budget.
-- **Diversity-Check:** „Würde Meta nach Concept gruppieren — wie viele *verschiedene* Stapel?" Wenn < Hälfte deiner Assets → zu viele Klone.
+- **Diversity-Check (ausführbar):** Klassifiziere jede geplante Zelle gegen deine eigenen Top-10 + Competitor-Top-10:
+  - **NEW ENTITY** = strukturell distinkt von allem, was schon läuft → das willst du.
+  - **REPEAT ENTITY** = gleiche Struktur wie etwas, das schon läuft → killen oder mutieren.
+  - **VARIANT** = andere Copy, **gleicher** struktureller Fingerabdruck (Talent-Typ, Shot, Pacing, Opener) → Meta liest es als dieselbe Entity. 5 Hooks auf demselben Talent/Shot/Pacing = **1** Entity, nicht 5.
+  - **Mutation** (für REPEAT/VARIANT): rotiere **genau eine** Strukturachse — Talent-Typ, Shot-Komposition, Pacing oder Opener — und der Klon wird eine NEW ENTITY.
+- **Konzentrations-Check (in der Planung):** Fallen **>40 %** der Zellen auf dasselbe Format → flaggen und diversifizieren ODER bewusst als strategische Konzentration bestätigen. Verhindert eine homogene Slate vor dem Launch.
+
+---
+
+### Worked Example — die Maschine einmal komplett (fiktive Schlaf-Supplement-Brand)
+So läuft *jede* Zeile der Creative-Map, von echter Sprache bis zur prüfbaren Wette:
+- **Kundenzitat** (Reddit, 6×): *„Ich lieg um 3 Uhr wach und mein Kopf hört nicht auf."*
+- → **Pain** (roh, mit Wurzel): *„Ich kann nicht abschalten, obwohl ich todmüde bin — und bin am nächsten Tag gereizt zu den Kindern, was mir leidtut."*
+- → **Persona**: *„Vielbeschäftigte Mutter Ende 30, körperlich erschöpft, Kopf läuft nachts weiter, hat Melatonin probiert und gibt sich die Schuld"* (Lebenssituation + Beziehung zum Problem; bleibt Unaware→Most-Aware gleich ✓).
+- → **Angle** (auf dem Pain gebaut): *„Nicht dein Schlaf ist kaputt. Dein Nervensystem kommt nicht aus dem Alarm-Modus."*
+- → **Awareness-Aufspannung**: Problem-Aware-Hook *„Todmüde, aber der Kopf macht um 3 Uhr nicht aus?"* · Solution-Aware *„Melatonin macht dich müde, nicht ruhig. Das ist der Unterschied."*
+- → **Concept-Matrix-Zeile**: Persona=Erschöpfte-Mutter · Pain=Nicht-abschalten · Angle=Nervensystem-Reframe · Awareness=Problem-Aware · Format=UGC-Monolog (Ad-Family: + Authority-Talking-Head).
+- → **Hypothese**: *„Wenn wir den Nervensystem-Reframe als UGC-Monolog für die erschöpfte Mutter auf Problem-Aware shippen, erwarten wir Thumbstop über Baseline + CTR-Lift, weil das Zitat die Schuld-Schleife exakt trifft."*
 
 ---
 
