@@ -23,6 +23,20 @@ Dies ist das **Vorgehen**, nicht das Output-Tool. Es bringt bei, wie man als Cre
 
 ---
 
+## START HIER — wenn du von Media Buying kommst (2 Minuten)
+
+Früher war dein Hebel das **Targeting**: Audiences bauen, Lookalikes, Budgets schieben, Gebote tunen. Im Andromeda-Zeitalter macht Meta das selbst — es findet die Zielgruppe über das Creative. **Damit verschiebt sich dein Job:** nicht mehr *wer* die Ad sieht, sondern **welche Idee bei welchem Menschen** getestet wird. Du bist nicht Ads-Designer und nicht Texter — du **betreibst ein Lern-System**. Dein zentraler Output ist **eine Tabelle, die Creative-Map**: jede Zeile = ein Test = **Persona × Pain × Angle × Awareness × Format**. Aus den Top-Zeilen werden Briefings (die schreibt `admkrs-cs-creative-briefing`), die du launchst, gegen die *eigene* Baseline liest und iterierst.
+
+**Die 4 Begriffe, die alles tragen — lern die zuerst, der Rest folgt von selbst:**
+- **Persona** = ein *Typ Kunde*, definiert durch **Lebenssituation + Beziehung zum Problem**. Nicht „Frauen 25–45" (das ist ein *Avatar* und sagt dir nichts über die Ad), sondern z. B. *„Working Mom mit empfindlichem Magen, die ihre Prenatals nicht bei sich behält und sich beim Auslassen schuldig fühlt"*. Test: bleibt die Persona über alle Awareness-Stufen gleich? Wenn nicht, sind es zwei.
+- **Pain** = der **rohe emotionale Auslöser**, wörtlich aus Kundensprache (*„Ich will sie nehmen, aber ich kann sie nicht bei mir behalten"*). Klingt dein Pain wie eine Headline, ist er eine Ebene zu hoch — grab tiefer.
+- **Angle** = die **Verkaufstür, die du AUF dem Pain baust**. Jeder Angle führt auf einen zitierten Pain zurück. Die Leiter: **Kundenzitat → Pain → Angle → Hook (erste 3 Sek) → Script.** Verwechsle die Ebenen nicht.
+- **Awareness** (5 Stufen, Schwartz) = beschreibt, **was das Script sagt, nicht was der Kunde denkt**. Gleiche Persona, gleicher Pain, 5 Script-Jobs → 5 echt verschiedene Ads. Das ist dein Volumen-Hebel.
+
+Wenn diese 4 Begriffe sitzen, ergibt der Rest (Matrix, Tests, Diagnose, Scaling) Sinn — er ist nur das System drumherum, das die Map in **gemessene Gewinner** verwandelt. Reihenfolge: **Research → Diversity → Test → Diagnose → Iterate → Scale.**
+
+---
+
 ## Das mentale Modell (warum das alles)
 
 Im Andromeda-Zeitalter findet Meta die Zielgruppe über das Creative — **das Creative IST das Targeting**. Daraus folgt alles:
@@ -49,7 +63,7 @@ Grober Zeitrahmen für eine neue Brand: **Tag 1 → Woche 1 → Woche 2–4 → 
 ### Phase 1 — Audit & Diagnose  ·  *Tag 1–3*  ·  „verstehe, wo die Brand steht"
 - **Account-Audit (DatAds):** Was läuft? Was hat historisch gewonnen/verloren (*Bestperformer*, *Best Hooks*, *Ads to Kill*)? Format-Mix, Diversity-/Hook-/Fatigue-Scores, Naming-Hygiene.
 - **Creative-Audit:** Top- und Flop-Creatives zerlegen (Format/Hook/Angle) — Competitor-Teardown via Meta Ad Library.
-- **Bottleneck-Diagnose:** Wo klemmt es? **Scroll-Stop** (Hook) · **Verlangen** (Angle) · **Vertrauen** (Proof) · **Conversion** (Offer/LP)? Der Bottleneck priorisiert die ersten Tests.
+- **Bottleneck-Diagnose:** Wo klemmt es? **Scroll-Stop** (scrollen vorbei, Hook stoppt nicht) · **Verlangen** (sehen die Ad, wollen das Produkt aber nicht genug zum Klicken) · **Vertrauen** (klicken, kaufen aber nicht) · **Conversion** (kaufen, aber CAC zu hoch). Der Bottleneck priorisiert die ersten Tests. *(Die Metriken dahinter — Thumbstop/CTR/CVR — kommen in Phase 6; hier reicht die Hypothese aus dem Audit.)*
 **Worauf schauen:** Welcher *Angle/Format* gewinnt in dieser Kategorie schon? Wo ist die Lücke?
 **AI-Support:** DatAds; `admkrs-cs-creative-briefing/references/performance-playbook.md`. Details: `references/onboarding-and-audit.md`.
 
@@ -125,7 +139,7 @@ Kein „Ideen-Lieferant", sondern **Betreiber eines Lern-Systems**: VoC-Research
 
 ## Reference-Dateien
 - `references/onboarding-and-audit.md` — Phase 0–1: Zugangs-/Ökonomie-Checkliste, Account- & Creative-Audit, Competitor-Teardown, Bottleneck-Diagnose.
-- `references/research-diversity-testdesign.md` — Phase 2–4: VoC-Pipeline, Angle-Bank/P.D.A., Concept-Matrix & Ad Families, Test-Architektur + Math + Entscheidungsregeln.
+- `references/research-diversity-testdesign.md` — Phase 2–4: VoC-Pipeline, **Pain≠Angle-Leiter**, Angle-Bank/P.D.A. + **Persona-Disziplin** + **Awareness-Script-Jobs**, Concept-Matrix & Ad Families, **NEW/REPEAT/VARIANT-Diversity-Check**, **Worked Example (Maschine komplett)**, Test-Architektur + Math + Entscheidungsregeln.
 - `references/diagnose-iterate-scale.md` — Phase 6–8: Metrik-Diagnose-Baum, Breakdown-Effect, Iterations-Playbook, Scaling, Creative-Demand-Score, Fatigue/Refresh.
 - `references/operating-methods.md` — die konkreten Stellschrauben 2026: **3-Quellen-Research**, **Creative-Volumen-nach-Umsatz**-Tabelle, **60/30/10-Mix**, ASC-Struktur, **Cost Cap @ 85 % Median-CPA**, CAPI/LTV-Loop, **Hook→Body→CTA-Modular-Testing**, 2-Stufen-Scaling, Creative-Ops-Automation. **Lesen in Phase 2–4 & 8.**
 - `references/strategist-playbook.md` — die Rolle, Maturity-Modell, AI-Support-Stack, häufige Fehler, KPIs, Wochen-Rhythmus.
@@ -133,4 +147,4 @@ Kein „Ideen-Lieferant", sondern **Betreiber eines Lern-Systems**: VoC-Research
 - Format-Bibliothek (alle Video-/Static-Styles + Einsatzzweck + Style-Decoder): siehe `admkrs-cs-creative-briefing` → `references/creative-formats.md`.
 
 ---
-<sub>**ADMKRS Creative Suite** · © ADMKRS GmbH, München · v1.1.0 · interner Gebrauch · erstellt von ADMKRS. Quellen am jeweiligen Skill-Ende; Specs/Policies an Primärquellen prüfen.</sub>
+<sub>**ADMKRS Creative Suite** · © ADMKRS GmbH, München · v1.9.0 · interner Gebrauch · erstellt von ADMKRS. Quellen am jeweiligen Skill-Ende; Specs/Policies an Primärquellen prüfen. · v1.9.0: „START HIER"-Einstieg für Media Buyer (Job in einem Absatz + 4-Begriffe-Box + Pain→Angle→Hook-Leiter), Persona-Disziplin (Lebenssituation + Beziehung zum Problem, Konsistenz-Test, Sub-Persona-Split), Awareness = was das Script sagt (5 Script-Jobs), ausführbarer NEW/REPEAT/VARIANT-Diversity-Check, durchgehender Worked Example.</sub>
