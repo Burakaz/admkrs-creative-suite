@@ -1,5 +1,8 @@
 # Changelog — ADMKRS Creative Suite
 
+## v1.10.2 — 2026-06
+Fix: `admkrs-cs-creative-verifier` ließ sich in der App nicht installieren — die `description` im SKILL.md war 1122 Zeichen lang (Limit: 1024). Gekürzt auf 957 (Trigger erhalten). Hinweis: `claude plugin validate` prüft diese Grenze NICHT — nur der App-Installer. Künftig description ≤ 1024 halten.
+
 ## v1.10.1 — 2026-06
 Verifier-Pre-Mortem im Briefing-Prozess.
 

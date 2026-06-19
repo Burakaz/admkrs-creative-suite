@@ -2,17 +2,15 @@
 name: admkrs-cs-creative-verifier
 description: >
   Abnahme-Gate der ADMKRS Creative Suite: prüft fertige Creatives (Stills, Videos, Carousels)
-  gegen das Briefing UND auf handwerkliche Sauberkeit, bevor sie an den Kunden / in den Ads
-  Manager gehen. Vier Dimensionen in einem Lauf — Briefing-Treue (HL, SL, Wording, CTA, Störer,
-  Visual, Format, CI), Hook-Wirksamkeit (tut die Copy ihren Job — diagnostisch), Designhandwerk
-  (ADMKRS Designfehler Cheat-Sheet, 7 Kategorien / 48 Punkte, Pflicht) und Kundenspezifik (Marken-
-  Do's & Don'ts). Liefert einen kompakten, opinionierten Verdict mit Severity und Findings getaggt
-  nach [Briefing] · [Wirksamkeit] · [Design] · [Kunde]. Trigger: "wurde das briefing richtig
-  umgesetzt", "creatives prüfen", "creative check", "creative review", "creative abnehmen", "gate
-  vor versand", "qa pass", "passen die stills zum briefing", "verify the briefing". Auch triggern,
-  wenn der User ein Briefing (docx/Text/ClickUp-Link) teilt und Creatives hochlädt und nach Abnahme
-  fragt — auch ohne Trigger-Wort. Companion zu admkrs-cs-creative-briefing (erzeugt das Briefing)
-  und admkrs-cs-ad-compliance-check (rechtliches Gate, läuft NACH diesem QA-Gate).
+  gegen das Briefing UND auf handwerkliche Sauberkeit, bevor sie an den Kunden / in den Ads Manager
+  gehen. Vier Dimensionen in einem Lauf: Briefing-Treue, Hook-Wirksamkeit (tut die Copy ihren Job,
+  diagnostisch), Designhandwerk (Designfehler-Cheat-Sheet, 48 Punkte) und Kundenspezifik (Marken-
+  Do's & Don'ts). Liefert einen kompakten, opinionierten Verdict mit Severity, Findings getaggt nach
+  [Briefing] · [Wirksamkeit] · [Design] · [Kunde]. Trigger: "wurde das briefing richtig umgesetzt",
+  "creatives prüfen", "creative check/review", "creative abnehmen", "passen die stills zum briefing",
+  "verify the briefing". Auch triggern, wenn der User ein Briefing (docx/Text/ClickUp-Link) teilt,
+  Creatives hochlädt und nach Abnahme fragt — auch ohne Trigger-Wort. Companion zu
+  admkrs-cs-creative-briefing und admkrs-cs-ad-compliance-check (rechtliches Gate, NACH diesem Gate).
 ---
 
 # ADMKRS Creative Verifier
