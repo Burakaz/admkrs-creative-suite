@@ -25,6 +25,6 @@ Folge dem Workflow aus `admkrs-cs-creative-briefing`, **nur für Motion**:
 
 ## Leitprinzipien (kurz)
 **Hooks zuerst · VO-First & Redefluss · Klarheit vor Kunst, dann Haltung (Voss) · eine Idee pro Konzept · nichts erfinden.** Plattform-nativ, sound-off-tauglich (Captions).
-**Build-fertig & zeilenweise:** Property-/Storyboard-Zellen zeilenweise (`\n`); **Ausführer-Test** — nur was der Motion-Designer zum Bauen braucht (keine Strategie-Prosa, keine Callouts); final entschieden; fehlende Werte als `[Platzhalter: …]` **inline**, offene Punkte intern in ClickUp/Chat; **keine Personennamen** (Rollen statt Namen). **Sicherheit:** nie senden/posten/löschen ohne Freigabe; vor Launch `admkrs-cs-ad-compliance-check`.
+**Build-fertig & zeilenweise:** Property-/Storyboard-Zellen zeilenweise (`\n`); **Ausführer-Test** — nur was der Motion-Designer zum Bauen braucht (keine Strategie-Prosa, keine Callouts); final entschieden; fehlende Werte als `[Platzhalter: …]` **inline**, offene Punkte intern in ClickUp/Chat; **keine Personennamen** (Rollen statt Namen). **Sicherheit:** nie senden/posten/löschen ohne Freigabe; Abnahme durch `admkrs-cs-creative-verifier`, dann vor Launch `admkrs-cs-ad-compliance-check`.
 
 <sub>**ADMKRS Creative Suite** · © ADMKRS GmbH, München · v1.8.0 · interner Gebrauch · Format-Tür zu `admkrs-cs-creative-briefing` (gemeinsame Engine, keine Duplikate).</sub>

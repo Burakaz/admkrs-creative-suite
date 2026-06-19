@@ -27,6 +27,6 @@ Folge dem Workflow aus `admkrs-cs-creative-briefing`, **nur für Video**:
 
 ## Leitprinzipien (kurz)
 **Hooks zuerst · gesprochener Flow statt Stakkato · Klarheit vor Kunst, dann Haltung (Voss) · eine Idee pro Konzept · nichts erfinden.** Drehfertige Visual-Direction (Specs, Ratio, Licht/Ton).
-**Build-fertig & zeilenweise:** Property-/Script-Zellen zeilenweise (`\n`); **Ausführer-Test** — nur was Regie/Editor zum Bauen braucht (keine Callouts); final entschieden; fehlende Werte als `[Platzhalter: …]` **inline**, offene Punkte intern in ClickUp/Chat; **keine Personennamen** (Rollen statt Namen). **Sicherheit:** nie senden/posten/löschen ohne Freigabe; vor Launch `admkrs-cs-ad-compliance-check`.
+**Build-fertig & zeilenweise:** Property-/Script-Zellen zeilenweise (`\n`); **Ausführer-Test** — nur was Regie/Editor zum Bauen braucht (keine Callouts); final entschieden; fehlende Werte als `[Platzhalter: …]` **inline**, offene Punkte intern in ClickUp/Chat; **keine Personennamen** (Rollen statt Namen). **Sicherheit:** nie senden/posten/löschen ohne Freigabe; Abnahme durch `admkrs-cs-creative-verifier`, dann vor Launch `admkrs-cs-ad-compliance-check`.
 
 <sub>**ADMKRS Creative Suite** · © ADMKRS GmbH, München · v1.8.0 · interner Gebrauch · Format-Tür zu `admkrs-cs-creative-briefing` (gemeinsame Engine, keine Duplikate).</sub>

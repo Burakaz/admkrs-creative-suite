@@ -1,5 +1,16 @@
 # Changelog — ADMKRS Creative Suite
 
+## v1.10.0 — 2026-06
+Neuer 15. Skill: **`admkrs-cs-creative-verifier`** — das Abnahme-Gate, das der Suite gefehlt hat (Beitrag eines Kollegen, in die Suite eingebürgert und mit Creative-Strategy-Wissen geschärft).
+
+**Der neue Skill:**
+- **Abnahme-Gate** zwischen Produktion und Launch: prüft fertige Creatives (Stills/Videos/Carousels) gegen das Briefing + Handwerk, bevor sie raus/in den Ads Manager gehen. Vier Dimensionen, ein Lauf — **Briefing-Treue · Hook-Wirksamkeit · Designhandwerk (48-Punkte-Cheat-Sheet) · Kundenspezifik** (Kundenkarten). Opinionierter Verdict mit Severity + Tags `[Briefing] · [Wirksamkeit] · [Design] · [Kunde]`.
+- **Eingebürgert:** Prefix `admkrs-cs-`, vier tote Fremd-Referenzen gemappt (`admkrs-design-check` entfällt — Design-Pass ist inline; `briefing-creator/-processor` → `creative-briefing`; `meta-ads-creative` → `creative-strategy-os`), Briefing-Input auf das Suite-Format v1.9 (liest „Auf einen Blick" + Tabelle, **Bold = On-Creative** als Brücke), Sicherheits-Hausregeln + Footer im Suite-Stil, keine Personennamen.
+- **Mit unserem Wissen geschärft:** neuer **Hook-Wirksamkeits-Pass** (Kontext-frei-Test, eine-Idee, Text-Budget — diagnostisch, textet nie um, zitiert `copywriting.md`); **Visual-Job statt Visual-Match** (bei leerer Visual-Direction prüft er gegen Idee/Hook/Angle — passt zum v1.9-„Default leer"); **Hausregel-Checks** ins Cheat-Sheet (Em-Dash, Banned-Buzzwords — referenziert, nicht dupliziert); **1:1 als erwartetes Format korrigiert**; **Learned-Log-Rückfluss** (Muster zurück ins Flywheel, als Entwurf).
+- **Anti-Bloat:** keine Performance-Prognose, keine Hook-Rewrites, keine Persona-Map-Bewertung, kein Score-Dashboard, keine Compliance-Vollprüfung — diagnostiziert und verweist.
+
+**Verdrahtung in der Suite:** `creative-strategy-os` (Phase 5: Abnahme vor Launch), `creative-briefing` (neuer Schritt 9), `ad-compliance-check` (läuft NACH dem Verifier), `landing-page-cro` (Claim-Deckung vs. Message-Match abgegrenzt), die 4 Format-Türen (Abnahme-Satz). README, Website-Katalog (15. Karte) und Download-Liste ergänzt.
+
 ## v1.9.0 — 2026-06
 `creative-strategy-os` für planlose Media Buyer verständlich gemacht + definitorischer Rigor (inspiriert vom Influee-5-Pillar-Framework, gegengeprüft und auf unser Phasen-Modell gemappt — kein paralleles Framework, kein Vendor-Material übernommen).
 

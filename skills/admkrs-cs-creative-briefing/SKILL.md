@@ -109,6 +109,9 @@ Geh die Checkliste unten durch. Wenn ein Punkt durchfällt, überarbeiten — ni
 ### 8 — Als Entwurf übergeben
 Das .docx mit `present_files` zeigen. Kurz sagen, welche strategischen Entscheidungen getroffen wurden und was noch Freigabe braucht (Claims, Offer). **Nicht** ungefragt in Drive/Slack/ClickUp posten.
 
+### 9 — Abnahme der fertigen Creatives (Gate)
+Sobald der Designer/Editor die Creatives gebaut hat, gegen *dieses* Briefing abnehmen: **`admkrs-cs-creative-verifier`** (Briefing-Treue · Hook-Wirksamkeit · Designhandwerk · Kunde), danach `admkrs-cs-ad-compliance-check` (Recht/Policy). Unterschied zum Quality-Check oben: der prüft das **Briefing** vor der Übergabe; der Verifier prüft das fertige **Asset** gegen das Briefing.
+
 ---
 
 ## Qualitäts-Check (das Niveau, das wir verkaufen)
