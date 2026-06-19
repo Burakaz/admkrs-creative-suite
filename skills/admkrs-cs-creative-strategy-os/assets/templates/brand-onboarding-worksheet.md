@@ -26,4 +26,4 @@
 - **Bottleneck:** Scroll-Stop / Verlangen / Vertrauen / Conversion → ____
 
 ## Erste Hypothese (→ Phase 2)
-Welche Angles/Formate sollte Runde 1 testen — und warum: ____
+Welche Angles/Formate sollte Runde 1 testen - und warum: ____

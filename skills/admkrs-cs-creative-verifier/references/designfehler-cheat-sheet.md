@@ -1,12 +1,12 @@
-# ADMKRS Designfehler Cheat-Sheet — Prüfraster
+# ADMKRS Designfehler Cheat-Sheet - Prüfraster
 
 7 Kategorien, 48 Prüfpunkte. Dies ist das Raster für den **Design-/Handwerks-Pass**
 des Creative Verifiers (Schritt 3B). Dieser Pass ist Pflicht und läuft bei jedem
-Durchlauf — auch wenn die Briefing-Treue top ist. Ein perfekt gebrieftes Still mit
+Durchlauf - auch wenn die Briefing-Treue top ist. Ein perfekt gebrieftes Still mit
 Tippfehler, Clipping oder verzerrtem Logo ist trotzdem tot.
 
 **So nutzt du es:** Diagnostisch, nicht als Häkchenliste. Geh pro Creative die 7
-Kategorien durch und flagge nur **echte** Fehler — nicht jeden theoretisch denkbaren
+Kategorien durch und flagge nur **echte** Fehler - nicht jeden theoretisch denkbaren
 Punkt. 48 Punkte heißt nicht 48 Findings. Einen Punkt, den du aus dem Bild nicht
 sicher beurteilen kannst, schreibst du unter „Was ich nicht prüfen kann", nicht in die
 Findings. Jedes Design-Finding kriegt eine Severity (siehe Severity-Map unten) und das
@@ -34,7 +34,7 @@ Tag **[Design]**, damit Handwerk von Briefing-Treue unterscheidbar bleibt.
 4. **Klarer Angle / Pain Point.** Konkreter Pain der Zielgruppe, nicht generisch.
 5. **Klarer CTA.** Eindeutiger nächster Schritt, sichtbar platziert.
 6. **Brief & Pflichtangaben.** Claims, Disclaimer, Mandatories vollständig.
-7. **Keine Banned-Buzzwords (ADMKRS-Hausregel).** Keine Generic-AI-Floskeln auf dem Creative („game-changer", „elevate your", „unlock the power of", „revolutionary", „in today's fast-paced world" …). Treffer = mittel. **Liste ist Autorität in `admkrs-cs-creative-briefing/references/copywriting.md`** — dort prüfen, nicht hier parallel pflegen.
+7. **Keine Banned-Buzzwords (ADMKRS-Hausregel).** Keine Generic-AI-Floskeln auf dem Creative („game-changer", „elevate your", „unlock the power of", „revolutionary", „in today's fast-paced world" …). Treffer = mittel. **Liste ist Autorität in `admkrs-cs-creative-briefing/references/copywriting.md`** - dort prüfen, nicht hier parallel pflegen.
 
 ## 2. Typografie & Text (9)
 
@@ -53,7 +53,7 @@ Tag **[Design]**, damit Handwerk von Briefing-Treue unterscheidbar bleibt.
 1. **Kein weißer Rand zur Kante.** Bild füllt die Fläche voll.
 2. **Bleed/Beschnitt.** Vollflächen bis an/über den Rand. (oft nicht aus Flat-Render prüfbar)
 3. **Wirkt KI-generiert?** Artefakte: Hände, Details, generische Optik.
-4. **Gradient ohne harte Kante.** Verläufe weich — harte Kanten wirken fehlerhaft.
+4. **Gradient ohne harte Kante.** Verläufe weich - harte Kanten wirken fehlerhaft.
 5. **Nicht verzerrt.** Seitenverhältnis gesperrt, nicht gestreckt. (→ hoch)
 6. **Auflösung.** Nicht pixelig, v.a. auf Großflächen.
 7. **Freisteller ohne Halo.** Sauberer Rand ums Motiv.
@@ -88,7 +88,7 @@ Tag **[Design]**, damit Handwerk von Briefing-Treue unterscheidbar bleibt.
 
 ## 7. Formate & Artboards (6)
 
-1. **Social-Formate (Meta-Standard).** **4:5 (1080×1350) + 9:16 (1080×1920) — kein 1:1** (im Suite-Briefing-Standard v1.9 abgeschafft). Ein geliefertes 1:1 ohne Sonderformat-Briefing = Finding, kein erwartetes Format. Sonderformate (andere Plattformen) nur, wenn der Brief sie mit Plattform + Pixeln ausweist.
+1. **Social-Formate (Meta-Standard).** **4:5 (1080×1350) + 9:16 (1080×1920) - kein 1:1** (im Suite-Briefing-Standard v1.9 abgeschafft). Ein geliefertes 1:1 ohne Sonderformat-Briefing = Finding, kein erwartetes Format. Sonderformate (andere Plattformen) nur, wenn der Brief sie mit Plattform + Pixeln ausweist.
 2. **Kanalspezifische Formate.** Amazon, Criteo, Display laut Brief.
 3. **Artboard-Benennung.** Schema „Social_Story_v1". (nicht aus dem Bild prüfbar)
 4. **Exportformat.** JPG Foto · PNG Transp. · SVG Vektor · PDF Print. (nicht aus dem Bild prüfbar)
@@ -100,7 +100,7 @@ Tag **[Design]**, damit Handwerk von Briefing-Treue unterscheidbar bleibt.
 ## Severity-Map (Design-Findings)
 
 Mappt Cheat-Sheet-Treffer in die 3-Stufen-Leiter des Verifiers. Severity ist
-kontextabhängig — ein Tippfehler im Fließtext-Disclaimer wiegt weniger als einer in
+kontextabhängig - ein Tippfehler im Fließtext-Disclaimer wiegt weniger als einer in
 der Headline. Nutze Urteilsvermögen, nicht die Tabelle stur.
 
 - **hoch (Blocker, muss zurück):** Rechtschreibfehler in Live-Copy; Health Claim;
@@ -118,11 +118,11 @@ der Headline. Nutze Urteilsvermögen, nicht die Tabelle stur.
 ## Nicht aus dem Screenshot prüfbar
 
 Diese Punkte brauchen das Arbeitsfile / Drive / Brand-Ordner, nicht den gerenderten
-Still — gehören per Default in „Was ich nicht prüfen kann":
+Still - gehören per Default in „Was ich nicht prüfen kann":
 
 - Bleed/Beschnitt über die Artboard-Kante hinaus (3.2)
 - Transparenz vs. Hex (5.3)
 - Artboard-Benennung (7.3)
 - Exportformat (7.4)
 - Drive-Link-Freigabe (7.5)
-- Exakte Brand-Font-Datei (2.5 — Stock-Sans erkennt man, die genaue Font-Identität oft nicht)
+- Exakte Brand-Font-Datei (2.5 - Stock-Sans erkennt man, die genaue Font-Identität oft nicht)

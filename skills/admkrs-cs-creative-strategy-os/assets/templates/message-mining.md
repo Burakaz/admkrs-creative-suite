@@ -1,6 +1,6 @@
 # Message-Mining / Kundenverständnis  ·  <BRAND> · <Datum>
 
-> Das 5-teilige Research-Fundament. Erst diese fünf Teile, dann briefen. Quelle der Inhalte: **echte Kundensprache** (Reviews, Reddit, Kommentare, CS-Calls, Umfragen) — nichts erfinden. Cluster nach Zielgruppe (z. B. Fitness/Foodie · Family/Moms · Beauty/Women · Vegan).
+> Das 5-teilige Research-Fundament. Erst diese fünf Teile, dann briefen. Quelle der Inhalte: **echte Kundensprache** (Reviews, Reddit, Kommentare, CS-Calls, Umfragen) - nichts erfinden. Cluster nach Zielgruppe (z. B. Fitness/Foodie · Family/Moms · Beauty/Women · Vegan).
 
 ## I. Kundenverständnis
 | Produkt | Feature | Was heißt das? | Benefit | Tieferer Benefit | Emotion dazu | Verlangen des Kunden |

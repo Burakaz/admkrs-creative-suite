@@ -24,7 +24,7 @@
 - [ ] 12–14 Elemente / 7–8 Felder, Inline-Validierung, Autocomplete
 
 ## Seitentyp
-- [ ] dedizierte LP (Cold) / PDP (warm) / Advertorial (High-Consideration/Claims) — passend?
+- [ ] dedizierte LP (Cold) / PDP (warm) / Advertorial (High-Consideration/Claims) - passend?
 
 ## Top-3-Fixes (priorisiert)
 1. ____ 2. ____ 3. ____

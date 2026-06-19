@@ -5,7 +5,7 @@
 ## Deliverables
 Format/Ratio: 9:16 (+ 4:5/1:1) · Länge: ____ · # Hooks: 3 · Rohmaterial: ja/nein · B-Roll separat: ja
 
-## 3 Hook-Optionen (paraphrasierbar — in deinen Worten)
+## 3 Hook-Optionen (paraphrasierbar - in deinen Worten)
 A) ____  B) ____  C) ____  (erste 1,5 s = Hook-Statement)
 
 ## Szene-Beats (strukturell, NICHT Wort-für-Wort)
@@ -21,7 +21,7 @@ Do: ____ · Don't: ____ (kein Über-Skripten, keine verbotenen Claims → admkrs
 
 ## Rechte & Kennzeichnung (vorab)
 Nutzungsfenster: __ Monate Paid-Media (Option Verlängerung) · Whitelisting/Partnership-Ad: ja/nein
-Kennzeichnung: #Werbung/„Paid partnership" gemäß EU/DACH — Pflicht.
+Kennzeichnung: #Werbung/„Paid partnership" gemäß EU/DACH - Pflicht.
 
 ## Timeline
 Brief heute · Draft Tag 3–5 · Feedback 6–7 · Revision 8–10 (1 Runde inkl.) · Approval ~11

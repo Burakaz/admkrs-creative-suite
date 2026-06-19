@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 /**
- * ADMKRS Creative Briefing — DOCX builder
+ * ADMKRS Creative Briefing - DOCX builder
  * ----------------------------------------
  * Renders a briefing JSON spec into a .docx that matches the ADMKRS house style
  * (black table headers + white text, light-grey zebra rows, lavender "Locked"
@@ -24,7 +24,7 @@ const {
 } = require("docx");
 
 /* ----------------------------------------------------------------------- *
- * DESIGN TOKENS  — derived 1:1 from the two reference Google Docs
+ * DESIGN TOKENS  - derived 1:1 from the two reference Google Docs
  * ----------------------------------------------------------------------- */
 const T = {
   font: "Arial",
@@ -58,7 +58,7 @@ const SZ = {
 const SHORT_EDGE = 14173;   // 250 mm  → width  (wird für Landscape getauscht)
 const LONG_EDGE  = 20013;   // 353 mm  → height
 const MARGIN = 567;         // 1 cm
-const CONTENT_W = LONG_EDGE - 2 * MARGIN;   // 18879 DXA — Inhalt über die lange Kante
+const CONTENT_W = LONG_EDGE - 2 * MARGIN;   // 18879 DXA - Inhalt über die lange Kante
 
 /* ----------------------------------------------------------------------- *
  * Inline + paragraph helpers
@@ -120,7 +120,7 @@ function allGrid() {
 
 function cell(content, o = {}) {
   const base = { size: o.size || SZ.body, color: o.color || T.body, bold: o.bold, italics: o.italics };
-  // between:40 ≈ 2pt Luft zwischen "\n"-Zeilen — macht zeilenweise Inhalte klar lesbar (kein Block).
+  // between:40 ≈ 2pt Luft zwischen "\n"-Zeilen - macht zeilenweise Inhalte klar lesbar (kein Block).
   const paras = textParagraphs(content, base, { between: 40, afterLast: 0, align: o.align });
   return new TableCell({
     width: { size: o.width, type: WidthType.DXA },
@@ -210,7 +210,7 @@ function tableHooks(block) {
   return new Table({ width: { size: CONTENT_W, type: WidthType.DXA }, columnWidths: widths, borders: allGrid(), rows });
 }
 
-// Full-width single-cell callout. Multi-line via "\n" (jede Zeile = eigener Absatz —
+// Full-width single-cell callout. Multi-line via "\n" (jede Zeile = eigener Absatz,
 // für nummerierte/aufgezählte Hinweise statt Block). variant:
 //   "locked" = lavendel (Gesperrt 1:1)  ·  "anchor" = creme + Goldbalken (Strategic anchor)
 //   "todo"   = warm (Vor Produktion klären / offene Punkte, blockieren sonst)

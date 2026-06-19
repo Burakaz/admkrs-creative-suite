@@ -1,7 +1,7 @@
 ---
 name: admkrs-cs-google-cross-channel
 description: >
-  Brieft Creatives für Google: Demand Gen, Performance Max und YouTube — mit exakten
+  Brieft Creatives für Google: Demand Gen, Performance Max und YouTube - mit exakten
   2026-Specs (Asset-Counts, Zeichenlimits, Ratios, Video-Längen) und Best Practices.
   Use when the user wants to create/brief Google Ads creative, Demand Gen or PMax
   asset groups, YouTube ads (in-stream/Shorts/bumper), needs Google ad specs, or wants
@@ -10,9 +10,9 @@ description: >
 
 # Google Cross-Channel Creative (Demand Gen / PMax / YouTube)
 
-ADMKRS macht Meta **und** Google. Google-Formate haben andere Specs, Asset-Gruppen und eine **Search-Intent-Schicht** — Meta-Assets lassen sich nicht 1:1 übernehmen. Specs unten = offiziell (Google Ads Help, Stand Juni 2026); vor Produktion am aktuellen Help-Center gegenchecken.
+ADMKRS macht Meta **und** Google. Google-Formate haben andere Specs, Asset-Gruppen und eine **Search-Intent-Schicht** - Meta-Assets lassen sich nicht 1:1 übernehmen. Specs unten = offiziell (Google Ads Help, Stand Juni 2026); vor Produktion am aktuellen Help-Center gegenchecken.
 
-## Demand Gen — Specs
+## Demand Gen - Specs
 **Placements:** Discover, Gmail, YouTube (Home/Search/Watch-Next/In-stream/Shorts), GDN.
 | Text | Limit | Anzahl |
 | --- | --- | --- |
@@ -21,12 +21,12 @@ ADMKRS macht Meta **und** Google. Google-Formate haben andere Specs, Asset-Grupp
 | Business Name | 25 Zeichen | 1 (Pflicht) |
 | CTA | 10 Zeichen | auto/manuell |
 
-**Bilder (Rule of Three — ≥3 je Ratio):** 1.91:1 (min 600×314, empf. 1200×628, Pflicht) · 1:1 (min 300×300, empf. 1200×1200, Pflicht) · 4:5 (min 480×600, optional) · 9:16 (min 600×1067, empf. 1080×1920, Shorts). Max 5 MB. **9:16-Bild kann in DV360 abgelehnt werden → 4:5 als sicheres Vertikal.**
+**Bilder (Rule of Three - ≥3 je Ratio):** 1.91:1 (min 600×314, empf. 1200×628, Pflicht) · 1:1 (min 300×300, empf. 1200×1200, Pflicht) · 4:5 (min 480×600, optional) · 9:16 (min 600×1067, empf. 1080×1920, Shorts). Max 5 MB. **9:16-Bild kann in DV360 abgelehnt werden → 4:5 als sicheres Vertikal.**
 **Logo:** 1:1 (min 128×128, empf. 1200×1200, Pflicht), bis 5; rendert in Gmail als Kreis.
 **Video:** 1–5 je Ad, **min 5 s** (unter 10 s serviert **nicht** auf YouTube In-stream; ≥15 s empfohlen). 16:9 / 1:1 / 4:5 / 9:16. Muss auf YouTube gehostet sein.
 **Carousel:** 2–10 Cards, gleiche Ratio; **nicht** mit Merchant-Center-Feed kombinierbar (dafür Product-Feed-Ads). **Product-Feed-Ads:** ≥1 Produkt, ≥4 für max. Placement-Eligibility, 50+ empfohlen.
 
-## Performance Max — Specs
+## Performance Max - Specs
 | Text | Limit | Min–Max |
 | --- | --- | --- |
 | Headline | 30 Zeichen (≥1 ≤15) | 3–15 |
@@ -40,7 +40,7 @@ Ad-Strength „Excellent": **11+ Headlines, 2+ Long Headlines, 4+ Descriptions.*
 **Asset-Gruppen:** 1–100/Kampagne, nicht teilbar, je eigene Audience-Signale.
 **⚠️ Final-URL-Expansion** kann LP-URL **und** Copy dynamisch ersetzen → bei Compliance/Brand-Copy explizit deaktivieren.
 
-## YouTube — Formate
+## YouTube - Formate
 | Format | Länge | Skip | Billing |
 | --- | --- | --- | --- |
 | Skippable In-stream | kein Max (empf. <3 min) | nach 5 s | CPV (30 s/voll/Interaktion) |
@@ -55,7 +55,7 @@ Ad-Strength „Excellent": **11+ Headlines, 2+ Long Headlines, 4+ Descriptions.*
 DG „AI Image & Video Enhancements" (Nov 2025: resize/remix/adapt aus Uploads) · DG Asset-Uplift-A/B-Experimente · Shorts „Video Enhancement" (vertikal aus horizontal) · Trim-Tool · PMax Auto-Video & Final-URL-Expansion · Shoppable CTV (DG, GA Jan 2026). Lookalikes in DG default „suggestion mode" (März 2026).
 
 ## DG/PMax vs. Meta (praktisch)
-- **Search-Intent-Schicht** (PMax matcht auf Suchanfragen) — gibt es bei Meta nicht; kompensiert teils schwächere Hooks.
+- **Search-Intent-Schicht** (PMax matcht auf Suchanfragen) - gibt es bei Meta nicht; kompensiert teils schwächere Hooks.
 - Eine Kampagne bespielt viele Formate (Search/Shopping/Display/YouTube/Gmail/Discover) aus einer Asset-Gruppe.
 - **Reporting gröber** (PMax nur Asset-Gruppen-Level) als Metas Ad-Level.
 - Hook-Fenster: YouTube skippable = 5 s, Shorts 1–2 s; Meta unerbittlicher (erste 2–3 Frames). Trotzdem: **vertikal + Sound-on + Caption** auch hier Pflicht.
@@ -70,7 +70,7 @@ Exakte, aktuelle Specs (am Help-Center gegenchecken) · DG-Headline 40 ≠ PMax-
 `admkrs-cs-creative-briefing` (Hooks/Copy je Format) · `admkrs-cs-creative-strategy-os` (Cross-Channel-Diversität) · `admkrs-cs-landing-page-cro` (Final-URL/Match) · `admkrs-cs-ad-compliance-check` (Google-Policies separat prüfen).
 
 ## Quellen (Google Ads Help, Juni 2026)
-DG-Specs support.google.com/google-ads/answer/13704860 · PMax 17091269 · Video-Formate 2375464 · Shorts 16041697 · blog.google Demand-Gen-Drop (Feb 2026). ⚠️ „Non-skippable bis 60 s" mischt Format-Übersicht mit Self-Serve-Limit — praktisch 15 s (Standard)/30 s (CTV).
+DG-Specs support.google.com/google-ads/answer/13704860 · PMax 17091269 · Video-Formate 2375464 · Shorts 16041697 · blog.google Demand-Gen-Drop (Feb 2026). ⚠️ „Non-skippable bis 60 s" mischt Format-Übersicht mit Self-Serve-Limit - praktisch 15 s (Standard)/30 s (CTV).
 
 ---
 <sub>**ADMKRS Creative Suite** · © ADMKRS GmbH, München · v1.1.0 · interner Gebrauch · erstellt von ADMKRS. Quellen am jeweiligen Skill-Ende; Specs/Policies an Primärquellen prüfen.</sub>

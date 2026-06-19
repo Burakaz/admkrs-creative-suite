@@ -1,38 +1,38 @@
 # Brand-Foundation & Dual-Purpose-Layer
 
-Das UGC-Briefing hat **zwei Leser**: den **Creator** (braucht eine perfekte Datengrundlage, um drehfertig zu liefern) und den **Kunden** (will die Strategie sehen, bevor gedreht wird). Dieselbe Datei bedient beide — über klar getrennte Layer. Das ist der Kern dieses Skills.
+Das UGC-Briefing hat **zwei Leser**: den **Creator** (braucht eine perfekte Datengrundlage, um drehfertig zu liefern) und den **Kunden** (will die Strategie sehen, bevor gedreht wird). Dieselbe Datei bedient beide - über klar getrennte Layer. Das ist der Kern dieses Skills.
 
 ---
 
-## 1 — Was der Creator braucht vs. was der Kunde sieht
+## 1 - Was der Creator braucht vs. was der Kunde sieht
 
 | Element | Creator | Kunde |
 | --- | --- | --- |
 | Brand auf einen Blick | ✅ | ✅ |
 | Produkt-Facts / USPs | ✅ | ✅ |
 | Zielperson | ✅ (handlungsleitend) | ✅ (als Begründung) |
-| **Strategische Grundlage** (Angle-/Hook-Logik, Awareness, „warum UGC") | — | ✅ |
-| **KPI-Hypothesen / Expected Reads** | — | ✅ |
+| **Strategische Grundlage** (Angle-/Hook-Logik, Awareness, „warum UGC") | - | ✅ |
+| **KPI-Hypothesen / Expected Reads** | - | ✅ |
 | Hook-Varianten | ✅ (nur die Hooks) | ✅ (+ Begründung) |
 | Script (Beats) | ✅ | ✅ |
 | Claim-Guardrails | ✅ | ✅ |
 | Specs / Delivery / Naming | ✅ | optional |
 
-**Praxis:** *ein* Dokument, **Creator-First geordnet**. Der Client-Layer steht als Kapitel **„Anhang · Strategie (für die Kunden-Präsentation)" ganz hinten** — der Creator hört vorher auf zu lesen, der Kunde blättert hin. Vorne steht nur, was der Creator zum Drehen braucht (Auftrag → Lieferung → Darf/Darf-nicht → Produkt & Ton → Scripts). Alternativ zwei Exporte aus derselben JSON (Creator-Doc ohne Anhang, Kunden-Doc mit) — sinnvoll, wenn Hypothesen/Angle-Logik nicht an Creator weitergeleitet werden sollen.
+**Praxis:** *ein* Dokument, **Creator-First geordnet**. Der Client-Layer steht als Kapitel **„Anhang · Strategie (für die Kunden-Präsentation)" ganz hinten** - der Creator hört vorher auf zu lesen, der Kunde blättert hin. Vorne steht nur, was der Creator zum Drehen braucht (Auftrag → Lieferung → Darf/Darf-nicht → Produkt & Ton → Scripts). Alternativ zwei Exporte aus derselben JSON (Creator-Doc ohne Anhang, Kunden-Doc mit) - sinnvoll, wenn Hypothesen/Angle-Logik nicht an Creator weitergeleitet werden sollen.
 
 ---
 
-## 2 — „Brand auf einen Blick" (Snapshot)
+## 2 - „Brand auf einen Blick" (Snapshot)
 
 Eine halbe Seite, die der Creator in 30 Sekunden erfasst und der Kunde als korrekt abnickt. Als `keyvalue`-Tabelle:
 
 | Feld | Inhalt (Beispiel NOVA) |
 | --- | --- |
-| Marke | NOVA — Protein-Food, die schmeckt wie das Original |
+| Marke | NOVA - Protein-Food, die schmeckt wie das Original |
 | Kategorie | Functional Food / Protein |
 | Produkt (dieses Briefing) | NOVA Protein Coffee |
 | Was es ist | Iced-Coffee-Mix mit 19 g Protein, 95 % weniger Zucker |
-| Ton | ehrlich, alltagsnah, erwachsen — kein Fitness-Bro |
+| Ton | ehrlich, alltagsnah, erwachsen - kein Fitness-Bro |
 | Was die Brand *nicht* ist | kein „Diät"-Produkt, kein medizinisches Versprechen, kein Hype |
 | Offer / Code | 10 % auf die 1. Bestellung · Code TRYNOVA |
 
@@ -40,9 +40,9 @@ Dazu **ein** Positionierungssatz als `lede`: *„NOVA macht aus dem Kaffee, den 
 
 ---
 
-## 3 — Produkt-Facts & USPs (die „sagbaren" Fakten)
+## 3 - Produkt-Facts & USPs (die „sagbaren" Fakten)
 
-Nicht die Broschüre — die **3–5 Dinge, die ein Creator glaubwürdig in 30 s sagen kann**. Als `headerrow`-Tabelle [Fact | Warum es zählt / wie im Video nutzbar]. Beispiele:
+Nicht die Broschüre - die **3–5 Dinge, die ein Creator glaubwürdig in 30 s sagen kann**. Als `headerrow`-Tabelle [Fact | Warum es zählt / wie im Video nutzbar]. Beispiele:
 
 - „19 g Protein pro Portion" → konkrete Zahl on-screen, schlägt „viel Protein".
 - „95 % weniger Zucker als ein Café-Iced-Latte" → der Trade, den die Zielperson fühlt.
@@ -54,45 +54,45 @@ Alle Zahlen/Claims kommen aus den **gesperrten Fakten** der Brand. Nichts erfind
 
 ---
 
-## 4 — Zielperson (konkret, nicht demografisch)
+## 4 - Zielperson (konkret, nicht demografisch)
 
-Schwach: „Frauen 25–45, gesundheitsbewusst." Stark — eine benannte Person mit Alltag, Trigger-Moment, Vorerfahrung, Kaufverhalten:
+Schwach: „Frauen 25–45, gesundheitsbewusst." Stark - eine benannte Person mit Alltag, Trigger-Moment, Vorerfahrung, Kaufverhalten:
 
-> **Sarah, 34, Projektleiterin in München.** Trinkt 2–3 Kaffee am Tag, fällt um 15 Uhr in ein Loch, isst „eigentlich gesund", erreicht ihr Protein-Ziel trotzdem nie. Hat Shakes probiert — „schmecken nach Kreide". Sucht keine Diät, sondern etwas, das sich in ihren Tag einfügt. Kauft nach Bewertungen und Zutaten.
+> **Sarah, 34, Projektleiterin in München.** Trinkt 2–3 Kaffee am Tag, fällt um 15 Uhr in ein Loch, isst „eigentlich gesund", erreicht ihr Protein-Ziel trotzdem nie. Hat Shakes probiert - „schmecken nach Kreide". Sucht keine Diät, sondern etwas, das sich in ihren Tag einfügt. Kauft nach Bewertungen und Zutaten.
 
 Als `keyvalue`: Persona · Awareness-Stufe · Trigger-Moment · Vorerfahrung · Einwand · Wo sie kauft. Der Creator soll **zu Sarah** sprechen, nicht „zu Menschen, die X".
 
 ---
 
-## 5 — Strategie-Anhang (Client-Layer, ganz hinten im Dokument)
+## 5 - Strategie-Anhang (Client-Layer, ganz hinten im Dokument)
 
-Der Teil, der das Briefing zum Kunden-Deliverable macht — als **Anhang nach den Scripts**, nie vor ihnen. Vier kurze Bausteine:
+Der Teil, der das Briefing zum Kunden-Deliverable macht - als **Anhang nach den Scripts**, nie vor ihnen. Vier kurze Bausteine:
 
 **a) Strategie-Absatz** (1 kurzer Paragraph): Wer ist die Zielperson, welche Awareness-Stufe, welcher Funnel, welche Angle-Logik, was die Hypothese ist.
-> „Cold Traffic, Problem-Aware. Wir öffnen mit dem 15-Uhr-Crash — ein Moment, den Sarah jeden Tag fühlt — und positionieren NOVA als die einfachste Lösung im Kaffee, den sie eh trinkt. Drei Hook-Varianten testen drei Einstiege: Pain, Social-Proof, Result-First. Body identisch. Hypothese: Social-Proof-Hook gewinnt bei Warm-Lookalikes, Result-First bei kaltem Prospecting."
+> „Cold Traffic, Problem-Aware. Wir öffnen mit dem 15-Uhr-Crash - ein Moment, den Sarah jeden Tag fühlt - und positionieren NOVA als die einfachste Lösung im Kaffee, den sie eh trinkt. Drei Hook-Varianten testen drei Einstiege: Pain, Social-Proof, Result-First. Body identisch. Hypothese: Social-Proof-Hook gewinnt bei Warm-Lookalikes, Result-First bei kaltem Prospecting."
 
-**b) Konzept-Übersicht** als `headerrow`-Tabelle [Konzept | Angle | Framework | Awareness | Hypothese] — der Kunde sieht das Warum jeder Idee.
+**b) Konzept-Übersicht** als `headerrow`-Tabelle [Konzept | Angle | Framework | Awareness | Hypothese] - der Kunde sieht das Warum jeder Idee.
 
 **c) Angle-Begründung je Hook** (1 Satz): warum dieser Einstieg gewählt wurde (z. B. „basiert auf dem häufigsten Pain in Wettbewerber-Reviews").
 
-**d) Expected Reads / KPI-Hypothesen:** was nach 3–5 Tagen gelesen wird — Hook-Rate (welcher Einstieg stoppt), dann Hold-Rate (Qualität), CVR/CPA erst nach signifikantem Spend; kein Creative-Urteil vor ausreichend Impressionen pro Variante (→ `admkrs-cs-performance-reporting`).
+**d) Expected Reads / KPI-Hypothesen:** was nach 3–5 Tagen gelesen wird - Hook-Rate (welcher Einstieg stoppt), dann Hold-Rate (Qualität), CVR/CPA erst nach signifikantem Spend; kein Creative-Urteil vor ausreichend Impressionen pro Variante (→ `admkrs-cs-performance-reporting`).
 
 **„Warum UGC für dieses Produkt"** (optional, bei neuen Kunden): erklärbedürftiges Produkt + niedrige Brand-Awareness → UGC überbrückt Skepsis besser als polierte Spots. (Vendor-Benchmarks zu UGC-vs-Polished als *direktional* kennzeichnen, nicht als Garantie.)
 
 ---
 
-## 6 — „Lieferung & Specs" + „Darf & darf nicht" (Creator-Standards, einmal für alle Clips)
+## 6 - „Lieferung & Specs" + „Darf & darf nicht" (Creator-Standards, einmal für alle Clips)
 
-Zwei Blöcke vorne im Dokument, gelten für alle Konzepte — **keine Callouts mehr**:
+Zwei Blöcke vorne im Dokument, gelten für alle Konzepte - **keine Callouts mehr**:
 
 - **„Lieferung & Specs" (`keyvalue`):** Stückzahl explizit (Konzepte × Hook-Takes = Files), Ratio (9:16, Luft für 4:5-Crop), Länge, **3 Hook-Varianten / gleicher Body**, roh oder geschnitten, Captions ohne Einbrennen, Dateiname-Konvention, Upload-Ort, **Kennzeichnung** („Werbung" sichtbar im gesamten werblichen Teil; englische Labels reichen in DE nicht).
 - **„Darf & darf nicht" (`headerrow` [Darf ich sagen (1:1) | Darf ich NICHT sagen]):** sagbare Claims/Zahlen wörtlich links, Verbotenes rechts (Heil-/Med-Claims, „klinisch bewiesen", Outcomes, Wettbewerber-Namen). Darunter als `p` zeilenweise: Film-Dos/Don'ts (Licht, Linse, Tempo, keine Sales-Energie, Produkt in der Hand, je Hook 3 Takes), **Aussprache des Markennamens**, Referenz-Links. Detail-Prüfung: `admkrs-cs-ad-compliance-check`.
 
 ---
 
-## 7 — Locked-Facts-Disziplin
+## 7 - Locked-Facts-Disziplin
 
-Gesperrte Zahlen/Claims/Disclaimer/Codes stehen **wörtlich in der „Darf ich sagen"-Spalte und in den Scripts** — eine Quelle, kein separater Locked-Block. **[Ergänzung]**-Marker sind intern (Kunden-Abstimmung) und erscheinen nicht im Creator-Dokument; fehlt ein Wert: `[Platzhalter: …]` inline. Nie senden/posten/veröffentlichen ohne explizite Freigabe — das Briefing geht **als Entwurf** an den Kunden.
+Gesperrte Zahlen/Claims/Disclaimer/Codes stehen **wörtlich in der „Darf ich sagen"-Spalte und in den Scripts** - eine Quelle, kein separater Locked-Block. **[Ergänzung]**-Marker sind intern (Kunden-Abstimmung) und erscheinen nicht im Creator-Dokument; fehlt ein Wert: `[Platzhalter: …]` inline. Nie senden/posten/veröffentlichen ohne explizite Freigabe - das Briefing geht **als Entwurf** an den Kunden.
 
 ---
 <sub>**ADMKRS Creative Suite** · © ADMKRS GmbH, München · v1.8.0 · interner Gebrauch · erstellt von ADMKRS. Beispiel NOVA ist fiktiv; echte Brand-Fakten 1:1, nichts erfinden.</sub>

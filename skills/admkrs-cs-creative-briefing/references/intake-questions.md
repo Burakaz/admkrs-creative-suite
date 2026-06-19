@@ -1,19 +1,19 @@
-# Intake — welche Fragen stellen, wenn der Brief Lücken hat
+# Intake - welche Fragen stellen, wenn der Brief Lücken hat
 
-Ziel: ein besseres Briefing durch gezielte Rückfragen — **ohne** den User mit einem Fragebogen zu erschlagen. Die Kunst ist, nur das zu fragen, was die Arbeit sonst falsch macht.
+Ziel: ein besseres Briefing durch gezielte Rückfragen - **ohne** den User mit einem Fragebogen zu erschlagen. Die Kunst ist, nur das zu fragen, was die Arbeit sonst falsch macht.
 
 ---
 
 ## Die Frage-Disziplin (wann fragen, wann loslegen)
 
 - **Erst lesen, was da ist.** Brand-Profil + Brief + angehängte Referenzen. Vieles steht schon drin.
-- **Loslegen, wenn genug Kontext da ist.** Wenn 80 % klar sind, schreib einen ersten Stand und markiere Annahmen — statt 20 Minuten still zu fragen. Lieber 60 % fertig zum Nachjustieren als 100 % in die falsche Richtung.
-- **Nur Lücken fragen, die teuer sind.** Eine Frage lohnt nur, wenn eine falsche Annahme echtes Re-Work bedeutet (falsches Offer, falsche Zielgruppe, gesperrter Claim). Kosmetik nicht abfragen — sinnvoll annehmen und kennzeichnen.
+- **Loslegen, wenn genug Kontext da ist.** Wenn 80 % klar sind, schreib einen ersten Stand und markiere Annahmen - statt 20 Minuten still zu fragen. Lieber 60 % fertig zum Nachjustieren als 100 % in die falsche Richtung.
+- **Nur Lücken fragen, die teuer sind.** Eine Frage lohnt nur, wenn eine falsche Annahme echtes Re-Work bedeutet (falsches Offer, falsche Zielgruppe, gesperrter Claim). Kosmetik nicht abfragen - sinnvoll annehmen und kennzeichnen.
 - **Batchen & kurz halten.** Mehrere Fragen in einem Rutsch, je 1 Satz. In Cowork das Frage-Tool nutzen (Multiple-Choice, wo möglich).
 - **Widersprüche sofort melden.** Wenn der Brief in sich unstimmig ist, sag es, bevor du textest (siehe Red Flags).
 - **Annahmen sichtbar machen.** Was du annimmst, im Begleittext oder als **[Annahme]** markieren, damit der User es kippen kann.
 
-Mini-Entscheidung: *„Würde eine falsche Antwort hier einen Teil des Briefings wertlos machen?"* — Ja → fragen. Nein → annehmen und weiter.
+Mini-Entscheidung: *„Würde eine falsche Antwort hier einen Teil des Briefings wertlos machen?"* - Ja → fragen. Nein → annehmen und weiter.
 
 ---
 
@@ -21,42 +21,42 @@ Mini-Entscheidung: *„Würde eine falsche Antwort hier einen Teil des Briefings
 
 Nimm pro Briefing nur die 3–6 wirklich offenen Punkte. Reihenfolge = Priorität.
 
-### A — Ziel & Funnel (fast immer relevant)
+### A - Ziel & Funnel (fast immer relevant)
 - Was ist das **Ziel** dieser Creatives? (Sales/Conversions, Leads, Add-to-Cart, Awareness, Retargeting?)
 - **Funnel-Stage / Audience-Temperatur:** Cold (kennt Brand nicht) oder warm/Retargeting?
 - Gibt es eine **KPI/Benchmark**, gegen die getestet wird (CTR, CPA, ROAS, Hook-Rate)?
 - Wie viele **Konzepte / Assets** werden gebraucht? Bis wann?
 
-### B — Produkt & Offer
+### B - Produkt & Offer
 - Was genau wird beworben (SKU, Bundle, Range)? Was ist der **eine** Hauptnutzen?
 - **Mechanismus:** *warum* funktioniert/schmeckt/wirkt es? (ownable Grund)
 - Gibt es ein **konkretes Offer** (Rabatt, Code, Gratis-Versand, Bundle)? Exakt wie lautet es? Gültig bis wann?
 - Preis / Preis-Anker relevant?
 
-### C — Zielgruppe
+### C - Zielgruppe
 - **Wer** ist die Zielgruppe (Demografie + Psychografie)? In welchem **Moment** (morgens, pre-workout, abends)?
 - Welcher **Pain / Desire** steht im Zentrum? Wogegen tauschen sie (Alt-Gewohnheit/Konkurrenz)?
 - Markt/**Sprache** (DACH/NL/…)? Du oder Sie?
 - Was darf man der Zielgruppe **nicht** sagen (Tonalität-Verbote, z. B. kein „Diät", kein Gym-Bro-Sprech)?
 
-### D — Brand & Voice
+### D - Brand & Voice
 - **Voice/Tonalität:** wie klingt die Brand (Stimme, Energie, Register)? Referenz-Beispiele?
 - **Do/Don't** der Brand (verbotene Wörter, Claims, Themen)?
 - Brand-Assets vorhanden (Logo, Farben, Fonts, Produktbilder, B-Roll)?
 
-### E — Format & Technik
+### E - Format & Technik
 - Welche **Formate** (Statics / Carousel / Motion / Video-UGC) und wie viele je Typ?
 - **Placements / Ratios** (Feed 4:5, Reels/Stories 9:16, Carousel)?
 - Bei Video/Motion: **Länge**, **VO** (Sprecher m/w, Sprache), **Musik/Sound**-Richtung, Live-Action erlaubt oder Motion-only?
 - **Naming-Konvention** für Assets (oder aus Brand-Profil)?
 
-### F — Proof, Claims & Legal (kritisch — hier wird nichts erfunden)
+### F - Proof, Claims & Legal (kritisch - hier wird nichts erfunden)
 - Welche **Claims/Zahlen** sind **freigegeben**? Welche **gesperrt**? Gibt es Sternchen-/Disclaimer-Pflichttexte (exakter Wortlaut)?
 - Gibt es echte **Reviews/Testimonials** (Wortlaut, Name, Quelle)? Dürfen Avatare gezeigt werden?
 - **Health-/Wirk-Claims:** rechtlich abgenommen? (Bei Lebensmitteln/Supplements heikel.)
 - Plattform-Policy-Risiken bekannt (z. B. „Before/After", Gesundheits-Claims, erfundene Testimonials)?
 
-### G — Referenzen & Constraints
+### G - Referenzen & Constraints
 - Gibt es **Referenz-Creatives** (was lief gut/schlecht, Beispiel-Layouts, „wie das, nur ohne Störer")?
 - **No-Gos** / Pflicht-Elemente (Logo-Position, Code, rechtliche Hinweise)?
 - Wer **setzt um** (interner Designer/Editor oder extern)? Beeinflusst Detailtiefe der Direction.
@@ -86,4 +86,4 @@ Kurz, direkt, gebündelt. Beispiel:
 > 3. Sind die 24g Protein / Sternchentext final so abgenommen?
 > Den Rest nehme ich sinnvoll an und markiere Annahmen.
 
-Wenn der User „mach einfach" sagt: loslegen, Annahmen klar markieren — aber Sicherheits-/Claim-Fragen (Freigabe von Zahlen/Offers/Testimonials) **trotzdem** kennzeichnen, nie eigenmächtig als Fakt setzen.
+Wenn der User „mach einfach" sagt: loslegen, Annahmen klar markieren - aber Sicherheits-/Claim-Fragen (Freigabe von Zahlen/Offers/Testimonials) **trotzdem** kennzeichnen, nie eigenmächtig als Fakt setzen.
