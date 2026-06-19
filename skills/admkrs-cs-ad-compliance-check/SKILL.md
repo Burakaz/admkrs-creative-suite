@@ -51,7 +51,7 @@ Personal-Attributes (direkt/indirekt/Audience-Name) · Before/After-impliziert? 
 Im Zweifel nicht behaupten · gesperrte/freigegebene Fakten 1:1, nichts erfinden · keine Rechtsberatung (Health/Finance/EU → Kunde/Anwalt) · proaktiv prüfen, nicht auf Ablehnung warten.
 
 ## Related skills (Bundle)
-Prüft Output von `admkrs-cs-creative-briefing`, `admkrs-cs-ugc-briefing` (Hooks/Scripts/Kennzeichnung), `admkrs-cs-ugc-creator-ops` (Disclosure), `admkrs-cs-offer-promo-strategy` (Preis-/Rabatt-Auslobung), `admkrs-cs-landing-page-cro` (Ad↔LP-Match). Google-Policies separat (→ `admkrs-cs-google-cross-channel`).
+Läuft als **rechtliches Gate NACH** `admkrs-cs-creative-verifier` (QA-Gate: Briefing-Treue/Handwerk/Kunde — kommt zuerst; reicht offensichtliche Health-Claim-/Claim-Mismatch-Treffer hierher weiter). Prüft Output von `admkrs-cs-creative-briefing`, `admkrs-cs-ugc-briefing` (Hooks/Scripts/Kennzeichnung), `admkrs-cs-ugc-creator-ops` (Disclosure), `admkrs-cs-offer-promo-strategy` (Preis-/Rabatt-Auslobung), `admkrs-cs-landing-page-cro` (Ad↔LP-Match). Google-Policies separat (→ `admkrs-cs-google-cross-channel`).
 
 ## Quellen (Meta Transparency Center / Business Help, Juni 2026)
 Ad-Standards-Index · Personal Attributes · Health & Wellness · Sensational Content · EU-Kommission DMA (Dez 2025) · EU Health-Claims-VO. ⚠️ Drittquellen-Stats (z. B. „64 % Accounts geprüft", „14 % AI-Ablehnungen") direktional, nicht als harte Garantie.

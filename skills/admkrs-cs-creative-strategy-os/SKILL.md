@@ -93,6 +93,7 @@ Grober Zeitrahmen für eine neue Brand: **Tag 1 → Woche 1 → Woche 2–4 → 
 ### Phase 5 — Produzieren & Launchen  ·  *Woche 1–2*
 - **Briefs** mit `admkrs-cs-creative-briefing` (eine Briefing-Datei = die Konzepte der Runde). **Alles benennen:** `Format_Hook_Angle_Audience`.
 - **Bei ~80 % shippen**, dann iterieren. AI für *Velocity* (Static-Varianten, Mockups), aber **menschliches Urteil über die Idee**.
+- **Abnahme vor Launch (zwei Gates, beide grün → live):** fertige Creatives gegen das Briefing + Handwerk durch `admkrs-cs-creative-verifier` (Briefing-Treue · Hook-Wirksamkeit · Designhandwerk · Kunde), danach `admkrs-cs-ad-compliance-check` (Recht/Policy). Der Verifier kommt zuerst — ein Creative, das das Briefing verfehlt, ist die Compliance-Prüfung nicht wert. Verifier-Findings sind zugleich Lern-Signal fürs Learned-Log (Phase 7/9).
 - **Compliance 2026:** KI-invariante Elemente markieren (Logo/Claim/Zahlen — Advantage+ kann Text ändern); extern KI-generierte Assets per **AI-Disclosure**-Toggle kennzeichnen.
 **AI-Support:** `admkrs-cs-creative-briefing`; AI-Bild/Video-Gen (SLCT/Pass³ aus `field-notes.md`).
 

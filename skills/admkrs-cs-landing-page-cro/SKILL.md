@@ -52,7 +52,7 @@ Audit: Message-Match → Above-fold (mobil) → CWV messen → Social-Proof/Offe
 Belegt vs. Vendor klar trennen · auf eigener Seite testen statt fremde Benchmarks glauben · Message-Match zuerst · mobil zuerst · nichts erfinden.
 
 ## Related skills (Bundle)
-`admkrs-cs-performance-reporting` (Diagnose CTR↑/CVR↓ → LP) · `admkrs-cs-creative-briefing` (LP muss Hook spiegeln) · `admkrs-cs-offer-promo-strategy` (Offer-Darstellung) · `admkrs-cs-ad-compliance-check` (Advertorials/Claims).
+`admkrs-cs-performance-reporting` (Diagnose CTR↑/CVR↓ → LP) · `admkrs-cs-creative-briefing` (LP muss Hook spiegeln) · `admkrs-cs-offer-promo-strategy` (Offer-Darstellung) · `admkrs-cs-ad-compliance-check` (Advertorials/Claims) · `admkrs-cs-creative-verifier` (Abgrenzung: der Verifier prüft nur die *faktische* Claim-Deckung Ad↔LP; das *Message-Match fürs CVR* — spiegelt die Hero den Hook — gehört hierher).
 
 ## Quellen
 Baymard Institute (Cart/Checkout) · NNGroup (Fold/Attention) · Google web.dev (Core Web Vitals, Case Studies) · Unbounce (CVR-Benchmarks, Vendor) · Scale Messaging (LP-vs-PDP-Test). *Vendor-Daten als solche markiert; auf eigener Seite verifizieren.*

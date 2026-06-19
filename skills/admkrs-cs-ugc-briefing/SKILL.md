@@ -118,7 +118,7 @@ Checkliste unten durchgehen. Fällt ein Punkt durch → überarbeiten, nicht abl
 ---
 
 ## Related skills (Bundle)
-`admkrs-cs-ugc-creator-ops` (Sourcing, Rates, Partnership-Ads/Whitelisting, Nutzungsrechte, Workflow) · `admkrs-cs-creative-briefing` (Statics/Motion + Format-Bibliothek + identische Builder-Engine) · `admkrs-cs-ad-compliance-check` (Kennzeichnung, Health-/Claim-Prüfung vor Launch) · `admkrs-cs-creative-strategy-os` (Creator im Test-System, Diversität) · `admkrs-cs-performance-reporting` (Hook-/Hold-Rate, welche Hooks/Konzepte gewinnen) · `admkrs-cs-offer-promo-strategy` (Code/Rabatt im Hook) · `admkrs-cs-landing-page-cro` (Ad↔LP-Match).
+`admkrs-cs-ugc-creator-ops` (Sourcing, Rates, Partnership-Ads/Whitelisting, Nutzungsrechte, Workflow) · `admkrs-cs-creative-briefing` (Statics/Motion + Format-Bibliothek + identische Builder-Engine) · `admkrs-cs-creative-verifier` (Abnahme fertiger Creator-Assets gegen das Briefing) · `admkrs-cs-ad-compliance-check` (Kennzeichnung, Health-/Claim-Prüfung vor Launch) · `admkrs-cs-creative-strategy-os` (Creator im Test-System, Diversität) · `admkrs-cs-performance-reporting` (Hook-/Hold-Rate, welche Hooks/Konzepte gewinnen) · `admkrs-cs-offer-promo-strategy` (Code/Rabatt im Hook) · `admkrs-cs-landing-page-cro` (Ad↔LP-Match).
 
 ## Quellen
 Siehe die jeweiligen Reference-Dateien (gelabelt nach OFFIZIELL/PEER-REVIEWED/VENDOR/AGENCY). Kern-Primärquellen: TikTok/Instagram/YouTube Creator-Doku & Exec-Statements · Berger & Milkman 2012 (JMR) · Eugene Schwartz *Breakthrough Advertising* · Meta Transparency Center · die-medienanstalten.de (Werbekennzeichnung) · FTC/EU (DSA, AI Act). *Vendor-/Folklore-Zahlen direktional; Plattform/Recht an Primärquellen prüfen.*

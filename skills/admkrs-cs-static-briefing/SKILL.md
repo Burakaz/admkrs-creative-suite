@@ -25,6 +25,6 @@ Folge dem Workflow aus `admkrs-cs-creative-briefing` (Briefing-Typ bestimmen →
 
 ## Leitprinzipien (kurz — Details in `admkrs-cs-creative-briefing`)
 **Hooks zuerst · Konkret schlägt generisch · Klarheit vor Kunst, dann Haltung (Voss) · Eine Idee pro Static · nichts erfinden (Claims/Offers 1:1, Neues als [Ergänzung]).** Offer-Statics mit klarem Offer sind der Effizienz-Hebel. Banned-Buzzwords gelten.
-**Build-fertig & zeilenweise:** Zellen zeilenweise (`\n`), nie als Block; **Ausführer-Test** — nur was der Designer zum Bauen braucht; Build-Zellen final entschieden (keine offenen Fragen); ein konkreter Fakt statt Floskel; fehlende Werte als `[Platzhalter: …]` **inline**, offene Punkte intern in ClickUp/Chat. **Sicherheits-Regeln:** nie senden/posten/löschen ohne Freigabe; vor Launch durch `admkrs-cs-ad-compliance-check`.
+**Build-fertig & zeilenweise:** Zellen zeilenweise (`\n`), nie als Block; **Ausführer-Test** — nur was der Designer zum Bauen braucht; Build-Zellen final entschieden (keine offenen Fragen); ein konkreter Fakt statt Floskel; fehlende Werte als `[Platzhalter: …]` **inline**, offene Punkte intern in ClickUp/Chat. **Sicherheits-Regeln:** nie senden/posten/löschen ohne Freigabe; Abnahme der fertigen Creatives durch `admkrs-cs-creative-verifier` (Briefing-Treue/Handwerk/Kunde), dann vor Launch `admkrs-cs-ad-compliance-check`.
 
 <sub>**ADMKRS Creative Suite** · © ADMKRS GmbH, München · v1.8.0 · interner Gebrauch · Format-Tür zu `admkrs-cs-creative-briefing` (gemeinsame Engine, keine Duplikate).</sub>
