@@ -13,7 +13,7 @@ Ziel: 6–10 Konzepte, die sich über **Persona × Angle × Format** unterscheid
 | 7 | | | | | | | | | |
 | 8 | | | | | | | | | |
 
-**Coverage je Zeile:** Scaling / Testing / Not Running — zeigt auf einen Blick, welche Persona unterversorgt ist (Testing/Not-Running zuerst angehen).
-**Diversity-Check:** Klassifiziere jede Zeile gegen die eigenen Top-10 + Competitor-Top-10 — **NEW ENTITY** (distinkt, gut) / **REPEAT** (Klon, killen) / **VARIANT** (gleiche Struktur, andere Copy = 1 Entity). Bei REPEAT/VARIANT **eine** Strukturachse mutieren (Talent/Shot/Pacing/Opener). >40 % gleiches Format → diversifizieren oder bewusst als Konzentration bestätigen.
-**Leere Zelle ist ok — nicht erzwingen.** Liest sich die Unaware-Zelle wie Solution/Problem-Aware? Diagnose: *Kategorie-Lücke* (Persona hat hier keine Unaware-Population → Zelle leer lassen) ODER *Persona falsch geschnitten* (→ zurück zur Persona-Definition).
+**Coverage je Zeile:** Scaling / Testing / Not Running - zeigt auf einen Blick, welche Persona unterversorgt ist (Testing/Not-Running zuerst angehen).
+**Diversity-Check:** Klassifiziere jede Zeile gegen die eigenen Top-10 + Competitor-Top-10 - **NEW ENTITY** (distinkt, gut) / **REPEAT** (Klon, killen) / **VARIANT** (gleiche Struktur, andere Copy = 1 Entity). Bei REPEAT/VARIANT **eine** Strukturachse mutieren (Talent/Shot/Pacing/Opener). >40 % gleiches Format → diversifizieren oder bewusst als Konzentration bestätigen.
+**Leere Zelle ist ok - nicht erzwingen.** Liest sich die Unaware-Zelle wie Solution/Problem-Aware? Diagnose: *Kategorie-Lücke* (Persona hat hier keine Unaware-Population → Zelle leer lassen) ODER *Persona falsch geschnitten* (→ zurück zur Persona-Definition).
 **Priorisierung:** zuerst Konzepte, die den Bottleneck (Audit) treffen + die in der Kategorie schon gewinnen.

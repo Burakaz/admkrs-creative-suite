@@ -1,6 +1,6 @@
 # Free Teardown  ·  Prospect: <Brand> · <Datum>
 
-## Markt-Beobachtung (3–5 Findings aus der Ad Library — mit Evidenz)
+## Markt-Beobachtung (3–5 Findings aus der Ad Library - mit Evidenz)
 1. Wettbewerber <A>: Angle ___ · läuft seit ___ Tagen · ___ Varianten (Longevity-Score __/15)
 2. ___
 3. ___
@@ -14,7 +14,7 @@
 ## Opportunity-Framing
 „So sieht Gewinnen in <Kategorie> aus · eure Velocity ist X · die Lücke ist ~€__ wert."
 
-## Erste Hypothese (was wir zuerst testen würden — + Warum)
+## Erste Hypothese (was wir zuerst testen würden - + Warum)
 - Angle 1: ___  · Angle 2: ___
 
 ## Discovery-Fragen für den Call

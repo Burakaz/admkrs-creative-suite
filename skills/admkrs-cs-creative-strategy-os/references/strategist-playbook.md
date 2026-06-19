@@ -1,14 +1,14 @@
-# Strategist-Playbook — Rolle, Rhythmus, AI-Stack, Fehler
+# Strategist-Playbook - Rolle, Rhythmus, AI-Stack, Fehler
 
-Die Meta-Ebene: wie die Funktion *läuft* — als Person und als System. Gilt für Agentur (mehrere Brands) wie In-house (eine Brand tief).
+Die Meta-Ebene: wie die Funktion *läuft* - als Person und als System. Gilt für Agentur (mehrere Brands) wie In-house (eine Brand tief).
 
 ## Die Rolle (was ein Creative Strategist wirklich ist)
 Kein „Ideen-Lieferant", sondern **Betreiber eines Lern-Systems**. Die Kette, für die du verantwortlich bist:
 **VoC-Research → Angle-Bank → Diversity-Plan → Test-Design → Diagnose → Iteration/Scaling → Reporting → (zurück zur Research).**
 Du bist die Schnittstelle zwischen *Daten* (was gewinnt), *Psychologie* (warum) und *Produktion* (Designer/Editor/Creator). Dein Wert ist nicht „schöne Ads", sondern **die Trefferquote über die Zeit** und das **Learned-Concepts-Log**, das die Brand unkopierbar macht.
 
-## Eigene KPIs (woran du dich misst — nicht nur ROAS)
-- **Hit-Rate** (Anteil Creatives, die zu Winnern werden) — Trend über Runden.
+## Eigene KPIs (woran du dich misst - nicht nur ROAS)
+- **Hit-Rate** (Anteil Creatives, die zu Winnern werden) - Trend über Runden.
 - **Winner-Volumen** & **Spend hinter Gewinner-Konzepten**.
 - **Time-to-First-Winner** bei einer neuen Brand.
 - **Creative-Demand-Score** (Account-Gesundheit).
@@ -16,14 +16,14 @@ Du bist die Schnittstelle zwischen *Daten* (was gewinnt), *Psychologie* (warum) 
 - **Learnings-Velocity:** validierte neue Angles/Hooks pro Monat.
 
 ## Wochen-Rhythmus (das Ritual, das den Motor dreht)
-1. **Montag — Read:** DatAds-Review, Dashboard + Diagnose-Baum, Fatigue-Check. Was hat gewonnen/verloren/nichts gesagt?
-2. **Montag — Decide:** kill / iterate / scale je Creative (nach den Regeln). Learned-Log updaten.
-3. **Di–Mi — Brief:** nächste Runde planen (Concept-Matrix-Lücken + neue Iterationen der Gewinner) → `admkrs-cs-creative-briefing`.
-4. **Mi–Do — Produktion** (intern/Creator) bei ~80 % shippen.
-5. **Fr — Launch & Report:** neue Creatives live; Wochen-Report = **Learnings**, nicht nur Zahlen → fließt in die Research zurück.
+1. **Montag - Read:** DatAds-Review, Dashboard + Diagnose-Baum, Fatigue-Check. Was hat gewonnen/verloren/nichts gesagt?
+2. **Montag - Decide:** kill / iterate / scale je Creative (nach den Regeln). Learned-Log updaten.
+3. **Di–Mi - Brief:** nächste Runde planen (Concept-Matrix-Lücken + neue Iterationen der Gewinner) → `admkrs-cs-creative-briefing`.
+4. **Mi–Do - Produktion** (intern/Creator) bei ~80 % shippen.
+5. **Fr - Launch & Report:** neue Creatives live; Wochen-Report = **Learnings**, nicht nur Zahlen → fließt in die Research zurück.
 Vorlage: `assets/templates/weekly-creative-review.md`.
 
-## AI-Support-Stack (wo AI hilft — und wo der Mensch entscheidet)
+## AI-Support-Stack (wo AI hilft - und wo der Mensch entscheidet)
 | Phase | AI/Skill/Tool | Mensch entscheidet |
 | --- | --- | --- |
 | Audit/Diagnose | DatAds; `admkrs-cs-creative-briefing/performance-playbook` | Bottleneck-Interpretation |
@@ -53,4 +53,4 @@ Regel: **AI für Velocity & Breite, Mensch für Urteil & Verantwortung.** Nie se
 - Volumen ohne Qualität → mehr Ads ≠ besser; echte Diversität + Demand-Score steuern die Menge.
 
 ## Die eine Erinnerung
-Du baust **ein System, das systematisch herausfindet, welche Idee bei welchem Menschen zündet — und das verdoppelt, was gewinnt.** Research → Diversity → Test → Diagnose → Iterate → Scale, jede Woche, mit Disziplin. Der Rest ist Handwerk (das macht der Briefing-Skill).
+Du baust **ein System, das systematisch herausfindet, welche Idee bei welchem Menschen zündet - und das verdoppelt, was gewinnt.** Research → Diversity → Test → Diagnose → Iterate → Scale, jede Woche, mit Disziplin. Der Rest ist Handwerk (das macht der Briefing-Skill).

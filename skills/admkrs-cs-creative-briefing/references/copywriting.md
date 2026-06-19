@@ -107,9 +107,10 @@ Echte Sortennamen, echte Zahlen, echte Situationen, echte Namen. Konkretheit = G
 
 ## 5 – Headline / Sub / CTA / Offer
 
+**Weniger ist mehr.** Klarheit schlägt Vollständigkeit. Frag bei jedem Element nach dem Hook: macht es einen **eigenen Job**, oder steht es nur da, weil ein Feld existiert? Im Zweifel weglassen. Ein starkes Creative ist oft nur Hook + Produkt.
 - **Headline/Hook:** ein Gedanke, vorne das Spannendste. Siehe oben.
-- **Sub / Claim:** ergänzt, doppelt nicht. Liefert den Beweis oder den zweiten Halbsatz ("Ohne Zuckerzusatz & bis zu 24g Protein*").
-- **CTA:** konkret und niedrigschwellig – "Jetzt entdecken", "Sorten ansehen", "Mit Code TRYNOVA sichern". Verb + Nutzen/Objekt. Kein "Klick hier".
+- **Sub / Claim:** **nur wenn sie einen eigenen Job macht** - ergänzt, doppelt nie. Liefert den Beweis oder den zweiten Halbsatz ("Ohne Zuckerzusatz & bis zu 24g Protein*"). Trägt der Hook allein, bleibt sie weg. Keine Füll-Subline ("Entdecke unsere Produkte").
+- **CTA:** meist erledigt den Klick der **Meta-Button** - dann braucht das Creative keinen aufgemalten CTA. Ein gestalteter On-Creative-CTA nur, wenn er mehr leistet als der Button (Offer-Pill, Code, Dringlichkeit). Wenn doch: konkret und niedrigschwellig, Verb + Nutzen/Objekt ("Mit Code TRYNOVA sichern"). Kein "Klick hier".
 - **Offer:** wenn freigegeben, prominent und unmissverständlich ("−20 %", "30 % auf dein erstes Starter Box, Code TRYNOVA"). DR-Statics mit klarem Offer heben CTR/CVR verlässlich – aber Offer nie erfinden.
 - **Disclaimer/Sternchen:** exakt wie freigegeben übernehmen ("*pro 30g Pulver"), klein aber lesbar, unten.
 
@@ -144,7 +145,7 @@ Wenn ein Satz so klingt, neu schreiben. Diese Wörter/Phrasen sind tot:
 Deutsch-Pendants: `Game-Changer`, `revolutionär`, `auf das nächste Level`, `nahtlos`, `in der heutigen schnelllebigen Welt`, `sag Tschüss zu`, `das Geheimnis von`, `wir haben für dich gesorgt`, `kinderleicht`, `mühelos`.
 Auch raus: leere Superlative ohne Beleg ("das beste …"), Floskel-Intros, drei Adjektive, wo eins reicht.
 
-**Kein langer Gedankenstrich „—" (Em-Dash) — ADMKRS-Hausregel.** In **keiner** produzierten Copy — kein Hook, Claim, Sub, CTA, On-Screen-Text, VO/Script oder Briefing-Fließtext — steht der lange „—". Ersetze ihn durch einen **Punkt** (kurze Sätze, passt exakt zur Klarheits-Doktrin) oder ein **Komma**; wenn wirklich ein Bindestrich nötig ist, der **kurze „–"**. Beispiel: ✗ „Echtes Protein und echter Geschmack — selten im selben Produkt." → ✓ „Echtes Protein und echter Geschmack. Selten im selben Produkt." (Gilt auch im Builder-Output: in den JSON-Feldern nie „—" schreiben.)
+**Kein langer Gedankenstrich „—" (Em-Dash) - ADMKRS-Hausregel.** In **keiner** produzierten Copy - kein Hook, Claim, Sub, CTA, On-Screen-Text, VO/Script oder Briefing-Fließtext - steht der lange „—". Ersetze ihn durch einen **Punkt** (kurze Sätze, passt exakt zur Klarheits-Doktrin) oder ein **Komma**; wenn wirklich ein Bindestrich nötig ist, der **kurze „–"**. Beispiel: ✗ „Echtes Protein und echter Geschmack - selten im selben Produkt." → ✓ „Echtes Protein und echter Geschmack. Selten im selben Produkt." (Gilt auch im Builder-Output: in den JSON-Feldern nie „—" schreiben.)
 
 Ersatz-Regel: Statt einer Floskel den **konkreten Fakt** oder die **konkrete Situation** nennen. Floskel sagt "es ist toll"; gute Copy zeigt *warum*.
 

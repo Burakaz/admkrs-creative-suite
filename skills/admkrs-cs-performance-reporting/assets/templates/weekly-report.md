@@ -20,5 +20,5 @@ Was lief · was nicht · was ändert sich: ____
 ## Business-Metriken (separat vom Creative-Teil)
 MER-Trend ___ · Blended ROAS ___ · nCAC ___ (Plattform-ROAS nie allein)
 
-## Diese Woche gekillt — und warum
+## Diese Woche gekillt - und warum
 - ____

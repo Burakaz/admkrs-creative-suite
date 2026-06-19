@@ -1,15 +1,15 @@
 # Creative-Format-Bibliothek (Video + Static)
 
-Die Bibliothek aller Ad-Formate & Creative-Styles — mit **Erkennungsmerkmal**, **wofür gut** (Einsatzzweck) und **Hook-/Aufbau-Notiz**. Sie existiert aus einem Grund: **Creative Diversity ist der #1-Performance-Hebel unter Andromeda.** Meta findet die Zielgruppe über das Creative — also gewinnt, wer viele *echt verschiedene* Styles bespielt, nicht 5 Versionen desselben. Dieses File sagt dir, *welcher Style für welchen Zweck* gut ist und *wie* du neue Styles erkennst und adaptierst.
+Die Bibliothek aller Ad-Formate & Creative-Styles - mit **Erkennungsmerkmal**, **wofür gut** (Einsatzzweck) und **Hook-/Aufbau-Notiz**. Sie existiert aus einem Grund: **Creative Diversity ist der #1-Performance-Hebel unter Andromeda.** Meta findet die Zielgruppe über das Creative - also gewinnt, wer viele *echt verschiedene* Styles bespielt, nicht 5 Versionen desselben. Dieses File sagt dir, *welcher Style für welchen Zweck* gut ist und *wie* du neue Styles erkennst und adaptierst.
 
 So nutzt du es: (1) In der Diversity-Phase ziehst du Styles aus **verschiedenen Gruppen** (UGC / Inszeniert / Motion / Static) entlang der Test-Matrix (§9). (2) Beim Briefing eines Konzepts wählst du den Style nach **Einsatzzweck** (§7-Mapping). (3) Wenn du ein virales Video adaptieren willst, nutzt du den **Style-Decoder** (§8).
-*Hinweis: Performance-Zahlen hier sind, wo nicht „Meta" genannt, Vendor-/Praktiker-Richtwerte — gegen die eigene Baseline messen.*
+*Hinweis: Performance-Zahlen hier sind, wo nicht „Meta" genannt, Vendor-/Praktiker-Richtwerte - gegen die eigene Baseline messen.*
 
 ---
 
-## 0 — Die 25 Style-Familien (erste Orientierung)
+## 0 - Die 25 Style-Familien (erste Orientierung)
 
-Der komplette Katalog (219 Styles, mit NOVA-Previews) ist nach **25 Familien** gegliedert — Website: `styles.html`. Im Briefing reicht als `Creative Format` der **Substyle-Name**; die Familie hilft beim Finden und beim Diversity-Check (Konzepte aus *verschiedenen* Familien ziehen). **Top-Picks** = die gängigsten Performance-Bringer je Familie, der richtige Startpunkt.
+Der komplette Katalog (219 Styles, mit NOVA-Previews) ist nach **25 Familien** gegliedert - Website: `styles.html`. Im Briefing reicht als `Creative Format` der **Substyle-Name**; die Familie hilft beim Finden und beim Diversity-Check (Konzepte aus *verschiedenen* Familien ziehen). **Top-Picks** = die gängigsten Performance-Bringer je Familie, der richtige Startpunkt.
 
 | Medium | Familie | Top-Picks |
 | --- | --- | --- |
@@ -41,7 +41,7 @@ Der komplette Katalog (219 Styles, mit NOVA-Previews) ist nach **25 Familien** g
 
 ---
 
-## 1 — VIDEO · Gruppe A: UGC & Authentizität
+## 1 - VIDEO · Gruppe A: UGC & Authentizität
 Roh, plattform-nativ, „echte Person". Starker Signal-Typ für Andromeda (native schlägt poliert in den meisten DTC-Kategorien). Meist **ToFu/MoFu**, Hook in 0–2 s.
 
 | Style | Erkennungsmerkmal | Wofür gut | Hook/Aufbau |
@@ -57,7 +57,7 @@ Roh, plattform-nativ, „echte Person". Starker Signal-Typ für Andromeda (nativ
 | **Mukbang / Tasting** | Creator isst/probiert vor Kamera | ToFu/MoFu, Food/Beverage/Supplement | erste Geschmacks-Reaktion → Vergleich → Empfehlung |
 | **Founder-Direct / Founder-Rant** | Gründer:in spricht ungeschönt | MoFu, höherpreisig, Brand-Trust, B2B | persönliches Scheitern/Why → Wendepunkt → Produkt |
 
-## 2 — VIDEO · Gruppe B: Skits & Storytelling
+## 2 - VIDEO · Gruppe B: Skits & Storytelling
 Inszenierte Mini-Dramen / narrativ. Gut für klare Pains + Entertainment.
 
 | Style | Erkennungsmerkmal | Wofür gut | Hook/Aufbau |
@@ -71,7 +71,7 @@ Inszenierte Mini-Dramen / narrativ. Gut für klare Pains + Entertainment.
 | **Podcast-/Hot-take-Clip** | Ausschnitt aus (echtem/inszeniertem) Podcast | MoFu/BoFu, Thought-Leadership, B2B | provokanter Satz ohne Kontext → Argument |
 | **Meme / Trend-Jack** | aktueller Meme/Sound + Marken-Twist | ToFu, Viral-Potenzial | bekannter Meme-Frame → Twist → Punchline |
 
-## 3 — VIDEO · Gruppe C: Inszeniert / Produziert
+## 3 - VIDEO · Gruppe C: Inszeniert / Produziert
 Höhere Kontrolle/Produktion. Gut für Proof, Demo, Premium.
 
 | Style | Erkennungsmerkmal | Wofür gut | Hook/Aufbau |
@@ -85,7 +85,7 @@ Höhere Kontrolle/Produktion. Gut für Proof, Demo, Premium.
 | **ASMR** | Klang im Vordergrund, kaum Text | ToFu, Beauty/Food/Premium, sound-on | unerwartetes Geräusch Sek. 1 → Produkt als Quelle |
 | **Cinematic / Brand-Film (Short)** | hohe Produktion, mood-getrieben | ToFu, Brand-Awareness, Premium | starke Ästhetik Frame 1, kein Hard-Sell |
 
-## 4 — VIDEO · Gruppe D: Motion-Graphics & AI-native
+## 4 - VIDEO · Gruppe D: Motion-Graphics & AI-native
 Animiert / faceless / skalierbar. Gut ohne Dreh.
 
 | Style | Erkennungsmerkmal | Wofür gut | Hook/Aufbau |
@@ -97,36 +97,36 @@ Animiert / faceless / skalierbar. Gut ohne Dreh.
 | **Stop-Motion** | Frame-by-Frame physischer Objekte | ToFu, Premium, Fashion/Packaging | überraschendes erstes Bewegungs-Bild |
 | **Mashup / Montage** | schnelle Schnittfolge, hohe Energie | ToFu, Lifestyle/Sport/Events | stärkster Clip zuerst → Tempo → End-Card |
 
-## 5 — VIDEO · Gruppe E: Hybrid & Test-Formate
+## 5 - VIDEO · Gruppe E: Hybrid & Test-Formate
 
 | Style | Erkennungsmerkmal | Wofür gut | Hook/Aufbau |
 | --- | --- | --- | --- |
 | **Green-Screen-Explainer** | Creator vor Screenshot/Daten/Map | ToFu/MoFu, Komplexes erklären, B2B | unerwarteter Hintergrund zieht Blick → Sprechtext |
 | **Split-Screen** | zwei Bildebenen gleichzeitig | ToFu, Attention-Hack, Doppelbotschaft | Kontrast der Screens = sofortige Spannung |
-| **Hook-Compilation** | 3–5 Hooks fürs selbe Produkt | **Testing**, Hook-Research | kein Ad — dient der Hook-Validierung |
+| **Hook-Compilation** | 3–5 Hooks fürs selbe Produkt | **Testing**, Hook-Research | kein Ad - dient der Hook-Validierung |
 | **„Save-worthy" Value/Edu-Reel** | dichte Tipps/Listen, hohe Save-/Share-Rate | ToFu Awareness + Edukation, Authority | starker Nutzen-Hook („Das solltest du speichern") → Tipps schnell getaktet |
 
 ---
 
-## 5b — VIDEO · Voice-Over-First (Pflicht für alle Motion/Video-Konzepte)
+## 5b - VIDEO · Voice-Over-First (Pflicht für alle Motion/Video-Konzepte)
 
-**Default-Doktrin: Jedes Motion-/Video-Konzept wird VO-first gebrieft.** Das **Voice-Over-Skript ist das Rückgrat** des Videos — ein sauberer Lesefluss der VO trägt den Watch-Flow. Bild und On-Screen-Text **hängen sich an die VO-Beats**, nicht umgekehrt. (Auch faceless Motion-Graphics/Data-led laufen mit VO; reine sound-on-ASMR/Cinematic sind die begründete Ausnahme.) Im Dokument steht deshalb das **„VO-Script (Spine)"** als zusammenhängender, am Stück lesbarer Block **vor** dem time-coded Storyboard (siehe `document-format.md`).
+**Default-Doktrin: Jedes Motion-/Video-Konzept wird VO-first gebrieft.** Das **Voice-Over-Skript ist das Rückgrat** des Videos - ein sauberer Lesefluss der VO trägt den Watch-Flow. Bild und On-Screen-Text **hängen sich an die VO-Beats**, nicht umgekehrt. (Auch faceless Motion-Graphics/Data-led laufen mit VO; reine sound-on-ASMR/Cinematic sind die begründete Ausnahme.) Im Dokument steht deshalb das **„VO-Script (Spine)"** als zusammenhängender, am Stück lesbarer Block **vor** dem time-coded Storyboard (siehe `document-format.md`).
 
 **Schreibregeln für den VO-Lesefluss:**
 - **Hook in Sekunde 0–2.** Die erste VO-Zeile ist der Hook und kommt vor jedem Branding/Setup. *Plattform-Doku:* die Kern-**Proposition in die ersten 3 s**, der **Hook spätestens bis Sek. 6** (TikTok). „Get to the heart of the story faster." (Google ABCD).
-- **Fürs Ohr schreiben, nicht fürs Auge.** Jeden Satz laut lesen — was sich verhakt, fliegt raus. „Scripts should sound natural when spoken." / „Keep it conversational and natural." (Motion). Konversationell in der Sprache der Zielgruppe, kein Corporate-/Werbe-Sprech.
-- **Tempo:** kurze Hauptsätze, **ein Gedanke pro Satz**, keine Schachtelsätze. Captions bei **~5–10 Wörtern/Sekunde** anzeigen (TikTok-Doku) — das gesprochene VO entsprechend ruhig takten, damit Ton und Caption synchron bleiben. Short-Form-Richtwert: **~60 Wörter / unter 20 s** (Motion).
-- **Momentum & offene Schleifen.** Früh eine offene Schleife/Cliffhanger setzen, spät auflösen — „Use traditional storytelling tactics (like cliffhangers & teasers) to drive up watch time." (Motion). **Jeder Satz zieht in den nächsten.**
+- **Fürs Ohr schreiben, nicht fürs Auge.** Jeden Satz laut lesen - was sich verhakt, fliegt raus. „Scripts should sound natural when spoken." / „Keep it conversational and natural." (Motion). Konversationell in der Sprache der Zielgruppe, kein Corporate-/Werbe-Sprech.
+- **Tempo:** kurze Hauptsätze, **ein Gedanke pro Satz**, keine Schachtelsätze. Captions bei **~5–10 Wörtern/Sekunde** anzeigen (TikTok-Doku) - das gesprochene VO entsprechend ruhig takten, damit Ton und Caption synchron bleiben. Short-Form-Richtwert: **~60 Wörter / unter 20 s** (Motion).
+- **Momentum & offene Schleifen.** Früh eine offene Schleife/Cliffhanger setzen, spät auflösen - „Use traditional storytelling tactics (like cliffhangers & teasers) to drive up watch time." (Motion). **Jeder Satz zieht in den nächsten.**
 - **Keine Dead Air.** Jede Zeile trägt Info oder Spannung. Reine Überleitungszeilen streichen.
-- **Ein Benefit, gezeigt.** „Pick one product benefit and show (don't tell)." (Motion) — das VO begleitet die Demonstration, ersetzt sie nicht.
+- **Ein Benefit, gezeigt.** „Pick one product benefit and show (don't tell)." (Motion) - das VO begleitet die Demonstration, ersetzt sie nicht.
 - **CTA am Ende explizit aussprechen,** nicht nur einblenden: „Reinforce your onscreen CTA with voice-over to ensure the next step is clear." (Google).
-- **Sound-off-tauglich:** immer Captions; die Kernaussage muss als Text allein funktionieren (viele schauen ohne Ton — Motion).
+- **Sound-off-tauglich:** immer Captions; die Kernaussage muss als Text allein funktionieren (viele schauen ohne Ton - Motion).
 
 > Belege & Quellen (Plattform-Doku vs. Practitioner sauber getrennt): `field-notes.md`. Der **Redefluss-Standard** (kein Stakkato, jede Zeile knüpft an) + Vorher/Nachher: `copywriting-frameworks.md` §4b. Für **Haltung** im VO: `voss-principles.md`.
 
 ---
 
-## 6 — STATIC & Nicht-Video
+## 6 - STATIC & Nicht-Video
 
 ### Single-Image & Text/Hook
 | Style | Wofür gut | Notiz |
@@ -142,25 +142,25 @@ Animiert / faceless / skalierbar. Gut ohne Dreh.
 | **„Did you know" Edu-Static** | ToFu Edu, B2B/Health/Finance | überraschende Zahl als Hook + Quelle |
 
 ### Carousel (2–10 Cards · Card 1 = Standalone-Hook · letzte Card = CTA)
-Carousels liefern in Aggregat-Daten oft **30–50 % niedrigere Cost-per-Conversion** vs. Single-Image (Vendor/Meta-Aggregat) — aber nur, wenn Card 1 allein stoppt.
-- **Edu-Sequence / Tutorial** (Schritt-für-Schritt) — ToFu/MoFu Education.
-- **Listicle** („5 Gründe…", eine pro Card) — MoFu Lead-Gen/B2B.
-- **Before/After** (Card 1 = After-Hook) — Beauty/Fitness/Home.
-- **Story / Narrative** (Cards visuell verbunden, Panorama) — Brand/Launch.
-- **Produkt-Range / Lookbook** — E-Com/Fashion/Beauty.
-- **Objection-Busting** (Card 1 = Haupteinwand) — BoFu/High-Ticket.
-- **Tap-through-Reveal** (Frage/halbes Bild → Auflösung) — Engagement.
-- **Before/After-Split-Card** (eine Card geteilt) — komprimiert ohne Swipe.
+Carousels liefern in Aggregat-Daten oft **30–50 % niedrigere Cost-per-Conversion** vs. Single-Image (Vendor/Meta-Aggregat) - aber nur, wenn Card 1 allein stoppt.
+- **Edu-Sequence / Tutorial** (Schritt-für-Schritt) - ToFu/MoFu Education.
+- **Listicle** („5 Gründe…", eine pro Card) - MoFu Lead-Gen/B2B.
+- **Before/After** (Card 1 = After-Hook) - Beauty/Fitness/Home.
+- **Story / Narrative** (Cards visuell verbunden, Panorama) - Brand/Launch.
+- **Produkt-Range / Lookbook** - E-Com/Fashion/Beauty.
+- **Objection-Busting** (Card 1 = Haupteinwand) - BoFu/High-Ticket.
+- **Tap-through-Reveal** (Frage/halbes Bild → Auflösung) - Engagement.
+- **Before/After-Split-Card** (eine Card geteilt) - komprimiert ohne Swipe.
 
 ### Catalog / Dynamic / Collection
-- **DPA (Dynamic Product Ads)** — BoFu Retargeting; Pixel-Events Pflicht, Produkttitel = größter Hebel.
-- **Advantage+ Catalog** — Prospecting+Retargeting mit Meta-AI-Optimierung.
-- **Collection-Ad** (Hero + 3 Thumbs → Instant Experience) — Mobile E-Com, Browse-to-Buy.
+- **DPA (Dynamic Product Ads)** - BoFu Retargeting; Pixel-Events Pflicht, Produkttitel = größter Hebel.
+- **Advantage+ Catalog** - Prospecting+Retargeting mit Meta-AI-Optimierung.
+- **Collection-Ad** (Hero + 3 Thumbs → Instant Experience) - Mobile E-Com, Browse-to-Buy.
 
 ### Social-Proof & Vergleich
 - **Testimonial/Review-Card**, **Star-Rating-Hero**, **„As seen in"/Press-Logos** (nur mit Rechten), **Comparison/„Us vs Them"** (eigene Vorteile mit Haken, Konkurrenz sachlich).
 
-### Native / Lo-fi (2026 stärkster Static-Wachstumstrend — Gegenbewegung zur AI-Flut)
+### Native / Lo-fi (2026 stärkster Static-Wachstumstrend - Gegenbewegung zur AI-Flut)
 - **Notes-App-Static**, **Tweet/X-Screenshot**, **Reddit-Screenshot**, **WhatsApp-Chat-Static**, **iMessage-Chat-Static**, **Founder-Note/Handwritten**, **„Ugly"/Raw/Lo-fi**, **UGC-Foto-Screenshot**. → ToFu Cold, Scroll-Stop. *Nur echt/plausibel, keine erfundenen Chats als „echt" (→ admkrs-cs-ad-compliance-check).*
 
 ### Infografik / Offer / Advertorial
@@ -172,7 +172,7 @@ Carousels liefern in Aggregat-Daten oft **30–50 % niedrigere Cost-per-Conversi
 
 ---
 
-## 6b — Erweiterte Style-Bibliothek (135 Styles · Recherche Juni 2026)
+## 6b - Erweiterte Style-Bibliothek (135 Styles · Recherche Juni 2026)
 
 Zweiter Teil der Bibliothek: per Web-Recherche (Juni 2026) ergänzte Styles, dedupliziert gegen §1–6. **Die `Creative Format`-Spalte im Statics-/Video-Briefing nimmt ihre Style-Namen aus §1–6b.** Trend-Marker: ↑ steigt · ↓ rückläufig (nur wo belegt).
 
@@ -361,7 +361,7 @@ Zweiter Teil der Bibliothek: per Web-Recherche (Juni 2026) ergänzte Styles, ded
 
 ---
 
-## 7 — Format-zu-Zweck (welcher Style wofür)
+## 7 - Format-zu-Zweck (welcher Style wofür)
 Wähle den Style nach **Bottleneck × Objective × Awareness × Produkttyp**:
 
 | Bottleneck | Objective | Awareness | Produkttyp | Nimm … |
@@ -378,7 +378,7 @@ Schnellregeln: **Reels** immer für Awareness/cold (Reels-CPC unter Feed). **Car
 
 ---
 
-## 8 — Style-Decoder (virales Reel erkennen & fürs Briefing benennen)
+## 8 - Style-Decoder (virales Reel erkennen & fürs Briefing benennen)
 Wenn du ein virales Video adaptieren willst (z. B. ein gespeichertes Reel), geh diese 7 Punkte durch und **benenne** den Style daraus:
 1. **Format-Typ:** Welche Grund-Mechanik? (Talking-Head / UGC-Story / POV / GRWM / Split-Screen-Comparison / Green-Screen / Stitch / Founder-Direct / Before-After / Tutorial-Demo / Value-Edu-Reel …)
 2. **Hook-Mechanik (0–3 s):** Identity-Call · Contrarian-Strike · Open-Loop · Confession. (Retention-Gate: ~60 % müssen nach 3 s noch dabei sein.)
@@ -392,8 +392,8 @@ Wenn du ein virales Video adaptieren willst (z. B. ein gespeichertes Reel), geh 
 
 ---
 
-## 9 — Format-Diversitäts-Test-Matrix (für echte Andromeda-Vielfalt)
-Andromeda erkennt inhaltliche Gleichheit visuell — gleiche Achsen-Kombi = „gleiches" Creative. Variiere bewusst über **5 Achsen**:
+## 9 - Format-Diversitäts-Test-Matrix (für echte Andromeda-Vielfalt)
+Andromeda erkennt inhaltliche Gleichheit visuell - gleiche Achsen-Kombi = „gleiches" Creative. Variiere bewusst über **5 Achsen**:
 
 | Achse | Optionen |
 | --- | --- |
@@ -407,7 +407,7 @@ Vorgehen: **Audit** (welche Kombi dominiert? meist 70–80 % auf 1–2 Concepts 
 
 ---
 
-## 10 — 2026: Trending vs. Declining
+## 10 - 2026: Trending vs. Declining
 **Steigt:** Founder-led/authentic Direct-to-Camera · Split-Screen-Comparison · POV-Narrative · Green-Screen-Explainer · Stitch/Duet-Reaction · Original-Audio/Custom-VO-Hooks · Micro-Creator-Kollektive (8–15) · native Lo-fi-Statics (Notes/Screenshot) · „Save-worthy" Value-Reels · AI-Stilisierungen (Action-Figure/Toy-Box, Anime/3D-Render) als Trend-Jack.
 **Sinkt:** poliertes Hollywood-Brand-Video · gesättigte Generic-Hook-Templates („Things I wish I knew") · Entertainment-only ohne Kauf-Intention · generischer AI-Slop · Lookalikes als Primärstrategie · das alte „Flexible Format" (Meta hat es 03/2026 entfernt → Format Display Options/Advantage+ Creative).
 
