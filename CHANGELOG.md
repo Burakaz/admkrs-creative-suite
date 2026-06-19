@@ -1,5 +1,10 @@
 # Changelog — ADMKRS Creative Suite
 
+## v1.10.1 — 2026-06
+Verifier-Pre-Mortem im Briefing-Prozess.
+
+- **Neuer Quality-Check in `admkrs-cs-creative-briefing`:** „Verifier-Pre-Mortem" — vor der Übergabe gegenprüfen, ob ein Creative, das dieses Briefing 1:1 umsetzt, den `admkrs-cs-creative-verifier` bestehen würde (Hook-Wirksamkeit, Text-Budget, Treue der gesperrten Fakten). Macht den Abnahme-Maßstab zur Schreib-Zielvorgabe und fängt schwache Hooks ab, bevor der Designer baut. Gleiche Standards (`copywriting.md`), beide Enden der Kette.
+
 ## v1.10.0 — 2026-06
 Neuer 15. Skill: **`admkrs-cs-creative-verifier`** — das Abnahme-Gate, das der Suite gefehlt hat (Beitrag eines Kollegen, in die Suite eingebürgert und mit Creative-Strategy-Wissen geschärft).
 

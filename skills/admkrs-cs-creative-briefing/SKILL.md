@@ -151,6 +151,7 @@ Vor jeder Übergabe gegenprüfen:
 - [ ] **Floskel-Doppler-Test:** Keine generische Badge mehrfach wiederholt — je Slide/Static **ein** konkreter, freigegebener Fakt (Info statt Floskel)?
 - [ ] **Umsetzbarkeit:** Kann ein Designer/Editor ohne Rückfrage loslegen? Specs, Ratio, Disclaimer da?
 - [ ] **Format-Test:** Sieht das .docx aus wie die Referenz (schwarze Header, Zebra, Typo, B4 quer)?
+- [ ] **Verifier-Pre-Mortem (Schreib-Zielvorgabe):** Stell dir vor, `admkrs-cs-creative-verifier` nimmt das fertige Creative später ab — **würde dieses Briefing den Verdict bestehen?** Hält jeder Hook die Wirksamkeits-Tests (Kontext-frei, eine Idee, Text-Budget — dieselben Tests, die der Verifier am Ende anlegt)? Sind die gesperrten Fakten/Disclaimer so eindeutig, dass die Briefing-Treue-Prüfung sauber durchläuft? Was hier durchfällt, fix **jetzt** im Briefing — nicht erst, wenn der Designer schon gebaut hat. (Der Verifier ist das Abnahme-Gegenstück: gleiche Standards, anderes Ende der Kette.)
 
 ---
 
