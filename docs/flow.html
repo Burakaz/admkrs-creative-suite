@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Der Ablauf, ADMKRS Creative Strategy Suite</title>
-<meta name="description" content="Die ADMKRS Creative Suite als interaktive Prozess-Map: der ganze Creative-Workflow von der Strategie bis zum Reporting als eine Linie, zoombar, mit Klick-Details, und welcher der 15 Skills wo zum Einsatz kommt.">
+<meta name="description" content="Die ADMKRS Creative Suite als interaktive Prozess-Map: der ganze Creative-Workflow von der Strategie bis zum Reporting als eine Linie, zoombar, mit Klick-Details, und welcher der 16 Skills wo zum Einsatz kommt.">
 <meta name="robots" content="noindex, nofollow">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -172,7 +172,7 @@ a{color:inherit;text-decoration:none}
 <body>
 
 <nav class="gnav"><div class="gnav-in">
-  <a class="brand" href="index.html">ADMKRS<span class="mk">·</span>SUITE<span class="ver">v1.11.0</span></a>
+  <a class="brand" href="index.html">ADMKRS<span class="mk">·</span>SUITE<span class="ver">v1.12.0</span></a>
   <div class="gnav-links">
     <a href="index.html">Guide</a>
     <a href="flow.html" class="on">Ablauf</a>
@@ -252,7 +252,8 @@ const SK = {
   "landing-page-cro":"Landingpage auf Conversion: Message-Match, Speed, Checkout-Friction.",
   "ad-compliance-check":"Rechtliches Gate: Meta-Standards 2026 + EU/DACH, vor Launch.",
   "creative-verifier":"Abnahme-Gate: fertige Creatives gegen Briefing + Handwerk prüfen.",
-  "pitch-teardown":"Neukunden über audit-/teardown-geführtes Selling gewinnen."
+  "pitch-teardown":"Neukunden über audit-/teardown-geführtes Selling gewinnen.",
+  "localization-briefing":"Übersetzt ein freigegebenes Briefing sinngemäß + native in andere Sprachen (NL/FR/…), Glossar bindend."
 };
 // kurz-detail je skill: was ihn stark macht (klick auf die karte, geht über den einzeiler hinaus)
 const SKD = {
@@ -270,7 +271,8 @@ const SKD = {
   "landing-page-cro":"Sorgt dafür, dass die Seite hinter der Ad dasselbe Versprechen einlöst: Message-Match, Speed, weniger Checkout-Friction.",
   "ad-compliance-check":"Das Policy-Sicherheitsnetz: prüft gegen Meta-Standards 2026 und EU/DACH-Recht, bevor ein Reject die Kampagne ausbremst.",
   "creative-verifier":"Fängt das tote-aber-korrekte Creative ab: prüft Hook-Wirksamkeit, 48 Designpunkte und Marken-Regeln gegen das Briefing.",
-  "pitch-teardown":"Gewinnt Neukunden über einen Audit ihrer laufenden Ads: zeigt die Geld-Lücke konkret, statt Strategie zu versprechen."
+  "pitch-teardown":"Gewinnt Neukunden über einen Audit ihrer laufenden Ads: zeigt die Geld-Lücke konkret, statt Strategie zu versprechen.",
+  "localization-briefing":"Struktur englisch für internationale Teams, Copy DE → native Übersetzung (nie wörtlich). Motion im 2-Spalten-Format (On-Screen / Voice-Over). Hooks und Wortspiele werden neu verankert, nicht übersetzt."
 };
 
 /* ---- geometrie ---- */
@@ -295,8 +297,8 @@ const RAIL=[
    trap:"Klone statt Konzepte, Meta drosselt, das Budget zersplittert."},
 
   {id:"briefing", num:"4", title:"Briefing", sub:"Konzept wird Bauplan",
-   skills:["creative-briefing","static-briefing","motion-ad-briefing","video-ad-briefing","ugc-briefing","offer-promo-strategy","google-cross-channel","ugc-creator-ops"],
-   desc:"Aus den Map-Zeilen werden schlanke, build-fertige Briefings: Hook, Subline, USPs, CTA, alles Fette landet aufs Creative. Format-Türen scopen die Engine auf Static/Motion/Video/UGC; Offer & Google docken an.",
+   skills:["creative-briefing","static-briefing","motion-ad-briefing","video-ad-briefing","ugc-briefing","offer-promo-strategy","google-cross-channel","ugc-creator-ops","localization-briefing"],
+   desc:"Aus den Map-Zeilen werden schlanke, build-fertige Briefings: Hook, Subline, USPs, CTA, alles Fette landet aufs Creative. Format-Türen scopen die Engine auf Static/Motion/Video/UGC; Offer & Google docken an. Für andere Märkte lokalisiert localization-briefing das freigegebene Briefing native in die Zielsprache.",
    trap:"Das Briefing mit Strategie-Prosa überladen, der Designer braucht eine Bau-Anweisung, kein Essay."},
 
   {id:"production", num:"5", title:"Produktion", sub:"Der Mensch baut", people:1,
