@@ -1,0 +1,37 @@
+{
+  "filename": "260622_NOVA_Oranjezomer_Motion_NL",
+  "header": {
+    "eyebrow": "LOCALIZATION · ORIGINAL → TRANSLATION",
+    "title": "NOVA · Crazy Frogs · DE → NL",
+    "dek": "1 Motion Ad · On-Screen / Voice-Over · NL market · 22.06.2026 · Draft"
+  },
+  "blocks": [
+    {
+      "type": "p",
+      "text": "<b>Bold = goes on the creative (final translated copy).</b> On-Screen box = everything shown on screen (hook, badges, offer, CTA, disclaimer), merged per beat. Voice-Over = the spoken line. Build-ready in NL, use 1:1.\nGlossary anchors: 97% weniger Zucker → 97% minder suiker · Disclaimer → official NL wording (in the last beat)."
+    },
+    {
+      "type": "h3",
+      "text": "Motion Ad · beat by beat (NL)"
+    },
+    {
+      "type": "table",
+      "layout": "headerrow",
+      "style": "zebra",
+      "widths": [1, 1.4],
+      "colItalics": [false, true],
+      "header": ["On-Screen Text", "Voice-Over"],
+      "rows": [
+        ["<b>ZE ZIJN ER WEER! · 97% MINDER SUIKER*</b>", "Ze zijn er weer! 97% minder suiker."],
+        ["<b>CRAZY FROGS · NIEUW</b>", "Ken je deze nog, van vroeger? Nu terug als Crazy Frogs!"],
+        ["<b>NU BESTELLEN</b>\n<b>*T.o.v. vergelijkbare winegums met toegevoegde suiker</b>", "Enne… wees er snel bij, want op = op!"]
+      ]
+    },
+    {
+      "type": "callout",
+      "variant": "todo",
+      "lead": "Adaptation & Compliance",
+      "text": "DE pun ‚Kein Märchen' reframed to native frog-prince pun ‚Deze kikker kun je wel kussen!' (childhood ‚spekkikkers' anchor).\n[!] ‚oranje' as colour / summer vibe only, no KNVB / national-team / player references.\nLength fit: VO kept short so the spoken lines match the original cut; on-screen badges stay within the existing layout."
+    }
+  ]
+}

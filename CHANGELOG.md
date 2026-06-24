@@ -1,5 +1,14 @@
 # Changelog - ADMKRS Creative Suite
 
+## v1.12.0 - 2026-06
+Neuer 16. Skill: **`admkrs-cs-localization-briefing`** - Übersetzungs-/Lokalisierungs-Briefings für internationale Teams.
+
+**Der neue Skill:** verwandelt ein freigegebenes DE-Creative-Briefing (Statics, Carousel, Motion Ad) plus Glossar und Zielsprache in ein Lokalisierungs-Briefing als ADMKRS-.docx. Zwei harte Leitplanken: **Struktur, Labels und Notizen auf Englisch** (internationale Teams arbeiten daran, nur die Copy-Zellen tragen DE-Original + Übersetzung), und **nie wörtlich** - immer sinngemäß und native, Idiome/Wortspiele/Kulturreferenzen werden neu verankert statt übersetzt (real: „Sommermärchen" → „Oranjezomer", Frosch-Prinz-Pun). Sprach-agnostisch (NL/FR/ES/IT …), Glossar bindend, Markt-Compliance-Flags. Statics als DE→Zielsprache-Vergleichstabelle, Motion im **2-Spalten-Format (On-Screen Text | Voice-Over)**. **Sibling** zu `admkrs-cs-creative-briefing` (gleiche Builder-Engine, keine neue Renderlogik); pairs with `admkrs-cs-ad-compliance-check` (Markt-Recht) und `admkrs-cs-creative-verifier` (Abnahme der lokalisierten Creatives).
+
+**Builder-Detail (für alle Skills relevant):** der Builder trägt ein `<b>` nicht über `\n` hinweg. Mehrzeilige On-Creative-Zellen (Badge-Stapel, On-Screen-Box) müssen jede Zeile einzeln in `<b>…</b>` wickeln, sonst bleibt nur Zeile 1 fett. Im Lokalisierungs-Skill als Pflicht-Regel verankert.
+
+**Verdrahtung & Doku:** Skill-Zähler 15 → 16 (plugin/marketplace/README/Website), 16. Katalog-Karte, Sibling-Verweis in `creative-briefing`, Lokalisierung als Add-on an der Briefing-Station der Ablauf-Map.
+
 ## v1.11.0 - 2026-06
 Interaktive Prozess-Map auf der Website + schlankere Static-Briefings + Em-Dash-Hausregel im ganzen Repo.
 
