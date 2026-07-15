@@ -6,7 +6,7 @@ Ziel: ein besseres Briefing durch gezielte Rückfragen - **ohne** den User mit e
 
 ## Die Frage-Disziplin (wann fragen, wann loslegen)
 
-- **Erst lesen, was da ist.** Brand-Profil + Brief + angehängte Referenzen. Vieles steht schon drin.
+- **Erst lesen, was da ist.** Brand-Profil + Brief + angehängte Referenzen - und das Swipe-File des Kunden/der Kategorie (aus `admkrs-cs-creative-teardown`) nach passenden Mustern durchsuchen. Vieles steht schon drin.
 - **Loslegen, wenn genug Kontext da ist.** Wenn 80 % klar sind, schreib einen ersten Stand und markiere Annahmen - statt 20 Minuten still zu fragen. Lieber 60 % fertig zum Nachjustieren als 100 % in die falsche Richtung.
 - **Nur Lücken fragen, die teuer sind.** Eine Frage lohnt nur, wenn eine falsche Annahme echtes Re-Work bedeutet (falsches Offer, falsche Zielgruppe, gesperrter Claim). Kosmetik nicht abfragen - sinnvoll annehmen und kennzeichnen.
 - **Batchen & kurz halten.** Mehrere Fragen in einem Rutsch, je 1 Satz. In Cowork das Frage-Tool nutzen (Multiple-Choice, wo möglich).
@@ -14,6 +14,8 @@ Ziel: ein besseres Briefing durch gezielte Rückfragen - **ohne** den User mit e
 - **Annahmen sichtbar machen.** Was du annimmst, im Begleittext oder als **[Annahme]** markieren, damit der User es kippen kann.
 
 Mini-Entscheidung: *„Würde eine falsche Antwort hier einen Teil des Briefings wertlos machen?"* - Ja → fragen. Nein → annehmen und weiter.
+
+**Pflicht-Rückfragen für die Produktions-Zeilen (kein Platzhalter-Ersatz):** **Deadline, Assets-Quelle (Logo/Fonts/Packshots/Footage/Referenzen), Abgabe-Ort** und fehlende **On-Creative-Pflichtwerte** (Disclaimer-Wortlaut, Offer-Preis/Code) werden immer aktiv nachgefragt, bevor das Dokument gebaut wird - sie entscheiden, ob der Ausführer loslegen kann. Bleibt eine Antwort aus: die betroffene Zeile **weglassen** (nie `[Platzhalter: …]` ins Dokument schreiben) und den offenen Punkt im Begleittext/ClickUp nennen; fehlt ein On-Creative-Pflichtwert, das betroffene Konzept zurückhalten.
 
 ---
 

@@ -15,7 +15,7 @@ Was würde sie widerlegen? ____
 1. ____  2. ____  3. ____  4. ____  5. ____  6. ____
 
 ## Regeln (VORAB festgelegt)
-- Min. Read: ≥ ~1.000 Impr **und** 5–7 Tage je Konzept
+- Min. Read: Spend ≥ 1× Ziel-CPA (____ €) **und** 5–7 Tage je Konzept (~1.000 Impr = nur Delivery-Check)
 - **Kill:** Ad-Set bei ≥ 2–3× Ziel-CPA (____ €) ohne Signal
 - **Winner:** schlägt/matched BAU-Bestes bei CPA ≤ ____ €
 - **„Signifikanz":** ~20–30 Conversions @ Ziel-CPA → operative Entscheidung (nicht statistisch)

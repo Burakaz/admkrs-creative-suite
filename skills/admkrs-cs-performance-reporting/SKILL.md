@@ -28,7 +28,9 @@ Eine Zahl allein lügt fast immer. Lies immer **eine Ergebnis-Metrik** zusammen 
 - **Thumbstop / Hook-Rate** = 3-Sek-Views ÷ Impressions (TikTok: 2 s). → diagnostiziert den **Opener/Hook**. Richtwerte (Vendor - gegen eigene Baseline messen): <25 % = Hook fixen · 25–35 % = solide · >35 % = stark.
 - **Hold / Retention** = 15-Sek-Views ÷ 3-Sek-Views. → diagnostiziert den **Body** (hält das Hook-Versprechen?). Ø 40–50 %; >60 % stark; <30 % = Pacing/Struktur-Problem.
 - **CTR - Link vs. Outbound:** Outbound-CTR (verlässt die Plattform Richtung LP) ist der saubere Intent-Wert. Meta-Ø Outbound ~0,9–1,5 %; >1,5 % (E-Com) stark. CTR ist **Diagnostik, kein North-Star**.
-- **Completion / ThruPlay:** Narrative ≥60 %, Demo ≥75 %.
+- **ThruPlay-Rate** = ThruPlays ÷ Video Plays (ThruPlay = 15-Sek-View bzw. vollständig bei kürzeren Videos). → diagnostiziert **Schnitt/Länge** (wo steigen Zuschauer aus? Retention-Kurve lesen). Für Completion-Ziele gibt es keinen belastbaren Richtwert mit sauberem Nenner - gegen die eigene Baseline lesen; kurze Demo-Videos sollten spürbar höher completen als längere Narratives.
+
+*Statics & Carousels:* Thumbstop/Hold/ThruPlay entfallen (Video-Metriken). Diagnose über **CPM, Outbound-CTR (Scroll-Stop-Proxy) und CVR**; Carousels zusätzlich über CTR je Card (Breakdown nach Karte), falls verfügbar.
 
 **Ebene 3 - Health-Signale:** **Frequency** (Fatigue: steigende CPA + steigende Frequenz) · **Creative-Demand-Score** (braucht der Account mehr/weniger neues Creative?).
 
@@ -42,12 +44,14 @@ Plattform-ROAS (in Ads Manager) **überschätzt strukturell**: Multi-Plattform-D
 
 | Kennzahl | Formel | Wofür |
 | --- | --- | --- |
-| **Break-even-ROAS** | 1 ÷ Marge% | ab wann profitabel (40 % Marge → 2,5) |
+| **Break-even-ROAS** | 1 ÷ Marge% | ab wann profitabel (40 % DB-Marge → 2,5; Marge-Definition s. u.) |
 | **MER** (Blended) | Gesamtumsatz ÷ Gesamt-Marketing-Spend | attributions-agnostische Wahrheit aus dem P&L |
 | **Blended ROAS** | Gesamtumsatz ÷ Ad-Spend | Konto-Gesamtbild |
 | **aMER** | Neukunden-Umsatz ÷ Paid-Spend | Akquise-Effizienz |
 | **nCAC** | Paid-Spend ÷ Neukunden | ehrlichste Scaling-Metrik (mit LTV koppeln) |
 | **Contribution Margin** | Umsatz − COGS − Ad-Spend − var. Kosten | der Betrag, der wirklich übrig bleibt |
+
+**Marge-Definition (die eine Formel, die exakt sein muss):** Marge% im Break-even-ROAS = **Deckungsbeitrag vor Marketing** (nach COGS, Versand, Payment-Fees, Retouren), *nicht* Bruttomarge. Kontrastbeispiel: 40 % Bruttomarge minus 15 % variable Kosten = 25 % DB-Marge → echter Break-even **4,0**, nicht 2,5. Mit Bruttomarge gerechnet ist der Break-even systematisch zu optimistisch.
 
 **Ziel-Heuristik:** LTV : nCAC **> 3 : 1**. Erstkauf darf unprofitabel sein, *wenn* das LTV-Modell den Payback trägt.
 
@@ -75,7 +79,7 @@ Plattform-ROAS (in Ads Manager) **überschätzt strukturell**: Multi-Plattform-D
 Ein starker Report ist eine **Story mit Beweisen**, kein Zahlen-Dump. Reihenfolge:
 
 1. **Executive Summary (1 Seite, in 3 Min lesbar):** Was lief, was nicht, was ändert sich. Wenn der Kunde nur das liest, muss er die Lage verstehen.
-2. **Creative-Performance nach Konzept/Angle** (nicht nach Kampagnenname): Thumbnail + Hook/Hold/CTR/CVR/CPA/Spend je Creative. So sieht man *welche Idee* gewinnt.
+2. **Creative-Performance nach Konzept/Angle** (nicht nach Kampagnenname): Thumbnail + Hook/Hold/CTR/CVR/CPA/Spend je Creative. So sieht man *welche Idee* gewinnt. **Nur oberhalb des Spend-Gates vergleichen** (Spend ≥ 1× Ziel-CPA): Meta verteilt Spend extrem ungleich auf Creatives - Zero-/Low-Spend-Creatives sind keine Verlierer, sie haben keine Delivery bekommen. Im Report als eigene Kategorie „keine Delivery" ausweisen, nie als Loser werten. (Breakdown-Effect & Zero-Spend-Rate: `admkrs-cs-creative-strategy-os` → `references/diagnose-iterate-scale.md`.)
 3. **Funnel-Diagnose je Verlierer:** wo brach es (Hook/Hold/LP/Offer)? - die Diagnose aus §1.
 4. **„Was wir gelernt haben"** - der wichtigste Teil. **Falsifizierbare** Sätze: *„Direct-Offer-Hooks schlugen Testimonial-Hooks 2,3× auf CVR bei Audience X."* Nicht „Video lief gut".
 5. **„Was wir als Nächstes testen"** - konkrete Hypothesen, an die Learnings gekoppelt.
@@ -94,6 +98,8 @@ Template: `assets/templates/weekly-report.md`. Operativer Test-/Asset-Tracker (w
 | **Wöchentlich** | Creative-Entscheidungen | Metrik-Stack §1, kill/iterate/scale, Fatigue-Check |
 | **Monatlich** | volle Creative-Review | Learnings, Angle-/Format-Gewinner, Demand-Score, MER-Trend |
 | **Quartalsweise** | Strategie & Incrementality | Budget-Reallokation, Geo-/Conversion-Lift, LTV:CAC |
+
+**Entscheidungs-Guardrails (bevor kill/iterate/scale überhaupt gelesen wird):** Mindest-Datenbasis je Creative = **Spend ≥ 1× Ziel-CPA und 5–7 Tage**; Hook-Rate-/CTR-Reads frühestens ab ~1.000–2.000 Impressionen (operative ADMKRS-Faustregel, kein offizieller Standard) - darunter ist alles Noise. Kill bei **2–3× Ziel-CPA ohne Signal**; „Signifikanz" pragmatisch **~20–30 Conversions** (operativ, nicht statistisch sauber); Fatigue-Trigger = **Frequenz 2,5–3,0× plus ~20 % CTR-Drop** ggü. der 7-Tage-Baseline. Entscheide nach den *vorab* definierten Regeln aus `admkrs-cs-creative-strategy-os` (Phase 5, `references/research-diversity-testdesign.md`), nicht nach Tag-2-Varianz.
 
 Format: **Live-Dashboard** (DatAds/Looker) für die Zahlen + **narrativer Report** (PDF/Deck) für die Story. Beides, nicht nur das Dashboard.
 
@@ -117,4 +123,4 @@ Learnings vor Vanity · gegen die *eigene* Baseline lesen, nicht Branchen-Benchm
 Motion / Billo (Creative-Metriken, Juni 2026) · Triple Whale & Eightx (MER/Blended/Contribution, 2026) · TrackBee / DOJO AI / Jon Loomer (Attribution 2026, View-Fenster-Abschaltung) · Common Thread Collective (Profit-/nCAC-Reporting) · DatAds. *Vendor-Benchmarks direktional; Attributionsfenster & CAPI an Meta-Primärquelle gegenchecken.*
 
 ---
-<sub>**ADMKRS Creative Suite** · © ADMKRS GmbH, München · v1.1.0 · interner Gebrauch · erstellt von ADMKRS. Quellen am jeweiligen Skill-Ende; Specs/Policies an Primärquellen prüfen.</sub>
+<sub>**ADMKRS Creative Suite** · © ADMKRS GmbH, München · v1.13.0 · interner Gebrauch · erstellt von ADMKRS. Quellen am jeweiligen Skill-Ende; Specs/Policies an Primärquellen prüfen.</sub>

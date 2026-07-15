@@ -8,7 +8,7 @@ Inhalt:
 5. Angle-Library (mit Trigger-Fragen)
 6. Konzept-Portfolio: echte Vielfalt statt Klone
 7. Test-Architektur (Konzept-Level, Hook-Tests, Fatigue)
-8. Den Strategie-Layer schreiben
+8. Strategie-Pass: vom Denken ins Dokument
 9. Quellen
 
 ---
@@ -32,7 +32,7 @@ Die zentrale Verschiebung: Früher fragte das System **"Wer soll diese Ad sehen?
 5. **Breit targeten, eng briefen.** Audience offen lassen (broad / Advantage+), die Schärfe kommt aus dem Creative. Das Briefing trägt die Differenzierung, nicht das Ad-Set.
 6. **Fatigue & Similarity beobachten.** Meta zeigt Creative-Fatigue, Creative-Similarity und Top-Creative-Themes als Metriken. Zu ähnliche Creatives kannibalisieren sich. Plane Nachschub an *verschiedenen* Konzepten ein, nicht nur Refreshes.
 
-UGC-Hinweis: UGC-/native-Style schlägt poliertes Brand-Material in Engagement und oft in CVR/ROAS deutlich (verschiedene Quellen nennen 3–5×). Heißt nicht "immer UGC", aber: native, ungeschönte Anmutung ist fast immer ein Konzept im Portfolio wert.
+UGC-Hinweis: native, ungeschönte Anmutung ist fast immer ein Konzept im Portfolio wert. Aber "UGC schlägt poliert" gilt **nicht** universell - es ist Kontext-/Kategorie-abhängig (Cold/native: ja; Authority/Luxury/B2B: oft nicht) → beides testen. Vendor-Stats wie "3–5× ROAS" nicht als Fakt übernehmen (siehe `field-notes.md` §4/§6).
 
 ---
 
@@ -124,19 +124,19 @@ Regel: Wenn zwei Konzepte denselben Angle *und* dasselbe Format *und* dieselbe P
 
 ---
 
-## 8 - Den Strategie-Layer schreiben
+## 8 - Strategie-Pass: vom Denken ins Dokument
 
-Bei Statics/Carousel beginnt das Dokument mit einem **Strategie-Layer**: einer Tabelle aus *Hebeln* (lever → Begründung). Er macht das Briefing zu Beratung statt Bestellung - der Kunde sieht, *warum* so getextet wird.
+Die Hebel-/Warum-Analyse (Diagnose, Angle-Wahl, Chancen/Risiken, offene Freigaben) lebt im **Strategie-Pass** - im Chat bzw. intern in ClickUp, **nicht im Designer-Dokument**. Eine Strategie-Layer-Tabelle gibt es im Dokument nicht mehr (siehe `document-format.md`). Der Pass macht das Briefing trotzdem zu Beratung statt Bestellung - der Kunde sieht im Chat/ClickUp, *warum* so getextet wird.
 
-Ein guter Hebel ist diagnostisch und konkret, z. B.:
+Ein guter Hebel im Strategie-Pass ist diagnostisch und konkret, z. B.:
 - benennt ein Problem im aktuellen Material ("3 von 5 Hooks sind Produkt-Labels, keine Hooks");
 - schlägt eine schärfere Richtung vor ("echte Sortennamen + echte Zahlen in die Hook-Ebene");
 - markiert Chancen/Risiken ("KI-Frau als 'Verified Customer' kann fake wirken - Glaubwürdigkeitsrisiko + Meta-Graubereich");
-- markiert **[Ergänzung]**, wenn ein neuer Fakt vorgeschlagen wird (z. B. "60 mg Koffein/Portion - Wert & Claim-Freigabe prüfen").
+- stellt neue Fakten als **[Ergänzung]** zur Freigabe (z. B. "60 mg Koffein/Portion - Wert & Claim-Freigabe prüfen"). Der Marker bleibt im Chat/ClickUp - er erscheint nie im Designer-Dokument.
 
-Bei Motion/Video übernimmt die **`Idee`-Zeile** (Konzept-keyvalue) diese Rolle: ein Satz, der die strategische Idee des Konzepts auf den Punkt bringt ("Volume math is the dopamine spike. One bottle = eight litres.").
+**Ins Dokument geht nur die `Idee`-Zeile:** bei Statics/Carousel die EINE strategische Idee des Sets in "Auf einen Blick" (1–2 Zeilen), bei Motion/Video der `Idee`-keyvalue je Konzept - ein Satz, der die strategische Idee auf den Punkt bringt ("Volume math is the dopamine spike. One bottle = eight litres.").
 
-Immer mit einem **Gesperrt-Hinweis** abschließen (Locked-Callout), der festhält, was 1:1 bleibt (Zahlen, Health Claims, Sternchentexte, Review-Wortlaut, Dateinamen) und dass neue Fakten als [Ergänzung] markiert sind.
+Gesperrte Fakten (Zahlen, Health Claims, Sternchentexte, Review-Wortlaut) stehen fett direkt in der Tabellenzelle - kein Locked-Callout, keine Legende. Details: `document-format.md` "Locked-Facts im Dokument".
 
 ---
 

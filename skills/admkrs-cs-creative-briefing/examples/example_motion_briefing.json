@@ -1,9 +1,9 @@
 {
-  "filename": "260518_Motion_Concepts_V4_B_SK",
+  "filename": "260518_NOVA_Range_Motion_EN",
   "header": {
     "eyebrow": "Motion Concepts V5",
     "title": "B+SK Block – Motion Ads – ENGLISH",
-    "dek": "Four motion concepts  ·  Two B-Block, two SK-Block  ·  Female speaker  ·  Stand 18.05.2026  ·  freigegeben"
+    "dek": "Four motion concepts, Two B-Block, two SK-Block, Female speaker, Stand 18.05.2026, freigegeben"
   },
   "blocks": [
     {
@@ -20,11 +20,11 @@
         ],
         [
           "Deliverables",
-          "4 concepts × 3 hook variants × 2 formats = 24 exports.\nBM concepts: 15 s · SKM concepts: 20 s.\nRough cut for review by 17.06."
+          "4 concepts × 3 hook variants × 2 formats = 24 exports.\nBM concepts: 15 s, SKM concepts: 20 s.\nRough cut for review by 17.06."
         ],
         [
           "Formats",
-          "Meta standard: 4:5 (1080×1350) and 9:16 (1080×1920).\nNo 1:1.\nOther platforms only on request (then with platform + pixels)."
+          "Meta standard: 4:5 (1080×1350) and 9:16 (1080×1920)."
         ],
         [
           "Deadline",
@@ -40,13 +40,9 @@
         ],
         [
           "Delivery",
-          "MP4 (H.264) per concept in 1080×1350 + 1080×1920 · Drive: NOVA > 04_Delivery > 260620_Motion."
+          "MP4 (H.264) per concept in 1080×1350 + 1080×1920, Drive: NOVA > 04_Delivery > 260620_Motion."
         ]
       ]
-    },
-    {
-      "type": "p",
-      "text": "<b>Bold = ends up on the creative.</b> Everything else is direction/context.\nUse every text 1:1 – don't change a word, don't invent numbers.\n[Placeholder: …] = value missing. Don't fill it in yourself – send it back to ADMKRS."
     },
     {
       "type": "h1",
@@ -76,25 +72,25 @@
       ],
       "rows": [
         [
-          "<b>BM-01</b>",
+          "BM-01",
           "Sweet Without the Sugar  –  Crunch",
           "15 s",
           "3 hooks × 2 formats = 6"
         ],
         [
-          "<b>BM-02</b>",
+          "BM-02",
           "Eight Litres. Zero Sugar.  –  Hydra",
           "15 s",
           "3 hooks × 2 formats = 6"
         ],
         [
-          "<b>SKM-01</b>",
+          "SKM-01",
           "Welcome to NOVA  –  Starter Box",
           "20 s",
           "3 hooks × 2 formats = 6"
         ],
         [
-          "<b>SKM-02</b>",
+          "SKM-02",
           "The Protein Gap  –  Starter Box",
           "20 s",
           "3 hooks × 2 formats = 6"
@@ -107,7 +103,7 @@
     },
     {
       "type": "h2",
-      "text": "BM-01  ·  Sweet Without the Sugar  –  Crunch"
+      "text": "BM-01: Sweet Without the Sugar  –  Crunch"
     },
     {
       "type": "table",
@@ -119,11 +115,11 @@
       "rows": [
         [
           "Idea",
-          "Sweet · without sugar. The everyday-moment angle: yogurt, coffee, smoothie – Crunch upgrades all of them with one scoop."
+          "Sweet, without sugar. The everyday-moment angle: yogurt, coffee, smoothie – Crunch upgrades all of them with one scoop."
         ],
         [
           "Length & Style",
-          "15 s motion graphic · static-frame cuts, kinetic typography, no live-action faces."
+          "15 s motion graphic, static-frame cuts, kinetic typography, no live-action faces."
         ],
         [
           "Specific Offer",
@@ -141,7 +137,7 @@
     },
     {
       "type": "h3",
-      "text": "3 Hooks  ·  for scroll-stop testing"
+      "text": "3 Hooks: for scroll-stop testing"
     },
     {
       "type": "table",
@@ -153,7 +149,7 @@
       "rows": [
         [
           "A",
-          "“One scoop. Six calories.”\nVisual 0–2 s: macro spoon of Crunch, calorie counter ticks down to 6."
+          "<b>“One scoop. Six calories.”</b>\nVisual 0–2 s: macro spoon of Crunch, calorie counter ticks down to 6."
         ],
         [
           "B",
@@ -167,7 +163,7 @@
     },
     {
       "type": "h3",
-      "text": "VO-Script (Spine)  ·  one take – copy block for VO production (identical to the storyboard VO column)"
+      "text": "VO-Script (Spine): one take – copy block for VO production (identical to the storyboard VO column)"
     },
     {
       "type": "p",
@@ -175,7 +171,7 @@
     },
     {
       "type": "h3",
-      "text": "Storyboard  ·  Time-coded"
+      "text": "Storyboard: Time-coded"
     },
     {
       "type": "table",
@@ -207,46 +203,46 @@
       ],
       "rows": [
         [
-          "<b>0–2s</b>",
+          "0–2s",
           "Hand spooning Crunch over plain yogurt. Slow motion, golden light. Hook text burns on screen.",
           "<b>HOOK</b>",
-          "“[ Hook · pick A, B, or C ]”"
+          "“[ Hook, pick A, B, or C ]”"
         ],
         [
-          "<b>2–5s</b>",
+          "2–5s",
           "Cut to iced coffee with Crunch stirring in. Brown swirl in cream.",
           "–",
           "“Here's the thing – my coffee, my smoothie, my morning yogurt…”"
         ],
         [
-          "<b>5–8s</b>",
+          "5–8s",
           "Smoothie pour, vibrant colour. Quick whip-pan to product hero.",
           "<b>ONE SCOOP</b>",
           "“…one scoop of Crunch, and honestly, they all just taste better.”"
         ],
         [
-          "<b>8–11s</b>",
+          "8–11s",
           "Product on light surface. Numbers animate in clean type.",
-          "<b>6 KCAL  ·  SWEETNESS OF 50G SUGAR</b>",
+          "<b>6 KCAL</b>\n<b>SWEETNESS OF 50G SUGAR</b>",
           "“And it's six calories a scoop – but as sweet as fifty grams of sugar.”"
         ],
         [
-          "<b>11–13s</b>",
+          "11–13s",
           "Wide shot – yogurt bowl, smoothie, coffee all in frame.",
           "<b>NOTHING TO APOLOGISE FOR</b>",
           "“No weird aftertaste, nothing to feel bad about afterwards.”"
         ],
         [
-          "<b>13–15s</b>",
+          "13–15s",
           "Product hero. Code animates in. CTA button visible. End-card: Logo + product + CODE TRYNOVA – SHOP NOW. Hold 1 second.",
-          "<b>10% OFF  ·  CODE TRYNOVA  ·  SHOP NOW</b>",
+          "<b>10% OFF</b>\n<b>CODE TRYNOVA</b>\n<b>SHOP NOW</b>",
           "“So go on, give it a try – ten percent off right now with the code TRYNOVA.”"
         ]
       ]
     },
     {
       "type": "h2",
-      "text": "BM-02  ·  Eight Litres. Zero Sugar.  –  Hydra"
+      "text": "BM-02: Eight Litres. Zero Sugar.  –  Hydra"
     },
     {
       "type": "table",
@@ -262,7 +258,7 @@
         ],
         [
           "Length & Style",
-          "15 s motion graphic · liquid motion graphics, splash transitions, kinetic typography."
+          "15 s motion graphic, liquid motion graphics, splash transitions, kinetic typography."
         ],
         [
           "Specific Offer",
@@ -280,7 +276,7 @@
     },
     {
       "type": "h3",
-      "text": "3 Hooks  ·  for scroll-stop testing"
+      "text": "3 Hooks: for scroll-stop testing"
     },
     {
       "type": "table",
@@ -292,7 +288,7 @@
       "rows": [
         [
           "A",
-          "“One little bottle. Eight litres of flavour. Zero sugar.”\nVisual 0–2 s: tiny bottle next to a row of eight 1-litre carafes."
+          "<b>“One little bottle. Eight litres of flavour. Zero sugar.”</b>\nVisual 0–2 s: tiny bottle next to a row of eight 1-litre carafes."
         ],
         [
           "B",
@@ -306,7 +302,7 @@
     },
     {
       "type": "h3",
-      "text": "VO-Script (Spine)  ·  one take – copy block for VO production (identical to the storyboard VO column)"
+      "text": "VO-Script (Spine): one take – copy block for VO production (identical to the storyboard VO column)"
     },
     {
       "type": "p",
@@ -314,7 +310,7 @@
     },
     {
       "type": "h3",
-      "text": "Storyboard  ·  Time-coded"
+      "text": "Storyboard: Time-coded"
     },
     {
       "type": "table",
@@ -346,39 +342,39 @@
       ],
       "rows": [
         [
-          "<b>0–2s</b>",
+          "0–2s",
           "Glass of plain water on a counter. Hook text appears.",
           "<b>HOOK</b>",
-          "“[ Hook · pick A, B, or C ]”"
+          "“[ Hook, pick A, B, or C ]”"
         ],
         [
-          "<b>2–4s</b>",
+          "2–4s",
           "Pour-in of Hydra concentrate – colour blooms instantly through the water.",
-          "<b>NO SUGAR  ·  NO CALORIES</b>",
+          "<b>NO SUGAR</b>\n<b>NO CALORIES</b>",
           "“You know that drink you reach for every day – just without the sugar, without the calories…”"
         ],
         [
-          "<b>4–7s</b>",
+          "4–7s",
           "Three flavour glasses splash into frame, one per second.",
-          "<b>3 FLAVOURS  ·  ONE BOTTLE</b>",
+          "<b>3 FLAVOURS</b>\n<b>ONE BOTTLE</b>",
           "“…and without that little ‘why am I still drinking this’ voice in the back of your head.”"
         ],
         [
-          "<b>7–11s</b>",
+          "7–11s",
           "Bottle hero. Animated math: 1 bottle → 8 LITRES with liquid morph.",
-          "<b>ONE BOTTLE  ·  8 LITRES  ·  ZERO SUGAR</b>",
+          "<b>ONE BOTTLE</b>\n<b>8 LITRES</b>\n<b>ZERO SUGAR</b>",
           "“One bottle of Hydra makes eight litres – that's two weeks of flavour for what a single fizzy drink costs.”"
         ],
         [
-          "<b>11–13s</b>",
+          "11–13s",
           "Friends clinking glasses, fast cut. Warm casual moment.",
           "–",
           "“Same habit you already have, just completely different math.”"
         ],
         [
-          "<b>13–15s</b>",
+          "13–15s",
           "Bottle hero. Code animates in. CTA button. End-card: Bottle + CODE TRYNOVA – SHOP NOW. Hold 1 second.",
-          "<b>10% OFF  ·  CODE TRYNOVA  ·  SHOP NOW</b>",
+          "<b>10% OFF</b>\n<b>CODE TRYNOVA</b>\n<b>SHOP NOW</b>",
           "“Give it a go: ten percent off with the code TRYNOVA.”"
         ]
       ]
@@ -389,7 +385,7 @@
     },
     {
       "type": "h2",
-      "text": "SKM-01  ·  Welcome to NOVA  –  Starter Box"
+      "text": "SKM-01: Welcome to NOVA  –  Starter Box"
     },
     {
       "type": "table",
@@ -405,7 +401,7 @@
         ],
         [
           "Length & Style",
-          "20 s motion graphic · product-led cuts, kinetic typography, warm lighting throughout."
+          "20 s motion graphic, product-led cuts, kinetic typography, warm lighting throughout."
         ],
         [
           "Specific Offer",
@@ -423,7 +419,7 @@
     },
     {
       "type": "h3",
-      "text": "3 Hooks  ·  for scroll-stop testing"
+      "text": "3 Hooks: for scroll-stop testing"
     },
     {
       "type": "table",
@@ -435,7 +431,7 @@
       "rows": [
         [
           "A",
-          "“Imagine your morning yogurt tasting like dessert.”\nVisual 0–2 s: spoon lifts dessert-like yogurt swirl, morning light."
+          "<b>“Imagine your morning yogurt tasting like dessert.”</b>\nVisual 0–2 s: spoon lifts dessert-like yogurt swirl, morning light."
         ],
         [
           "B",
@@ -449,7 +445,7 @@
     },
     {
       "type": "h3",
-      "text": "VO-Script (Spine)  ·  one take – copy block for VO production (identical to the storyboard VO column)"
+      "text": "VO-Script (Spine): one take – copy block for VO production (identical to the storyboard VO column)"
     },
     {
       "type": "p",
@@ -457,7 +453,7 @@
     },
     {
       "type": "h3",
-      "text": "Storyboard  ·  Time-coded"
+      "text": "Storyboard: Time-coded"
     },
     {
       "type": "table",
@@ -489,46 +485,46 @@
       ],
       "rows": [
         [
-          "<b>0–4s</b>",
+          "0–4s",
           "Close-up: hand stirring Crunch into yogurt. Chocolate swirl. Hook text on screen.",
           "<b>HOOK</b>",
-          "“[ Hook · pick A, B, or C ]”"
+          "“[ Hook, pick A, B, or C ]”"
         ],
         [
-          "<b>4–7s</b>",
+          "4–7s",
           "Cut to iced coffee being shaken. Stat overlay: 19G PROTEIN.",
-          "<b>19G PROTEIN  ·  95% LESS SUGAR</b>",
+          "<b>19G PROTEIN</b>\n<b>95% LESS SUGAR</b>",
           "“Imagine your daily iced coffee – but with nineteen grams of protein already in it…”"
         ],
         [
-          "<b>7–10s</b>",
+          "7–10s",
           "Hand opening a Protein Bites pack. Bite-shot. Light catches the chocolate finish.",
-          "<b>14G PROTEIN  ·  GUILT-FREE</b>",
+          "<b>14G PROTEIN</b>\n<b>GUILT-FREE</b>",
           "“…and the snack you actually love, just without the guilt that usually tags along.”"
         ],
         [
-          "<b>10–14s</b>",
+          "10–14s",
           "Pull back to full Starter Box reveal on warm-lit table.",
-          "<b>ALL OF IT  ·  IN ONE BOX</b>",
+          "<b>ALL OF IT</b>\n<b>IN ONE BOX</b>",
           "“That's the whole idea behind this one box.”"
         ],
         [
-          "<b>14–17s</b>",
+          "14–17s",
           "Top-down kit. Products animate in subtly with one stat tag each.",
           "<b>YOUR FIRST NOVA STARTER BOX</b>",
           "“It's the NOVA Starter Box – all the food you already eat, finally made to work for you.”"
         ],
         [
-          "<b>17–20s</b>",
+          "17–20s",
           "Kit hero. 30% OFF badge animates in. CTA. Code prominent. End-card: Kit hero + 30% OFF + CODE TRYNOVA – SHOP NOW. Hold 2 seconds.",
-          "<b>30% OFF  ·  CODE TRYNOVA  ·  SHOP NOW</b>",
+          "<b>30% OFF</b>\n<b>CODE TRYNOVA</b>\n<b>SHOP NOW</b>",
           "“And right now you get thirty percent off your first kit with the code TRYNOVA.”"
         ]
       ]
     },
     {
       "type": "h2",
-      "text": "SKM-02  ·  The Protein Gap  –  Starter Box"
+      "text": "SKM-02: The Protein Gap  –  Starter Box"
     },
     {
       "type": "table",
@@ -544,7 +540,7 @@
         ],
         [
           "Length & Style",
-          "20 s motion graphic · counter-led animation, kinetic typography, mid-energy edit."
+          "20 s motion graphic, counter-led animation, kinetic typography, mid-energy edit."
         ],
         [
           "Specific Offer",
@@ -562,7 +558,7 @@
     },
     {
       "type": "h3",
-      "text": "3 Hooks  ·  for scroll-stop testing"
+      "text": "3 Hooks: for scroll-stop testing"
     },
     {
       "type": "table",
@@ -574,7 +570,7 @@
       "rows": [
         [
           "A",
-          "“Most women miss their daily protein target by 50 grams!”\nVisual 0–2 s: protein counter rolls and stops 50 g short of the target."
+          "<b>“Most women miss their daily protein target by 50 grams!”</b>\nVisual 0–2 s: protein counter rolls and stops 50 g short of the target."
         ],
         [
           "B",
@@ -588,7 +584,7 @@
     },
     {
       "type": "h3",
-      "text": "VO-Script (Spine)  ·  one take – copy block for VO production (identical to the storyboard VO column)"
+      "text": "VO-Script (Spine): one take – copy block for VO production (identical to the storyboard VO column)"
     },
     {
       "type": "p",
@@ -596,7 +592,7 @@
     },
     {
       "type": "h3",
-      "text": "Storyboard  ·  Time-coded"
+      "text": "Storyboard: Time-coded"
     },
     {
       "type": "table",
@@ -628,39 +624,39 @@
       ],
       "rows": [
         [
-          "<b>0–3s</b>",
+          "0–3s",
           "Plate of regular food. Counter overlay rolls: protein consumed vs daily need. 50g gap visualised.",
-          "<b>DAILY PROTEIN GAP  ·  ~50G</b>",
-          "“[ Hook · pick A, B, or C ]”"
+          "<b>DAILY PROTEIN GAP</b>\n<b>~50G</b>",
+          "“[ Hook, pick A, B, or C ]”"
         ],
         [
-          "<b>3–6s</b>",
+          "3–6s",
           "Counter resets. Cut to woman in soft daylight, light shrug.",
           "<b>NOT BECAUSE WE DON'T TRY</b>",
           "“We've kind of all given up on it – and not because we aren't trying.”"
         ],
         [
-          "<b>6–10s</b>",
+          "6–10s",
           "Three product reveals: coffee, snack, sahne. Each protein number floats up with a tick sound.",
-          "<b>19G  ·  14G  ·  43G PROTEIN</b>",
+          "<b>19G</b>\n<b>14G</b>\n<b>43G PROTEIN</b>",
           "“It's just that real food, real protein and real flavour almost never show up in the same package.”"
         ],
         [
-          "<b>10–13s</b>",
+          "10–13s",
           "Beat of silence on dark frame. Then: kit appears with a single line of light.",
           "<b>UNTIL NOW.</b>",
           "“At least, they didn't… until now.”"
         ],
         [
-          "<b>13–17s</b>",
+          "13–17s",
           "Top-down kit in warm lighting. Quick product cuts with their numbers.",
-          "<b>ALL LOADED  ·  ALL DELICIOUS</b>",
+          "<b>ALL LOADED</b>\n<b>ALL DELICIOUS</b>",
           "“Nineteen grams of protein in your coffee, fourteen in your snack, forty-three in your topping – all of it food you'd eat anyway.”"
         ],
         [
-          "<b>17–20s</b>",
+          "17–20s",
           "Kit hero. 30% OFF badge animates in. CTA. End-card: Kit + 30% OFF + CODE TRYNOVA – SHOP NOW. Hold 2 seconds.",
-          "<b>30% OFF  ·  CODE TRYNOVA  ·  SHOP NOW</b>",
+          "<b>30% OFF</b>\n<b>CODE TRYNOVA</b>\n<b>SHOP NOW</b>",
           "“Start now and get thirty percent off your first kit with the code TRYNOVA.”"
         ]
       ]

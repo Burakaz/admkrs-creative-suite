@@ -1,4 +1,4 @@
-# Campaign-Tracker  ·  <BRAND> · <Monat/Quartal>
+# Campaign-Tracker, <BRAND>, <Monat/Quartal>
 
 > Operatives Rückgrat: hier entsteht jede Zahl, die später im Report steht. 5 Tabs. Die zwei Spalten, die in den meisten Trackern fehlen und alles entscheiden: **Decision** und **Hook-Rate**.
 
@@ -12,7 +12,8 @@
 | | | | | | | | | | | | | Test / Winner / Scale / Kill |
 
 - **DECISION** = die wichtigste Spalte: Test → Winner → Scale, oder Kill. Ohne sie lernt niemand.
-- **Hook-Rate** = die wichtigste Diagnose-Spalte (3-Sek-Views ÷ Impressions). Ohne sie diagnostiziert niemand.
+- **Hook-Rate** = die wichtigste Diagnose-Spalte bei Video (3-Sek-Views ÷ Impressions). Ohne sie diagnostiziert niemand.
+- **Statics/Carousel:** Hook-Rate und Hold entfallen (n/a eintragen). Diagnose über CPM, Outbound-CTR (Scroll-Stop-Proxy) und CVR; Carousel zusätzlich über CTR je Card (Breakdown nach Karte), falls verfügbar.
 
 ## Tab 3 - Skript-/Iterations-Log
 | Gewinner-Asset | Was geändert (genau EINE Sache) | Variante-Name | Ergebnis vs. Original | Learning |
@@ -27,4 +28,4 @@
 |---|---|---|---|
 
 **Status-Taxonomie:** Planning → Briefing → In Production → Review → Scheduled → Live → Paused → Killed.
-**Priorität:** P1 (Net-New-Konzept) · P2 (Iteration) · STREAM (Always-on/Refresh).
+**Priorität:** P1 (Net-New-Konzept), P2 (Iteration), STREAM (Always-on/Refresh).

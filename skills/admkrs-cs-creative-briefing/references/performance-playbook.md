@@ -11,7 +11,7 @@ Wenn der Kunde in DatAds liegt, **erst die Reports lesen, dann briefen** (richti
 - **Ads to Kill** - was *nicht* mehr läuft. → Diese Muster nicht wiederholen.
 - **Creative Diversity / Hook Score / Hit Rate** (Home) - Gesundheits-Scores des Accounts.
 
-Erkenntnisse in den **Strategie-Layer** des Briefings übersetzen (z. B. „Best Hooks zeigt: relatable Problem-Hooks in Du-Form schlagen Produkt-Hooks 2:1 → diese Richtung schärfen").
+Erkenntnisse in den **Strategie-Pass** (Chat/intern) übersetzen (z. B. „Best Hooks zeigt: relatable Problem-Hooks in Du-Form schlagen Produkt-Hooks 2:1 → diese Richtung schärfen") - ins Dokument geht davon nur die `Idee`-Zeile, keine Strategie-Layer-Tabelle (siehe `document-format.md`).
 
 ## 2 - Die Regel: mehr Gewinner, iteriert - weniger Klone
 - **Brief more of what wins:** das gewinnende *Concept/Angle/Format* nehmen und mit der Iterations-Logik aus `creative-methods.md` §4 fortschreiben (genau EINE Sache ändern: neuer Hook, neues Talent, neue LP, neues Format).

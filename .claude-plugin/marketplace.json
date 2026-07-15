@@ -1,13 +1,13 @@
 {
   "name": "admkrs-marketplace",
   "owner": { "name": "ADMKRS GmbH" },
-  "description": "Internes Marketplace der ADMKRS GmbH: die Creative Suite (16 Skills für Paid-Social- & Google-Creative-Strategy).",
+  "description": "Internes Marketplace der ADMKRS GmbH: die Creative Suite (17 Skills für Paid-Social- & Google-Creative-Strategy).",
   "plugins": [
     {
       "name": "admkrs-creative-suite",
       "source": "./",
-      "version": "1.12.0",
-      "description": "16 verzahnte Skills für Creative Strategy, Briefings, UGC-Briefing, Teardown, Reporting, CRO, UGC-Ops, Pitch, Google Cross-Channel, Offer/Promo, Compliance & Lokalisierung.",
+      "version": "1.13.0",
+      "description": "17 verzahnte Skills für Creative Strategy, Kaufpsychologie, Briefings, UGC-Briefing, Teardown, Reporting, CRO, UGC-Ops, Pitch, Google Cross-Channel, Offer/Promo, Compliance & Lokalisierung.",
       "author": { "name": "ADMKRS GmbH" }
     }
   ]

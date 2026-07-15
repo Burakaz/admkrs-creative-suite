@@ -18,7 +18,7 @@ Das UGC-Briefing hat **zwei Leser**: den **Creator** (braucht eine perfekte Date
 | Claim-Guardrails | ✅ | ✅ |
 | Specs / Delivery / Naming | ✅ | optional |
 
-**Praxis:** *ein* Dokument, **Creator-First geordnet**. Der Client-Layer steht als Kapitel **„Anhang · Strategie (für die Kunden-Präsentation)" ganz hinten** - der Creator hört vorher auf zu lesen, der Kunde blättert hin. Vorne steht nur, was der Creator zum Drehen braucht (Auftrag → Lieferung → Darf/Darf-nicht → Produkt & Ton → Scripts). Alternativ zwei Exporte aus derselben JSON (Creator-Doc ohne Anhang, Kunden-Doc mit) - sinnvoll, wenn Hypothesen/Angle-Logik nicht an Creator weitergeleitet werden sollen.
+**Praxis:** *ein* Dokument, **Creator-First geordnet**. Der Client-Layer steht als Kapitel **„Anhang: Strategie (für die Kunden-Präsentation)" ganz hinten** - der Creator hört vorher auf zu lesen, der Kunde blättert hin. Vorne steht nur, was der Creator zum Drehen braucht (Auftrag → Lieferung → Darf/Darf-nicht → Produkt & Ton → Scripts). Alternativ zwei Exporte aus derselben JSON (Creator-Doc ohne Anhang, Kunden-Doc mit) - sinnvoll, wenn Hypothesen/Angle-Logik nicht an Creator weitergeleitet werden sollen.
 
 ---
 
@@ -34,7 +34,7 @@ Eine halbe Seite, die der Creator in 30 Sekunden erfasst und der Kunde als korre
 | Was es ist | Iced-Coffee-Mix mit 19 g Protein, 95 % weniger Zucker |
 | Ton | ehrlich, alltagsnah, erwachsen - kein Fitness-Bro |
 | Was die Brand *nicht* ist | kein „Diät"-Produkt, kein medizinisches Versprechen, kein Hype |
-| Offer / Code | 10 % auf die 1. Bestellung · Code TRYNOVA |
+| Offer / Code | 10 % auf die 1. Bestellung, Code TRYNOVA |
 
 Dazu **ein** Positionierungssatz als `lede`: *„NOVA macht aus dem Kaffee, den du eh trinkst, deine einfachste Protein-Quelle des Tages."*
 
@@ -60,7 +60,7 @@ Schwach: „Frauen 25–45, gesundheitsbewusst." Stark - eine benannte Person mi
 
 > **Sarah, 34, Projektleiterin in München.** Trinkt 2–3 Kaffee am Tag, fällt um 15 Uhr in ein Loch, isst „eigentlich gesund", erreicht ihr Protein-Ziel trotzdem nie. Hat Shakes probiert - „schmecken nach Kreide". Sucht keine Diät, sondern etwas, das sich in ihren Tag einfügt. Kauft nach Bewertungen und Zutaten.
 
-Als `keyvalue`: Persona · Awareness-Stufe · Trigger-Moment · Vorerfahrung · Einwand · Wo sie kauft. Der Creator soll **zu Sarah** sprechen, nicht „zu Menschen, die X".
+Als `keyvalue`: Persona · Awareness-Stufe · Trigger-Moment · Vorerfahrung · Einwand · Wo sie kauft. Der Creator soll **zu Sarah** sprechen, nicht „zu Menschen, die X". **Damit er das kann, steht vorne in „Produkt & Ton" eine 2-Zeilen-Creator-Version („Für wen du sprichst": Trigger-Moment + Einwand, ohne Strategie-Theorie)** - die volle Persona-Analyse bleibt im Strategie-Anhang (§5).
 
 ---
 
@@ -92,7 +92,7 @@ Zwei Blöcke vorne im Dokument, gelten für alle Konzepte - **keine Callouts meh
 
 ## 7 - Locked-Facts-Disziplin
 
-Gesperrte Zahlen/Claims/Disclaimer/Codes stehen **wörtlich in der „Darf ich sagen"-Spalte und in den Scripts** - eine Quelle, kein separater Locked-Block. **[Ergänzung]**-Marker sind intern (Kunden-Abstimmung) und erscheinen nicht im Creator-Dokument; fehlt ein Wert: `[Platzhalter: …]` inline. Nie senden/posten/veröffentlichen ohne explizite Freigabe - das Briefing geht **als Entwurf** an den Kunden.
+Gesperrte Zahlen/Claims/Disclaimer/Codes stehen **wörtlich in der „Darf ich sagen"-Spalte und in den Scripts** - eine Quelle, kein separater Locked-Block. **[Ergänzung]**-Marker sind intern (Kunden-Abstimmung) und erscheinen nicht im Creator-Dokument; fehlt ein Wert: nachfragen, sonst weglassen (kein `[Platzhalter: …]` im Dokument). Nie senden/posten/veröffentlichen ohne explizite Freigabe - das Briefing geht **als Entwurf** an den Kunden.
 
 ---
-<sub>**ADMKRS Creative Suite** · © ADMKRS GmbH, München · v1.8.0 · interner Gebrauch · erstellt von ADMKRS. Beispiel NOVA ist fiktiv; echte Brand-Fakten 1:1, nichts erfinden.</sub>
+<sub>**ADMKRS Creative Suite** · © ADMKRS GmbH, München · v1.13.0 · interner Gebrauch · erstellt von ADMKRS. Beispiel NOVA ist fiktiv; echte Brand-Fakten 1:1, nichts erfinden.</sub>

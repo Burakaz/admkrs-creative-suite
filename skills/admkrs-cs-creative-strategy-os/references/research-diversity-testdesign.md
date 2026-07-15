@@ -44,7 +44,9 @@ Ergebnis: 4–8 belastbare Angles + der **ownable Twist** (meist Mechanism × Tr
 ## Phase 3 - Creative-Diversity bestimmen
 
 ### 3.1 Warum Diversität (Andromeda)
-Meta vergibt pro *echtem* Konzept eine eigene Entity-ID und einen eigenen Retrieval-Versuch. **50 Varianten = 1 Eintrag; 10 echte Konzepte = 10.** Klone werden über Similarity-Detection gedrosselt. Diversität ist der #1-Performance-Hebel - aber nur *echte* (anderer Gedanke), nicht kosmetische.
+Arbeitsmodell: Meta behandelt jedes *echte* Konzept als eigene Einheit im Retrieval - **50 Varianten = 1 Eintrag; 10 echte Konzepte = 10.** Klone bringen dem System nichts Neues und werden entsprechend kaum ausgespielt.
+*Wahrheitsstatus: Das ist eine Praktiker-Interpretation von Metas Andromeda-Engineering-Publikation (engineering.fb.com, Dez 2024, abgerufen Juli 2026) - advertiser-sichtbare „Entity-IDs" oder eine offizielle Klon-Drosselung dokumentiert Meta nicht. Die Richtung (echte Konzeptvielfalt schlägt Klone) ist durch Account-Daten gestützt, u. a. die ~5-%-Hit-Rate aus Motion 2026.*
+Diversität ist der #1-Performance-Hebel - aber nur *echte* (anderer Gedanke), nicht kosmetische.
 
 ### 3.2 Die Concept-Matrix (so bestimmst du Vielfalt konkret)
 Spanne ein Raster auf: **Persona × Angle × Format** (Format = Static / Carousel / Motion / UGC-Video / Founder-VSL). Optional 4. Achse Awareness.
@@ -90,7 +92,7 @@ So läuft *jede* Zeile der Creative-Map, von echter Sprache bis zur prüfbaren W
 
 ### 4.2 Budget & Geduld
 - **20–40 % des Budgets** ins Testing.
-- Pro Konzept **≥ ~1.000 Impressionen / 5–7 Tage**, bevor geurteilt wird. Andromedas schnelles Signal verleitet dazu, frühe Varianz für Insight zu halten - nicht tun.
+- **Mindest-Read pro Konzept: Spend ≥ 1× Ziel-CPA UND 5–7 Tage**, bevor geurteilt wird - konsistent mit der Kill-Regel in 4.3. (~1.000 Impressionen sind nur das absolute Minimum für einen Delivery-Check; je nach CPM sind das oft nur 10–20 € Spend, keine Urteilsbasis.) Andromedas schnelles Signal verleitet dazu, frühe Varianz für Insight zu halten - nicht tun.
 
 ### 4.3 Entscheidungsregeln *vorab* (das macht es zum System)
 Definiere **vor** dem Launch (Vorlage: `assets/templates/test-plan.md`):

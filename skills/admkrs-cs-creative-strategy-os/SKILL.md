@@ -75,7 +75,7 @@ Grober Zeitrahmen für eine neue Brand: **Tag 1 → Woche 1 → Woche 2–4 → 
 **AI-Support:** AI zum Scrapen/Clustern der VoC; `admkrs-cs-creative-briefing` references `creative-strategy.md` (Angle-Library) + `field-notes.md` (P.D.A.). Details: `references/research-diversity-testdesign.md`.
 
 ### Phase 3 - Creative-Diversity bestimmen  ·  *Woche 1*  ·  „so entsteht echte Vielfalt"
-- **Concept-Matrix:** **Persona × Angle × Format** (+ Awareness). Jede besetzte Zelle = ein Konzept mit *eigener* Idee (eigene Andromeda-Entity-ID).
+- **Concept-Matrix:** **Persona × Angle × Format** (+ Awareness). Jede besetzte Zelle = ein Konzept mit *eigener* Idee (im Andromeda-Modell eine eigene Entity - Praktiker-Interpretation, nicht offizielle Meta-Doku; Wahrheitsstatus in `references/research-diversity-testdesign.md` §3.1).
 - **Test-Slate Runde 1:** **6–10 *echt verschiedene*** Konzepte, jedes als **Ad Family** (ein Angle über mehrere Formate), nicht 4 Headlines auf einem Video.
 - **Priorisierung:** nach Bottleneck (Phase 1) + nach dem, was in der Kategorie/Account schon gewinnt.
 - **Diversity-Math:** ~5 % Trefferquote → plane Volumen; aber **Qualität vor Menge** (Klone werden gedrosselt). Diversität misst sich über **Angle/Persona/Format**, nicht Farbe.
@@ -84,7 +84,7 @@ Grober Zeitrahmen für eine neue Brand: **Tag 1 → Woche 1 → Woche 2–4 → 
 
 ### Phase 4 - Test-Architektur  ·  *Woche 1*  ·  „so testest du sauber"
 - **Struktur:** dedizierte **Testing-Kampagne** (ABO = gleiches Budget = sauberer Read) + **Scaling-Kampagne** (CBO/ASC+). **new-vs-new** testen (nie gegen gealterte Gewinner).
-- **Budget & Geduld:** **20–40 %** aufs Testing; pro Konzept **≥ ~1.000 Impressionen / 5–7 Tage**, bevor du urteilst (Andromedas schnelles Signal verleitet zu Frühurteilen).
+- **Budget & Geduld:** **20–40 %** aufs Testing; Mindest-Read pro Konzept: **Spend ≥ 1× Ziel-CPA UND 5–7 Tage**, bevor du urteilst (~1.000 Impressionen sind nur der Delivery-Check, keine Datenbasis; Andromedas schnelles Signal verleitet zu Frühurteilen).
 - **Entscheidungsregeln *vorab* festlegen:** Kill bei **2–3× Ziel-CPA**; Winner = schlägt/matched den aktuellen Besten; **„Signifikanz" = pragmatisch ~20–30 Conversions** (klar als *operativ*, nicht statistisch sauber kommunizieren).
 - **Eine Variable pro Iteration.**
 **Worauf schauen:** Ist der Test *fair* (gleiche Startbedingungen)? Sind die Kill/Scale-Regeln *vor* dem Launch definiert?
@@ -132,9 +132,9 @@ Grober Zeitrahmen für eine neue Brand: **Tag 1 → Woche 1 → Woche 2–4 → 
 Kein „Ideen-Lieferant", sondern **Betreiber eines Lern-Systems**: VoC-Research → Angle-Bank → Diversity-Plan → Test-Design → Diagnose → Iteration/Scaling → Reporting. Eigene KPIs: **Hit-Rate, Winner-Volumen, Creative-Demand-Score, Zeit-bis-Winner, Spend hinter Gewinner-Konzepten.** Wöchentliche Rituale, ein lebendes Learned-Concepts-Log, Disziplin bei kill/iterate/scale. Details, Maturity, häufige Fehler & AI-Stack: `references/strategist-playbook.md`.
 
 ## Prinzipien (nicht verhandelbar)
-- **Echte Diversität** (Angle/Persona/Format), keine Klone - sonst drosselt Andromeda.
+- **Echte Diversität** (Angle/Persona/Format), keine Klone - Klone bekommen erfahrungsgemäß kaum Spend.
 - **Daten leiten, Handwerk schärft.** Daten sagen *welcher Angle*; Hooks/Frameworks machen ihn scharf.
-- **Klarheit vor Kunst**, nichts erfinden (Zahlen/Claims/Testimonials/Offers 1:1, Neues als [Ergänzung]).
+- **Klarheit vor Kunst**, nichts erfinden (Zahlen/Claims/Testimonials/Offers 1:1; Neues intern als [Ergänzung] zur Freigabe - der Marker bleibt im Chat/intern, nie im ausgelieferten Designer-Dokument, siehe `admkrs-cs-creative-briefing`).
 - **Sauberes Naming & ein Learned-Log** - ohne Auswertbarkeit kein Lernen.
 - **Nie senden/posten/skalieren ohne Freigabe**, nie löschen ohne Freigabe.
 
@@ -148,4 +148,4 @@ Kein „Ideen-Lieferant", sondern **Betreiber eines Lern-Systems**: VoC-Research
 - Format-Bibliothek (alle Video-/Static-Styles + Einsatzzweck + Style-Decoder): siehe `admkrs-cs-creative-briefing` → `references/creative-formats.md`.
 
 ---
-<sub>**ADMKRS Creative Suite** · © ADMKRS GmbH, München · v1.9.0 · interner Gebrauch · erstellt von ADMKRS. Quellen am jeweiligen Skill-Ende; Specs/Policies an Primärquellen prüfen. · v1.9.0: „START HIER"-Einstieg für Media Buyer (Job in einem Absatz + 4-Begriffe-Box + Pain→Angle→Hook-Leiter), Persona-Disziplin (Lebenssituation + Beziehung zum Problem, Konsistenz-Test, Sub-Persona-Split), Awareness = was das Script sagt (5 Script-Jobs), ausführbarer NEW/REPEAT/VARIANT-Diversity-Check, durchgehender Worked Example.</sub>
+<sub>**ADMKRS Creative Suite** · © ADMKRS GmbH, München · v1.13.0 · interner Gebrauch · erstellt von ADMKRS. Quellen am jeweiligen Skill-Ende; Specs/Policies an Primärquellen prüfen. · v1.9.0: „START HIER"-Einstieg für Media Buyer (Job in einem Absatz + 4-Begriffe-Box + Pain→Angle→Hook-Leiter), Persona-Disziplin (Lebenssituation + Beziehung zum Problem, Konsistenz-Test, Sub-Persona-Split), Awareness = was das Script sagt (5 Script-Jobs), ausführbarer NEW/REPEAT/VARIANT-Diversity-Check, durchgehender Worked Example.</sub>

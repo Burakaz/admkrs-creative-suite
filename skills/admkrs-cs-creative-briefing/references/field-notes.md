@@ -67,7 +67,7 @@ Belege dafür, dass das **VO-/Skript** der Retention-Hebel bei Short-Form ist - 
 
 ## 5 - Was sich Feb–Jun 2026 geändert hat (datiert, mit Briefing-Impact)
 - **Advantage+ Creative - All-Enhancements-Default (Feb 2026):** neue Sales/Leads/App-Kampagnen starten mit *allen* Enhancements an. **Briefing-Impact:** explizit festlegen, welche Elemente **KI-invariant** sind (Logo, Claim, gesperrte Zahlen, Farben); Vorschau vor Launch prüfen - die Text-Improvement-Funktion kann **Claims verändern** (Rechts-/Compliance-Risiko). [Meta Business Help: Creative Enhancements]
-- **AI-Disclosure-Pflicht (März 2026):** extern KI-generierter Content (Midjourney, ElevenLabs etc.) braucht den **„AI-generated content"-Toggle**; Nicht-Compliance ist ein häufiger Ablehnungsgrund. **Briefing-Impact:** kennzeichnen, welche Assets extern-KI sind.
+- **AI-Disclosure (Datum der Verschärfung nicht primärquellen-bestätigt, konservativ behandeln):** extern KI-generierter Content (Midjourney, ElevenLabs etc.) braucht den **„AI-generated content"-Toggle**; Nicht-Compliance ist ein häufiger Ablehnungsgrund. **Briefing-Impact:** kennzeichnen, welche Assets extern-KI sind.
 - **Ad-Level-Placement-Control (Mai 2026, Rollout):** Asset→Placement pro Ad zuweisbar → Ratio-Vorgaben (9:16 Reels, 4:5 Feed) sauber je Asset briefen, ohne Ad-Sets aufzublähen.
 - **Advantage+ Image-Gen-Kategorien (Mai 2026, Rollout):** „Refined product look", „Popular in your niche", „High ROAS creative styles".
 - **Unified Safe Zone:** **4:5** Feed (1080×1350), **9:16** Reels (1080×1920); Safe-Zones oben ~14 %, unten ~20–35 %, Seiten ~6 %. 1:1 verliert Fläche.

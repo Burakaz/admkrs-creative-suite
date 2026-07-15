@@ -20,9 +20,11 @@ Wird der Output-Name weggelassen, nimmt der Builder das Feld `filename` aus der 
 ---
 
 ## Inline-Markup (in jedem Textfeld)
-`<b>fett</b>` · `<i>kursiv</i>` · `\n` neue Zeile in Zelle, Absatz **oder Callout**. Literale `*`, `·`, „Anführungszeichen" bleiben unverändert (Sternchen-Disclaimer wie `*pro Portion` einfach so schreiben). **Kein langer Gedankenstrich „—"** in produzierter Copy (Hausregel) - Punkt/Komma, notfalls „–".
+`<b>fett</b>` · `<i>kursiv</i>` · `\n` neue Zeile in Zelle, Absatz **oder Callout**. Literale `*` und „Anführungszeichen" bleiben unverändert (Sternchen-Disclaimer wie `*pro Portion` einfach so schreiben). **Kein langer Gedankenstrich „—"** in produzierter Copy (Hausregel) - Punkt/Komma, notfalls „–". **Kein „·" als Trenner** im Dokument-Inhalt (dek, Überschriften h1/h2/h3, Zellen, Absätze): der Mittelpunkt macht Probleme beim Übernehmen in andere Programme; in Überschriften den Doppelpunkt nutzen („Konzept 1: …", „3 Hooks: zum Scroll-Stop-Test"), sonst Kommas oder `\n`-Zeilen.
 
 **Zeile für Zeile, nie als Block (Pflicht):** Aufzählungen, mehrere Anweisungen, mehrere Fakten - je Punkt eine `\n`-Zeile, in Zellen wie in Callouts. Ein „1) … 2) … 3) …"-Fließtext-Block ist falsch.
+
+**Bold-Semantik (UGC):** Die Haus-Regel „Bold = landet auf dem Creative" heißt hier: `<b>` markiert, was **wörtlich übernommen bzw. wörtlich eingeblendet** wird - gesperrte Claims/Zahlen/Codes (z. B. `Code <b>TRYNOVA</b>`, die „Werbung"-Einblendung), die 1:1-Spalte in „Darf & darf nicht" und die On-Screen-Text-Spalte im Script. Gesprochene Hooks und VO-Beats sind Beats, kein On-Creative-Text → **plain** (alle 3 Hooks eines Konzepts einheitlich unformatiert). Kein Bold zur bloßen Betonung.
 
 ---
 
@@ -33,8 +35,8 @@ Wird der Output-Name weggelassen, nimmt der Builder das Feld `filename` aus der 
   "filename": "260607_NOVA_ProteinCoffee_UGC_DE",
   "header": {
     "eyebrow": "UGC Creator Briefing",
-    "title": "NOVA · Protein Coffee - UGC",
-    "dek": "3 Konzepte · 9 Hooks · drehfertige Scripts · Stand 07.06.2026"
+    "title": "NOVA Protein Coffee - UGC",
+    "dek": "3 Konzepte, 9 Hooks, drehfertige Scripts, Stand 07.06.2026"
   },
   "blocks": [ /* Reihenfolge = Dokument-Reihenfolge */ ]
 }
@@ -68,32 +70,32 @@ h1 "Lieferung & Specs"
 
 h1 "Darf & darf nicht"             ← MUSS vor den Scripts stehen
   table headerrow/plain  [Darf ich sagen | Darf ich NICHT sagen]   (Claims/Zahlen 1:1 sagbar vs. verboten - Heil-/Med-Claims etc.)
-  p  (zeilenweise: Film-Dos/Don'ts · Aussprache des Markennamens · 2–3 Referenz-Links "so soll es aussehen" + 1 "so nicht")
+  p  (zeilenweise: Film-Dos/Don'ts, Aussprache des Markennamens, 2–3 Referenz-Links "so soll es aussehen" + 1 "so nicht")
 
 h1 "Produkt & Ton"                 ← max. halbe Seite
-  table keyvalue  [Produkt (1 Zeile) | 5 Facts, die du sagen darfst (zeilenweise, 1:1) | Ton (1 Zeile) | Was die Brand NICHT ist (1 Zeile)]
+  table keyvalue  [Produkt (1 Zeile) | 5 Facts, die du sagen darfst (zeilenweise, 1:1) | Ton (1 Zeile) | Was die Brand NICHT ist (1 Zeile) | Für wen du sprichst (2 Zeilen: Trigger-Moment + Einwand der Zielperson, ohne Strategie-Theorie - volle Persona bleibt im Anhang)]
 
-h1 "Konzept 1 · [Title]"           ← das Kernstück, pro Konzept ein Set
+h1 "Konzept 1: [Title]"            ← das Kernstück, pro Konzept ein Set
   p  "Idee: …"   (1 Satz - warum dieses Video; ersetzt den Anker-Callout)
-  h3 "3 Hooks · zum Scroll-Stop-Test"
+  h3 "3 Hooks: zum Scroll-Stop-Test"
   table hooks  [A, B, C]
-  h3 "Script · drehfertig"
+  h3 "Script: drehfertig"
   table headerrow/zebra  [Beat | Was du tust | On-Screen Text | Was du sagst]   (colItalics: [false,false,false,true])
        ← Beats (Hook/Problem/Demo/CTA) statt Sekunden-Korsett; Richtwert-Sekunden in der Beat-Zelle. Letzte Zeile = CTA-Beat (kein outro-Block).
   p  "<i>Regie-Notiz: …</i>"   (optional, 1 Zeile)
   … (Konzept 2, Konzept 3)
 
-h1 "Scroll-Breaker · Bonus"        ← explizit gescoped
+h1 "Scroll-Breaker: Bonus"         ← explizit gescoped
   p  "Optional - NICHT Teil der [N] Videos. Nur wenn Zeit & Lust:"  + max. 2 Ideen zeilenweise
   (Sind Scroll-Breaker Teil des Auftrags → stattdessen als reguläres Konzept briefen.)
 
-h1 "Anhang · Strategie (für die Kunden-Präsentation)"   ← GANZ hinten; Creator kann hier aufhören zu lesen
-  p  (Persona · Awareness · Funnel)
+h1 "Anhang: Strategie (für die Kunden-Präsentation)"   ← GANZ hinten; Creator kann hier aufhören zu lesen
+  p  (Persona, Awareness, Funnel - zeilenweise)
   table headerrow/zebra  [Konzept | Angle | Framework | Awareness | Hypothese]
   (Auf Wunsch stattdessen als separates Kunden-Dokument aus derselben JSON - Creator-Doc bleibt dann ohne Anhang.)
 ```
 
-**Script-Spalten:** `widths` ca. `[0.9, 3.4, 2.2, 3.0]`, `colAligns` `["center","left","left","left"]`, `colItalics` `[false,false,false,true]` (VO kursiv). Hook-Zeile: On-Screen = `<b>HOOK</b>`, VO = `"[ Hook · A/B/C ]"`.
+**Script-Spalten:** `widths` ca. `[0.9, 3.4, 2.2, 3.0]`, `colAligns` `["center","left","left","left"]`, `colItalics` `[false,false,false,true]` (VO kursiv). Hook-Zeile: On-Screen = `<b>HOOK</b>`, VO = `"[ Hook, A / B / C ]"`.
 
 ---
 
@@ -101,7 +103,7 @@ h1 "Anhang · Strategie (für die Kunden-Präsentation)"   ← GANZ hinten; Crea
 
 - **Creator-Test für jeden Block:** Hilft das dem Creator beim Drehen? Nein → in den Anhang (Kunden-Strategie) oder ganz raus (interne Punkte). Das Dokument geht raus und wird auf dem **Handy** gelesen - kurze Blöcke, Beats statt Sekunden-Korsett.
 - **Zeile für Zeile, kein Block.** Aufzählungen/mehrere Fakten je `\n`-Zeile. Ein „1) … 2) … 3) …"-Fließtext-Block ist falsch.
-- **Keine offenen Punkte im Dokument.** Das Briefing geht erst raus, wenn geklärt (dek: „Stand … · freigegeben"); fehlt doch ein Wert: `[Platzhalter: …]` **inline** an der Stelle - der Creator füllt nie selbst. Offene Punkte trackt ADMKRS intern (ClickUp/Chat).
+- **Keine offenen Punkte im Dokument.** Das Briefing geht erst raus, wenn geklärt (dek: „Stand …, freigegeben"); fehlt doch ein Wert: **beim Ersteller nachfragen, sonst die Zeile/Angabe weglassen** - kein `[Platzhalter: …]` im Dokument, der Creator füllt nie selbst. Offene Punkte trackt ADMKRS intern (ClickUp/Chat).
 - **Scope glasklar.** Stückzahl explizit ausrechnen (Konzepte × Hook-Takes = Files); Scroll-Breaker explizit als „Bonus, nicht Teil des Scopes" labeln (oder als reguläres Konzept briefen).
 - **Final entscheiden, ein konkreter Fakt statt Floskel**, nichts erfinden.
 - **Rollen statt Namen:** keine Personennamen im Dokument - „Rückfragen an ADMKRS via [Kanal]", nie „[Name] fragen".
@@ -112,4 +114,4 @@ h1 "Anhang · Strategie (für die Kunden-Präsentation)"   ← GANZ hinten; Crea
 **Kein Locked-Callout mehr.** Sagbare Claims/Zahlen stehen 1:1 in „Darf & darf nicht" und in den Scripts - das ist die einzige Quelle. Verbotenes steht in der „Darf ich NICHT sagen"-Spalte. **[Ergänzung]**-Marker sind intern (Strategie-Pass/Kunden-Abstimmung) und erscheinen nicht im Creator-Dokument. Disclaimer/Sternchen exakt übernehmen.
 
 ---
-<sub>**ADMKRS Creative Suite** · © ADMKRS GmbH, München · v1.8.0 · interner Gebrauch · erstellt von ADMKRS. Gleiche Builder-Engine & B4-Standard wie admkrs-cs-creative-briefing.</sub>
+<sub>**ADMKRS Creative Suite** · © ADMKRS GmbH, München · v1.13.0 · interner Gebrauch · erstellt von ADMKRS. Gleiche Builder-Engine & B4-Standard wie admkrs-cs-creative-briefing.</sub>

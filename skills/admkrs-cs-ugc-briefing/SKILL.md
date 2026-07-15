@@ -26,14 +26,14 @@ Produziert das UGC-Briefing, das ADMKRS verkauft: ein **B4-.docx**, das **gleich
 - **Hooks zuerst, immer.** 0–3 Sekunden entscheiden. Pro Konzept **3 Hooks aus verschiedenen Kategorien** (A/B/C) zum Scroll-Stop-Test, ein gemeinsamer Body. Hook-Bank: `references/hook-bank.md`.
 - **Auf Shares & Watch-Time bauen, nicht auf Likes.** Watch-Through + DM-Share-Trigger sind die echten Algorithmus-Hebel 2026. Wenn Reichweite das Ziel ist → Share-Trigger (Emotion + Persona-Callout + Story); wenn Conversion → DR-UGC-Spine. `references/viral-mechanics.md`.
 - **Framework zum Kontext wählen.** Awareness-Stufe → Produkt-Typ → Sophistication bestimmen die Story-Struktur (PAS, BAB, SSS, HRR, DR-UGC-Spine …). Kein Schema-F. `references/storytelling-frameworks.md`.
-- **Für das Ohr schreiben.** Scripts in gesprochener Sprache (Contractions, kurze Sätze, Pausen) - Beats, nicht Wort-für-Wort. Der Creator füllt den Beat mit echtem Leben. `references/creator-script-craft.md`.
+- **Für das Ohr schreiben - natürlicher Sprechfluss, nie Werbesprech.** Scripts in gesprochener Sprache: Diskursmarker und Füllwörter sind **erwünscht** („also", „ehrlich", „halt"), Kontraktionen („gibt's", „hab ich"), Überleitungen zwischen den Beats, kurze Hauptsätze, Nachträge - an Füllwörtern und Überleitungen wird nicht gespart. Pflicht-Gate: jede Zeile laut sprechen („Würde ich das SO zu einer Freundin sagen?"). Keine Ad-Marker-Floskeln („Hör auf zu scrollen", „Du brauchst dieses Produkt"). **CTA im Paid nie „Link in Bio"** (Organik-Sprache) - stattdessen „klick einfach aufs Video" / „tipp unten drauf". Beats, nicht Wort-für-Wort; der Creator füllt den Beat mit echtem Leben. `references/creator-script-craft.md` §5b.
 - **Boundaries, not scripts.** Fest: Kernaussage, Claim-Grenzen, Awareness/Hook-Typ, Specs, Disclosure, Offer. Frei: die genauen Worte, die Situation, Energie. Über-Briefing killt Authentizität.
 - **Out-of-the-box ist Pflicht-Layer.** Jedes Briefing enthält neben bewährten Frameworks einen Scroll-Breaker-Layer (Comment-Reply, Green-Screen, Street-Interview, POV-Skit, Expectation-vs-Reality …). Creative Diversity gewinnt unter Andromeda.
-- **Klarheit vor Kunst & konkret > generisch.** „19 g Protein · 95 % weniger Zucker" schlägt „viel Protein". Keine Generic-AI-Buzzwords („Game-Changer", „unlock", „elevate").
+- **Klarheit vor Kunst & konkret > generisch.** „19 g Protein, 95 % weniger Zucker" schlägt „viel Protein". Keine Generic-AI-Buzzwords („Game-Changer", „unlock", „elevate").
 - **Kein langer Gedankenstrich „—" (Em-Dash)** in irgendeiner produzierten Copy (Hooks, Scripts, VO, On-Screen-Text, Fließtext, JSON-Felder) - ADMKRS-Hausregel. Stattdessen Punkt/Komma, notfalls das kurze „–".
 - **Creator-First, Kunden-Layer hinten.** Der Creator liest von vorne: Auftrag → Lieferung/Specs → **Darf & darf nicht** → Produkt & Ton → Scripts. Der Strategie-Layer für den Kunden (Awareness, Angle-Logik, KPI-Hypothesen) steht als **Anhang ganz hinten** - oder auf Wunsch als separates Kunden-Dokument aus derselben JSON. `references/brand-foundation.md`.
-- **Nichts erfinden.** Zahlen, Claims, Testimonials, Preise, Offers bleiben 1:1. Neue Vorschläge intern als **[Ergänzung]** zur Freigabe stellen (nicht im Creator-Dokument). Fehlt ein Wert: **`[Platzhalter: …]`** inline, nie raten - der Creator füllt nie selbst.
-- **Zeilenweise, final & scope-klar.** Aufzählungen je `\n`-Zeile, nie als „1) … 2) …"-Block. **Kein todo-/locked-Callout** - offene Punkte leben in ClickUp/Chat, das Dokument geht erst freigegeben raus (dek: „Stand … · freigegeben"). **Stückzahl explizit** (Konzepte × Hook-Takes = Files), Scroll-Breaker explizit als Bonus gescoped. **Keine Personennamen** - Rollen statt Namen.
+- **Nichts erfinden.** Zahlen, Claims, Testimonials, Preise, Offers bleiben 1:1. Neue Vorschläge intern als **[Ergänzung]** zur Freigabe stellen (nicht im Creator-Dokument). Fehlt ein Wert: **im Intake nachfragen**; bleibt er offen → Zeile/Angabe weglassen (kein `[Platzhalter: …]` im ausgelieferten Dokument), nie raten - und der Creator füllt nie selbst.
+- **Zeilenweise, final & scope-klar.** Aufzählungen je `\n`-Zeile, nie als „1) … 2) …"-Block. **Kein todo-/locked-Callout** - offene Punkte leben in ClickUp/Chat, das Dokument geht erst freigegeben raus (dek: „Stand …, freigegeben"; kein „·" als Trenner im Dokument-Inhalt - Doppelpunkt/Komma, s. `references/document-format.md`). **Stückzahl explizit** (Konzepte × Hook-Takes = Files), Scroll-Breaker explizit als Bonus gescoped. **Keine Personennamen** - Rollen statt Namen.
 
 ### Harte Sicherheits-Regeln (nicht verhandelbar)
 - **Nie senden / posten / publizieren / hochladen** (E-Mail, Slack, ClickUp, Ads Manager, an Creator) ohne explizite Freigabe. Alles geht als **Entwurf**.
@@ -73,8 +73,8 @@ Bevor du textest: Architektur bauen.
 Inhalt in die UGC-Briefing-JSON gießen und rendern. **Schema, Skelett, Builder-Befehl: `references/document-format.md`.** Vorlage: `examples/example_ugc_briefing.json` - Struktur kopieren, Inhalt ersetzen.
 
 ```bash
-cd <skill>/assets && npm install docx   # einmalig
-node assets/build_briefing.js <briefing.json> <YYMMDD_BRAND_Product_UGC_LANG.docx>
+cd <skill>/assets && npm install docx        # einmalig pro Umgebung
+node <skill>/assets/build_briefing.js <briefing.json> <YYMMDD_BRAND_Product_UGC_LANG.docx>
 ```
 Dateiname-Konvention: `YYMMDD_BRAND_Product_UGC_LANG` - **Datum (YYMMDD) immer zuerst** (sortiert chronologisch), dann Marke, Produkt, `UGC`, und **Markt/Sprache am Ende**: `DE` · `EN` · `NL` · `FR` · `AT`. Z. B. `260608_NOVA_ProteinCoffee_UGC_DE`. Einheitlich für alle Kunden.
 
@@ -91,7 +91,7 @@ Checkliste unten durchgehen. Fällt ein Punkt durch → überarbeiten, nicht abl
 - [ ] **Hook-Test:** Stoppt jeder Hook in 2 s den Daumen? Spannung/Zahl/Persona-Callout - kein bloßes Produkt-Label? 3 Hooks aus *verschiedenen* Kategorien?
 - [ ] **Share-/Save-Test:** Hat das Konzept einen Share-Trigger (Emotion + „das bist du" + Story) oder Save-Trigger (Liste/Anleitung) - passend zum Ziel?
 - [ ] **Framework-Fit:** Passt die Story-Struktur zur Awareness-Stufe und zum Produkt-Typ?
-- [ ] **Ohr-Test:** Klingt jedes Script gesprochen (Contractions, kurz, Pausen) - nicht wie vorgelesen?
+- [ ] **Ohr-Test (laut!):** Jede Zeile laut gesprochen plausibel („Würde ich das SO zu einer Freundin sagen?")? Diskursmarker/Überleitungen drin statt Stakkato? Kein Schriftdeutsch (Genitive, Nominalstil, „sowie/zudem")? Keine Ad-Marker-Floskeln, kein „Link in Bio" (Paid-CTA: „klick aufs Video")? (§5b)
 - [ ] **Out-of-the-box-Test:** Gibt es einen echten Scroll-Breaker-Layer, nicht nur Talking-Head?
 - [ ] **Creator-First-Test:** Steht alles, was der Creator zum Drehen braucht, **vorne** (Auftrag, Lieferung, Darf/Darf-nicht, Scripts) - und der Kunden-Strategie-Layer (Awareness, Angle, Hypothesen) **hinten als Anhang**? Kann der Creator sofort drehen, ohne den Anhang zu lesen?
 - [ ] **Scope-Test:** Stückzahl explizit ausgerechnet (Konzepte × Hook-Takes = Files)? Scroll-Breaker klar als „Bonus, nicht Scope" gelabelt? Upload-Ort, roh/geschnitten, Aussprache des Markennamens, Produkt-Logistik drin?
@@ -101,7 +101,7 @@ Checkliste unten durchgehen. Fällt ein Punkt durch → überarbeiten, nicht abl
 - [ ] **Compliance-Test:** „Werbung"-Kennzeichnung gesetzt, keine engl. Labels, keine Heil-/Med-Claims, Disclaimer 1:1? (→ `admkrs-cs-ad-compliance-check`)
 - [ ] **AI-Slop-Test:** Null Buzzwords? Klingt es wie ein Mensch mit Haltung?
 - [ ] **Fakten-Test:** Alle Zahlen/Claims/Offers belegt oder als **[Ergänzung]** markiert? Nichts erfunden? Vendor-Benchmarks als direktional gekennzeichnet?
-- [ ] **Format-Test:** Sieht das .docx aus wie die Referenz (B4 Querformat, schwarze Header, Zebra, Callouts)?
+- [ ] **Format-Test:** Sieht das .docx aus wie die Referenz (B4 Querformat, schwarze Header, Zebra, Hooks-Tabelle A/B/C)? **Keine** Callouts, kein „·"-Trenner im Inhalt, Strategie-Anhang ganz hinten?
 
 ---
 
@@ -124,4 +124,4 @@ Checkliste unten durchgehen. Fällt ein Punkt durch → überarbeiten, nicht abl
 Siehe die jeweiligen Reference-Dateien (gelabelt nach OFFIZIELL/PEER-REVIEWED/VENDOR/AGENCY). Kern-Primärquellen: TikTok/Instagram/YouTube Creator-Doku & Exec-Statements · Berger & Milkman 2012 (JMR) · Eugene Schwartz *Breakthrough Advertising* · Meta Transparency Center · die-medienanstalten.de (Werbekennzeichnung) · FTC/EU (DSA, AI Act). *Vendor-/Folklore-Zahlen direktional; Plattform/Recht an Primärquellen prüfen.*
 
 ---
-<sub>**ADMKRS Creative Suite** · © ADMKRS GmbH, München · v1.8.0 · interner Gebrauch · erstellt von ADMKRS. Quellen am jeweiligen Skill-Ende; Specs/Policies an Primärquellen prüfen. · v1.8.0: Creator-First (Auftrag → Specs → Darf/Darf-nicht → Scripts; Strategie-Anhang hinten), keine Callouts, Beat-Scripts, Scope explizit.</sub>
+<sub>**ADMKRS Creative Suite** · © ADMKRS GmbH, München · v1.13.0 · interner Gebrauch · erstellt von ADMKRS. Quellen am jeweiligen Skill-Ende; Specs/Policies an Primärquellen prüfen. · v1.8.0: Creator-First (Auftrag → Specs → Darf/Darf-nicht → Scripts; Strategie-Anhang hinten), keine Callouts, Beat-Scripts, Scope explizit.</sub>

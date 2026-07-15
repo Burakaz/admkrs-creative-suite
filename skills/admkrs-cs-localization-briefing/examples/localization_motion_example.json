@@ -1,30 +1,78 @@
 {
   "filename": "260622_NOVA_Oranjezomer_Motion_NL",
   "header": {
-    "eyebrow": "LOCALIZATION · ORIGINAL → TRANSLATION",
-    "title": "NOVA · Crazy Frogs · DE → NL",
-    "dek": "1 Motion Ad · On-Screen / Voice-Over · NL market · 22.06.2026 · Draft"
+    "eyebrow": "LOCALIZATION: ORIGINAL → TRANSLATION",
+    "title": "NOVA Crazy Frogs, DE → NL",
+    "dek": "1 Motion Ad, On-Screen / Voice-Over, NL market, 22.06.2026, Draft"
   },
   "blocks": [
     {
       "type": "p",
-      "text": "<b>Bold = goes on the creative (final translated copy).</b> On-Screen box = everything shown on screen (hook, badges, offer, CTA, disclaimer), merged per beat. Voice-Over = the spoken line. Build-ready in NL, use 1:1.\nGlossary anchors: 97% weniger Zucker → 97% minder suiker · Disclaimer → official NL wording (in the last beat)."
+      "text": "Glossary anchors: 97% weniger Zucker → 97% minder suiker, Disclaimer → official NL wording (in the last beat)."
+    },
+    {
+      "type": "table",
+      "layout": "keyvalue",
+      "widths": [
+        1,
+        4.2
+      ],
+      "rows": [
+        [
+          "Scope",
+          "1 motion ad, 2 formats = 2 exports, length as DE master (15 s)"
+        ],
+        [
+          "Source files",
+          "Drive: NOVA > 02_Assets > Motion_DE_Master (After Effects project, fonts, DE voice-over reference)"
+        ],
+        [
+          "Formats",
+          "Meta standard: 4:5 (1080×1350) and 9:16 (1080×1920)."
+        ],
+        [
+          "Deadline",
+          "26.06.2026 (EOD)"
+        ],
+        [
+          "Delivery",
+          "MP4 (H.264) per format, Drive: NOVA > 04_Delivery > 260626_Motion_NL, naming: DE master name + _NL"
+        ]
+      ]
     },
     {
       "type": "h3",
-      "text": "Motion Ad · beat by beat (NL)"
+      "text": "Motion Ad: beat by beat (NL)"
     },
     {
       "type": "table",
       "layout": "headerrow",
       "style": "zebra",
-      "widths": [1, 1.4],
-      "colItalics": [false, true],
-      "header": ["On-Screen Text", "Voice-Over"],
+      "widths": [
+        1,
+        1.4
+      ],
+      "colItalics": [
+        false,
+        true
+      ],
+      "header": [
+        "On-Screen Text",
+        "Voice-Over"
+      ],
       "rows": [
-        ["<b>ZE ZIJN ER WEER! · 97% MINDER SUIKER*</b>", "Ze zijn er weer! 97% minder suiker."],
-        ["<b>CRAZY FROGS · NIEUW</b>", "Ken je deze nog, van vroeger? Nu terug als Crazy Frogs!"],
-        ["<b>NU BESTELLEN</b>\n<b>*T.o.v. vergelijkbare winegums met toegevoegde suiker</b>", "Enne… wees er snel bij, want op = op!"]
+        [
+          "<b>ZE ZIJN ER WEER!</b>\n<b>97% MINDER SUIKER*</b>",
+          "Ze zijn er weer! 97% minder suiker."
+        ],
+        [
+          "<b>CRAZY FROGS</b>\n<b>NIEUW</b>",
+          "Ken je deze nog, van vroeger? Nu terug als Crazy Frogs!"
+        ],
+        [
+          "<b>NU BESTELLEN</b>\n<b>*T.o.v. vergelijkbare winegums met toegevoegde suiker</b>",
+          "Enne… wees er snel bij, want op = op!"
+        ]
       ]
     },
     {
