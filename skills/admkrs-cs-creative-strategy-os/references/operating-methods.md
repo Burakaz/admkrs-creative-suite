@@ -16,12 +16,12 @@ Volumen richtet sich nach Spend/Umsatz und Produktionskapazität. Richtwerte (Pr
 
 | Monatsumsatz/-spend | Net-New-Konzepte / Woche |
 | --- | --- |
-| 0–100k | 3–5 Batches |
-| 100–250k | 5–8 Batches |
-| 250k–1M | 8–15 Batches |
-| 1M+ | 20+ Batches |
+| 0–100k | 3–5 |
+| 100–250k | 5–8 |
+| 250k–1M | 8–15 |
+| 1M+ | 20+ |
 
-*1 Batch ≈ 5 Ads × 3 Hooks.* Hintergrund: ~5 % der Creatives werden echte Winner → Produktion auf diese Trefferquote auslegen, **aber Qualität vor Menge** (Klone werden gedrosselt).
+*Einheit: KONZEPTE (eigene Idee = NEW ENTITY), nicht Assets. Die Asset-Zahl liegt darüber, weil jedes Konzept als kleine Ad-Family produziert wird (typisch 1–3 Format-Treatments × 1–3 Hooks).* Brücke zum OS-Runbook: die **6–10 echt verschiedenen Konzepte pro Test-Runde** (SKILL.md Phase 3) sind dasselbe System - bei 1–2-wöchiger Cadence entspricht das den unteren beiden Stufen; die oberen Stufen setzen mehrere parallele Slates und entsprechende Produktionskapazität (Phase 0.3) voraus. Hintergrund: ~5 % der Creatives werden echte Winner → Produktion auf diese Trefferquote auslegen, **aber Qualität vor Menge** (Klon-Drosselung: Praktiker-Modell, siehe research-diversity-testdesign §3.1).
 
 ## 3 - Die 60/30/10-Regel (Mix der Produktion)
 - **60 % Net-New-Konzepte** (neue Angles/Personas/Formate - echte Diversität).
@@ -30,12 +30,12 @@ Volumen richtet sich nach Spend/Umsatz und Produktionskapazität. Richtwerte (Pr
 *Wer nur iteriert, killt mittelfristig den ROAS - die Pipeline braucht ständig frische Konzepte.*
 
 ## 4 - Konto-Struktur 2026 (was Andromeda belohnt)
-- **ASC-Monostruktur als Skaling-Engine** (~60–70 % Budget) + **eine separate ABO-Test-Kampagne** (~15–20 %, nur Net-New) + **kein** klassisches Retargeting als eigene Kampagne (ASC übernimmt es intern).
+- **ASC-Monostruktur als Skaling-Engine** (~60–70 % Budget) + **eine separate ABO-Test-Kampagne** (~15–20 %, nur Net-New) + **kein** klassisches Retargeting als eigene Kampagne (ASC übernimmt es intern). *Zur 20–40-%-Spanne aus Phase 4: die gilt für die Aufbauphase (Crawl/Walk), wenn noch Winner gefunden werden müssen; in der reifen ASC-Monostruktur pendelt sich der Test-Anteil bei ~15–20 % ein.*
 - **Existing-Customer-Budget-Cap** in ASC auf ~15–25 % - sonst verbrennt ASC Akquise-Budget an Bestandskunden.
 - Mehr als 2–3 parallele ASC-Kampagnen = das Fragmentierungsproblem, das ASC lösen soll. *(Quelle: Praktiker-Konsens 2026, Agenturdaten - direktional.)*
 
 ## 5 - Bidding (Kontrolle ohne Delivery zu würgen)
-- **Cost Cap:** Einstieg bei **85 % des historischen *Median*-CPA** (nicht Average - Ausreißer verzerren). Wöchentlich 5–10 % senken, bis Volumen kippt. Tagesbudget = **5–10× Cost Cap** (das Verhältnis ist der kritischste Setup-Faktor).
+- **Cost Cap:** Einstieg bei **85 % des historischen *Median*-CPA** (nicht Average - Ausreißer verzerren). Wöchentlich 5–10 % senken, bis Volumen kippt. Tagesbudget = **5–10× Cost Cap** (das Verhältnis ist der kritischste Setup-Faktor). **Failure-Mode einplanen:** Cost Cap begrenzt Delivery by design - kein Spend ist ein Signal, kein Bug. Stallt die Delivery (kein/kaum Spend in 24–48 h), Cap auf 100–110 % des Median-CPA anheben und von dort in 5–10-%-Schritten senken, statt „Cost Cap funktioniert nicht" zu schließen.
 - **Bid Cap** nur als harter Auktions-Deckel für Preis-Disziplin in umkämpften Nischen - nicht zum Skalieren (würgt Delivery).
 - **Minimum-ROAS** als Alternative, wenn Margen je SKU stark variieren.
 *(ATTN Agency 2026, Agenturdaten - Vendor.)*

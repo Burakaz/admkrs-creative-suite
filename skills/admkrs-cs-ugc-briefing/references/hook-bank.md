@@ -2,7 +2,7 @@
 
 Jeder Hook = die ersten **0,5–3 Sekunden**. Danach ist der Viewer drin oder weg. Diese Bank liefert Hook-**Typen** (mit Wann-und-Beispielen), die **Out-of-the-box-Formate** (Scroll-Breaker), Anti-Standard-UGC, und die **Engineering-Prinzipien**. Beispiel-Lines sind illustrativ und auf die fiktive Marke NOVA gemünzt - im echten Brief mit den **gesperrten Fakten** der Brand füllen, nichts erfinden.
 
-**Benchmark-Anker** `[VENDOR - Benly.ai, 12.000+ Ads]`: Hook-Rate (3-s-View) Ø Meta ~28 % · TikTok ~33 % · Top-10 % Meta ~45 %. **<25 % = Hook fixen. >40 % = Algorithmus behandelt es als relevant → günstigere CPMs.** Als Orientierung, nicht als Garantie; eigene Baseline schlägt jeden Branchenschnitt.
+**Benchmark-Anker** `[VENDOR - Benly.ai, 12.000+ Ads]`: Hook-Rate (3-s-View) Ø Meta ~28 % · TikTok ~33 % · Top-10 % Meta ~45 %. **Launch-Read: <25 % = Hook fixen. >40 % = Algorithmus behandelt es als relevant → günstigere CPMs.** Als Orientierung, nicht als Garantie; eigene Baseline schlägt jeden Branchenschnitt. (Wann ein *laufender* Hook ersetzt wird - Fatigue-Read: §7, Prinzip 6.)
 
 ---
 
@@ -40,7 +40,7 @@ Jeder Hook = die ersten **0,5–3 Sekunden**. Danach ist der Viewer drin oder we
 - **Erste Caption-Zeile** - ergänzt das Visual, **wiederholt nicht** das Voiceover. (Visual: müde am Schreibtisch | Caption: „15:00. Schon wieder.")
 - **Bold Text Overlay** - riesig, kontraststark, stoppt auch ohne Ton. („DAS HAB ICH 2 JAHRE FALSCH GEMACHT")
 - **Interface-Hijacking** - Notes-App, iMessage-Thread, Mock-Suchleiste, **Comment-Reply**, Screenshot-Review. Sieht nativ aus, nicht wie Ad. ⚠️ **Compliance:** darf nicht täuschen - keine offiziell wirkenden Behörden-/News-UIs; bezahlte Nutzung bleibt kennzeichnungspflichtig (→ `admkrs-cs-ad-compliance-check`).
-- **„Wait for it" / Cliffhanger-Text** · **Zahlen/Stats on-screen** („19 g Protein · 95 % weniger Zucker") - konkrete Zahlen schlagen vage Superlative immer.
+- **„Wait for it" / Cliffhanger-Text** · **Zahlen/Stats on-screen** („19 g Protein, 95 % weniger Zucker") - konkrete Zahlen schlagen vage Superlative immer.
 
 ---
 
@@ -103,7 +103,7 @@ Der dedizierte „nicht-Standard-UGC"-Layer. Jedes Format: **was es ist · warum
    | Verbal | Emotion + Detail | „Ich dachte, das wär normal - bis…" |
 
    Timing: Caption bei 0,0 s · Voiceover ≤ 0,5 s · erster visueller Beat 0–1 s.
-6. **Hook-Testing als Betrieb.** Hooks altern schnell (UGC-Lebensdauer oft ~14–18 Tage `[VENDOR]`). **Mind. 3 Hook-Varianten pro Konzept, gleicher Body.** Fatigue-Signal: Hook-Rate < 20 % → ersetzen.
+6. **Hook-Testing als Betrieb.** Hooks altern schnell (UGC-Lebensdauer oft ~14–18 Tage `[VENDOR]`). **Mind. 3 Hook-Varianten pro Konzept, gleicher Body.** Zwei getrennte Reads, nicht verwechseln: **Launch-Read** = Initial-Qualität in den ersten Tagen - unter ~25 % Meta-Hook-Rate → Hook überarbeiten (Benchmark-Anker oben; die eigene Account-Baseline schlägt den Branchenschnitt). **Fatigue-Read** = ein zuvor performender Hook fällt deutlich unter seine *eigene* Baseline (grober Richtwert: unter ~20 %) → Hook-Variante nachschieben, Body bleibt.
 
 ---
 
@@ -126,4 +126,4 @@ Framework-Zuordnung (welche Story-Struktur zu welchem Hook/Awareness): `storytel
 `[VENDOR]` Benly.ai Ad-Creative-Benchmarks 2026 · AppsFlyer Creative Optimization 2025 (Format-Fatigue) · VidMob (authentic vs. polished). `[AGENCY]` motionapp.com (DTC-Hooks), influee.co (Hook-Formeln), zeely.ai (TikTok-Hook-Strukturen), favoured.co.uk (Ugly/Founder Ads). `[OFFIZIELL]` TikTok for Business Creative Best Practices. **Folklore-Check:** „63 % platzieren Core Message in den ersten 3 s" kursiert breit, keine TikTok-Primärquelle - als Prinzip valide, nicht als Studie zitieren.
 
 ---
-<sub>**ADMKRS Creative Suite** · © ADMKRS GmbH, München · v1.1.0 · interner Gebrauch · erstellt von ADMKRS. Beispiel-Lines illustrativ (fiktive Marke NOVA); echte Claims/Zahlen 1:1, nichts erfinden.</sub>
+<sub>**ADMKRS Creative Suite** · © ADMKRS GmbH, München · v1.13.0 · interner Gebrauch · erstellt von ADMKRS. Beispiel-Lines illustrativ (fiktive Marke NOVA); echte Claims/Zahlen 1:1, nichts erfinden.</sub>

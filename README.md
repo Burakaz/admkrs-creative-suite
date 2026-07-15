@@ -3,9 +3,9 @@
 # ADMKRS Creative Suite
 
 **Das Creative-Strategy-Betriebssystem der ADMKRS GmbH.**
-16 verzahnte Skills für Paid-Social- & Google-Creative-Strategy auf höchstem Niveau - Meta (Andromeda) & Google.
+17 verzahnte Skills für Paid-Social- & Google-Creative-Strategy auf höchstem Niveau - Meta (Andromeda) & Google.
 
-`v1.12.0` · © 2026 ADMKRS GmbH, München · interner Gebrauch
+`v1.13.0` · © 2026 ADMKRS GmbH, München · interner Gebrauch
 
 </div>
 
@@ -14,9 +14,9 @@
 ## Was das ist
 Ein installierbares Skill-Bundle (Claude-Plugin), das den kompletten Creative-Workflow einer Performance-Agentur abbildet: von der Strategie über das Briefing, die Produktion, das Testing bis zum Reporting - alles unter einer Haube, alle Skills referenzieren sich gegenseitig.
 
-Grundprinzipien (in allen Skills): **Klarheit vor Kunst · echte Creative-Diversity (Andromeda) · Daten leiten, Handwerk schärft · nichts erfinden (Fakten/Claims/Offers 1:1) · nie senden/posten/skalieren/löschen ohne Freigabe.** Faktenbasis Stand 2026, verifiziert; Vendor-/Marketing-Zahlen sind als solche markiert. **Es sind keine echten Kundendaten enthalten - nur die fiktive Beispielmarke „NOVA".**
+Grundprinzipien (in allen Skills): **Klarheit vor Kunst · echte Creative-Diversity (Andromeda) · Daten leiten, Handwerk schärft · nichts erfinden (Fakten/Claims/Offers 1:1) · nie senden/posten/skalieren/löschen ohne Freigabe.** Faktenbasis Stand 2026, verifiziert; Vendor-/Marketing-Zahlen sind als solche markiert. **Es sind keine echten Kundendaten enthalten - nur die fiktive Beispielmarke „NOVA".** Kundenspezifische Karten (z.B. Verifier-Kundenkarten) leben in der internen Ablage und werden zur Laufzeit mitgegeben, nie im Repo.
 
-## Die 16 Skills
+## Die 17 Skills
 | Skill | Wofür |
 | --- | --- |
 | **admkrs-cs-creative-strategy-os** | Das Vorgehen: neue Brand von Tag 1 bis zum skalierten Test-Motor (Onboarding → Audit → Research → Diversity → Test → Diagnose → Iterate → Scale → Cadence). |
@@ -33,10 +33,11 @@ Grundprinzipien (in allen Skills): **Klarheit vor Kunst · echte Creative-Divers
 | **admkrs-cs-google-cross-channel** | Creatives für Demand Gen / PMax / YouTube mit exakten 2026-Specs. |
 | **admkrs-cs-pitch-teardown** | Neukunden über audit-/teardown-geführtes Selling gewinnen. |
 | **admkrs-cs-ad-compliance-check** | Creatives gegen Meta-Standards 2026 + EU/DACH prüfen, bevor sie live gehen. |
-| **admkrs-cs-creative-verifier** | **Abnahme-Gate:** fertige Creatives gegen das Briefing + Handwerk prüfen (Briefing-Treue · Hook-Wirksamkeit · 48-Punkte-Designcheck · Marken-Do's&Don'ts), bevor sie raus/in den Ads Manager gehen. Läuft vor `ad-compliance-check`. |
+| **admkrs-cs-creative-verifier** | **Abnahme-Gate:** fertige Creatives gegen das Briefing + Handwerk prüfen (Briefing-Treue · Hook-Wirksamkeit · 49-Punkte-Designcheck · Marken-Do's&Don'ts), bevor sie raus/in den Ads Manager gehen. Läuft vor `ad-compliance-check`. |
+| **admkrs-cs-ad-psychology** | Kaufpsychologie: Messy-Middle-Modell (Explore/Evaluate) + die 6 wirksamsten Kauf-Biases mit Effektstärken (Social Proof, Heuristiken, Authority, Free, Now, Scarcity), übersetzt in Angles und On-Creative-Elemente. Diagnostisch (warum konvertiert es nicht) und generativ (welcher Hebel als Badge/Hook). |
 | **admkrs-cs-localization-briefing** | Übersetzungs-/Lokalisierungs-Briefing: freigegebenes DE-Creative + Glossar + Zielsprache → .docx für internationale Teams. Struktur/Labels englisch, Copy DE → native Übersetzung (nie wörtlich), Motion im 2-Spalten-Format (On-Screen · Voice-Over). Sprach-agnostisch (NL/FR/ES/…), nutzt die creative-briefing-Engine. |
 
-**Wie sie zusammenspielen:** `admkrs-cs-creative-strategy-os` dirigiert - Audit nutzt `admkrs-cs-creative-teardown` + `admkrs-cs-performance-reporting`; Research/Diversity speist `admkrs-cs-creative-briefing`; das Briefing zieht `admkrs-cs-offer-promo-strategy` und (für Google) `admkrs-cs-google-cross-channel`; für Creator-Content liefert `admkrs-cs-ugc-briefing` das UGC-Briefing-Dokument und `admkrs-cs-ugc-creator-ops` die Operations (Sourcing/Rechte/Partnership-Ads); fertige Creatives gehen durch das Abnahme-Gate `admkrs-cs-creative-verifier` (Briefing-Treue/Handwerk), dann vor Launch durch `admkrs-cs-ad-compliance-check`; die Landingpage über `admkrs-cs-landing-page-cro`; nach Launch diagnostiziert `admkrs-cs-performance-reporting` → nächste Runde. `admkrs-cs-pitch-teardown` gewinnt die Brand überhaupt erst. Die **Format-Türen** (`static-`/`motion-ad-`/`video-ad-briefing`) sind gescopte Einstiegspunkte auf dieselbe `creative-briefing`-Engine - ein Format pro Tür, keine Duplikate.
+**Wie sie zusammenspielen:** `admkrs-cs-creative-strategy-os` dirigiert - Audit nutzt `admkrs-cs-creative-teardown` + `admkrs-cs-performance-reporting`; Research/Diversity speist `admkrs-cs-creative-briefing`, `admkrs-cs-ad-psychology` liefert dazu die Kaufpsychologie-Schicht (Explore/Evaluate-Modus, Bias-Wahl je Kategorie); das Briefing zieht `admkrs-cs-offer-promo-strategy` und (für Google) `admkrs-cs-google-cross-channel`, für andere Märkte lokalisiert `admkrs-cs-localization-briefing` freigegebene Briefings; für Creator-Content liefert `admkrs-cs-ugc-briefing` das UGC-Briefing-Dokument und `admkrs-cs-ugc-creator-ops` die Operations (Sourcing/Rechte/Partnership-Ads); fertige Creatives gehen durch das Abnahme-Gate `admkrs-cs-creative-verifier` (Briefing-Treue/Handwerk), dann vor Launch durch `admkrs-cs-ad-compliance-check`; die Landingpage über `admkrs-cs-landing-page-cro`; nach Launch diagnostiziert `admkrs-cs-performance-reporting` → nächste Runde. `admkrs-cs-pitch-teardown` gewinnt die Brand überhaupt erst. Die **Format-Türen** (`static-`/`motion-ad-`/`video-ad-briefing`) sind gescopte Einstiegspunkte auf dieselbe `creative-briefing`-Engine - ein Format pro Tür, keine Duplikate.
 
 ## Struktur
 ```
@@ -44,7 +45,7 @@ admkrs-creative-suite/
 ├── .claude-plugin/
 │   ├── plugin.json          # Plugin-Manifest (Skills werden automatisch erkannt)
 │   └── marketplace.json     # Marketplace-Eintrag
-├── skills/                  # die 16 Skills (je SKILL.md + references/ + assets/)
+├── skills/                  # die 17 Skills (je SKILL.md + references/ + assets/)
 ├── README.md · LICENSE · CHANGELOG.md · .gitignore
 ```
 
@@ -57,7 +58,7 @@ admkrs-creative-suite/
    /plugin marketplace add Burakaz/admkrs-creative-suite
    /plugin install admkrs-creative-suite
    ```
-   Alle 16 Skills werden automatisch erkannt. Updates: `git push` → Team aktualisiert das Marketplace.
+   Alle 17 Skills werden automatisch erkannt. Updates: `git push` → Team aktualisiert das Marketplace.
 
 ### B) Einzeln in Cowork
 Jeder Ordner unter `skills/<name>/` ist ein eigenständiger Skill. Die mitgelieferten `.skill`-Dateien per **„Save skill"** installieren - einzeln, je nach Bedarf.
@@ -73,7 +74,7 @@ git push -u origin main
 > Das Repo ist **öffentlich** (per Link teilbar; LICENSE bleibt proprietär, © ADMKRS, `noindex`). Die Skills `admkrs-cs-creative-briefing` und `admkrs-cs-ugc-briefing` nutzen für die docx-Generierung `docx` (Node) - einmalig je `cd skills/<skill>/assets && npm install`.
 
 ### Team-Website
-Eine fertige Info-Website fürs Team liegt unter [`docs/index.html`](docs/index.html) - einfach lokal öffnen, oder via **GitHub Pages** veröffentlichen: Repo → *Settings → Pages → Source: `main` / `/docs`*. Sie erklärt die Suite, die 16 Skills und die Installation.
+Die Team-Website (Guide, Ablauf-Prozessmap, Creative-Strategy-Tutorial, Ad-Style-Katalog) liegt unter **https://suite.admkrs.com** (Fallback: https://admkrs-suite-docs.vercel.app), zugänglich nur mit Google-Login einer @admkrs.com-Adresse. Sie erklärt die Suite, die 17 Skills und die Installation. Der Quellcode der Seite liegt nicht mehr in diesem Repo.
 
 ## Lizenz & Urheberschaft
 Proprietär - © 2026 **ADMKRS GmbH**, München. Alle Rechte vorbehalten. Erstellt von und für ADMKRS. Keine öffentliche Weitergabe ohne schriftliche Genehmigung. Details: [LICENSE](LICENSE).

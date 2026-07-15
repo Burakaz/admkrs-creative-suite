@@ -1,6 +1,9 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-"""Generiert docs/styles.html: animierter NOVA-Ad-Style-Katalog (184 Styles, 9:16-Previews)."""
+"""Generiert styles.html (animierter NOVA-Ad-Style-Katalog, 9:16-Previews) direkt in suite-docs/public/.
+Die Website lebt seit Juli 2026 nicht mehr in diesem Repo, sondern auf suite.admkrs.com (Vercel-Projekt
+admkrs-suite-docs, lokales Projekt /Volumes/WORK/CLAUDE/Projects/suite-docs). Nach dem Generieren:
+cd /Volumes/WORK/CLAUDE/Projects/suite-docs && vercel deploy --prod"""
 import json, re, html as H, sys
 
 import os
@@ -284,7 +287,8 @@ for fi, fam in enumerate(FAMILIES):
 total_styles = num
 out = head.replace('{{GNAV}}', '\n'.join(gnav_links)).replace('{{TOTAL}}', str(total_styles)).replace('{{FAMS}}', str(len(FAMILIES)))
 out = out + '\n'.join(sections) + foot.replace('{{TOTAL}}', str(total_styles)).replace('{{FAMS}}', str(len(FAMILIES)))
-open(os.path.join(HERE, '..', '..', 'docs', 'styles.html'), 'w', encoding='utf-8').write(out)
+OUT_PATH = '/Volumes/WORK/CLAUDE/Projects/suite-docs/public/styles.html'
+open(OUT_PATH, 'w', encoding='utf-8').write(out)
 print(f'OK: {len(FAMILIES)} Familien, {total_styles} Styles geschrieben. Fallback-Previews: {len(preview.missing)}')
 print(f'Validierungs-Warnungen: {len(preview.warnings)}')
 for w in preview.warnings: print('  WARN:', w)

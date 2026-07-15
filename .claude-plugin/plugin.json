@@ -1,8 +1,8 @@
 {
   "name": "admkrs-creative-suite",
   "displayName": "ADMKRS – Creative Strategy Suite",
-  "version": "1.12.0",
-  "description": "ADMKRS Creative Strategy Suite: 16 verzahnte Skills für Paid-Social- & Google-Creative-Strategy: OS, Briefings, UGC-Briefing, Teardown, Reporting, Landing-Page-CRO, UGC-Ops, Pitch, Google Cross-Channel, Offer/Promo, Compliance, Lokalisierung.",
+  "version": "1.13.0",
+  "description": "ADMKRS Creative Strategy Suite: 17 verzahnte Skills für Paid-Social- & Google-Creative-Strategy: OS, Kaufpsychologie, Briefings, UGC-Briefing, Teardown, Reporting, Landing-Page-CRO, UGC-Ops, Pitch, Google Cross-Channel, Offer/Promo, Compliance, Lokalisierung.",
   "author": { "name": "ADMKRS GmbH", "url": "https://admkrs.com" },
   "license": "Proprietary, © 2026 ADMKRS GmbH",
   "keywords": ["creative-strategy", "meta-ads", "andromeda", "google-ads", "paid-social", "ugc", "ad-briefing", "cro", "performance-marketing", "compliance"],

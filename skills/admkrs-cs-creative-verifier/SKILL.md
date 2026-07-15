@@ -4,7 +4,7 @@ description: >
   Abnahme-Gate der ADMKRS Creative Suite: prüft fertige Creatives (Stills, Videos, Carousels)
   gegen das Briefing UND auf handwerkliche Sauberkeit, bevor sie an den Kunden / in den Ads Manager
   gehen. Vier Dimensionen in einem Lauf: Briefing-Treue, Hook-Wirksamkeit (tut die Copy ihren Job,
-  diagnostisch), Designhandwerk (Designfehler-Cheat-Sheet, 48 Punkte) und Kundenspezifik (Marken-
+  diagnostisch), Designhandwerk (Designfehler-Cheat-Sheet, 49 Punkte) und Kundenspezifik (Marken-
   Do's & Don'ts). Liefert einen kompakten, opinionierten Verdict mit Severity, Findings getaggt nach
   [Briefing] · [Wirksamkeit] · [Design] · [Kunde]. Trigger: "wurde das briefing richtig umgesetzt",
   "creatives prüfen", "creative check/review", "creative abnehmen", "passen die stills zum briefing",
@@ -97,22 +97,34 @@ Briefing-Konzept ohne Bild → flag (noch nicht umgesetzt oder fehlt im Upload).
 
 Pro Creative diagnostisch durchgehen - nicht abhaken, sondern beantworten.
 
-### A. Copy-Match (HL, SL/Wording, CTA, Disclaimer)
+### A. Copy-Match (HL, SL/Wording, CTA, Disclaimer) - zwei Klassen
 
-Die On-Creative-Copy (= das Fette im Briefing) muss wörtlich oder als gewollter sauberer Cut der
-Vorgabe entsprechen. Designer dürfen kürzen, aber nicht umformulieren oder Zentrales weglassen.
+Der Suite-Standard (`document-format.md`) sichert Gesperrtes exakt und begrüßt zugleich
+Wording-Verbesserungen des Designers bei freier Copy („gute Creatives dürfen Wordings challengen").
+Du bist das Gate für Klasse 1 - nicht der Wortlaut-Polizist für Klasse 2:
 
-- **HL**: Wortlaut identisch? Kein Tippfehler? Keine Umformulierung?
+1. **Gesperrte Copy = 1:1-Pflicht.** Claims, Zahlen, Preise, Codes, Disclaimer/Sternchentexte und
+   alles aus dem GESPERRT-Block des Brand-Profils. Muss wörtlich, vollständig und lesbar stehen -
+   jede Abweichung = [Briefing]-Finding **hoch**.
+2. **Freie Copy (Hook-/Subline-/CTA-Wording ohne gesperrte Fakten).** Abweichung vom
+   Briefing-Wortlaut ist **kein automatisches Finding**. Prüfe stattdessen: Trägt das neue Wording
+   die gebriefte Idee / den Angle noch, und besteht es die Klarheits-Tests aus C? Trägt es → als
+   „bewusste Abweichung, kurz bestätigen lassen" notieren (max. **mittel**). Trägt es nicht →
+   [Briefing]-Finding, begründet am Job („öffnet den Pain nicht mehr"), nicht am Wortlaut.
+
+Dabei pro Element:
+
+- **HL**: Tippfehlerfrei? Bei Wording-Abweichung: Klasse-2-Prüfung; gesperrte Fakten darin unangetastet?
 - **SL/Wording**: Vollständig oder gewollt gekürzt? Bei Kürzung: wurde das Richtige weggelassen (Abschlusssatz statt zentralem Proof Point)?
-- **CTA**: Wortlaut identisch? Als gestaltetes **On-Creative**-Element (nicht der Meta-Ads-Manager-Button)?
-- **Disclaimer/Sternchentext**: 1:1 übernommen, vollständig, lesbar?
-- **Umkehrprüfung (NEU):** Steht **Nicht-Fettes** (Anweisung, Visual-Direction, interner Kontext) sichtbar als Text auf dem Creative? → [Briefing]-Finding **hoch** (Designer hat eine Anweisung als Copy gesetzt).
+- **CTA**: Wie gebrieft? Als gestaltetes **On-Creative**-Element (nicht der Meta-Ads-Manager-Button)?
+- **Disclaimer/Sternchentext**: immer Klasse 1 - 1:1 übernommen, vollständig, lesbar?
+- **Umkehrprüfung:** Steht **Nicht-Fettes** (Anweisung, Visual-Direction, interner Kontext) sichtbar als Text auf dem Creative? → [Briefing]-Finding **hoch** (Designer hat eine Anweisung als Copy gesetzt).
 
 (Reine Tippfehler sind zugleich [Design] aus 3B - Typo 01. Im Verdict nur einmal listen.)
 
 ### B. Visual-Job (nicht Visual-Match)
 
-Im Suite-Standard v1.9 ist die **Visual-Direction Default leer** - der Designer entscheidet die Optik.
+Im Suite-Standard (`document-format.md`) ist die **Visual-Direction Default leer** - der Designer entscheidet die Optik.
 Du prüfst deshalb das Visual gegen den **strategischen Job**, nicht gegen eine Beschreibung:
 
 - **Visual-Direction gefüllt** → das Bild muss den gebrieften Kern treffen (z.B. „Architekt mit Bauplan" → ist das ein Planer oder ein Bauarbeiter?).
@@ -138,8 +150,24 @@ Designer schuld. Findest du Muster (mehrere Creatives derselben Schwäche), noti
 ### D. Störer / Badge · Format · CI
 
 - **Störer/Badge:** korrekt (z.B. SERVICE auf Service-Konzept)? Konsistente Platzierung über alle Stills?
-- **Format (Meta-Standard):** gebrieft sind **4:5 + 9:16, kein 1:1**. Fehlt ein gebrieftes Format → flag, falls eindeutig sichtbar. Ein geliefertes **1:1 ohne Sonderformat-Briefing** = Finding (nicht mehr Meta-Standard), kein erwartetes Format. Bei 4:5: Wording-Dichte sinnvoll runtergebrochen?
+- **Format (Meta-Standard):** gebrieft sind **4:5 + 9:16, kein 1:1**. Fehlt ein gebrieftes Format → flag, falls eindeutig sichtbar. Ein geliefertes **1:1 ohne Sonderformat-Briefing** = Finding (nicht mehr Meta-Standard), kein erwartetes Format. Bei 4:5: Wording-Dichte sinnvoll runtergebrochen? Bei **9:16** ist die **Safe-Zone-Prüfung Teil des Format-Checks**: Text, Logo, CTA und Disclaimer außerhalb der Meta-UI-Zonen (Cheat-Sheet 7.7).
 - **CI / Brand:** Hauptfarbe wie gebrieft? Logo-Lockup an der richtigen Position? Typo/Button-Stil konsistent?
+
+### E. Motion/Video & Carousel (wenn geliefert)
+
+Videos und Carousels laufen durch dieselben Pässe A-D - mit diesen Zusätzen:
+
+- **Nur Video-Datei, keine Frames?** Gezielt Frames anfordern: Hook-Frame (0-2 s), 1-2 Beats aus
+  der Mitte, End-Card. Ohne sie ist der Lauf ein Teil-Check - im Verdict sagen.
+- **Hook-Frame (0-2 s):** entspricht er einem der gebrieften Hooks (A/B/C) und besteht er die Tests aus C?
+- **End-Card-Pflichtcheck:** gegen die **letzte Storyboard-Zeile** prüfen - CTA, Offer/Code und
+  Disclaimer vollständig und lesbar? **Fehlender End-Card-Disclaimer = hoch** (laut `document-format.md`
+  der Klassiker, der sonst erst beim Kunden auffällt).
+- **On-Screen-Text:** stichprobenartig gegen die On-Screen-Text-Spalte des Storyboards mappen
+  (Frames auf Timecodes). VO, Timing, Schnitt und Audio kannst du aus Frames nicht prüfen →
+  ehrlich in „Was ich nicht prüfen kann".
+- **Carousel:** Funktioniert Card 1 standalone als Hook? Trägt die letzte Card den CTA?
+  Card-Reihenfolge wie gebrieft (`[Card | Visual | On-Card Text | Zweck]`)?
 
 ---
 
@@ -155,7 +183,7 @@ Inhalt · Typografie & Text · Bilder & Assets · Layout & Abstände · Farbe & 
 
 Regeln:
 
-- **Diagnostisch, nicht Häkchen.** 48 Punkte heißt nicht 48 Findings. Flagge nur echte Fehler. Was du aus dem Bild nicht sicher beurteilen kannst → „Was ich nicht prüfen kann", nicht in die Findings.
+- **Diagnostisch, nicht Häkchen.** 49 Punkte heißt nicht 49 Findings. Flagge nur echte Fehler. Was du aus dem Bild nicht sicher beurteilen kannst → „Was ich nicht prüfen kann", nicht in die Findings.
 - **Severity nach der Severity-Map** im Cheat-Sheet. Rechtschreibfehler in der HL = hoch; doppeltes Leerzeichen = niedrig.
 - **Tag [Design]** an jedem Handwerks-Finding.
 - **Häufigste echte Treffer zuerst:** Tippfehler (Typo 01), Clipping (Layout 05), Kontrast (Farbe 01), Logo-Sauberkeit (Logo 01–07), harte Gradient-Kanten/Halos (Bilder 04/07), Störer-Neigung (Layout 06). Plus die **ADMKRS-Hausregel-Checks** (reine String-Prüfung): **Em-Dash „—" in On-Creative-Copy** (Typo 09, mittel) und **Banned-Buzzwords** (Inhalt 07, mittel).
@@ -176,8 +204,8 @@ Logik hinausgehen. Sie liegen als **Kundenkarten** in `references/clients/<brand
 `references/clients/README.md`).
 
 1. **Marke bestimmen.** Reihenfolge: ClickUp-Feld „🏷️ Kunde" → Briefing-Text → sichtbare Marke/Logo.
-2. **Karte finden - über den Index, nicht über Datei-Raten.** Lies `references/clients/README.md` (Marke→Datei) ODER liste den Ordner und lies von jeder Karte den Kopf `**Marke / Aliasse:**`. Matche gegen die Aliasse (NOVA = Nova = Nova = „10248 | NOVA" = 10248). **Nicht** den ClickUp-Label-String naiv slugifizieren.
-3. **Karte anwenden.** Lies sie, prüfe jedes Creative zusätzlich gegen diese Regeln. Findings taggst du **[Kunde]**. Severity nach Kontext - Fehler an Marken-/Produktnamen (z.B. „Make-Up" statt „Make-up", fehlendes „Markenname") sind hoch (Brand-/Rechtsthema).
+2. **Karte finden - über den Index, nicht über Datei-Raten.** Lies `references/clients/README.md` (Marke→Datei) ODER liste den Ordner und lies von jeder Karte den Kopf `**Marke / Aliasse:**`. Matche gegen die Aliasse (Beispiel fiktiv: NOVA = NOVA Nutrition = „4711 | NOVA" = 4711). **Nicht** den ClickUp-Label-String naiv slugifizieren. **Echte Kundenkarten liegen intern** (Kunden-Drive/interner Ordner, nie im öffentlichen Repo) und werden zur Laufzeit mitgegeben; im Repo liegt nur die fiktive Vorlage `nova.md`.
+3. **Karte anwenden.** Lies sie, prüfe jedes Creative zusätzlich gegen diese Regeln. Findings taggst du **[Kunde]**. Severity nach Kontext - Fehler an Marken-/Produktnamen (z.B. falsche Groß-/Kleinschreibung des Markennamens, fehlendes ®-Zeichen) sind hoch (Brand-/Rechtsthema).
    **Tag-Tie-Break:** Deckt die Karte einen Punkt ab, der zugleich ein generischer Designfehler wäre, gewinnt **[Kunde]** (die Karte ist die Marken-Autorität). Sonst [Design]. Nie doppelt listen.
    **Brand-Profil-Brücke:** Existiert ein Brand-Profil unter `admkrs-cs-creative-briefing/assets/brand_profiles/<brand>.md`, ist dessen **GESPERRT-Block die Autorität** für Claims/Zahlen/Schreibweisen; die Kundenkarte ergänzt nur die still-prüfbaren Layout-/Logo-/Störer-Regeln. Gesperrte Fakten nicht doppelt pflegen.
 4. **Live-Abgleich (optional, wenn die Karte eine Canvas-ID trägt).** `slack_read_canvas(canvas_id=...)` - ein Call, ~2–3 Sek, gegen den aktuellen Stand. **Strikt optional:** die Karte funktioniert auch ohne Slack (sie ist die verify-taugliche Arbeitskopie), der Skill blockt nie, wenn Slack fehlt.
@@ -230,7 +258,7 @@ Das ist eine **faktische Deckungsprüfung, kein Rechts-Gate.** Sobald es rechtli
 
 ### Diagnostischer Self-Review (vor dem Verdict)
 
-1. **Mismatch oder pedantisch?** Findings, bei denen das Visual den Job besser macht als die Vorgabe, sind keine Findings. Leere Visual-Direction ist nie ein Finding.
+1. **Mismatch oder pedantisch?** Findings, bei denen das Visual den Job besser macht als die Vorgabe, sind keine Findings. Leere Visual-Direction ist nie ein Finding. Wording-Abweichung bei freier Copy ist kein automatischer Blocker (A, Klasse 2) - nur gesperrte Copy ist 1:1-Pflicht.
 2. **Severity?** hoch (zurück) / mittel (sollte zurück) / niedrig (erwähnen). [Wirksamkeit] max. mittel.
 3. **Lief der Design-Pass (3B) und ist er im Verdict sichtbar?** Sonst nachholen.
 4. **Marke bestimmt + nach Kundenkarte geschaut?** Karte existiert → angewendet; keine → „keine Kundenkarte" im Verdict.
@@ -334,4 +362,4 @@ Die kundenspezifischen Do's & Don'ts (Schritt 3C) liegen als Kundenkarten in `re
 Pflege: neue Marke → Karte anlegen (siehe `references/clients/README.md`); die `#<brand>_intern`-Slack-
 Canvas „Do's and Don'ts" ist die Quelle der Wahrheit, die Karte die verify-taugliche Arbeitskopie.
 
-<sub>**ADMKRS Creative Suite** · © ADMKRS GmbH, München · v1.10.0 · interner Gebrauch · Abnahme-Gate; läuft vor `admkrs-cs-ad-compliance-check`. Briefing-Standard & Banned-Buzzwords werden aus `admkrs-cs-creative-briefing` referenziert, nicht dupliziert.</sub>
+<sub>**ADMKRS Creative Suite** · © ADMKRS GmbH, München · v1.13.0 · interner Gebrauch · Abnahme-Gate; läuft vor `admkrs-cs-ad-compliance-check`. Briefing-Standard & Banned-Buzzwords werden aus `admkrs-cs-creative-briefing` referenziert, nicht dupliziert.</sub>

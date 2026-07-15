@@ -1,13 +1,13 @@
 # ADMKRS Designfehler Cheat-Sheet - Prüfraster
 
-7 Kategorien, 48 Prüfpunkte. Dies ist das Raster für den **Design-/Handwerks-Pass**
+7 Kategorien, 49 Prüfpunkte. Dies ist das Raster für den **Design-/Handwerks-Pass**
 des Creative Verifiers (Schritt 3B). Dieser Pass ist Pflicht und läuft bei jedem
 Durchlauf - auch wenn die Briefing-Treue top ist. Ein perfekt gebrieftes Still mit
 Tippfehler, Clipping oder verzerrtem Logo ist trotzdem tot.
 
 **So nutzt du es:** Diagnostisch, nicht als Häkchenliste. Geh pro Creative die 7
 Kategorien durch und flagge nur **echte** Fehler - nicht jeden theoretisch denkbaren
-Punkt. 48 Punkte heißt nicht 48 Findings. Einen Punkt, den du aus dem Bild nicht
+Punkt. 49 Punkte heißt nicht 49 Findings. Einen Punkt, den du aus dem Bild nicht
 sicher beurteilen kannst, schreibst du unter „Was ich nicht prüfen kann", nicht in die
 Findings. Jedes Design-Finding kriegt eine Severity (siehe Severity-Map unten) und das
 Tag **[Design]**, damit Handwerk von Briefing-Treue unterscheidbar bleibt.
@@ -20,7 +20,7 @@ Tag **[Design]**, damit Handwerk von Briefing-Treue unterscheidbar bleibt.
 - [4. Layout & Abstände (7)](#4-layout--abstände-7)
 - [5. Farbe & Kontraste (4)](#5-farbe--kontraste-4)
 - [6. Logo (7)](#6-logo-7)
-- [7. Formate & Artboards (6)](#7-formate--artboards-6)
+- [7. Formate & Artboards (7)](#7-formate--artboards-7)
 - [Severity-Map](#severity-map-design-findings)
 - [Nicht aus dem Screenshot prüfbar](#nicht-aus-dem-screenshot-prüfbar)
 
@@ -43,7 +43,7 @@ Tag **[Design]**, damit Handwerk von Briefing-Treue unterscheidbar bleibt.
 3. **ß → SS in Versalien.** In Caps wird ß zu SS.
 4. **Anführungszeichen.** Typografische „…" statt gerader Zeichen.
 5. **Brand-Font.** Nur Brand-Fonts, kein Stock-Sans als Fallback.
-6. **Schriftgröße (Mobile).** Fließtext ≥ 16 px, UI-Labels ≥ 14 px.
+6. **Mobile-Lesbarkeit.** Funktionaler Test statt Pixelwert: Wirkt die kleinste Nicht-Disclaimer-Zeile bei Feed-Größe (Still gedanklich auf ~380 px Breite verkleinert) noch ohne Zoom lesbar? Disclaimer dürfen klein sein, müssen aber entzifferbar bleiben. (Render-Pixel des Ad-Canvas haben keinen festen Bezug zur Anzeigegröße auf dem Phone - fixe px-Grenzen sind aus einem Still nicht prüfbar.)
 7. **Doppelte Leerzeichen.** Nach Copy-Paste prüfen. (→ niedrig)
 8. **Konsistente Schnitte.** Bold/Regular/Light nicht willkürlich mischen.
 9. **Kein langer Gedankenstrich „—" (Em-Dash) in On-Creative-Copy (ADMKRS-Hausregel).** Reine String-Prüfung über Hook/Subline/USPs/CTA/Disclaimer. Treffer = mittel. Stattdessen Punkt/Komma, notfalls das kurze „–". (Quelle: `admkrs-cs-creative-briefing/references/copywriting.md` §8.)
@@ -86,14 +86,15 @@ Tag **[Design]**, damit Handwerk von Briefing-Treue unterscheidbar bleibt.
 6. **Farbvariante.** Hell/Dunkel je nach Hintergrund.
 7. **Nie geneigt / nur als Einheit.** Logo nicht neigen, nicht mit Schrift verbasteln.
 
-## 7. Formate & Artboards (6)
+## 7. Formate & Artboards (7)
 
-1. **Social-Formate (Meta-Standard).** **4:5 (1080×1350) + 9:16 (1080×1920) - kein 1:1** (im Suite-Briefing-Standard v1.9 abgeschafft). Ein geliefertes 1:1 ohne Sonderformat-Briefing = Finding, kein erwartetes Format. Sonderformate (andere Plattformen) nur, wenn der Brief sie mit Plattform + Pixeln ausweist.
+1. **Social-Formate (Meta-Standard).** **4:5 (1080×1350) + 9:16 (1080×1920) - kein 1:1** (im Suite-Briefing-Standard abgeschafft, Autorität: `admkrs-cs-creative-briefing/references/document-format.md`). Ein geliefertes 1:1 ohne Sonderformat-Briefing = Finding, kein erwartetes Format. Sonderformate (andere Plattformen) nur, wenn der Brief sie mit Plattform + Pixeln ausweist.
 2. **Kanalspezifische Formate.** Amazon, Criteo, Display laut Brief.
 3. **Artboard-Benennung.** Schema „Social_Story_v1". (nicht aus dem Bild prüfbar)
 4. **Exportformat.** JPG Foto · PNG Transp. · SVG Vektor · PDF Print. (nicht aus dem Bild prüfbar)
 5. **Drive-Link freigegeben.** Für alle Beteiligten. (nicht aus dem Bild prüfbar)
 6. **Sprachanpassung.** Buttons, Disclaimer, Overlays übersetzt?
+7. **Safe Zones (9:16).** Text, Logo, CTA und Disclaimer außerhalb der Meta-UI-Zonen (oben ~14 %, unten ~20–35 %, Seiten ~6 %)? Reels-Caption und UI verdecken sonst genau die Zone, in der CTA und Disclaimer gern landen. Kern-Copy/CTA/Disclaimer in der UI-Zone = hoch. **Werte-Autorität: `admkrs-cs-creative-briefing/references/field-notes.md`** - dort pflegen, nicht hier parallel.
 
 ---
 
@@ -106,7 +107,8 @@ der Headline. Nutze Urteilsvermögen, nicht die Tabelle stur.
 - **hoch (Blocker, muss zurück):** Rechtschreibfehler in Live-Copy; Health Claim;
   Logo falsch / verzerrt / falsche Version; Bild verzerrt; Placeholder im finalen File;
   Text-Clipping; Kontrast so niedrig, dass Lesbarkeit kippt; weißer Rand / fehlender
-  Bleed bei Vollflächen-Format.
+  Bleed bei Vollflächen-Format; Kern-Copy, CTA oder Disclaimer in der Meta-UI-Zone
+  (9:16 Safe Zones, 7.7).
 - **mittel (sollte zurück):** ß→SS-Fehler; gerade statt typografische Anführungszeichen;
   inkonsistente Schnitte; harte Gradient-Kante; Freisteller-Halo; Störer falsch geneigt
   (Winkel/Richtung); Alignment-/Grid-Abweichungen; Farbe außerhalb Brand-Set;

@@ -1,7 +1,7 @@
-# Creative Report  ·  <BRAND> · KW <##> / <Monat>
+# Creative Report, <BRAND>, KW <##> / <Monat>
 
 ## Executive Summary (in 3 Min lesbar)
-Was lief · was nicht · was ändert sich: ____
+Was lief, was nicht, was ändert sich: ____
 
 ## Creative-Performance nach Konzept/Angle
 | Thumbnail | Konzept/Angle | Format | Spend | Thumbstop | Hold | CTR(out) | CVR | CPA/ROAS |
@@ -18,7 +18,12 @@ Was lief · was nicht · was ändert sich: ____
 - ____
 
 ## Business-Metriken (separat vom Creative-Teil)
-MER-Trend ___ · Blended ROAS ___ · nCAC ___ (Plattform-ROAS nie allein)
+- MER-Trend: ___
+- Blended ROAS: ___
+- nCAC: ___
+- Contribution: ___
+
+(Plattform-ROAS nie allein)
 
 ## Diese Woche gekillt - und warum
 - ____

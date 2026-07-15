@@ -1,8 +1,8 @@
 {
   "filename": "260610_NOVA_ProteinCoffee_Statics_DE",
   "header": {
-    "title": "NOVA · Protein Coffee – Statics",
-    "dek": "Creative Upgrade  ·  5 Statics  ·  Stand 10.06.2026  ·  freigegeben"
+    "title": "NOVA Protein Coffee – Statics",
+    "dek": "Creative Upgrade, 5 Statics, Stand 10.06.2026, freigegeben"
   },
   "blocks": [
     {
@@ -15,7 +15,7 @@
       "rows": [
         [
           "Ziel",
-          "Prospecting cold + Retargeting · Creative Upgrade des Static-Sets · CVR-Fokus."
+          "Prospecting cold + Retargeting, Creative Upgrade des Static-Sets, CVR-Fokus."
         ],
         [
           "Zielgruppe",
@@ -27,7 +27,7 @@
         ],
         [
           "Formate",
-          "Meta-Standard: 4:5 (1080×1350) und 9:16 (1080×1920).\nKein 1:1.\nSonderformate nur auf Ansage (dann mit Plattform + Pixeln)."
+          "Meta-Standard: 4:5 (1080×1350) und 9:16 (1080×1920)."
         ],
         [
           "Deadline",
@@ -39,17 +39,13 @@
         ],
         [
           "Abgabe",
-          "PNG je Static in 4:5 + 9:16 · Drive: NOVA > 04_Delivery > 260616_Statics."
+          "PNG je Static in 4:5 + 9:16, Drive: NOVA > 04_Delivery > 260616_Statics."
         ],
         [
           "Wichtige Infos",
           "Produkt-Label muss auf jedem Static lesbar sein."
         ]
       ]
-    },
-    {
-      "type": "p",
-      "text": "<b>Fett = landet auf dem Creative.</b> Alles andere ist Anweisung/Kontext für euch.\nAlle Texte 1:1 übernehmen – kein Wort ändern, keine Zahlen erfinden.\n[Platzhalter: …] = Wert fehlt. Nicht selbst füllen – zurück an ADMKRS."
     },
     {
       "type": "table",
@@ -111,7 +107,7 @@
           "Protein Coffee (Range)",
           "Review",
           "★★★★★\n<b>„Noch nie ein so leckeres Whey in dieser Geschmacksrichtung gefunden.“</b>",
-          "<b>Lena · Verified Customer</b>",
+          "<b>Lena, Verified Customer</b>",
           "–",
           "–",
           "Profil-Icon: Initiale „L“ im Kreis, kein KI-Gesicht."

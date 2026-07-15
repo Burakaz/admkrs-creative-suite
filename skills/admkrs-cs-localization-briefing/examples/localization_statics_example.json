@@ -1,27 +1,92 @@
 {
   "filename": "260622_NOVA_Sommermaerchen_Statics_NL",
   "header": {
-    "eyebrow": "LOCALIZATION · ORIGINAL → TRANSLATION",
-    "title": "NOVA · Sommermärchen-Bundle · DE → NL",
-    "dek": "1 Offer-Static · NL market · 22.06.2026 · Draft"
+    "eyebrow": "LOCALIZATION: ORIGINAL → TRANSLATION",
+    "title": "NOVA Sommermärchen-Bundle, DE → NL",
+    "dek": "1 Offer-Static, NL market, 22.06.2026, Draft"
   },
   "blocks": [
     {
       "type": "p",
-      "text": "<b>Bold = goes on the creative (final translated copy).</b> Left column = DE source (reference). Use all translated copy 1:1, do not re-translate, do not change numbers.\nGlossary anchors: Sommermärchen → Oranjezomer · 97% weniger Zucker → 97% minder suiker · Zuckerarm → Suikerarm · Disclaimer → official NL wording (below)."
+      "text": "Glossary anchors: Sommermärchen → Oranjezomer, 97% weniger Zucker → 97% minder suiker, Zuckerarm → Suikerarm, Disclaimer → official NL wording (below)."
+    },
+    {
+      "type": "table",
+      "layout": "keyvalue",
+      "widths": [
+        1,
+        4.2
+      ],
+      "rows": [
+        [
+          "Scope",
+          "1 offer static, 2 formats = 2 assets"
+        ],
+        [
+          "Source files",
+          "Drive: NOVA > 02_Assets > Statics_DE_Master (Figma masters, packshots, fonts)"
+        ],
+        [
+          "Formats",
+          "Meta standard: 4:5 (1080×1350) and 9:16 (1080×1920)."
+        ],
+        [
+          "Deadline",
+          "26.06.2026 (EOD)"
+        ],
+        [
+          "Delivery",
+          "PNG per format, Drive: NOVA > 04_Delivery > 260626_Statics_NL, naming: DE master name + _NL"
+        ]
+      ]
     },
     {
       "type": "table",
       "layout": "headerrow",
       "style": "plain",
-      "widths": [1.25, 0.95, 2.5, 2.5],
-      "colAligns": ["left", "left", "left", "left"],
-      "header": ["Asset", "Element", "Original (DE)", "Translation (NL)"],
+      "widths": [
+        1.25,
+        0.95,
+        2.5,
+        2.5
+      ],
+      "colAligns": [
+        "left",
+        "left",
+        "left",
+        "left"
+      ],
+      "header": [
+        "Asset",
+        "Element",
+        "Original (DE)",
+        "Translation (NL)"
+      ],
       "rows": [
-        ["1 · Bundle (Offer)", "Hook", "Dein Sommermärchen-Bundle. 15% sparen.", "<b>Jouw Oranjezomer-bundel. 15% korting.</b>"],
-        ["", "Subline", "Crazy Frogs + Sweet Champions. Limitiert, nur bis Sonntag.", "<b>Crazy Frogs + Sweet Champions. Limited editions, t/m zondag.</b>"],
-        ["", "Badges", "-15% · NUR BIS SONNTAG\n97% weniger Zucker*\nLIMITIERT", "<b>-15% · ALLEEN T/M ZONDAG</b>\n<b>97% minder suiker*</b>\n<b>LIMITED EDITION</b>"],
-        ["", "CTA", "Bundle sichern", "<b>bundel bestellen</b>"]
+        [
+          "1) Bundle (Offer)",
+          "Hook",
+          "Dein Sommermärchen-Bundle. 15% sparen.",
+          "<b>Jouw Oranjezomer-bundel. 15% korting.</b>"
+        ],
+        [
+          "",
+          "Subline",
+          "Crazy Frogs + Sweet Champions. Limitiert, nur bis Sonntag.",
+          "<b>Crazy Frogs + Sweet Champions. Limited editions, t/m zondag.</b>"
+        ],
+        [
+          "",
+          "Badges",
+          "-15%, NUR BIS SONNTAG\n97% weniger Zucker*\nLIMITIERT",
+          "<b>-15% ALLEEN T/M ZONDAG</b>\n<b>97% minder suiker*</b>\n<b>LIMITED EDITION</b>"
+        ],
+        [
+          "",
+          "CTA",
+          "Bundle sichern",
+          "<b>bundel bestellen</b>"
+        ]
       ]
     },
     {
@@ -36,7 +101,7 @@
       "type": "callout",
       "variant": "todo",
       "lead": "Adaptation & Compliance",
-      "text": "‚Sommermärchen' (2006-WM-Nostalgie) has no NL equivalent → reframed to ‚Oranjezomer / voetbalzomer' + back-in-stock summer nostalgia.\n[!] Use ‚oranje' only as colour / summer vibe. No KNVB crest, no national-team, player or branded-ball references.\nGlossary conflict to resolve: glossary says ‚Bundle', native review uses ‚bundel' → flagged, glossary update proposed [Addition]."
+      "text": "‚Sommermärchen' (2006 World Cup nostalgia) has no NL equivalent → reframed to ‚Oranjezomer / voetbalzomer' + back-in-stock summer nostalgia.\n[!] Use ‚oranje' only as colour / summer vibe. No KNVB crest, no national-team, player or branded-ball references."
     }
   ]
 }

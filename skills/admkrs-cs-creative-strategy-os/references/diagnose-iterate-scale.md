@@ -22,11 +22,24 @@ Benchmarks zur Orientierung (Vendor, **nicht** Meta-offiziell, gegen eigene Base
 - **Hohe CTR + niedrige CVR** → es ist die **Landingpage**, nicht die Ad → creative-matched LP.
 - **Niedrige CTR + hohe CVR** → Age/Gender-Breakdown prüfen, Sprache/Ton auf die real konvertierende Demografie zuschneiden.
 
+## 6.2b Statics & Carousels lesen (kein Video-Funnel verfügbar)
+Thumbstop, Hold und Completion existieren hier nicht - die Ersatz-Reads:
+- **CTR (Link/Outbound)** = primärer Stop+Interest-Proxy. Bei Statics sind Scroll-Stop und Botschaft in einer Zahl verschmolzen und nicht sauber trennbar.
+- **CPM-Delta zur eigenen Account-Baseline** = Creative-Appeal-/Auktions-Signal: liegt der CPM deutlich über vergleichbaren Ads im selben Setup, deutet das auf schwache Engagement-Signale des Motivs hin (konservative ADMKRS-Lesart, kein offizieller Meta-Report).
+- **CPC + CVR** = Offer- und LP-Kette, wie beim Video.
+- **Post-Engagement** (Kommentare, Shares, Saves) = sekundärer Resonanz-Check, besonders bei Native/Lo-fi-Statics.
+- **Carousel: Card-Drop-off** (Breakdown nach Karte): fällt fast alles nach Karte 1 ab → Karte 1 baut zu wenig Neugier auf Karte 2. Interaktion bis Karte 3+, aber niedrige CTR → die Story unterhält, verkauft aber nicht → CTA/Offer auf die frühen Karten vorziehen.
+
+Diagnose-Zweige (analog 6.2):
+- **Niedrige CTR + CPM über Baseline** → das Motiv stoppt nicht → Key-Visual/Headline-Kontrast tauschen (neues Motiv, nicht nur Farbe).
+- **Niedrige CTR + CPM normal** → Stop ok, Botschaft zieht nicht → Angle/Claim/Offer auf dem Static schärfen.
+- **Hohe CTR + niedrige CVR** → Landingpage/Offer-Match, nicht die Ad (identisch zu 6.2).
+
 ## 6.3 Breakdown-Effect (Diagnose-Guardrail)
 Meta optimiert auf **marginale**, nicht **durchschnittliche** Effizienz. Beispiel: Placement A zeigt höheren Ø-CPA, bekommt aber Budget, weil sein *marginaler* CPA günstiger ist. **Bewerte Budget-Allokation in Breakdown-Reports nie nach Ø-CPA** - sonst kürzt du fälschlich ein effizientes Placement. Häufigste Fehl-Diagnose im ganzen Konto.
 
 ## 6.4 Nicht überreagieren
-Respektiere das Test-Fenster (≥ ~1.000 Impr / 5–7 Tage). Frühe Varianz ≠ Insight. Entscheide nach den **vorab** definierten Regeln, nicht nach Bauchgefühl bei Tag-2-Schwankungen.
+Respektiere das Test-Fenster (Mindest-Read: Spend ≥ 1× Ziel-CPA und 5–7 Tage je Konzept; ~1.000 Impressionen sind nur der Delivery-Check). Frühe Varianz ≠ Insight. Entscheide nach den **vorab** definierten Regeln, nicht nach Bauchgefühl bei Tag-2-Schwankungen.
 
 ---
 

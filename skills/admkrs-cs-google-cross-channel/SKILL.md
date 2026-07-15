@@ -12,6 +12,11 @@ description: >
 
 ADMKRS macht Meta **und** Google. Google-Formate haben andere Specs, Asset-Gruppen und eine **Search-Intent-Schicht** - Meta-Assets lassen sich nicht 1:1 übernehmen. Specs unten = offiziell (Google Ads Help, Stand Juni 2026); vor Produktion am aktuellen Help-Center gegenchecken.
 
+## Vorgehen (vom Intake zum Brief)
+1. **Intake, Pflichtfragen:** Kampagnentyp (DG / PMax / YouTube), Brand + Angebot, vorhandene Meta-Assets (was ist adaptierbar?), Landing Page / Final URL, Compliance-Constraints (Brand-Copy, regulierte Branche), Asset-Ablage (wo liegen Files, wohin liefert Design?). Fehlende Werte aktiv nachfragen; bleibt ein Wert offen, die Zeile im Brief weglassen und den Punkt intern (ClickUp/Chat) nachhalten - keine Platzhalter im ausgelieferten Dokument.
+2. **Brief bauen:** `assets/templates/google-asset-brief.md` als Arbeitsgrundlage, nur die zutreffenden Blöcke füllen; Specs aus den Tabellen unten übernehmen.
+3. **Deliverable:** interne Checkliste = Markdown reicht. Kunden- oder Produktions-Briefing = .docx über die `admkrs-cs-creative-briefing`-Engine, deren Dokument-Standards gelten.
+
 ## Demand Gen - Specs
 **Placements:** Discover, Gmail, YouTube (Home/Search/Watch-Next/In-stream/Shorts), GDN.
 | Text | Limit | Anzahl |
@@ -49,7 +54,9 @@ Ad-Strength „Excellent": **11+ Headlines, 2+ Long Headlines, 4+ Descriptions.*
 | Bumper | max 6 s | nein | tCPM |
 | In-feed | kein Max | Click-to-watch | Click/10 s-Autoplay |
 | Shorts | bis 3 min (erste 60 s im Feed; <60 s empf.) | swipe | CPM/CPV/Engagement |
-**Shorts:** 9:16 stark empfohlen (horizontal = Blur-Fill); Sound-on, social-first (Sound +20 % Conversions, Google). CTA-Button bei PMax/App/DG nach 3 s. **Bumper gibt es NICHT in DG/PMax** (nur Video-Reach/Reservation). „Views" heißt seit Okt 2025 „TrueView views".
+**Shorts:** 9:16 stark empfohlen (horizontal = Blur-Fill); Sound-on, social-first (Sound steigert Conversions laut Googles Shorts-Specs-Hilfe um über 20 %, Quelle 16041697 unten). CTA-Button bei PMax/App/DG nach 3 s, bei Video-View-/Video-Reach-Kampagnen nach 10 s (ebd.).
+**Safe Zones (vertikal/Shorts):** YouTube-UI (Icon-Leiste rechts, Kanalname/Titel/CTA unten) überdeckt Randbereiche des 9:16-Frames - Kernbotschaft, Logo und On-Screen-CTA mittig halten, Ränder rechts und unten freilassen. Keine Pixelwerte schätzen: Google stellt offizielle Safe-Area-Overlays (PNG, vertikal/horizontal/quadratisch) bereit, Quelle 13547298 unten.
+**Bumper gibt es NICHT in DG/PMax** (nur Video-Reach/Reservation). „Views" heißt seit Okt 2025 „TrueView views".
 
 ## AI/Generative 2026
 DG „AI Image & Video Enhancements" (Nov 2025: resize/remix/adapt aus Uploads) · DG Asset-Uplift-A/B-Experimente · Shorts „Video Enhancement" (vertikal aus horizontal) · Trim-Tool · PMax Auto-Video & Final-URL-Expansion · Shoppable CTV (DG, GA Jan 2026). Lookalikes in DG default „suggestion mode" (März 2026).
@@ -57,8 +64,9 @@ DG „AI Image & Video Enhancements" (Nov 2025: resize/remix/adapt aus Uploads) 
 ## DG/PMax vs. Meta (praktisch)
 - **Search-Intent-Schicht** (PMax matcht auf Suchanfragen) - gibt es bei Meta nicht; kompensiert teils schwächere Hooks.
 - Eine Kampagne bespielt viele Formate (Search/Shopping/Display/YouTube/Gmail/Discover) aus einer Asset-Gruppe.
-- **Reporting gröber** (PMax nur Asset-Gruppen-Level) als Metas Ad-Level.
-- Hook-Fenster: YouTube skippable = 5 s, Shorts 1–2 s; Meta unerbittlicher (erste 2–3 Frames). Trotzdem: **vertikal + Sound-on + Caption** auch hier Pflicht.
+- **Reporting gröber als Metas Ad-Level** - aber seit 2025 nicht mehr blind: PMax hat Channel-Performance-Report (Search/YouTube/Display/Gmail/Discover/Maps), volles Search-Terms-Reporting und Asset-Level-Metriken (Impressions, Klicks, Kosten, Conversions).
+- **DG Channel Controls** (Rollout ab März 2025): Placements einzeln steuerbar - YouTube (inkl. Shorts-only), Discover, Gmail, Display. Briefing-Konsequenz: bei kanal-spezifischen Kampagnen Asset-Set pro Kanal briefen, z. B. Shorts-only nur 9:16.
+- Hook-Fenster: YouTube skippable = 5 s, Shorts 1-2 s; Meta unerbittlicher: erste 1-2 Sekunden, der erste Frame wirkt als Thumbnail. Trotzdem: **vertikal + Sound-on + Caption** auch hier Pflicht.
 
 ## Briefing-Hinweise
 Pro Kampagne: genug Text-Assets für „Excellent" liefern; **alle 3 Video-Orientierungen** (sonst Auto-Video); Bilder in allen Pflicht-Ratios (Rule of Three); Business-Name = verifizierte Domain/Rechtsname; Final-URL-Expansion bei Brand/Compliance aus. Meta-UGC für YouTube/Shorts wiederverwendbar, aber Specs/Längen prüfen.
@@ -70,7 +78,7 @@ Exakte, aktuelle Specs (am Help-Center gegenchecken) · DG-Headline 40 ≠ PMax-
 `admkrs-cs-creative-briefing` (Hooks/Copy je Format) · `admkrs-cs-creative-strategy-os` (Cross-Channel-Diversität) · `admkrs-cs-landing-page-cro` (Final-URL/Match) · `admkrs-cs-ad-compliance-check` (Google-Policies separat prüfen).
 
 ## Quellen (Google Ads Help, Juni 2026)
-DG-Specs support.google.com/google-ads/answer/13704860 · PMax 17091269 · Video-Formate 2375464 · Shorts 16041697 · blog.google Demand-Gen-Drop (Feb 2026). ⚠️ „Non-skippable bis 60 s" mischt Format-Übersicht mit Self-Serve-Limit - praktisch 15 s (Standard)/30 s (CTV).
+DG-Specs support.google.com/google-ads/answer/13704860 · PMax 17091269 · Video-Formate 2375464 · Shorts 16041697 · Safe-Area-Overlays 13547298 · PMax-Channel-Report 16260130 · DG Channel Controls 15973205 · blog.google Demand-Gen-Drop (Feb 2026). Shorts-Sound-Stat, CTA-Timing, Safe Zones, Channel-Report und Channel Controls zuletzt an diesen Primärquellen verifiziert: 13.07.2026. ⚠️ „Non-skippable bis 60 s" mischt Format-Übersicht mit Self-Serve-Limit - praktisch 15 s (Standard)/30 s (CTV).
 
 ---
-<sub>**ADMKRS Creative Suite** · © ADMKRS GmbH, München · v1.1.0 · interner Gebrauch · erstellt von ADMKRS. Quellen am jeweiligen Skill-Ende; Specs/Policies an Primärquellen prüfen.</sub>
+<sub>**ADMKRS Creative Suite** · © ADMKRS GmbH, München · v1.13.0 · interner Gebrauch · erstellt von ADMKRS. Quellen am jeweiligen Skill-Ende; Specs/Policies an Primärquellen prüfen.</sub>

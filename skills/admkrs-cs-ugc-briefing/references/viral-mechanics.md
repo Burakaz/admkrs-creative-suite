@@ -116,4 +116,4 @@ Was organisch viral geht, ist **nicht automatisch** ein guter DR-Ad. Virale Vide
 `[OFFIZIELL]` TikTok Support *How TikTok recommends content* · TikTok Newsroom *TikTok Next 2026* · TikTok Ads *Commercial Music Library* · Adam Mosseri Statements (Jan/Dez 2025) · YouTube Creator Insider / Rene Ritchie. `[PEER-REVIEWED]` Berger & Milkman 2012 *JMR* (What Makes Online Content Viral) · CHI 2025 *Curiosity-Driven Exploration on Short-Form* · *Current Psychology* 2025 (Information Sharing, Springer). `[VENDOR]` AppsFlyer State of Creative 2025 · Metricool 2026 Social Media Study (Reels-Reach −35 % YoY) · OpusClip. `[AGENCY]` Hootsuite/Buffer/Later (Algorithmus-Aggregationen auf Basis offizieller Aussagen). *Algorithmen ändern sich - Primärquellen regelmäßig prüfen.*
 
 ---
-<sub>**ADMKRS Creative Suite** · © ADMKRS GmbH, München · v1.1.0 · interner Gebrauch · erstellt von ADMKRS. Vendor-/Folklore-Zahlen direktional; Plattform-Primärquellen gegenchecken.</sub>
+<sub>**ADMKRS Creative Suite** · © ADMKRS GmbH, München · v1.13.0 · interner Gebrauch · erstellt von ADMKRS. Vendor-/Folklore-Zahlen direktional; Plattform-Primärquellen gegenchecken.</sub>

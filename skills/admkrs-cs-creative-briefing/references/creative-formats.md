@@ -386,7 +386,7 @@ Wenn du ein virales Video adaptieren willst (z. B. ein gespeichertes Reel), geh 
 4. **Audio:** Original-Voiceover? Trending-Sound (welcher)? Stumm + Text-Overlay? (Original-Audio dominiert Top-Ads 2026.)
 5. **Visual-Stil:** Lo-Fi/Phone vs. Studio · Face vs. B-Roll · Text-heavy · native vs. ad-artig.
 6. **Awareness-Einstieg:** setzt Problem voraus (Problem-Aware) oder erklärt von Null (Unaware)? Welcher Schwartz-Level?
-7. **CTA:** früh (High-Intent) vs. spät (Cold-Education); implizit („Link in Bio") vs. explizit.
+7. **CTA:** früh (High-Intent) vs. spät (Cold-Education); implizit vs. explizit. **Paid-Regel: nie „Link in Bio"** (Organik-Sprache, in der Ad ist das Video/der Button der Klickweg) - gesprochen natürlich: „klick einfach aufs Video", „tipp unten drauf".
 
 **Benennen fürs Briefing:** Format-Typ + Hook + Pacing + Awareness, z. B. „Founder-Direct / Contrarian / Mid-Pace / Problem-Aware" oder „Value-Edu-Reel / Open-Loop / High-Energy / Unaware". Diesen Namen ins Konzept schreiben → reproduzierbar.
 

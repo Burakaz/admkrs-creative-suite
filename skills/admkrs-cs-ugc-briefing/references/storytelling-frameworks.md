@@ -131,4 +131,4 @@ ERGEBNIS = 1–2 Frameworks + passender Hook-Typ (→ hook-bank.md)
 ★★★★ Eugene Schwartz *Breakthrough Advertising* (1966) - Awareness & Sophistication. ★★★ motionapp.com (Awareness-Stages, UGC-Scripts), pageblock.io/credible-content (PASTOR), saasfunnellab.com (PAS/AIDA), gmass.co (4 Ps), shyamgovind.com (SSS/PPPP), michelfortin.ca (QUEST, Autor), clearbrand.com (Hero's Journey/StoryBrand), winads.app/inreels.ai (DR-UGC-Spine). ★★★★ Meta Transparency Center (Health-Standards) für Supplements/Health. *Beispiele illustrativ (NOVA); keine echten Performance-Daten.*
 
 ---
-<sub>**ADMKRS Creative Suite** · © ADMKRS GmbH, München · v1.1.0 · interner Gebrauch · erstellt von ADMKRS. Frameworks sind Gerüste, kein Schema-F.</sub>
+<sub>**ADMKRS Creative Suite** · © ADMKRS GmbH, München · v1.13.0 · interner Gebrauch · erstellt von ADMKRS. Frameworks sind Gerüste, kein Schema-F.</sub>
